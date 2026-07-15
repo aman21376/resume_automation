@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{{ name }} - Resume</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 10mm 13mm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a1a1a;
+    font-size: 8.85pt;
+    line-height: 1.22;
+  }
+  .name { font-size: 20pt; font-weight: 700; letter-spacing: 0.5px; text-align: center; color: #10233d; }
+  .contact { text-align: center; font-size: 8.6pt; margin-top: 2px; color: #333; }
+  .contact a { color: #333; text-decoration: none; }
+  .section-title {
+    font-size: 9.9pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+    color: #10233d; border-bottom: 1.2px solid #10233d; margin-top: 6px; margin-bottom: 3px;
+    padding-bottom: 1px;
+  }
+  .profile { margin-top: 3px; text-align: justify; }
+  .entry { margin-bottom: 2px; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; }
+  .role { font-weight: 700; }
+  .dates { font-style: italic; white-space: nowrap; font-size: 8.8pt; }
+  .loc { font-style: italic; font-size: 8.8pt; }
+  ul { margin: 2px 0 3px 0; padding-left: 14px; }
+  li { margin-bottom: 1px; }
+  .current-block {
+    border-left: 2.8px solid #b8860b;
+    background: #fdf8ec;
+    padding: 3px 7px 2px 7px;
+    border-radius: 2px;
+    margin-bottom: 3px;
+  }
+  .current-tag {
+    display: inline-block;
+    font-size: 7.3pt;
+    font-weight: 700;
+    color: #ffffff;
+    background: #b8860b;
+    padding: 1px 5px;
+    border-radius: 8px;
+    margin-left: 6px;
+    letter-spacing: 0.3px;
+    vertical-align: middle;
+  }
+  .edu-line { margin-top: 1px; }
+  .edu-line b.label { color: #10233d; }
+  .skills-line { margin-top: 2px; }
+  .bullets-line { margin: 2px 0; }
+  .bullets-line .sep { color: #b8860b; font-weight: 700; margin: 0 4px; }
+  b { font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="name">{{ name }}</div>
+<div class="contact">
+  {{ contact.phone }} &nbsp;|&nbsp; {{ contact.email }} &nbsp;|&nbsp;
+  <a href="{{ contact.linkedin }}">LinkedIn</a> &nbsp;|&nbsp;
+  <a href="{{ contact.github }}">Github</a> &nbsp;|&nbsp; {{ contact.location }}
+</div>
+
+<div class="section-title">Profile Summary</div>
+<div class="profile">{{ profile | safe }}</div>
+
+<div class="section-title">Work Experience</div>
+{% for exp in experience %}
+  {% if exp.current %}
+  <div class="current-block">
+    <div class="row">
+      <span><span class="role">{{ exp.role }} — {{ exp.org }}</span><span class="current-tag">CURRENT ROLE</span></span>
+      <span class="dates">{{ exp.dates }}</span>
+    </div>
+    <div class="loc">{{ exp.location }}</div>
+    <ul>
+      {% for b in exp.bullets %}<li>{% if b.lead %}<b>{{ b.lead }}</b> {% endif %}{{ b.text | safe }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% else %}
+  <div class="entry">
+    <div class="row">
+      <span class="role">{{ exp.role }} — {{ exp.org }}</span>
+      <span class="dates">{{ exp.dates }}</span>
+    </div>
+    <div class="loc">{{ exp.location }}</div>
+    <ul>
+      {% for b in exp.bullets %}<li>{% if b.lead %}<b>{{ b.lead }}</b> {% endif %}{{ b.text | safe }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+{% endfor %}
+
+<div class="section-title">Projects</div>
+{% for p in projects %}
+<div class="entry">
+  <div class="row">
+    <span class="role">{{ p.title }}</span><span class="loc"> — {{ p.subtitle }}</span>
+    <span class="dates">{{ p.dates }}</span>
+  </div>
+  <ul>
+    {% for b in p.bullets %}<li>{{ b | safe }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %}
+
+<div class="section-title">Education</div>
+<div class="edu-line row">
+  <span><b>{{ education.school }}</b> — {{ education.degree }}</span>
+  <span class="dates">{{ education.dates }}</span>
+</div>
+<div class="edu-line"><b class="label">{{ education.major.label }}</b> {{ education.major.text }}</div>
+<div class="edu-line"><b class="label">{{ education.minor.label }}</b> {{ education.minor.text }}</div>
+<div class="edu-line"><b class="label">{{ education.coursework.label }}</b> {{ education.coursework.text }}</div>
+
+<div class="section-title">Core Skills</div>
+<div class="skills-line">{{ skills_line }}</div>
+
+<div class="section-title">Achievements</div>
+{% for line in achievements_lines %}
+<div class="bullets-line">{% for item in line %}{% if item.bold %}<b>{{ item.bold }}</b>{% endif %}{{ item.text }}{% if not loop.last %}<span class="sep">•</span>{% endif %}{% endfor %}</div>
+{% endfor %}
+
+<div class="section-title">Leadership & Positions of Responsibility</div>
+{% for line in leadership_lines %}
+<div class="bullets-line">{% for item in line %}{% if item.bold %}<b>{{ item.bold }}</b>{% endif %}{{ item.text }}{% if not loop.last %}<span class="sep">•</span>{% endif %}{% endfor %}</div>
+{% endfor %}
+
+</body>
+</html>

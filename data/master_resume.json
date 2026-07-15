@@ -1,0 +1,122 @@
+{
+  "name": "AMAN RANJAN",
+  "contact": {
+    "phone": "+91 8810526118",
+    "email": "aman.work.ranjan@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/aman-ranjan-a8853320b/",
+    "github": "https://github.com/aman21376",
+    "location": "Bangalore, India"
+  },
+  "profile_variants": {
+    "product_manager": "Product Manager with 2+ years building AI-powered automation, leading growth experimentation, and managing brand partnerships across a 500M+ user marketplace at Meesho. Shipped LLM-driven customer support systems, ran discovery experiments on 70Mn+ users, and scaled marketplace categories with global brands (HUL, Godrej, Dabur) — turning experimentation into measurable business growth.",
+    "product_analyst": "Product Analyst with 2+ years driving data-driven experimentation, A/B testing, and growth analytics across a 500M+ user marketplace at Meesho. Ran discovery experiments on 70Mn+ users, analysed seller and category performance at scale, and translated data into measurable business growth.",
+    "business_analyst": "Business professional with 2+ years in growth strategy, brand partnerships, and data-driven decision-making across a 500M+ user marketplace at Meesho. Managed category P&L-adjacent growth with global brands (HUL, Godrej, Dabur) and ran 20+ structured business experiments translating analysis into revenue impact.",
+    "growth": "Growth-focused product professional with 2+ years running A/B tests, funnel optimisation, and discovery experiments on 70Mn+ users at Meesho, a 500M+ user marketplace. Scaled marketplace categories with global brands (HUL, Godrej, Dabur) and shipped AI-driven systems that turned experimentation into measurable growth.",
+    "default": "Senior Associate at Meesho working in a product capacity — building AI-powered automation, leading growth experimentation, and managing brand partnerships across a 500M+ user marketplace. Shipped LLM-driven customer support systems, ran discovery experiments on 70Mn+ users, and scaled marketplace categories with global brands (HUL, Godrej, Dabur) — turning experimentation into measurable business growth."
+  },
+  "experience": [
+    {
+      "id": "meesho_sa",
+      "role": "Senior Associate",
+      "org": "Meesho",
+      "location": "Bangalore, India",
+      "dates": "Jun 2025 – Present",
+      "current": true,
+      "keywords": ["AI", "LLM", "prompt engineering", "growth", "A/B testing", "experimentation", "brand management", "category management", "marketplace", "cross-functional", "stakeholder management", "product strategy"],
+      "bullets": [
+        {"lead": "Meesho AI Services:", "text": "Built and optimised AI-powered customer support callbots (prompt engineering, LLM evaluation) across <b>ASR/TTS/LLM</b> models (Murf, Sarvam, GPT-4.1, GPT-4o, Gemini 3) — scaling chatbot call transfer from <b>25% to 100%</b> and improving gross margin from <b>-120% to breakeven (0%)</b>."},
+        {"lead": "Mall/Branded Discovery:", "text": "Ran <b>20+ A/B growth experiments</b> (funnel optimisation, push/WhatsApp), lifting branded views contribution from <b>3% to 5.5%</b> on sale days and CTR by <b>20%</b>; identified a <b>70Mn-user</b> branded-affinity cohort and improved ROI from <b>3x to 5x</b>."},
+        {"lead": "Mall Category/Brand Management:", "text": "Scaled Branded Health & Wellness via brand onboarding, search boosting, and exclusive launches — driving <b>20% MoM growth</b> and onboarding <b>HUL, P&G, Dabur, Sensodyne, Godrej, Mankind, Patanjali</b> (some brands reaching <b>10%</b> of online business in 4 months)."}
+      ]
+    },
+    {
+      "id": "meesho_pmi",
+      "role": "Product Management Intern",
+      "org": "Meesho",
+      "location": "Bangalore, India",
+      "dates": "Jan 2025 – Jun 2025",
+      "current": false,
+      "keywords": ["experimentation", "data analysis", "recommendation systems", "catalogue quality", "stakeholder pitching", "zero-to-one", "product strategy"],
+      "bullets": [
+        {"lead": "", "text": "Scaled seller recommendation experiments to <b>200K+ sellers</b> through data-driven analysis; co-led removal of <b>7Mn+ duplicate product IDs</b>, protecting <b>~7-8%</b> of daily order volume."},
+        {"lead": "", "text": "Designed a zero-to-one product grouping strategy (image, attribute, behavioural signals) and led stakeholder pitching; recognised as <b>Star Performer of the Quarter</b>."}
+      ]
+    },
+    {
+      "id": "protean_intern",
+      "role": "AI/ML & Product Intern",
+      "org": "Protean eGov Technologies",
+      "location": "Delhi, India",
+      "dates": "Jun 2024 – Sep 2024",
+      "current": false,
+      "keywords": ["machine learning", "elasticsearch", "search ranking", "forecasting", "APIs", "documentation", "data"],
+      "bullets": [
+        {"lead": "", "text": "Built an ML/Elasticsearch-based search ranking system, improving search relevance and UX by <b>~20%</b> through query optimisation."},
+        {"lead": "", "text": "Developed an ML-driven inventory forecasting system and documented search/forecasting APIs (Swagger) under the <b>Code4GovTech Mentoring Program</b>."}
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "hardware_chacha",
+      "title": "Hardware Chacha",
+      "subtitle": "Year-long Entrepreneurship B.Tech Project",
+      "dates": "May 2023 – May 2024",
+      "keywords": ["product lifecycle", "GTM", "e-commerce", "OCR", "recommendation systems", "team leadership", "market research"],
+      "bullets": [
+        "Led end-to-end product development for an AI-enabled commerce platform, validating market gaps via <b>500+ stakeholder interviews</b> and iterating prototypes (Figma).",
+        "Built ML-based OCR billing (GPT-integrated) and personalised recommendations, managing a <b>10-member</b> cross-functional team through GTM, pricing, and customer acquisition."
+      ]
+    },
+    {
+      "id": "legalease",
+      "title": "LegalEase",
+      "subtitle": "AI Legal-Tech Web App",
+      "dates": "Jan 2024 – May 2024",
+      "keywords": ["AI product", "NLP", "stakeholder research", "full-stack", "cloud deployment"],
+      "bullets": [
+        "Built an AI app (T5, BART, Pegasus) to summarise legal documents, detect fraud/risk, and answer queries via chatbot; gathered requirements from <b>100+ stakeholders</b> (lawyers, bankers, founders).",
+        "Developed and deployed the full-stack solution (Flask, Python, Azure) end-to-end, iterating on features using live user metrics and feedback."
+      ]
+    }
+  ],
+  "education": {
+    "school": "Indraprastha Institute of Information Technology, Delhi",
+    "degree": "B.Tech, Computer Science & Social Sciences",
+    "dates": "Dec 2021 – May 2025",
+    "major": {"label": "Major (Economics):", "text": "Behavioural Economics, Game Theory, Microeconomics, Econometrics, Convex Optimisation, Macroeconomics"},
+    "minor": {"label": "Minor (Entrepreneurship):", "text": "Foundations of Entrepreneurship, Marketing, Finance, Business of AI, Valuation & Portfolio Management"},
+    "coursework": {"label": "Relevant Coursework:", "text": "Machine Learning, Human-Computer Interaction, Information Retrieval, Database Management"}
+  },
+  "skills_pool": [
+    "Product Management", "Product Strategy", "Product Analytics", "Growth & Marketplace Strategy",
+    "A/B Testing", "Experimentation", "User Research", "Business Analytics", "Data-Driven Decision Making",
+    "Stakeholder & Brand Management", "Cross-Functional Collaboration", "AI Evaluation & Prompt Design",
+    "Go-to-Market", "Category Management", "SQL", "Python", "Machine Learning"
+  ],
+  "achievements_lines": [
+    [
+      {"bold": "Top 10", "text": ", Unstop Engineering School Leaders India 2025"},
+      {"bold": "National Winner", "text": ", Smart India Hackathon 2024"},
+      {"bold": "AIR 2", "text": ", Meesho Dice Challenge (Rank 1 in Product) among 10,000+ participants"}
+    ],
+    [
+      {"bold": "", "text": "Selected, Code4GovTech Mentorship Program (2,600 applicants)"},
+      {"bold": "AIR 2", "text": ", ACM Hackdata among 750+ participants"},
+      {"bold": "Top 100", "text": ", Amazon ML Challenge (Top 0.1% of 72,000+)"},
+      {"bold": "", "text": "Selected, Y Combinator Startup School India"}
+    ]
+  ],
+  "leadership_lines": [
+    [
+      {"bold": "Convenor", "text": ", E-Summit '24, IIIT Delhi (200+ members)"},
+      {"bold": "COO", "text": ", E-Cell IIITD (50+ member team)"},
+      {"bold": "", "text": "Student Council Representative, CSSS"}
+    ],
+    [
+      {"bold": "", "text": "Operations Lead, Feeding India x Poshan IIITD"},
+      {"bold": "", "text": "Lead, Institute Innovation Council IIITD"},
+      {"bold": "", "text": "Member, TiE Delhi 2024"}
+    ]
+  ]
+}

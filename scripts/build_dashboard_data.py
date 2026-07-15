@@ -25,6 +25,7 @@ def main(batch_path, resumes_dir_name, out_path):
         payload.append({
             "key": job_key,
             "region": j["region"],
+            "source": j.get("source", "indeed"),
             "title": j["title"],
             "company": j["company"],
             "location": j["location"],

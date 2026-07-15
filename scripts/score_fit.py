@@ -26,7 +26,7 @@ ROLE_CATEGORIES = {
     "growth": ["growth manager", "growth lead", "growth analyst", "growth associate"],
 }
 
-MAX_YEARS_REQUIRED = 4  # candidate has ~2 years full-time + internships
+MAX_YEARS_REQUIRED = 3  # candidate has ~1.5-2 years experience (FT + internships)
 
 # Concept -> phrasings/synonyms a JD might use for that concept. One hit per
 # concept counts, regardless of how many synonyms match, so this rewards

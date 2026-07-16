@@ -6,12 +6,40 @@
     "source": "indeed",
     "title": "(Associate) Product Manager (f/m/d)"
   },
+  "ai business analyst (m/f/d)|aroundtown sa|DE": {
+    "company": "Aroundtown SA",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "indeed",
+    "title": "AI Business Analyst (m/f/d)"
+  },
+  "ai business analyst (m/f/d)|aroundtown|DE": {
+    "company": "Aroundtown",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "AI Business Analyst (m/f/d)"
+  },
+  "analyst l2|wipro|IN": {
+    "company": "Wipro",
+    "first_seen": "2026-07-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "ANALYST L2"
+  },
   "analyst market approach|cargolux airlines|LU": {
     "company": "Cargolux Airlines",
     "first_seen": "2026-07-15",
     "region": "LU",
     "source": "linkedin",
     "title": "Analyst Market Approach"
+  },
+  "associate business analyst - business analysis|yash technologies|IN": {
+    "company": "YASH Technologies",
+    "first_seen": "2026-07-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Associate Business Analyst - Business Analysis"
   },
   "associate product manager/product manager|leap finance|IN": {
     "company": "Leap Finance",
@@ -34,6 +62,13 @@
     "source": "linkedin",
     "title": "Associate Product Manager"
   },
+  "associate product owner / business analyst (f/m/d)|verwaltungssprung gmbh|DE": {
+    "company": "Verwaltungssprung GmbH",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Associate Product Owner / Business Analyst (f/m/d)"
+  },
   "business analyst (h/f)|davidson consulting|LU": {
     "company": "Davidson consulting",
     "first_seen": "2026-07-15",
@@ -41,12 +76,26 @@
     "source": "linkedin",
     "title": "Business Analyst (H/F)"
   },
+  "business analyst (m/w/d)|paper & tea|DE": {
+    "company": "PAPER & TEA",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Business Analyst (m/w/d)"
+  },
   "business analyst (m/w/d)|rutronik electronics worldwide|DE": {
     "company": "RUTRONIK Electronics Worldwide",
     "first_seen": "2026-07-15",
     "region": "DE",
     "source": "linkedin",
     "title": "Business Analyst (m/w/d)"
+  },
+  "business analyst - d365 f&o|reperio human capital|IE": {
+    "company": "Reperio Human Capital",
+    "first_seen": "2026-07-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Analyst - D365 F&O"
   },
   "business analyst - financial markets (uat & regulatory change)|levy professionals|NL": {
     "company": "Levy Professionals",
@@ -69,12 +118,26 @@
     "source": "linkedin",
     "title": "Business Analyst - F\u00f6rderbanken (m/f/d)"
   },
+  "business analyst - it solutions|capgemini|LU": {
+    "company": "Capgemini",
+    "first_seen": "2026-07-16",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Business Analyst - IT Solutions"
+  },
   "business analyst - payments|avaloq|DE": {
     "company": "Avaloq",
     "first_seen": "2026-07-15",
     "region": "DE",
     "source": "linkedin",
     "title": "Business Analyst - Payments"
+  },
+  "business analyst finanzen / product owner diamant (w/m/d)|doreafamilie|DE": {
+    "company": "DOREAFAMILIE",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Business Analyst Finanzen / Product Owner DIAMANT (w/m/d)"
   },
   "business analyst groningen|sopra steria|NL": {
     "company": "Sopra Steria",
@@ -104,6 +167,13 @@
     "source": "linkedin",
     "title": "Business Analyst \u2013 Web Banking"
   },
+  "business analyst, data & ai (m/f/d)|ib vogt gmbh|DE": {
+    "company": "ib Vogt GmbH",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Business Analyst, Data & AI (m/f/d)"
+  },
   "business analyst, eu inbound & inventory placement operations|amazon|LU": {
     "company": "Amazon",
     "first_seen": "2026-07-15",
@@ -125,6 +195,13 @@
     "source": "linkedin",
     "title": "Business Analyst/ Reporting - Accounting Principles"
   },
+  "business analyst|accenture uk & ireland|IE": {
+    "company": "Accenture UK & Ireland",
+    "first_seen": "2026-07-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|albany beck|IE": {
     "company": "Albany Beck",
     "first_seen": "2026-07-15",
@@ -139,10 +216,52 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|amazon.com|LU": {
+    "company": "Amazon.com",
+    "first_seen": "2026-07-16",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
   "business analyst|amazon|LU": {
     "company": "Amazon",
     "first_seen": "2026-07-15",
     "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|capgemini|NL": {
+    "company": "Capgemini",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|cosmote global solutions nv|LU": {
+    "company": "COSMOTE GLOBAL SOLUTIONS NV",
+    "first_seen": "2026-07-16",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
+  "business analyst|cosmote global solutions|LU": {
+    "company": "Cosmote Global Solutions",
+    "first_seen": "2026-07-16",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|devoteam|LU": {
+    "company": "Devoteam",
+    "first_seen": "2026-07-16",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
+  "business analyst|emids|IN": {
+    "company": "Emids",
+    "first_seen": "2026-07-16",
+    "region": "IN",
     "source": "linkedin",
     "title": "Business Analyst"
   },
@@ -202,6 +321,20 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|keylane|NL": {
+    "company": "Keylane",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|levy professionals|NL": {
+    "company": "Levy Professionals",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|licious|IN": {
     "company": "Licious",
     "first_seen": "2026-07-15",
@@ -216,9 +349,30 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|phasezero.ai|IN": {
+    "company": "PhaseZero.ai",
+    "first_seen": "2026-07-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|squaredev|LU": {
+    "company": "SquareDEV",
+    "first_seen": "2026-07-16",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
   "business analyst|tata consultancy services|IN": {
     "company": "Tata Consultancy Services",
     "first_seen": "2026-07-15",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|tecnovos|IN": {
+    "company": "Tecnovos",
+    "first_seen": "2026-07-16",
     "region": "IN",
     "source": "linkedin",
     "title": "Business Analyst"
@@ -237,12 +391,75 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|version 1|IE": {
+    "company": "Version 1",
+    "first_seen": "2026-07-16",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
   "business growth analyst (madrid based)|fever|DE": {
     "company": "Fever",
     "first_seen": "2026-07-15",
     "region": "DE",
     "source": "linkedin",
     "title": "Business Growth Analyst (Madrid based)"
+  },
+  "business system specialist|hanley automation|IE": {
+    "company": "Hanley Automation",
+    "first_seen": "2026-07-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business System Specialist"
+  },
+  "contact center business analyst (w/m/d)|e.on|DE": {
+    "company": "E.ON",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Contact Center Business Analyst (w/m/d)"
+  },
+  "data & product strategy officer (m/f/x) - cdi, 40h/semaine|sodexo|LU": {
+    "company": "Sodexo",
+    "first_seen": "2026-07-16",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Data & Product Strategy Officer (m/f/x) - CDI, 40h/semaine"
+  },
+  "data analyst|holafly|IE": {
+    "company": "Holafly",
+    "first_seen": "2026-07-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Data Analyst"
+  },
+  "data analytics|red tic|LU": {
+    "company": "RED TIC",
+    "first_seen": "2026-07-16",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "DATA ANALYTICS"
+  },
+  "delivery product manager|holafly|IE": {
+    "company": "Holafly",
+    "first_seen": "2026-07-16",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Delivery Product Manager"
+  },
+  "digital business analyst|accenture|IE": {
+    "company": "Accenture",
+    "first_seen": "2026-07-16",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Digital Business Analyst"
+  },
+  "e-front business analyst|talenttrade|LU": {
+    "company": "TalentTrade",
+    "first_seen": "2026-07-16",
+    "region": "LU",
+    "source": "indeed",
+    "title": "e-Front Business Analyst"
   },
   "functional analyst (f/m/d)|deutsche b\u00f6rse group|LU": {
     "company": "Deutsche B\u00f6rse Group",
@@ -258,6 +475,27 @@
     "source": "linkedin",
     "title": "Functional and Business Analysts"
   },
+  "group product manager [klaxoon]|wrike|NL": {
+    "company": "Wrike",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Group Product Manager [Klaxoon]"
+  },
+  "it business analyst (gn) - production|the quality group gmbh|DE": {
+    "company": "The Quality Group GmbH",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "indeed",
+    "title": "IT Business Analyst (gn) - Production"
+  },
+  "it business analyst|thoucentric|IN": {
+    "company": "Thoucentric",
+    "first_seen": "2026-07-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "IT Business Analyst"
+  },
   "jr. product manager joolz|milk design bv joolz|NL": {
     "company": "Milk Design BV Joolz",
     "first_seen": "2026-07-15",
@@ -272,12 +510,33 @@
     "source": "linkedin",
     "title": "MiFIR Business Analyst"
   },
+  "product analyst (f/m/d)|verwaltungssprung gmbh|DE": {
+    "company": "Verwaltungssprung GmbH",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Analyst (f/m/d)"
+  },
   "product analyst (m/f/d)|kayzen|IN": {
     "company": "Kayzen",
     "first_seen": "2026-07-15",
     "region": "IN",
     "source": "linkedin",
     "title": "Product Analyst (m/f/d)"
+  },
+  "product analyst commerce - hay 15|albert heijn|NL": {
+    "company": "Albert Heijn",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Analyst Commerce - Hay 15"
+  },
+  "product analyst|proarch|IN": {
+    "company": "ProArch",
+    "first_seen": "2026-07-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Analyst"
   },
   "product analyst|rocket learning|IN": {
     "company": "Rocket Learning",
@@ -300,6 +559,20 @@
     "source": "linkedin",
     "title": "Product and Supply Chain Business Analyst (f/m/d)"
   },
+  "product data analyst ii|f5|IE": {
+    "company": "F5",
+    "first_seen": "2026-07-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Data Analyst II"
+  },
+  "product data analyst|n8n|NL": {
+    "company": "n8n",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Data Analyst"
+  },
   "product generalist|nanonets|IN": {
     "company": "Nanonets",
     "first_seen": "2026-07-15",
@@ -307,12 +580,26 @@
     "source": "linkedin",
     "title": "Product Generalist"
   },
+  "product information analyst ii \u2013 local creation, emea|nike|NL": {
+    "company": "Nike",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Information Analyst II \u2013 Local Creation, EMEA"
+  },
   "product manager\nrotterdam hq\nfulltime|fresh 'n rebel|NL": {
     "company": "Fresh 'n Rebel",
     "first_seen": "2026-07-15",
     "region": "NL",
     "source": "linkedin",
     "title": "Product Manager\nRotterdam HQ\nFulltime"
+  },
+  "product manager (fully remote)|over99|DE": {
+    "company": "over99",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager (Fully Remote)"
   },
   "product manager (m/f/d)|awin global|DE": {
     "company": "Awin Global",
@@ -363,6 +650,20 @@
     "source": "linkedin",
     "title": "Product Manager - Picnic App"
   },
+  "product manager - strategy (netherlands - dutch speaker) - remote|indeed|NL": {
+    "company": "Indeed",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Manager - Strategy (Netherlands - Dutch speaker) - Remote"
+  },
+  "product manager at shopdeck|shopdeck|IN": {
+    "company": "ShopDeck",
+    "first_seen": "2026-07-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager at ShopDeck"
+  },
   "product manager ii - personalisation|nykaa|IN": {
     "company": "Nykaa",
     "first_seen": "2026-07-15",
@@ -412,10 +713,38 @@
     "source": "linkedin",
     "title": "Product Manager- Workflow"
   },
+  "product manager:in - eterno cloud|eterno|DE": {
+    "company": "ETERNO",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager:in - ETERNO Cloud"
+  },
+  "product manager|alliance automotive group ireland|IE": {
+    "company": "Alliance Automotive Group Ireland",
+    "first_seen": "2026-07-16",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
   "product manager|allianz|IE": {
     "company": "Allianz",
     "first_seen": "2026-07-15",
     "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|alter domus|LU": {
+    "company": "Alter Domus",
+    "first_seen": "2026-07-16",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|aztec group|LU": {
+    "company": "Aztec Group",
+    "first_seen": "2026-07-16",
+    "region": "LU",
     "source": "linkedin",
     "title": "Product Manager"
   },
@@ -426,6 +755,20 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|consultport|DE": {
+    "company": "Consultport",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|docusign|IE": {
+    "company": "DocuSign",
+    "first_seen": "2026-07-16",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
   "product manager|ebay|DE": {
     "company": "eBay",
     "first_seen": "2026-07-15",
@@ -433,10 +776,59 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|edenity.|DE": {
+    "company": "edenity.",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|ema|IN": {
+    "company": "Ema",
+    "first_seen": "2026-07-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product manager|experis it luxembourg|LU": {
     "company": "Experis IT Luxembourg",
     "first_seen": "2026-07-15",
     "region": "LU",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|godutch|NL": {
+    "company": "GoDutch",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|inxiteout|IN": {
+    "company": "InXiteOut",
+    "first_seen": "2026-07-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|it search|IE": {
+    "company": "IT Search",
+    "first_seen": "2026-07-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|jaipur robotics|DE": {
+    "company": "Jaipur Robotics",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|jaipur robotics|NL": {
+    "company": "Jaipur Robotics",
+    "first_seen": "2026-07-16",
+    "region": "NL",
     "source": "linkedin",
     "title": "Product Manager"
   },
@@ -489,12 +881,47 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|siena ai|IE": {
+    "company": "Siena AI",
+    "first_seen": "2026-07-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|sourcingxpress|IN": {
+    "company": "SourcingXPress",
+    "first_seen": "2026-07-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|trust in soda|DE": {
+    "company": "Trust In SODA",
+    "first_seen": "2026-07-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product owner digital|catamania|LU": {
     "company": "Catamania",
     "first_seen": "2026-07-15",
     "region": "LU",
     "source": "linkedin",
     "title": "Product Owner Digital"
+  },
+  "product owner|sotalent|NL": {
+    "company": "SoTalent",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "productstrateeg|framna|NL": {
+    "company": "Framna",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Productstrateeg"
   },
   "proxy product owner|red tic|LU": {
     "company": "RED TIC",
@@ -503,6 +930,13 @@
     "source": "linkedin",
     "title": "PROXY PRODUCT OWNER"
   },
+  "shared technology product analyst|elsevier|NL": {
+    "company": "Elsevier",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Shared Technology Product Analyst"
+  },
   "technical business analyst|avaloq|DE": {
     "company": "Avaloq",
     "first_seen": "2026-07-15",
@@ -510,12 +944,61 @@
     "source": "linkedin",
     "title": "Technical Business Analyst"
   },
+  "technical product manager - application & discovery platform, experimentation - marketplace|booking holdings|IN": {
+    "company": "Booking Holdings",
+    "first_seen": "2026-07-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Technical Product Manager - Application & Discovery Platform, Experimentation - Marketplace"
+  },
+  "technical product manager - cloud/finops/data analytics/ai|unitedhealth group|IN": {
+    "company": "UnitedHealth Group",
+    "first_seen": "2026-07-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Technical Product Manager - cloud/finops/data analytics/AI"
+  },
+  "technical product manager|whatfix|IN": {
+    "company": "Whatfix",
+    "first_seen": "2026-07-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Technical Product Manager"
+  },
+  "technology business management analyst, supplier collaboration|ralph lauren|IN": {
+    "company": "Ralph Lauren",
+    "first_seen": "2026-07-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Technology Business Management Analyst, Supplier Collaboration"
+  },
+  "technology product manager - next generation payments platform, fintech|booking.com|NL": {
+    "company": "Booking.com",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Technology Product Manager - Next Generation Payments Platform, FinTech"
+  },
   "telecom product manager|proximus luxembourg|LU": {
     "company": "Proximus Luxembourg",
     "first_seen": "2026-07-15",
     "region": "LU",
     "source": "linkedin",
     "title": "Telecom Product Manager"
+  },
+  "traineeship business analytics & management|house of b\u00e8ta|NL": {
+    "company": "House of B\u00e8ta",
+    "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Traineeship Business Analytics & Management"
+  },
+  "transformation business analyst|cornmarket|IE": {
+    "company": "Cornmarket",
+    "first_seen": "2026-07-16",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Transformation Business Analyst"
   },
   "workday business analyst|inizio|IE": {
     "company": "Inizio",

@@ -8,6 +8,7 @@ environment's egress proxy since direct browser access to some job sites
 endpoints are reachable.
 """
 import json
+import os
 import re
 import sys
 import time
@@ -16,7 +17,7 @@ import urllib.parse
 import requests
 from bs4 import BeautifulSoup
 
-PROXY = "http://127.0.0.1:37957"
+PROXY = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy") or "http://127.0.0.1:37957"
 CACERT = "/root/.ccr/ca-bundle.crt"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 BASE = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"

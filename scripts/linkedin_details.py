@@ -1,13 +1,14 @@
 """Fetch job description text from LinkedIn's public job-view pages
 (no login required) for a list of job dicts with a 'url' field."""
 import json
+import os
 import sys
 import time
 
 import requests
 from bs4 import BeautifulSoup
 
-PROXY = "http://127.0.0.1:37957"
+PROXY = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy") or "http://127.0.0.1:37957"
 CACERT = "/root/.ccr/ca-bundle.crt"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 

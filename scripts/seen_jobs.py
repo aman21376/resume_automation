@@ -26,6 +26,20 @@ def filter_unseen(jobs, seen=None):
     return [j for j in jobs if _key(j) not in seen]
 
 
+def dedupe_cross_source(jobs):
+    """Same posting can appear from both Indeed and LinkedIn in one run;
+    keep the highest-scored copy (call after scoring, before batch selection)."""
+    seen_keys = set()
+    out = []
+    for j in sorted(jobs, key=lambda x: -x.get("score", 0)):
+        k = _key(j)
+        if k in seen_keys:
+            continue
+        seen_keys.add(k)
+        out.append(j)
+    return out
+
+
 def mark_seen(jobs, seen=None, today=None):
     seen = seen if seen is not None else load_seen()
     today = today or date.today().isoformat()

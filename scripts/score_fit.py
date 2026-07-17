@@ -44,7 +44,9 @@ CONCEPT_BANK = {
     "sql_python": [" sql", "python"],
     "growth_metrics": ["growth", "conversion", "funnel", "retention", "engagement", "cro "],
     "marketplace_ecommerce": ["marketplace", "e-commerce", "ecommerce", "b2b", "b2c"],
-    "brand_partnerships": ["brand management", "brand partnership", "category management", "vendor management", "partner management"],
+    "brand_partnerships": ["brand management", "brand partnership", "category management", "vendor management", "partner management", "brand onboarding", "exclusive partnership", "licensing", "licensor"],
+    "fmcg_cpg": ["fmcg", "cpg", "consumer goods", "consumer packaged goods"],
+    "process_coordination": ["coordinat", "timeline", "project management", "approval process", "process improvement"],
     "communication": ["communication skills", "written and verbal", "presentation"],
 }
 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{{ name }} - Cover Letter</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 19mm 22mm;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #1a1a1a;
+    font-size: 10.6pt;
+    line-height: 1.46;
+  }
+  .header { margin-bottom: 5mm; border-bottom: 1.4px solid #10233d; padding-bottom: 3.5mm; }
+  .header-top { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; }
+  .name { font-size: 18pt; font-weight: 700; color: #10233d; font-family: Arial, Helvetica, sans-serif; }
+  .contact { font-size: 9.3pt; color: #444; margin-top: 3px; font-family: Arial, Helvetica, sans-serif; }
+  .contact a { color: #444; text-decoration: none; }
+  .meta { text-align: right; font-size: 9.5pt; color: #444; font-family: Arial, Helvetica, sans-serif; margin-top: 3mm; }
+  .salutation { margin-top: 2mm; margin-bottom: 4mm; }
+  p { margin: 0 0 3.2mm 0; text-align: justify; }
+  .closing { margin-top: 5mm; }
+  .signoff-name { font-weight: 700; color: #10233d; font-family: Arial, Helvetica, sans-serif; margin-top: 8mm; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <div class="name">{{ name }}</div>
+  </div>
+  <div class="contact">
+    {{ contact.phone }} &nbsp;|&nbsp; {{ contact.email }} &nbsp;|&nbsp;
+    <a href="{{ contact.linkedin }}">LinkedIn</a> &nbsp;|&nbsp; {{ contact.location }}
+  </div>
+  <div class="meta">
+    {{ date }} &nbsp;&middot;&nbsp; Re: {{ job_title }}{% if company %}, {{ company }}{% endif %}
+  </div>
+</div>
+
+<div class="salutation">Dear {{ salutation_name }},</div>
+
+{% for para in paragraphs %}
+<p>{{ para | safe }}</p>
+{% endfor %}
+
+<div class="closing">
+  Sincerely,
+  <div class="signoff-name">{{ name }}</div>
+</div>
+
+</body>
+</html>

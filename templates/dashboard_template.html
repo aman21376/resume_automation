@@ -1,0 +1,459 @@
+<title>Application Desk — Jul 17, 2026</title>
+<meta name="description" content="Daily job batch: review fit, preview tailored resumes, apply, and track progress across India, Netherlands, Germany, Ireland, Luxembourg.">
+<style>
+  :root{
+    --ink:#14243f; --ink-soft:#55617a; --ink-faint:#8792a6;
+    --paper:#f7f4ee; --surface:#ffffff; --surface-2:#fbf9f4; --line:#e2dccd;
+    --gold:#b8860b; --gold-soft:#fbf3de; --gold-ink:#7a5b08;
+    --teal:#2b6e6b; --teal-soft:#e4f0ef;
+    --applied:#2f6f4f; --applied-soft:#e6f1ea;
+    --shadow: 0 1px 2px rgba(20,36,63,0.06), 0 6px 20px -8px rgba(20,36,63,0.18);
+    --radius: 10px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#eef1f6; --ink-soft:#aab2c5; --ink-faint:#6c7690;
+      --paper:#11151d; --surface:#171c26; --surface-2:#1c2230; --line:#2a3040;
+      --gold:#d7a437; --gold-soft:rgba(216,164,55,0.14); --gold-ink:#e9c877;
+      --teal:#4fa9a3; --teal-soft:rgba(79,169,163,0.14);
+      --applied:#4caf7d; --applied-soft:rgba(76,175,125,0.14);
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 10px 30px -12px rgba(0,0,0,0.6);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#eef1f6; --ink-soft:#aab2c5; --ink-faint:#6c7690;
+    --paper:#11151d; --surface:#171c26; --surface-2:#1c2230; --line:#2a3040;
+    --gold:#d7a437; --gold-soft:rgba(216,164,55,0.14); --gold-ink:#e9c877;
+    --teal:#4fa9a3; --teal-soft:rgba(79,169,163,0.14);
+    --applied:#4caf7d; --applied-soft:rgba(76,175,125,0.14);
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 10px 30px -12px rgba(0,0,0,0.6);
+  }
+  :root[data-theme="light"]{
+    --ink:#14243f; --ink-soft:#55617a; --ink-faint:#8792a6;
+    --paper:#f7f4ee; --surface:#ffffff; --surface-2:#fbf9f4; --line:#e2dccd;
+    --gold:#b8860b; --gold-soft:#fbf3de; --gold-ink:#7a5b08;
+    --teal:#2b6e6b; --teal-soft:#e4f0ef;
+    --applied:#2f6f4f; --applied-soft:#e6f1ea;
+    --shadow: 0 1px 2px rgba(20,36,63,0.06), 0 6px 20px -8px rgba(20,36,63,0.18);
+  }
+
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:15px; line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:28px 20px 80px;}
+
+  /* Masthead */
+  .masthead{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:22px;border-bottom:2px solid var(--ink);padding-bottom:16px;}
+  .masthead h1{
+    font-family:Georgia,"Times New Roman",serif; font-weight:700;
+    font-size:28px; letter-spacing:0.2px; margin:0; text-wrap:balance;
+  }
+  .masthead .date{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:13px;color:var(--ink-soft);}
+
+  /* Stat strip */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:22px;}
+  .stat{
+    background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+    padding:12px 14px; box-shadow:var(--shadow);
+  }
+  .stat .n{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;font-size:24px;font-weight:600;color:var(--ink);}
+  .stat .l{font-size:11px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);margin-top:2px;}
+  .stat.applied .n{color:var(--applied);}
+
+  /* View switch (New Today / All Jobs / Applied) */
+  .view-switch{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap;}
+  .view-btn{
+    font-size:14px; font-weight:600; padding:8px 16px; border-radius:999px; border:1.5px solid var(--line);
+    background:var(--surface); color:var(--ink-soft); cursor:pointer; user-select:none;
+  }
+  .view-btn.active{background:var(--ink);border-color:var(--ink);color:var(--paper);}
+  .view-btn.applied-view.active{background:var(--applied);border-color:var(--applied);}
+
+  /* Controls */
+  .controls{
+    position:sticky; top:0; z-index:5; background:var(--paper);
+    display:flex; flex-wrap:wrap; gap:8px; align-items:center;
+    padding:10px 0; margin-bottom:6px; border-bottom:1px solid var(--line);
+  }
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;}
+  .tab{
+    font-size:13px; padding:6px 12px; border-radius:999px; border:1px solid var(--line);
+    background:var(--surface); color:var(--ink-soft); cursor:pointer; user-select:none;
+    font-variant-numeric:tabular-nums;
+  }
+  .tab.active{background:var(--ink);border-color:var(--ink);color:var(--paper);}
+  .spacer{flex:1;}
+  .ctrl-right{display:flex;gap:10px;align-items:center;font-size:13px;color:var(--ink-soft);}
+  select{
+    font:inherit;font-size:13px;background:var(--surface);color:var(--ink);border:1px solid var(--line);
+    border-radius:6px;padding:5px 8px;
+  }
+  label.chk{display:flex;align-items:center;gap:6px;cursor:pointer;}
+
+  /* Region section */
+  .region-section{margin-top:22px;}
+  .region-h{
+    display:flex;align-items:center;gap:10px;margin:0 0 8px;
+    font-family:Georgia,serif;font-size:17px;font-weight:700;color:var(--ink);
+  }
+  .region-h .count{font-family:ui-monospace,monospace;font-size:12px;color:var(--ink-faint);font-weight:400;}
+
+  .row{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    margin-bottom:8px; box-shadow:var(--shadow); overflow:hidden;
+  }
+  .row.is-applied{border-color:var(--applied);}
+  .row-head{
+    display:grid; grid-template-columns:52px 1fr 120px 100px 110px 100px;
+    gap:10px; align-items:center; padding:11px 14px; cursor:pointer;
+  }
+  .row-head:focus-visible, .btn:focus-visible, .tab:focus-visible, .view-btn:focus-visible, select:focus-visible {outline:2px solid var(--teal);outline-offset:2px;}
+  .score{
+    font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums;font-weight:700;
+    font-size:15px;color:var(--teal);background:var(--teal-soft);
+    border-radius:6px;text-align:center;padding:3px 0;
+  }
+  .titlecell .t{font-weight:600;color:var(--ink);}
+  .titlecell .c{color:var(--ink-soft);font-size:13px;margin-top:1px;}
+  .src{font-size:10px;text-transform:uppercase;letter-spacing:0.05em;padding:1px 6px;border-radius:4px;font-weight:600;}
+  .src-linkedin{background:var(--teal-soft);color:var(--teal);}
+  .src-indeed{background:var(--gold-soft);color:var(--gold-ink);}
+  .new-badge{font-size:10px;text-transform:uppercase;letter-spacing:0.05em;padding:1px 6px;border-radius:4px;font-weight:700;background:var(--gold);color:#fff;margin-left:6px;}
+  .loc{font-size:13px;color:var(--ink-soft);}
+  .chip{
+    font-size:11px; padding:3px 8px; border-radius:999px; text-align:center;
+    text-transform:uppercase; letter-spacing:0.04em; white-space:nowrap;
+  }
+  .chip.salary-not_listed{background:var(--gold-soft);color:var(--gold-ink);}
+  .chip.salary-listed{background:var(--applied-soft);color:var(--applied);}
+  .chip.conf-title_only{background:var(--surface-2);color:var(--ink-faint);border:1px dashed var(--line);}
+  .chip.conf-reviewed{background:var(--teal-soft);color:var(--teal);}
+  .chevron{font-size:11px;color:var(--ink-faint);text-align:right;transition:transform .15s ease;}
+  .row.open .chevron{transform:rotate(90deg);}
+
+  .row-body{display:none;border-top:1px solid var(--line);padding:14px;background:var(--surface-2);}
+  .row.open .row-body{display:block;}
+  .row-body-inner{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start;}
+  .preview-frame-wrap{flex:1 1 360px;max-width:420px;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff;box-shadow:var(--shadow);}
+  iframe.preview{width:100%;height:560px;border:0;display:block;}
+  .actions{flex:1 1 220px;display:flex;flex-direction:column;gap:10px;}
+  .btn{
+    font:inherit;font-size:14px;font-weight:600;padding:9px 14px;border-radius:8px;border:1px solid transparent;
+    cursor:pointer;text-align:center;text-decoration:none;display:inline-block;
+  }
+  .btn.primary{background:var(--gold);color:#fff;}
+  .btn.primary:hover{filter:brightness(1.06);}
+  .btn.ghost{background:transparent;border-color:var(--line);color:var(--ink);}
+  .btn.applied-btn{background:var(--applied-soft);border-color:var(--applied);color:var(--applied);}
+  .note{font-size:12px;color:var(--ink-faint);line-height:1.5;}
+
+  .empty{padding:40px 0;text-align:center;color:var(--ink-faint);}
+
+  @media (max-width: 720px){
+    .row-head{grid-template-columns:40px 1fr 74px;grid-template-areas:"score title salary" "loc loc loc" "conf conf chevron";}
+    .row-head .loc{grid-column:1/-1;}
+    .row-head .conf{grid-column:1/2;}
+    .row-head .chevron{grid-column:3/4;}
+  }
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <h1>Application Desk</h1>
+    <div class="date" id="masthead-date">Indeed + LinkedIn &middot; 5 regions</div>
+  </header>
+
+  <section class="stats" id="stats"></section>
+
+  <div class="view-switch" id="view-switch"></div>
+
+  <div class="controls">
+    <div class="tabs" id="region-tabs"></div>
+    <div class="spacer"></div>
+    <div class="ctrl-right">
+      <select id="source-filter">
+        <option value="ALL">All sources</option>
+        <option value="indeed">Indeed only</option>
+        <option value="linkedin">LinkedIn only</option>
+      </select>
+      <select id="sort-by">
+        <option value="score">Sort: Fit score</option>
+        <option value="region">Sort: Region</option>
+        <option value="confidence">Sort: Confidence</option>
+        <option value="date">Sort: Date</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="sections"></div>
+  <p class="note" style="margin-top:26px;">
+    "Confidence: reviewed" means the full job description was checked before scoring. "Title only" jobs were scored on title/role heuristics alone &mdash; give those an extra look before applying.
+    Salary is rarely listed by Indeed or LinkedIn; treat "salary not listed" as unverified, not absent. Fit scoring assumes 1 year full-time + 9 months part-time/internship experience, so roles asking well above that are scored down.
+    Postings older than 3 weeks are filtered out as likely closed. Once a listing appears here it's recorded and won't be shown again in a future batch.
+    Marking a job "Applied" moves it out of the region lists into the <b>Applied</b> tab above, permanently, across every country and every day &mdash; it's saved in this browser and survives page refreshes and future updates to this same dashboard link.
+    To get a resume file for an application: "Open resume in new tab" opens it standalone and triggers your browser's print dialog automatically &mdash; choose "Save as PDF" as the destination. If your browser blocks the new tab, use "Download resume (HTML)" instead, then open that file and print/save as PDF from there. Applying itself always opens the real listing in a new tab &mdash; nothing here submits anything automatically.
+  </p>
+</div>
+
+<script id="jobs-json" type="application/json">__JOBS_JSON__</script>
+<script>
+(function(){
+  const JOBS = JSON.parse(document.getElementById('jobs-json').textContent);
+  const REGION_NAMES = {IN:'India', NL:'Netherlands', DE:'Germany', IE:'Ireland', LU:'Luxembourg'};
+  const REGION_ORDER = ['IN','NL','DE','IE','LU'];
+  const STORE_KEY = 'appdesk_applied_v2';
+
+  // v1 compat: old boolean-map store gets migrated to timestamp map once.
+  function getApplied(){
+    try {
+      const v2 = localStorage.getItem(STORE_KEY);
+      if (v2) return JSON.parse(v2);
+      const v1 = JSON.parse(localStorage.getItem('appdesk_applied_v1') || '{}');
+      const migrated = {};
+      const now = new Date().toISOString();
+      Object.keys(v1).forEach(k => { if (v1[k]) migrated[k] = now; });
+      setApplied(migrated);
+      return migrated;
+    } catch(e){ return {}; }
+  }
+  function setApplied(map){ localStorage.setItem(STORE_KEY, JSON.stringify(map)); }
+
+  const dates = Array.from(new Set(JOBS.map(j=>j.date))).sort();
+  const latestDate = dates[dates.length-1];
+
+  let state = { view: 'new', region: 'ALL', sortBy: 'score', source: 'ALL' };
+
+  function fmtDate(iso){
+    if(!iso) return '';
+    const d = new Date(iso + 'T00:00:00');
+    return d.toLocaleDateString(undefined, {month:'short', day:'numeric', year:'numeric'});
+  }
+  function daysAgo(dateStr){
+    if(!dateStr) return null;
+    const d = new Date(dateStr);
+    if(isNaN(d)) return null;
+    const diff = Math.round((new Date() - d) / 86400000);
+    return diff;
+  }
+
+  function baseVisibleJobs(){
+    const applied = getApplied();
+    if(state.view === 'applied') return JOBS.filter(j => !!applied[j.key]);
+    if(state.view === 'new') return JOBS.filter(j => j.is_new && !applied[j.key]);
+    return JOBS.filter(j => !applied[j.key]); // 'all'
+  }
+
+  function renderStats(){
+    const applied = getApplied();
+    const appliedCount = Object.keys(applied).length;
+    const newCount = JOBS.filter(j=>j.is_new).length;
+    const visible = baseVisibleJobs();
+    const byRegion = {};
+    REGION_ORDER.forEach(r => byRegion[r] = visible.filter(j=>j.region===r).length);
+    const stats = document.getElementById('stats');
+    stats.innerHTML = '';
+    const liCount = visible.filter(j=>j.source==='linkedin').length;
+    const inCount = visible.filter(j=>(j.source||'indeed')==='indeed').length;
+    const tiles = [
+      {n: JOBS.length, l: 'Archived total'},
+      {n: newCount, l: 'New today'},
+      {n: appliedCount, l: 'Applied', cls:'applied'},
+      {n: liCount, l: 'LinkedIn'},
+      {n: inCount, l: 'Indeed'},
+    ].concat(REGION_ORDER.map(r => ({n: byRegion[r], l: REGION_NAMES[r]})));
+    tiles.forEach(t => {
+      const d = document.createElement('div');
+      d.className = 'stat' + (t.cls ? ' '+t.cls : '');
+      d.innerHTML = `<div class="n">${t.n}</div><div class="l">${t.l}</div>`;
+      stats.appendChild(d);
+    });
+    document.getElementById('masthead-date').textContent =
+      `${dates.length} day${dates.length===1?'':'s'} archived (${fmtDate(dates[0])} – ${fmtDate(latestDate)}) · Indeed + LinkedIn · 5 regions`;
+  }
+
+  function renderViewSwitch(){
+    const wrap = document.getElementById('view-switch');
+    wrap.innerHTML = '';
+    const applied = getApplied();
+    const newCount = JOBS.filter(j=>j.is_new && !applied[j.key]).length;
+    const appliedCount = Object.keys(applied).length;
+    const views = [
+      {val:'new', label:`New today (${newCount})`},
+      {val:'all', label:`All jobs (${JOBS.length - appliedCount})`},
+      {val:'applied', label:`✅ Applied (${appliedCount})`, cls:'applied-view'},
+    ];
+    views.forEach(v => {
+      const b = document.createElement('div');
+      b.className = 'view-btn' + (v.cls ? ' '+v.cls : '') + (state.view===v.val ? ' active' : '');
+      b.textContent = v.label;
+      b.onclick = () => { state.view = v.val; renderAll(); };
+      wrap.appendChild(b);
+    });
+  }
+
+  function renderTabs(){
+    const wrap = document.getElementById('region-tabs');
+    wrap.innerHTML = '';
+    if(state.view === 'applied'){ return; } // applied view is flat, no region tabs
+    const visible = baseVisibleJobs();
+    const makeTab = (val, label) => {
+      const t = document.createElement('div');
+      t.className = 'tab' + (state.region===val ? ' active' : '');
+      t.textContent = label;
+      t.onclick = () => { state.region = val; renderAll(); };
+      return t;
+    };
+    wrap.appendChild(makeTab('ALL','All regions'));
+    REGION_ORDER.forEach(r => {
+      const count = visible.filter(j=>j.region===r).length;
+      if(count) wrap.appendChild(makeTab(r, `${REGION_NAMES[r]} (${count})`));
+    });
+  }
+
+  function sortJobs(list){
+    const applied = getApplied();
+    if(state.sortBy==='score') return list.slice().sort((a,b)=>b.score-a.score);
+    if(state.sortBy==='region') return list.slice().sort((a,b)=> REGION_ORDER.indexOf(a.region)-REGION_ORDER.indexOf(b.region) || b.score-a.score);
+    if(state.sortBy==='confidence') return list.slice().sort((a,b)=> (a.confidence==='reviewed'?0:1)-(b.confidence==='reviewed'?0:1) || b.score-a.score);
+    if(state.sortBy==='date') return list.slice().sort((a,b)=> (b.date||'').localeCompare(a.date||'') || b.score-a.score);
+    return list;
+  }
+
+  function rowHtml(job){
+    const applied = getApplied();
+    const isApplied = !!applied[job.key];
+    const salChip = job.salary_status === 'listed'
+      ? '<span class="chip salary-listed">Salary listed</span>'
+      : '<span class="chip salary-not_listed">Salary unlisted</span>';
+    const confChip = job.confidence === 'reviewed'
+      ? '<span class="chip conf-reviewed">Reviewed</span>'
+      : '<span class="chip conf-title_only">Title only</span>';
+    const sourceLabel = job.source === 'linkedin' ? 'LinkedIn' : 'Indeed';
+    const newBadge = (job.is_new && !isApplied) ? '<span class="new-badge">New</span>' : '';
+    const appliedNote = isApplied
+      ? `<div class="note">Applied ${fmtDate(applied[job.key])}.</div>`
+      : '';
+    return `
+      <div class="row${isApplied?' is-applied':''}" data-key="${job.key}">
+        <div class="row-head" onclick="window.__toggleRow('${job.key}')">
+          <div class="score">${job.score}</div>
+          <div class="titlecell"><div class="t">${escapeHtml(job.title)}${newBadge}</div><div class="c">${escapeHtml(job.company)} <span class="src src-${job.source||'indeed'}">${sourceLabel}</span></div></div>
+          <div class="loc">${escapeHtml(job.location)}</div>
+          <div class="conf">${confChip}</div>
+          <div>${salChip}</div>
+          <div class="chevron">&#9656;</div>
+        </div>
+        <div class="row-body">
+          <div class="row-body-inner">
+            <div class="preview-frame-wrap">
+              <iframe class="preview" id="frame-${job.key}" loading="lazy" srcdoc="${escapeAttr(job.resume_html)}"></iframe>
+            </div>
+            <div class="actions">
+              <a class="btn primary" href="${job.apply_url}" target="_blank" rel="noopener">Open application &#8599;</a>
+              <button class="btn ghost" onclick="window.__printResume('${job.key}', event)">Open resume in new tab (Print / Save as PDF)</button>
+              <a class="btn ghost" download="Aman_Ranjan_Resume_${job.key}.html" href="${htmlDownloadHref(job.resume_html)}">Download resume (HTML)</a>
+              <button class="btn ${isApplied?'applied-btn':'ghost'}" onclick="window.__toggleApplied('${job.key}', event)">${isApplied ? '&#10003; Marked applied — undo' : 'Mark as applied'}</button>
+              ${appliedNote}
+              <div class="note">Source: ${sourceLabel} &middot; Region: ${REGION_NAMES[job.region]} &middot; Surfaced ${fmtDate(job.date)} &middot; Fit score ${job.score}/100 &middot; ${job.confidence==='reviewed' ? 'Full JD reviewed before scoring' : 'Scored on title/role only — skim the real listing first'}${job.posted_date ? ' &middot; Posted ' + escapeHtml(job.posted_date) : ''}.</div>
+            </div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function escapeHtml(s){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+  function escapeAttr(s){ return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
+  function htmlDownloadHref(html){
+    try { return 'data:text/html;charset=utf-8;base64,' + btoa(unescape(encodeURIComponent(html))); }
+    catch(e){ return 'data:text/html;charset=utf-8,' + encodeURIComponent(html); }
+  }
+
+  function renderSections(){
+    let jobs = baseVisibleJobs();
+    if(state.view !== 'applied' && state.region !== 'ALL') jobs = jobs.filter(j=>j.region===state.region);
+    if(state.source !== 'ALL') jobs = jobs.filter(j=>(j.source||'indeed')===state.source);
+
+    const container = document.getElementById('sections');
+    container.innerHTML = '';
+
+    if(jobs.length === 0){
+      const msg = state.view === 'applied' ? 'No applications marked yet — click "Mark as applied" on any job.' : 'Nothing here — try a different filter.';
+      container.innerHTML = `<div class="empty">${msg}</div>`;
+      return;
+    }
+
+    if(state.view === 'applied'){
+      const applied = getApplied();
+      let list = jobs.slice().sort((a,b) => (applied[b.key]||'').localeCompare(applied[a.key]||''));
+      const sec = document.createElement('div');
+      sec.className = 'region-section';
+      sec.innerHTML = `<h2 class="region-h">Applied <span class="count">${list.length} job${list.length===1?'':'s'} across all countries</span></h2>` +
+        list.map(rowHtml).join('');
+      container.appendChild(sec);
+      return;
+    }
+
+    const regionsToShow = state.region === 'ALL' ? REGION_ORDER : [state.region];
+    regionsToShow.forEach(r => {
+      let list = jobs.filter(j=>j.region===r);
+      if(!list.length) return;
+      list = sortJobs(list);
+      const sec = document.createElement('div');
+      sec.className = 'region-section';
+      sec.innerHTML = `<h2 class="region-h">${REGION_NAMES[r]} <span class="count">${list.length} job${list.length===1?'':'s'}</span></h2>` +
+        list.map(rowHtml).join('');
+      container.appendChild(sec);
+    });
+  }
+
+  function renderAll(){
+    renderStats();
+    renderViewSwitch();
+    renderTabs();
+    renderSections();
+  }
+
+  window.__toggleRow = function(key){
+    const row = document.querySelector(`.row[data-key="${CSS.escape(key)}"]`);
+    if(row) row.classList.toggle('open');
+  };
+  const JOB_BY_KEY = {};
+  JOBS.forEach(j => { JOB_BY_KEY[j.key] = j; });
+
+  window.__printResume = function(key, ev){
+    ev.stopPropagation();
+    const job = JOB_BY_KEY[key];
+    if(!job) return;
+    // Printing a nested iframe inside this embedded page's own sandbox is
+    // unreliable across viewers, so open the resume as a real top-level tab
+    // instead and trigger print from inside that document itself.
+    const printableHtml = job.resume_html.includes('</body>')
+      ? job.resume_html.replace('</body>', '<script>window.addEventListener("load",function(){setTimeout(function(){window.print();},150);});<\/script></body>')
+      : job.resume_html + '<script>window.addEventListener("load",function(){setTimeout(function(){window.print();},150);});<\/script>';
+    const blob = new Blob([printableHtml], {type: 'text/html'});
+    const url = URL.createObjectURL(blob);
+    const win = window.open(url, '_blank');
+    if(!win){
+      alert('Your browser blocked the new tab. Use the "Download resume (HTML)" link instead, then open that file and print/save as PDF from there.');
+    }
+  };
+  window.__toggleApplied = function(key, ev){
+    ev.stopPropagation();
+    const applied = getApplied();
+    if(applied[key]) delete applied[key];
+    else applied[key] = new Date().toISOString();
+    setApplied(applied);
+    renderAll();
+  };
+
+  document.getElementById('source-filter').addEventListener('change', e => { state.source = e.target.value; renderAll(); });
+  document.getElementById('sort-by').addEventListener('change', e => { state.sortBy = e.target.value; renderAll(); });
+
+  renderAll();
+})();
+</script>

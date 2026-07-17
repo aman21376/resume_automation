@@ -138,6 +138,12 @@
 
   .row-body{display:none;border-top:1px solid var(--line);padding:14px;background:var(--surface-2);}
   .row.open .row-body{display:block;}
+  .doc-tabs{display:flex;gap:6px;margin-bottom:10px;}
+  .doc-tab{
+    font-size:13px;font-weight:600;padding:6px 14px;border-radius:999px 999px 0 0;border:1px solid var(--line);
+    border-bottom:none;background:var(--surface);color:var(--ink-soft);cursor:pointer;user-select:none;
+  }
+  .doc-tab.active{background:var(--surface);color:var(--ink);border-color:var(--teal);box-shadow:inset 0 2px 0 var(--teal);}
   .row-body-inner{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start;}
   .preview-frame-wrap{flex:1 1 360px;max-width:420px;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff;box-shadow:var(--shadow);}
   iframe.preview{width:100%;height:560px;border:0;display:block;}
@@ -196,7 +202,7 @@
     Salary is rarely listed by Indeed or LinkedIn; treat "salary not listed" as unverified, not absent. Fit scoring assumes 1 year full-time + 9 months part-time/internship experience, so roles asking well above that are scored down.
     Postings older than 3 weeks are filtered out as likely closed. Once a listing appears here it's recorded and won't be shown again in a future batch.
     Marking a job "Applied" moves it out of the region lists into the <b>Applied</b> tab above, permanently, across every country and every day &mdash; it's saved in this browser and survives page refreshes and future updates to this same dashboard link.
-To get a resume file for an application: this page's viewer may block in-page downloads/new tabs entirely, so the reliable way is to ask Claude directly in chat &mdash; e.g. "send me the resume for &lt;job title&gt; at &lt;company&gt;" &mdash; and it'll arrive as a real PDF file. The "Open resume in new tab" / "Download resume (HTML)" buttons here are a convenience that works in some browsers, but don't rely on them if nothing happens when clicked. Applying itself always opens the real listing in a new tab &mdash; nothing here submits anything automatically.
+Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview &mdash; both are tailored to that specific job description (resume bullets are reordered to lead with the most relevant experience; the cover letter's story paragraph is auto-matched from a library of real accounts). To get a file for an application: this page's viewer may block in-page downloads/new tabs entirely, so the reliable way is to ask Claude directly in chat &mdash; e.g. "send me the resume and cover letter for &lt;job title&gt; at &lt;company&gt;" &mdash; and it'll arrive as real PDF files. The "Open in new tab" / "Download (HTML)" buttons here follow whichever tab (resume or cover letter) is currently selected, and are a convenience that works in some browsers, but don't rely on them if nothing happens when clicked. Applying itself always opens the real listing in a new tab &mdash; nothing here submits anything automatically.
   </p>
 </div>
 
@@ -338,6 +344,11 @@ To get a resume file for an application: this page's viewer may block in-page do
     const appliedNote = isApplied
       ? `<div class="note">Applied ${fmtDate(applied[job.key])}.</div>`
       : '';
+    const docType = ROW_DOC[job.key] || 'resume';
+    const isCover = docType === 'cover';
+    const activeHtml = isCover ? job.cover_letter_html : job.resume_html;
+    const docLabel = isCover ? 'cover letter' : 'resume';
+    const dlPrefix = isCover ? 'Aman_Ranjan_CoverLetter_' : 'Aman_Ranjan_Resume_';
     return `
       <div class="row${isApplied?' is-applied':''}" data-key="${job.key}">
         <div class="row-head" onclick="window.__toggleRow('${job.key}')">
@@ -349,17 +360,22 @@ To get a resume file for an application: this page's viewer may block in-page do
           <div class="chevron">&#9656;</div>
         </div>
         <div class="row-body">
+          <div class="doc-tabs" id="doctabs-${job.key}">
+            <div class="doc-tab${isCover?'':' active'}" onclick="window.__switchDoc('${job.key}','resume',event)">Resume</div>
+            <div class="doc-tab${isCover?' active':''}" onclick="window.__switchDoc('${job.key}','cover',event)">Cover Letter</div>
+          </div>
           <div class="row-body-inner">
             <div class="preview-frame-wrap">
-              <iframe class="preview" id="frame-${job.key}" loading="lazy" srcdoc="${escapeAttr(job.resume_html)}"></iframe>
+              <iframe class="preview" id="frame-${job.key}" loading="lazy" srcdoc="${escapeAttr(activeHtml)}"></iframe>
             </div>
             <div class="actions">
               <a class="btn primary" href="${job.apply_url}" target="_blank" rel="noopener">Open application &#8599;</a>
-              <button class="btn ghost" onclick="window.__printResume('${job.key}', event)">Open resume in new tab (Print / Save as PDF)</button>
-              <a class="btn ghost" download="Aman_Ranjan_Resume_${job.key}.html" href="${htmlDownloadHref(job.resume_html)}">Download resume (HTML)</a>
+              <button class="btn ghost" id="print-${job.key}" onclick="window.__printDoc('${job.key}', event)">Open <span class="doc-label">${docLabel}</span> in new tab (Print / Save as PDF)</button>
+              <a class="btn ghost" id="dl-${job.key}" download="${dlPrefix}${job.key}.html" href="${htmlDownloadHref(activeHtml)}">Download <span class="doc-label">${docLabel}</span> (HTML)</a>
               <button class="btn ${isApplied?'applied-btn':'ghost'}" onclick="window.__toggleApplied('${job.key}', event)">${isApplied ? '&#10003; Marked applied — undo' : 'Mark as applied'}</button>
               ${appliedNote}
               <div class="note">Source: ${sourceLabel} &middot; Region: ${REGION_NAMES[job.region]} &middot; Surfaced ${fmtDate(job.date)} &middot; Fit score ${job.score}/100 &middot; ${job.confidence==='reviewed' ? 'Full JD reviewed before scoring' : 'Scored on title/role only — skim the real listing first'}${job.posted_date ? ' &middot; Posted ' + escapeHtml(job.posted_date) : ''}.</div>
+              <div class="note">Cover letter is auto-matched to this job from a library of real stories — good as a starting point, but ask Claude directly for a fully hand-written one if this application matters enough to invest in.</div>
             </div>
           </div>
         </div>
@@ -424,22 +440,65 @@ To get a resume file for an application: this page's viewer may block in-page do
   };
   const JOB_BY_KEY = {};
   JOBS.forEach(j => { JOB_BY_KEY[j.key] = j; });
+  const ROW_DOC = {}; // key -> 'resume' | 'cover', defaults to 'resume'
 
-  window.__printResume = function(key, ev){
+  function docHtmlFor(job, docType){
+    return docType === 'cover' ? job.cover_letter_html : job.resume_html;
+  }
+
+  function refreshDocUI(key){
+    const job = JOB_BY_KEY[key];
+    if(!job) return;
+    const docType = ROW_DOC[key] || 'resume';
+    const label = docType === 'cover' ? 'cover letter' : 'resume';
+    const filePrefix = docType === 'cover' ? 'Aman_Ranjan_CoverLetter_' : 'Aman_Ranjan_Resume_';
+    const html = docHtmlFor(job, docType);
+
+    const frame = document.getElementById(`frame-${key}`);
+    if(frame) frame.srcdoc = html;
+
+    const tabsWrap = document.getElementById(`doctabs-${key}`);
+    if(tabsWrap){
+      const tabs = tabsWrap.querySelectorAll('.doc-tab');
+      tabs.forEach(t => t.classList.remove('active'));
+      const idx = docType === 'cover' ? 1 : 0;
+      if(tabs[idx]) tabs[idx].classList.add('active');
+    }
+
+    const printBtn = document.getElementById(`print-${key}`);
+    if(printBtn) printBtn.querySelectorAll('.doc-label').forEach(s => s.textContent = label);
+
+    const dl = document.getElementById(`dl-${key}`);
+    if(dl){
+      dl.setAttribute('download', `${filePrefix}${key}.html`);
+      dl.setAttribute('href', htmlDownloadHref(html));
+      dl.querySelectorAll('.doc-label').forEach(s => s.textContent = label);
+    }
+  }
+
+  window.__switchDoc = function(key, docType, ev){
+    if(ev) ev.stopPropagation();
+    ROW_DOC[key] = docType;
+    refreshDocUI(key);
+  };
+
+  window.__printDoc = function(key, ev){
     ev.stopPropagation();
     const job = JOB_BY_KEY[key];
     if(!job) return;
+    const docType = ROW_DOC[key] || 'resume';
+    const html = docHtmlFor(job, docType);
     // Printing a nested iframe inside this embedded page's own sandbox is
-    // unreliable across viewers, so open the resume as a real top-level tab
+    // unreliable across viewers, so open the doc as a real top-level tab
     // instead and trigger print from inside that document itself.
-    const printableHtml = job.resume_html.includes('</body>')
-      ? job.resume_html.replace('</body>', '<script>window.addEventListener("load",function(){setTimeout(function(){window.print();},150);});<\/script></body>')
-      : job.resume_html + '<script>window.addEventListener("load",function(){setTimeout(function(){window.print();},150);});<\/script>';
+    const printableHtml = html.includes('</body>')
+      ? html.replace('</body>', '<script>window.addEventListener("load",function(){setTimeout(function(){window.print();},150);});<\/script></body>')
+      : html + '<script>window.addEventListener("load",function(){setTimeout(function(){window.print();},150);});<\/script>';
     const blob = new Blob([printableHtml], {type: 'text/html'});
     const url = URL.createObjectURL(blob);
     const win = window.open(url, '_blank');
     if(!win){
-      alert('Your browser blocked the new tab. Use the "Download resume (HTML)" link instead, then open that file and print/save as PDF from there.');
+      alert('Your browser blocked the new tab. Use the "Download (HTML)" link instead, then open that file and print/save as PDF from there.');
     }
   };
   window.__toggleApplied = function(key, ev){

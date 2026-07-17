@@ -1,0 +1,27 @@
+[
+  {
+    "id": "brand_fmcg",
+    "tags": ["brand_partnerships", "fmcg_cpg", "process_coordination"],
+    "paragraph": "In my current role as Senior Associate at Meesho, I manage brand partnerships for our Branded Health & Wellness category — coordinating with FMCG majors like HUL, P&G, Dabur, Sensodyne, Godrej, Mankind, and Patanjali on everything from exclusive product launches to platform visibility and creative campaigns. Early on, each brand partner had its own approval process and timeline, and getting all of them aligned with our internal marketing, category, and platform teams meant launches kept slipping. I put together a simpler coordination process — clear handoff points and a shared view of what needed approval and by when — and used it to scale onboarding across all seven brands, driving <b>20% month-over-month category growth</b> and helping some brands reach <b>10%</b> of their online business within four months. That experience — keeping global brand partners and internal stakeholders moving toward the same deadline without anything falling through the cracks — is directly why {{company}}'s {{job_title}} role appeals to me."
+  },
+  {
+    "id": "ai_automation",
+    "tags": ["ai_ml", "process_coordination", "data_driven"],
+    "paragraph": "As Senior Associate at Meesho, I lead our AI Services work — building and optimising AI-powered customer support callbots across ASR, TTS, and LLM providers (Murf, Sarvam, GPT-4.1, GPT-4o, Gemini 3). When I started, our chatbot-to-human escalation costs made the unit economics unworkable, with gross margins around -120%. I ran structured experiments across providers and prompt strategies, working closely with legal, finance, and business teams to balance cost, quality, and compliance, and got the same system to breakeven while scaling automated call transfer from 25% to 100%. That mix of hands-on AI experimentation and cross-functional discipline is exactly what I'd bring to {{company}}'s {{job_title}} role."
+  },
+  {
+    "id": "gtm_leadership",
+    "tags": ["gtm", "product_strategy", "experimentation"],
+    "paragraph": "During my B.Tech at IIIT Delhi, I led a 10-member cross-functional team as part of Hardware Chacha, a year-long entrepreneurship project building an AI-enabled commerce platform. Rather than assume we understood the market, we ran <b>500+ stakeholder interviews</b> to pressure-test our assumptions before committing to a plan, then built the product around what we'd actually learned — OCR-based billing and personalised recommendations that solved a real, recurring pain point for our users. Leading that team through go-to-market, pricing, and customer acquisition taught me how much a product's success depends on staying close to the problem instead of the plan you started with — a lesson I'd bring directly to {{company}}'s {{job_title}} role."
+  },
+  {
+    "id": "data_growth",
+    "tags": ["growth_metrics", "data_driven", "business_analysis"],
+    "paragraph": "As Product Management Intern at Meesho, I worked on seller recommendation systems that needed to scale to <b>200,000+ sellers</b>, and co-led an initiative that uncovered <b>7 million+ duplicate product IDs</b> quietly hurting catalogue search quality and protecting roughly 7-8% of daily order volume once fixed. The part I found most valuable wasn't the scale of the fix — it was realising the problem existed at all only because we went looking for it systematically, rather than waiting for it to surface as a complaint. That data-driven, go-looking-for-problems instinct is what I'd bring to {{company}}'s {{job_title}} role."
+  },
+  {
+    "id": "stakeholder_research",
+    "tags": ["stakeholder_mgmt", "business_analysis", "user_research"],
+    "paragraph": "While building LegalEase, an AI application to summarise legal documents and flag risk, I spent weeks interviewing <b>100+ stakeholders</b> — lawyers, bank employees, and startup founders — before writing a single product spec, because the fastest way to build the wrong thing is to skip that step. Those conversations changed what we built: a chatbot feature we'd planned as an afterthought turned out to be the one lawyers actually wanted first. Grounding decisions in direct stakeholder input before committing to a plan is a habit I'd bring to {{company}}'s {{job_title}} role."
+  }
+]

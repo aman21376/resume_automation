@@ -37,6 +37,7 @@ def search(keywords, location, region, start=0, count=25, pause=1.0):
         title_el = card.select_one("h3.base-search-card__title")
         company_el = card.select_one("h4.base-search-card__subtitle a")
         loc_el = card.select_one("span.job-search-card__location")
+        date_el = card.select_one("time.job-search-card__listdate, time.job-search-card__listdate--new")
         if not (link_el and title_el):
             continue
         url = link_el.get("href", "").split("?")[0]
@@ -47,6 +48,7 @@ def search(keywords, location, region, start=0, count=25, pause=1.0):
             "company": company_el.get_text(strip=True) if company_el else "Unknown",
             "location": loc_el.get_text(strip=True) if loc_el else location,
             "url": url,
+            "posted_date": date_el.get("datetime") if date_el else None,
             "job_id": "LI_" + re.sub(r"[^0-9]", "", url.rsplit("-", 1)[-1] or str(hash(url))),
         })
     time.sleep(pause)

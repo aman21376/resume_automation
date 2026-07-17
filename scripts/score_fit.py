@@ -83,9 +83,12 @@ def score_job(job, skills_pool=None, all_keywords=None):
     if years_required and years_required > MAX_YEARS_REQUIRED:
         score -= 40
         reasons.append(f"JD asks for {years_required}+ years — above current experience")
-    elif years_required and years_required <= MAX_YEARS_REQUIRED:
-        score += 20
-        reasons.append(f"JD asks for {years_required}+ years — within range")
+    elif years_required in (1, 2):
+        score += 25
+        reasons.append(f"JD asks for {years_required}+ years — exact match for current experience")
+    elif years_required == 0:
+        score += 15
+        reasons.append("JD asks for 0+ years — within range but below current experience")
 
     # Role category match (from title alone, so this applies even without a JD)
     category = classify_role(title)
@@ -102,7 +105,10 @@ def score_job(job, skills_pool=None, all_keywords=None):
     if matched_concepts:
         reasons.append(f"Matched concepts: {', '.join(matched_concepts)}")
     if not has_desc:
-        reasons.append("No JD fetched yet — score is title/category only, treat as unverified")
+        # Unreviewed jobs are capped low so a genuinely-matched, JD-reviewed
+        # role always outranks a title-only guess of the same category.
+        score = min(score, 15)
+        reasons.append("No JD fetched yet — score capped, treat as unverified")
 
     score = max(0, min(100, score))
 

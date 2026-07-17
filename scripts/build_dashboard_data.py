@@ -32,6 +32,7 @@ def main(batch_path, resumes_dir_name, out_path):
             "score": j["score"],
             "confidence": "reviewed" if j.get("description") else "title_only",
             "salary_status": j.get("salary_status", "not_listed"),
+            "posted_date": j.get("posted_date"),
             "apply_url": j["url"],
             "resume_html": resume_html,
         })

@@ -200,7 +200,7 @@
   <p class="note" style="margin-top:26px;">
     "Confidence: reviewed" means the full job description was checked before scoring. "Title only" jobs were scored on title/role heuristics alone &mdash; give those an extra look before applying.
     Salary is rarely listed by Indeed or LinkedIn; treat "salary not listed" as unverified, not absent. Fit scoring assumes 1 year full-time + 9 months part-time/internship experience, so roles asking well above that are scored down.
-    Postings older than 3 weeks are filtered out as likely closed. Once a listing appears here it's recorded and won't be shown again in a future batch.
+    Postings older than 3 weeks are treated as likely closed and hidden from the New/All lists automatically &mdash; this is re-checked live every time you open this page (against the posting's original date), not just when it was first added, so a job that goes stale after sitting here a while will quietly drop out of view on its own. Applied jobs are the one exception: they stay visible in the <b>Applied</b> tab forever regardless of age, since that's your record of what you did, not a live listing. Once a listing appears here it's recorded and won't be shown again in a future batch.
     Marking a job "Applied" moves it out of the region lists into the <b>Applied</b> tab above, permanently, across every country and every day &mdash; it's saved in this browser and survives page refreshes and future updates to this same dashboard link.
 Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview &mdash; both are tailored to that specific job description (resume bullets are reordered to lead with the most relevant experience; the cover letter's story paragraph is auto-matched from a library of real accounts). To get a file for an application: this page's viewer may block in-page downloads/new tabs entirely, so the reliable way is to ask Claude directly in chat &mdash; e.g. "send me the resume and cover letter for &lt;job title&gt; at &lt;company&gt;" &mdash; and it'll arrive as real PDF files. The "Open in new tab" / "Download (HTML)" buttons here follow whichever tab (resume or cover letter) is currently selected, and are a convenience that works in some browsers, but don't rely on them if nothing happens when clicked. Applying itself always opens the real listing in a new tab &mdash; nothing here submits anything automatically.
   </p>
@@ -247,11 +247,21 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
     return diff;
   }
 
+  const MAX_POSTING_AGE_DAYS = 21; // matches scripts/freshness.py - postings past this are likely closed
+  function isStale(job){
+    const diff = daysAgo(job.posted_date);
+    if(diff === null) return false; // unknown date - don't penalize, just can't verify (same rule as intake filtering)
+    return diff > MAX_POSTING_AGE_DAYS;
+  }
+
   function baseVisibleJobs(){
     const applied = getApplied();
+    // Staleness is evaluated live against today's date, not just at intake -
+    // a job fresh when first archived can go stale later. Applied jobs are
+    // exempt and always stay visible in the Applied tab regardless of age.
     if(state.view === 'applied') return JOBS.filter(j => !!applied[j.key]);
-    if(state.view === 'new') return JOBS.filter(j => j.is_new && !applied[j.key]);
-    return JOBS.filter(j => !applied[j.key]); // 'all'
+    if(state.view === 'new') return JOBS.filter(j => j.is_new && !applied[j.key] && !isStale(j));
+    return JOBS.filter(j => !applied[j.key] && !isStale(j)); // 'all'
   }
 
   function renderStats(){
@@ -286,11 +296,12 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
     const wrap = document.getElementById('view-switch');
     wrap.innerHTML = '';
     const applied = getApplied();
-    const newCount = JOBS.filter(j=>j.is_new && !applied[j.key]).length;
+    const newCount = JOBS.filter(j=>j.is_new && !applied[j.key] && !isStale(j)).length;
+    const allCount = JOBS.filter(j=>!applied[j.key] && !isStale(j)).length;
     const appliedCount = Object.keys(applied).length;
     const views = [
       {val:'new', label:`New today (${newCount})`},
-      {val:'all', label:`All jobs (${JOBS.length - appliedCount})`},
+      {val:'all', label:`All jobs (${allCount})`},
       {val:'applied', label:`✅ Applied (${appliedCount})`, cls:'applied-view'},
     ];
     views.forEach(v => {

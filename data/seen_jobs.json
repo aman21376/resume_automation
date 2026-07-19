@@ -237,12 +237,26 @@
     "source": "linkedin",
     "title": "Business Analyst - Payments"
   },
+  "business analyst - retail|capgemini|IN": {
+    "company": "Capgemini",
+    "first_seen": "2026-07-18",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst - Retail"
+  },
   "business analyst 1-ops|oracle|IN": {
     "company": "Oracle",
     "first_seen": "2026-07-17",
     "region": "IN",
     "source": "indeed",
     "title": "Business Analyst 1-Ops"
+  },
+  "business analyst commercial|klm|NL": {
+    "company": "KLM",
+    "first_seen": "2026-07-18",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business Analyst Commercial"
   },
   "business analyst finanzen / product owner diamant (w/m/d)|doreafamilie|DE": {
     "company": "DOREAFAMILIE",
@@ -382,6 +396,13 @@
     "first_seen": "2026-07-16",
     "region": "LU",
     "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|deloitte|IE": {
+    "company": "Deloitte",
+    "first_seen": "2026-07-18",
+    "region": "IE",
+    "source": "indeed",
     "title": "Business Analyst"
   },
   "business analyst|devoteam|LU": {
@@ -604,6 +625,13 @@
   "business management analyst|ing wholesale banking|IE": {
     "company": "ING Wholesale Banking",
     "first_seen": "2026-07-17",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Management Analyst"
+  },
+  "business management analyst|ing|IE": {
+    "company": "ING",
+    "first_seen": "2026-07-18",
     "region": "IE",
     "source": "linkedin",
     "title": "Business Management Analyst"
@@ -1063,6 +1091,13 @@
     "source": "linkedin",
     "title": "Product Manager (m/w/d)"
   },
+  "product manager (m/w/d)|legal hero gmbh|DE": {
+    "company": "Legal Hero GmbH",
+    "first_seen": "2026-07-18",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Manager (m/w/d)"
+  },
   "product manager (m/w/d)|matera deutschland gmbh|DE": {
     "company": "Matera Deutschland GmbH",
     "first_seen": "2026-07-15",
@@ -1098,6 +1133,13 @@
     "source": "linkedin",
     "title": "Product Manager - Payments (M/F)"
   },
+  "product manager - percona monitoring and management (remote)|percona|IE": {
+    "company": "Percona",
+    "first_seen": "2026-07-18",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager - Percona Monitoring and Management (Remote)"
+  },
   "product manager - picnic app|picnic technologies|NL": {
     "company": "Picnic Technologies",
     "first_seen": "2026-07-15",
@@ -1125,6 +1167,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Product Manager at ShopDeck"
+  },
+  "product manager build|learnosity|IE": {
+    "company": "Learnosity",
+    "first_seen": "2026-07-18",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager Build"
   },
   "product manager ii - personalisation|nykaa|IN": {
     "company": "Nykaa",
@@ -1188,6 +1237,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Product Manager, Fleet Planning Tools, Fleet Procurement & Capacity Planning (FPAC)"
+  },
+  "product manager, marketing technology & innovation|take-two interactive|IE": {
+    "company": "Take-Two Interactive",
+    "first_seen": "2026-07-18",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager, Marketing Technology & Innovation"
   },
   "product manager, portals ecosystem (m/f/d)|trackunit|NL": {
     "company": "Trackunit",
@@ -1509,6 +1565,13 @@
     "first_seen": "2026-07-17",
     "region": "DE",
     "source": "linkedin",
+    "title": "Product Owner (m/w/d)"
+  },
+  "product owner (m/w/d)|greenstone energy gmbh|DE": {
+    "company": "GreenStone Energy GmbH",
+    "first_seen": "2026-07-18",
+    "region": "DE",
+    "source": "indeed",
     "title": "Product Owner (m/w/d)"
   },
   "product owner (m|w|d)|assecor gmbh|DE": {

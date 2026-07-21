@@ -720,6 +720,13 @@
     "source": "linkedin",
     "title": "Digital and Insights Manager"
   },
+  "digital business analyst|accenture uk & ireland|IE": {
+    "company": "Accenture UK & Ireland",
+    "first_seen": "2026-07-20",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Digital Business Analyst"
+  },
   "digital business analyst|accenture|IE": {
     "company": "Accenture",
     "first_seen": "2026-07-16",
@@ -874,12 +881,26 @@
     "source": "linkedin",
     "title": "IT Business Analyst"
   },
+  "it business analyst|viatris|IE": {
+    "company": "Viatris",
+    "first_seen": "2026-07-20",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "IT Business Analyst"
+  },
   "it project manager & business analyst|eu industrial club iv gp sarl|LU": {
     "company": "EU Industrial Club IV GP SARL",
     "first_seen": "2026-07-17",
     "region": "LU",
     "source": "indeed",
     "title": "IT Project Manager & Business Analyst"
+  },
+  "itsm product owner|dyson|IN": {
+    "company": "Dyson",
+    "first_seen": "2026-07-20",
+    "region": "IN",
+    "source": "indeed",
+    "title": "ITSM Product Owner"
   },
   "jr. product manager joolz|milk design bv joolz|NL": {
     "company": "Milk Design BV Joolz",
@@ -915,6 +936,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Marketing Manager, Brand Experience"
+  },
+  "mid-level calypso business analyst|epam systems|IE": {
+    "company": "EPAM Systems",
+    "first_seen": "2026-07-20",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Mid-level Calypso Business Analyst"
   },
   "mifir business analyst|epam systems|NL": {
     "company": "EPAM Systems",
@@ -1049,6 +1077,13 @@
     "source": "linkedin",
     "title": "Product Manager\nRotterdam HQ\nFulltime"
   },
+  "product manager (f/m/d) - berlin|cycle|DE": {
+    "company": "CYCLE",
+    "first_seen": "2026-07-20",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager (f/m/d) - Berlin"
+  },
   "product manager (fully remote)|over99|DE": {
     "company": "over99",
     "first_seen": "2026-07-16",
@@ -1084,6 +1119,13 @@
     "source": "indeed",
     "title": "Product Manager (M/F/D)"
   },
+  "product manager (m/f/d)|trackunit|NL": {
+    "company": "Trackunit",
+    "first_seen": "2026-07-20",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager (m/f/d)"
+  },
   "product manager (m/w/d)|a11|DE": {
     "company": "A11",
     "first_seen": "2026-07-15",
@@ -1104,6 +1146,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Product Manager (m/w/d)"
+  },
+  "product manager - (payments, fintech)|delivery hero|DE": {
+    "company": "Delivery Hero",
+    "first_seen": "2026-07-20",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager - (Payments, Fintech)"
   },
   "product manager - berlin|root global|DE": {
     "company": "Root Global",
@@ -1217,6 +1266,13 @@
     "source": "indeed",
     "title": "Product Manager, AI/ML Solutions"
   },
+  "product manager, analytics | bengaluru, in|degreed|IN": {
+    "company": "Degreed",
+    "first_seen": "2026-07-20",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Manager, Analytics | Bengaluru, IN"
+  },
   "product manager, consolidation|prophix|LU": {
     "company": "Prophix",
     "first_seen": "2026-07-15",
@@ -1230,6 +1286,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Manager, Consumer Platform  (f/m/x)"
+  },
+  "product manager, flavour & formulation|aquablu|NL": {
+    "company": "AQUABLU",
+    "first_seen": "2026-07-20",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Manager, Flavour & Formulation"
   },
   "product manager, fleet planning tools, fleet procurement & capacity planning (fpac)|amazon|LU": {
     "company": "Amazon",
@@ -1392,6 +1455,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|hackajob|IN": {
+    "company": "hackajob",
+    "first_seen": "2026-07-20",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product manager|inxiteout|IN": {
     "company": "InXiteOut",
     "first_seen": "2026-07-16",
@@ -1487,6 +1557,13 @@
     "company": "Siena AI",
     "first_seen": "2026-07-16",
     "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|sita|NL": {
+    "company": "SITA",
+    "first_seen": "2026-07-20",
+    "region": "NL",
     "source": "linkedin",
     "title": "Product Manager"
   },
@@ -1616,6 +1693,13 @@
     "source": "indeed",
     "title": "Product Owner / Business Analist"
   },
+  "product owner b2b saas tender intelligence (m/w/d)|dtad gmbh|DE": {
+    "company": "DTAD GmbH",
+    "first_seen": "2026-07-20",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Owner B2B SaaS Tender Intelligence (m/w/d)"
+  },
   "product owner digital|catamania|LU": {
     "company": "Catamania",
     "first_seen": "2026-07-15",
@@ -1663,6 +1747,13 @@
     "first_seen": "2026-07-17",
     "region": "IE",
     "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "product owner|siemens healthineers|IN": {
+    "company": "Siemens Healthineers",
+    "first_seen": "2026-07-20",
+    "region": "IN",
+    "source": "indeed",
     "title": "Product Owner"
   },
   "product owner|sotalent|NL": {
@@ -1755,6 +1846,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Technical Product Manager"
+  },
+  "technical product owner|siemens healthineers|IN": {
+    "company": "Siemens Healthineers",
+    "first_seen": "2026-07-20",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Technical Product Owner"
   },
   "technology business management analyst, supplier collaboration|ralph lauren|IN": {
     "company": "Ralph Lauren",

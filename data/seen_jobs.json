@@ -97,6 +97,13 @@
     "source": "linkedin",
     "title": "Associate Product Manager"
   },
+  "associate product manager|makemytrip|IN": {
+    "company": "MakeMyTrip",
+    "first_seen": "2026-07-22",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
   "associate product manager|redbus|IN": {
     "company": "redBus",
     "first_seen": "2026-07-17",
@@ -257,6 +264,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "Business Analyst - Retail"
+  },
+  "business analyst - workforce management|rituals cosmetics|NL": {
+    "company": "RITUALS COSMETICS",
+    "first_seen": "2026-07-22",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business Analyst - Workforce Management"
   },
   "business analyst 1-ops|oracle|IN": {
     "company": "Oracle",
@@ -580,6 +594,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|tech mahindra|NL": {
+    "company": "Tech Mahindra",
+    "first_seen": "2026-07-22",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|techvaria|IN": {
     "company": "Techvaria",
     "first_seen": "2026-07-17",
@@ -677,6 +698,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Central Product Manager"
+  },
+  "co strategic initiatives project manager|hp|IN": {
+    "company": "HP",
+    "first_seen": "2026-07-22",
+    "region": "IN",
+    "source": "indeed",
+    "title": "CO Strategic Initiatives Project Manager"
   },
   "contact center business analyst (w/m/d)|e.on|DE": {
     "company": "E.ON",
@@ -831,6 +859,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Growth Manager (Office Berlin Mitte)"
+  },
+  "growth manager - e commerce|samsonite|IN": {
+    "company": "Samsonite",
+    "first_seen": "2026-07-22",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Growth Manager - E Commerce"
   },
   "growth manager subscription & conversion (m/w/d)|berliner verlag|DE": {
     "company": "Berliner Verlag",
@@ -1427,6 +1462,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|beterbuik|NL": {
+    "company": "BeterBuik",
+    "first_seen": "2026-07-22",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product manager|blitz|IN": {
     "company": "Blitz",
     "first_seen": "2026-07-17",
@@ -1572,6 +1614,13 @@
     "first_seen": "2026-07-17",
     "region": "IN",
     "source": "indeed",
+    "title": "Product Manager"
+  },
+  "product manager|maxxton b.v.|NL": {
+    "company": "Maxxton B.V.",
+    "first_seen": "2026-07-22",
+    "region": "NL",
+    "source": "linkedin",
     "title": "Product Manager"
   },
   "product manager|niulix|DE": {

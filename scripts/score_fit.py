@@ -1,10 +1,13 @@
 """Score a job listing's fit against the candidate's master resume.
 
 Fit is scored on: role-category match, seniority match (years required vs
-~2 yrs actual experience), and concept overlap with the resume's
-skills/experience/projects. Salary is reported separately since Indeed
-rarely populates compensation data - it is never used to silently drop a
-listing.
+~1.5 yrs actual experience - 1 year full-time + 9 months part-time/internship),
+concept overlap with the resume's skills/experience/projects, and an extra
+bonus for direct domain expertise (e-commerce/marketplace, AI/ML product
+work, brand/category management - the candidate's actual day job at Meesho,
+not just adjacent keyword overlap). Salary is reported separately since
+Indeed rarely populates compensation data - it is never used to silently
+drop a listing.
 
 Matching is concept-based, not exact-phrase: a JD saying "agile
 methodologies" or "cross-functional teams" should count toward the same
@@ -26,7 +29,14 @@ ROLE_CATEGORIES = {
     "growth": ["growth manager", "growth lead", "growth analyst", "growth associate"],
 }
 
-MAX_YEARS_REQUIRED = 2  # candidate has 1 year full-time + 9 months part-time/internship
+MAX_YEARS_REQUIRED = 1.5  # candidate has 1 year full-time + 9 months part-time/internship (~1.5-1.75 yrs combined)
+
+# Domains the candidate has direct, hands-on expertise in (Meesho social
+# commerce marketplace, AI Services callbot work, Branded Health & Wellness
+# category/brand partnerships) - matches on these count extra on top of the
+# normal concept-overlap score, since a JD hitting one of these isn't just a
+# generic keyword overlap, it's the candidate's actual day job.
+CORE_DOMAIN_CONCEPTS = {"marketplace_ecommerce", "ai_ml", "brand_partnerships", "fmcg_cpg"}
 
 # Concept -> phrasings/synonyms a JD might use for that concept. One hit per
 # concept counts, regardless of how many synonyms match, so this rewards
@@ -81,13 +91,16 @@ def score_job(job, skills_pool=None, all_keywords=None):
 
     if title_is_senior and not title_is_junior:
         score -= 40
-        reasons.append("Title reads senior/staff/lead — above current ~2yr experience level")
-    if years_required and years_required > MAX_YEARS_REQUIRED:
+        reasons.append("Title reads senior/staff/lead — above current ~1.5yr experience level")
+    if years_required and years_required > 2:
         score -= 40
         reasons.append(f"JD asks for {years_required}+ years — above current experience")
-    elif years_required in (1, 2):
+    elif years_required == 2:
+        score -= 10
+        reasons.append("JD asks for 2+ years — a stretch above current ~1.5yr experience")
+    elif years_required == 1:
         score += 25
-        reasons.append(f"JD asks for {years_required}+ years — exact match for current experience")
+        reasons.append("JD asks for 1+ years — exact match for current experience")
     elif years_required == 0:
         score += 15
         reasons.append("JD asks for 0+ years — within range but below current experience")
@@ -106,6 +119,14 @@ def score_job(job, skills_pool=None, all_keywords=None):
     score += min(len(matched_concepts) * 5, 45)
     if matched_concepts:
         reasons.append(f"Matched concepts: {', '.join(matched_concepts)}")
+
+    # Core domain bonus - e-commerce/marketplace, AI/ML product work, and
+    # brand/category/partnership management are the candidate's actual
+    # day-to-day expertise at Meesho, not just adjacent keyword overlap.
+    core_matches = [c for c in matched_concepts if c in CORE_DOMAIN_CONCEPTS]
+    if core_matches:
+        score += min(len(core_matches) * 8, 24)
+        reasons.append(f"Strong domain alignment (direct expertise): {', '.join(core_matches)}")
     if not has_desc:
         # Unreviewed jobs are capped low so a genuinely-matched, JD-reviewed
         # role always outranks a title-only guess of the same category.

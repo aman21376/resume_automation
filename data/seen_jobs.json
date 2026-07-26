@@ -62,6 +62,13 @@
     "source": "indeed",
     "title": "Associate Business Analyst - Business Analysis"
   },
+  "associate product manager ii|navi|IN": {
+    "company": "Navi",
+    "first_seen": "2026-07-26",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager II"
+  },
   "associate product manager-2|ralph lauren|IN": {
     "company": "Ralph Lauren",
     "first_seen": "2026-07-17",
@@ -111,6 +118,20 @@
     "source": "linkedin",
     "title": "Associate Product Manager"
   },
+  "associate product manager|pinnacleu|IN": {
+    "company": "PinnacleU",
+    "first_seen": "2026-07-26",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Associate Product Manager"
+  },
+  "associate product manager|prismforce private limited|IN": {
+    "company": "Prismforce Private Limited",
+    "first_seen": "2026-07-26",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Associate Product Manager"
+  },
   "associate product manager|redbus|IN": {
     "company": "redBus",
     "first_seen": "2026-07-17",
@@ -118,9 +139,23 @@
     "source": "linkedin",
     "title": "Associate Product Manager"
   },
+  "associate product manager|rempact|IN": {
+    "company": "Rempact",
+    "first_seen": "2026-07-26",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
   "associate product manager|sharechat|IN": {
     "company": "ShareChat",
     "first_seen": "2026-07-17",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
+  "associate product manager|wippi|IN": {
+    "company": "Wippi",
+    "first_seen": "2026-07-26",
     "region": "IN",
     "source": "linkedin",
     "title": "Associate Product Manager"
@@ -1259,6 +1294,13 @@
     "source": "linkedin",
     "title": "Product Manager\nRotterdam HQ\nFulltime"
   },
+  "product manager (ai)|nostrion|NL": {
+    "company": "Nostrion",
+    "first_seen": "2026-07-26",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager (AI)"
+  },
   "product manager (f/m/d) - berlin|cycle|DE": {
     "company": "CYCLE",
     "first_seen": "2026-07-20",
@@ -1290,6 +1332,13 @@
   "product manager (m/f/d)|baobab|DE": {
     "company": "Baobab",
     "first_seen": "2026-07-17",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager (m/f/d)"
+  },
+  "product manager (m/f/d)|brighter ai|DE": {
+    "company": "brighter AI",
+    "first_seen": "2026-07-26",
     "region": "DE",
     "source": "linkedin",
     "title": "Product Manager (m/f/d)"
@@ -2098,6 +2147,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Shared Technology Product Analyst"
+  },
+  "strategy & analytics manager- travel supply & ai (100% remote - ireland)|hopper|IE": {
+    "company": "Hopper",
+    "first_seen": "2026-07-26",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Strategy & Analytics Manager- Travel Supply & AI (100% Remote - Ireland)"
   },
   "tech product manager - platforms|ig group|IN": {
     "company": "IG Group",

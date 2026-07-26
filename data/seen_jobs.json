@@ -104,6 +104,13 @@
     "source": "linkedin",
     "title": "Associate Product Manager"
   },
+  "associate product manager|navi|IN": {
+    "company": "Navi",
+    "first_seen": "2026-07-26",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
   "associate product manager|redbus|IN": {
     "company": "redBus",
     "first_seen": "2026-07-17",
@@ -153,6 +160,13 @@
     "source": "linkedin",
     "title": "Business Analist PEGA"
   },
+  "business analist | bouw mee aan de toekomst van tmc!|tmc|NL": {
+    "company": "TMC",
+    "first_seen": "2026-07-26",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analist | Bouw mee aan de toekomst van TMC!"
+  },
   "business analist|cimsolutions|NL": {
     "company": "CIMSOLUTIONS",
     "first_seen": "2026-07-17",
@@ -181,6 +195,20 @@
     "source": "linkedin",
     "title": "Business Analist"
   },
+  "business analist|schiphol|NL": {
+    "company": "Schiphol",
+    "first_seen": "2026-07-26",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business Analist"
+  },
+  "business analysis - gcoo-bangalore|capco|IN": {
+    "company": "Capco",
+    "first_seen": "2026-07-26",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analysis - GCOO-Bangalore"
+  },
   "business analyst (central operations)|zepto|IN": {
     "company": "Zepto",
     "first_seen": "2026-07-17",
@@ -194,6 +222,20 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Business Analyst (H/F)"
+  },
+  "business analyst (hubspot implementation)|mcs group | your specialist recruitment consultancy|IE": {
+    "company": "MCS Group | Your Specialist Recruitment Consultancy",
+    "first_seen": "2026-07-26",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Analyst (Hubspot Implementation)"
+  },
+  "business analyst (m/w/d)|e.on|DE": {
+    "company": "E.ON",
+    "first_seen": "2026-07-26",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Business Analyst (m/w/d)"
   },
   "business analyst (m/w/d)|paper & tea|DE": {
     "company": "PAPER & TEA",
@@ -215,6 +257,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Business Analyst (Permanent)"
+  },
+  "business analyst - 12m ftc|davy|IE": {
+    "company": "Davy",
+    "first_seen": "2026-07-26",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Analyst - 12m FTC"
   },
   "business analyst - d365 f&o|reperio human capital|IE": {
     "company": "Reperio Human Capital",
@@ -279,6 +328,13 @@
     "source": "indeed",
     "title": "Business Analyst 1-Ops"
   },
+  "business analyst bav (all genders)|adesso se|DE": {
+    "company": "adesso SE",
+    "first_seen": "2026-07-26",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Business Analyst bAV (all genders)"
+  },
   "business analyst commercial|klm|NL": {
     "company": "KLM",
     "first_seen": "2026-07-18",
@@ -328,6 +384,20 @@
     "source": "indeed",
     "title": "Business Analyst Responsible Investments PMI"
   },
+  "business analyst workflowmanagementsystem (all genders)|adesso se|DE": {
+    "company": "adesso SE",
+    "first_seen": "2026-07-26",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Business Analyst Workflowmanagementsystem (all genders)"
+  },
+  "business analyst \u2013 process analysis & business transformation|cyberr|LU": {
+    "company": "Cyberr",
+    "first_seen": "2026-07-26",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst \u2013 Process Analysis & Business Transformation"
+  },
   "business analyst \u2013 web banking|avaloq|DE": {
     "company": "Avaloq",
     "first_seen": "2026-07-15",
@@ -348,6 +418,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Business Analyst, EU Inbound & Inventory Placement Operations"
+  },
+  "business analyst, manufacturing analytics|kraft heinz|NL": {
+    "company": "Kraft Heinz",
+    "first_seen": "2026-07-26",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business Analyst, Manufacturing Analytics"
   },
   "business analyst, step data and analytics|amazon|LU": {
     "company": "Amazon",
@@ -468,6 +545,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|first point group|IE": {
+    "company": "First Point Group",
+    "first_seen": "2026-07-26",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|fruition group ireland|IE": {
     "company": "Fruition Group Ireland",
     "first_seen": "2026-07-15",
@@ -538,6 +622,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|ml|IE": {
+    "company": "ML",
+    "first_seen": "2026-07-26",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|morgan mckinley|IE": {
     "company": "Morgan McKinley",
     "first_seen": "2026-07-15",
@@ -570,6 +661,13 @@
     "company": "PRIMUS Global Solutions (PRIMUS UK & Europe)",
     "first_seen": "2026-07-17",
     "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|ritts|IE": {
+    "company": "RITTS",
+    "first_seen": "2026-07-26",
+    "region": "IE",
     "source": "linkedin",
     "title": "Business Analyst"
   },
@@ -650,6 +748,13 @@
     "source": "indeed",
     "title": "Business Analyst"
   },
+  "business analyst|xpertiz s.a|LU": {
+    "company": "xpertiz s.a",
+    "first_seen": "2026-07-26",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business growth analyst (madrid based)|fever|DE": {
     "company": "Fever",
     "first_seen": "2026-07-15",
@@ -691,6 +796,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Business System Specialist"
+  },
+  "business systems analyst \u2013 hr platforms|fresenius medical care|IE": {
+    "company": "Fresenius Medical Care",
+    "first_seen": "2026-07-26",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Business Systems Analyst \u2013 HR Platforms"
   },
   "central product manager|ammega|NL": {
     "company": "Ammega",
@@ -839,6 +951,13 @@
     "source": "linkedin",
     "title": "Group Product Manager [Klaxoon]"
   },
+  "group product manager|workindia|IN": {
+    "company": "WorkIndia",
+    "first_seen": "2026-07-26",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Group Product Manager"
+  },
   "growth / performance marketing manager (m/w/d)|taxmaro|DE": {
     "company": "TAXMARO",
     "first_seen": "2026-07-17",
@@ -978,6 +1097,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Junior Licensing Product Development Manager"
+  },
+  "junior product manager (m/w/d) \u2013 go lloret @ emile weber|emile weber|LU": {
+    "company": "emile weber",
+    "first_seen": "2026-07-26",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Junior Product Manager (m/w/d) \u2013 Go Lloret @ Emile Weber"
   },
   "junior product manager|mitsubishi|NL": {
     "company": "Mitsubishi",
@@ -1308,6 +1434,13 @@
     "source": "linkedin",
     "title": "Product Manager I"
   },
+  "product manager | remote|360dialog|NL": {
+    "company": "360Dialog",
+    "first_seen": "2026-07-26",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager | Remote"
+  },
   "product manager \u2013 loyalty & mobile app|buymie|IE": {
     "company": "buymie",
     "first_seen": "2026-07-15",
@@ -1476,6 +1609,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|bullit systems|LU": {
+    "company": "BULLIT SYSTEMS",
+    "first_seen": "2026-07-26",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product manager|clearer.io|IE": {
     "company": "clearer.io",
     "first_seen": "2026-07-15",
@@ -1560,6 +1700,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|hdfc bank|IN": {
+    "company": "HDFC Bank",
+    "first_seen": "2026-07-26",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product manager|inxiteout|IN": {
     "company": "InXiteOut",
     "first_seen": "2026-07-16",
@@ -1584,6 +1731,13 @@
   "product manager|jaipur robotics|NL": {
     "company": "Jaipur Robotics",
     "first_seen": "2026-07-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|jobgether|NL": {
+    "company": "Jobgether",
+    "first_seen": "2026-07-26",
     "region": "NL",
     "source": "linkedin",
     "title": "Product Manager"
@@ -1665,6 +1819,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|runnr.ai|NL": {
+    "company": "Runnr.ai",
+    "first_seen": "2026-07-26",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product manager|siena ai|IE": {
     "company": "Siena AI",
     "first_seen": "2026-07-16",
@@ -1707,6 +1868,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|tata consultancy services|IN": {
+    "company": "Tata Consultancy Services",
+    "first_seen": "2026-07-26",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product manager|tbauctions|NL": {
     "company": "TBAuctions",
     "first_seen": "2026-07-17",
@@ -1733,6 +1901,13 @@
     "first_seen": "2026-07-21",
     "region": "NL",
     "source": "indeed",
+    "title": "Product Manager"
+  },
+  "product manager|volue|DE": {
+    "company": "Volue",
+    "first_seen": "2026-07-26",
+    "region": "DE",
+    "source": "linkedin",
     "title": "Product Manager"
   },
   "product manager|yuki|NL": {

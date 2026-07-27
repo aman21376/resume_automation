@@ -379,6 +379,13 @@
     font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-dim);
     display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;
   }
+
+  .inline-link {
+    color: var(--accent); text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent);
+    text-underline-offset: 2px; transition: text-decoration-color .2s ease;
+  }
+  .inline-link:hover { text-decoration-color: var(--accent); }
 </style>
 </head>
 <body>
@@ -602,7 +609,7 @@
           </article>
 
           <p style="color:var(--text-dim); font-size:0.9rem; margin-top:1.6rem;">
-            Also shipped: <em>LegalEase</em> research iterations, <em>Culture Jaano</em> (cultural-discovery Figma prototype), <em>GO-Pharma</em> (medicine e-commerce), and <em>Tank vs. Tank</em> (PvP game, LibGDX) — full list on <a class="pill" style="padding:0.15rem 0.5rem;" href="https://github.com/aman21376" target="_blank" rel="noopener">GitHub ↗</a>
+            Also shipped: <a class="inline-link" href="https://indiacodesthem3.vercel.app/" target="_blank" rel="noopener">Aawaz</a> (billing app), <a class="inline-link" href="https://www.fewco.in/" target="_blank" rel="noopener">Fewco</a>, <em>Culture Jaano</em> (cultural-discovery Figma prototype), <em>GO-Pharma</em> (medicine e-commerce), and <em>Tank vs. Tank</em> (PvP game, LibGDX) — full list on <a class="pill" style="padding:0.15rem 0.5rem;" href="https://github.com/aman21376" target="_blank" rel="noopener">GitHub ↗</a>
           </p>
 
         </div>

@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aman Ranjan — Product × Analytics × Business</title>
+<meta name="description" content="Aman Ranjan — Senior Associate at Meesho, working at the intersection of product management, data analytics, and business/brand management." />
+<style>
+  :root {
+    --ink: #14171A;
+    --ink-2: #1C2024;
+    --ink-3: #262B30;
+    --paper: #EEEFE7;
+    --paper-2: #E3E5DA;
+    --paper-3: #D6D9CB;
+    --accent: #D98A2E;
+    --accent-2: #2E6E68;
+    --accent-3: #8B4A5C;
+
+    --bg: var(--ink);
+    --surface: var(--ink-2);
+    --surface-2: var(--ink-3);
+    --text: #E9EAE3;
+    --text-dim: #A9AEA2;
+    --line: #33383D;
+    --accent-text: #14171A;
+
+    --font-display: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, "Times New Roman", serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Consolas, "Liberation Mono", monospace;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: var(--paper);
+      --surface: #F5F6F0;
+      --surface-2: var(--paper-2);
+      --text: #1B1F1C;
+      --text-dim: #5B6058;
+      --line: #C9CCBE;
+      --accent-text: #14171A;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: var(--ink);
+    --surface: var(--ink-2);
+    --surface-2: var(--ink-3);
+    --text: #E9EAE3;
+    --text-dim: #A9AEA2;
+    --line: #33383D;
+  }
+  :root[data-theme="light"] {
+    --bg: var(--paper);
+    --surface: #F5F6F0;
+    --surface-2: var(--paper-2);
+    --text: #1B1F1C;
+    --text-dim: #5B6058;
+    --line: #C9CCBE;
+  }
+
+  * { box-sizing: border-box; }
+  html { color-scheme: dark light; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    transition: background .25s ease, color .25s ease;
+  }
+  ::selection { background: var(--accent); color: var(--accent-text); }
+
+  a { color: inherit; }
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 1.5rem; }
+
+  /* ---------- top bar ---------- */
+  header.topbar {
+    position: sticky; top: 0; z-index: 20;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+  }
+  .topbar-inner {
+    max-width: 880px; margin: 0 auto; padding: 0.85rem 1.5rem;
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  }
+  .brand {
+    font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.06em;
+    text-decoration: none; color: var(--text); white-space: nowrap;
+  }
+  .brand b { color: var(--accent); }
+  nav.toc { display: flex; gap: 1.1rem; font-family: var(--font-mono); font-size: 0.75rem; }
+  nav.toc a { text-decoration: none; color: var(--text-dim); }
+  nav.toc a:hover { color: var(--accent); }
+  .theme-toggle {
+    font-family: var(--font-mono); font-size: 0.75rem; background: transparent;
+    border: 1px solid var(--line); color: var(--text-dim); border-radius: 3px;
+    padding: 0.3rem 0.55rem; cursor: pointer;
+  }
+  .theme-toggle:hover { color: var(--accent); border-color: var(--accent); }
+  @media (max-width: 640px) { nav.toc { display: none; } }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 4.5rem 0 3rem; }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.08em;
+    color: var(--text-dim); text-transform: uppercase; margin-bottom: 1.6rem;
+  }
+  .pulse { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
+  @media (prefers-reduced-motion: no-preference) {
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+  }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+
+  .hero-grid { display: grid; grid-template-columns: 1fr auto; gap: 2.5rem; align-items: center; }
+  @media (max-width: 680px) { .hero-grid { grid-template-columns: 1fr; } .venn { justify-self: center; } }
+
+  h1.name {
+    font-family: var(--font-display); font-weight: 700;
+    font-size: clamp(2.4rem, 6vw, 4.2rem); line-height: 1.02; margin: 0 0 0.9rem;
+    letter-spacing: -0.01em; text-wrap: balance;
+  }
+  .tagline {
+    font-size: clamp(1.05rem, 2vw, 1.3rem); max-width: 40ch; margin: 0 0 1.1rem;
+    text-wrap: balance; color: var(--text);
+  }
+  .sub {
+    color: var(--text-dim); max-width: 52ch; margin: 0 0 1.8rem; font-size: 1rem;
+  }
+  .links { display: flex; flex-wrap: wrap; gap: 0.7rem; }
+  .pill {
+    font-family: var(--font-mono); font-size: 0.8rem; text-decoration: none;
+    border: 1px solid var(--line); border-radius: 3px; padding: 0.45rem 0.8rem;
+    color: var(--text); transition: border-color .15s ease, color .15s ease;
+    display: inline-flex; align-items: center; gap: 0.4rem;
+  }
+  .pill:hover { border-color: var(--accent); color: var(--accent); }
+  .pill.solid { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+  .pill.solid:hover { color: var(--accent-text); opacity: 0.9; }
+
+  /* venn */
+  .venn { width: 230px; height: 200px; flex-shrink: 0; }
+  .venn text { font-family: var(--font-mono); font-size: 8.5px; letter-spacing: 0.04em; fill: var(--text-dim); }
+  .venn .center { font-family: var(--font-display); font-size: 15px; fill: var(--text); font-weight: 700; }
+
+  /* ---------- kpi strip ---------- */
+  .kpi-strip {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px;
+    background: var(--line); border: 1px solid var(--line); margin-top: 2.6rem;
+    border-radius: 4px; overflow: hidden;
+  }
+  @media (max-width: 640px) { .kpi-strip { grid-template-columns: repeat(2, 1fr); } }
+  .kpi { background: var(--surface); padding: 1.1rem 1rem; }
+  .kpi-num {
+    font-family: var(--font-mono); font-size: clamp(1.3rem, 3vw, 1.7rem);
+    font-variant-numeric: tabular-nums; color: var(--accent); font-weight: 600;
+    white-space: nowrap;
+  }
+  .kpi-num .from { color: var(--text-dim); text-decoration: line-through; opacity: 0.6; font-size: 0.75em; margin-right: 0.35em; }
+  .kpi-label { font-size: 0.78rem; color: var(--text-dim); margin-top: 0.3rem; }
+
+  /* ---------- sections ---------- */
+  section.block { padding: 4.5rem 0; border-top: 1px solid var(--line); }
+  .section-head {
+    display: grid; grid-template-columns: 3.2rem 1fr; gap: 0; align-items: baseline; margin-bottom: 2rem;
+  }
+  .section-num { font-family: var(--font-mono); color: var(--accent); font-size: 0.85rem; }
+  h2.section-title {
+    font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2rem); margin: 0;
+    text-wrap: balance;
+  }
+  .section-body { display: grid; grid-template-columns: 3.2rem 1fr; gap: 0; }
+  .section-body > .col { grid-column: 2; }
+  @media (max-width: 560px) {
+    .section-head, .section-body { grid-template-columns: 1fr; }
+    .section-num { margin-bottom: 0.4rem; }
+    .section-body > .col { grid-column: 1; }
+  }
+
+  .lede { font-size: 1.12rem; max-width: 66ch; text-wrap: pretty; }
+  .lede strong.m { color: var(--accent); font-weight: 600; }
+
+  /* pillars */
+  .pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
+  @media (max-width: 640px) { .pillars { grid-template-columns: 1fr; } }
+  .pillar { border-top: 2px solid var(--accent); padding-top: 0.9rem; }
+  .pillar.analytics { border-top-color: var(--accent-2); }
+  .pillar.business { border-top-color: var(--accent-3); }
+  .pillar h3 {
+    font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.1em;
+    text-transform: uppercase; margin: 0 0 0.9rem; color: var(--text-dim);
+  }
+  .pillar ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+  .pillar li { font-size: 0.95rem; }
+
+  /* entries (experience / projects) */
+  .entry {
+    display: grid; grid-template-columns: 8.5rem 1fr; gap: 1.4rem;
+    padding: 1.7rem 0; border-bottom: 1px solid var(--line);
+    opacity: 0; transform: translateY(10px);
+    transition: opacity .5s ease, transform .5s ease;
+  }
+  .entry.in-view { opacity: 1; transform: translateY(0); }
+  @media (prefers-reduced-motion: reduce) { .entry { opacity: 1; transform: none; transition: none; } }
+  .entry:last-child { border-bottom: none; }
+  @media (max-width: 620px) { .entry { grid-template-columns: 1fr; gap: 0.5rem; } }
+
+  .entry-meta { font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-dim); line-height: 1.5; }
+  .entry-meta .dates { display: block; margin-bottom: 0.4rem; }
+  .entry-meta .badge {
+    display: inline-block; margin-top: 0.5rem; font-size: 0.68rem;
+    color: var(--accent); border: 1px solid var(--accent); border-radius: 2px;
+    padding: 0.12rem 0.4rem; letter-spacing: 0.05em;
+  }
+  .entry-role { font-weight: 700; font-size: 1.08rem; margin: 0 0 0.15rem; }
+  .entry-org { color: var(--text-dim); font-size: 0.92rem; margin: 0 0 0.8rem; }
+  .entry-org b { color: var(--text); font-weight: 600; }
+  .entry ul.bullets { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.65rem; }
+  .entry ul.bullets li { font-size: 0.97rem; position: relative; padding-left: 1rem; }
+  .entry ul.bullets li::before { content: "—"; position: absolute; left: 0; color: var(--text-dim); }
+  .entry ul.bullets .lead { font-weight: 600; }
+  strong.m { color: var(--accent); font-weight: 600; }
+
+  /* education */
+  .edu-row { display: flex; flex-wrap: wrap; gap: 0.6rem 1rem; margin-bottom: 1.4rem; align-items: baseline; }
+  .edu-school { font-weight: 700; font-size: 1.08rem; }
+  .edu-dates { font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim); }
+  .edu-degree { color: var(--text-dim); margin: 0 0 1.2rem; }
+  .edu-list { display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.95rem; }
+  .edu-list .label { font-family: var(--font-mono); font-size: 0.72rem; color: var(--accent-2); letter-spacing: 0.05em; margin-right: 0.4rem; }
+
+  /* chips: achievements / leadership */
+  .chipset { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .chip {
+    border: 1px solid var(--line); border-radius: 3px; padding: 0.5rem 0.8rem;
+    font-size: 0.88rem; background: var(--surface);
+  }
+  .chip b { color: var(--accent); }
+  .chip-group { margin-bottom: 1.3rem; }
+  .chip-group h4 {
+    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--text-dim); margin: 0 0 0.8rem;
+  }
+
+  /* footer / contact */
+  footer.contact { padding: 4.5rem 0 5rem; }
+  .contact-inner { display: flex; flex-direction: column; align-items: flex-start; gap: 1.6rem; }
+  .contact h2 { margin: 0; }
+  .contact-lede { max-width: 52ch; color: var(--text-dim); font-size: 1.05rem; }
+  .big-links { display: flex; flex-direction: column; gap: 0.2rem; }
+  .big-link {
+    font-family: var(--font-display); font-size: clamp(1.3rem, 3.2vw, 1.9rem);
+    text-decoration: none; border-bottom: 1px solid transparent;
+    transition: color .15s ease, border-color .15s ease; width: fit-content;
+  }
+  .big-link:hover { color: var(--accent); border-color: var(--accent); }
+  .foot-meta {
+    font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-dim);
+    display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#top">AMAN <b>RANJAN</b></a>
+    <nav class="toc">
+      <a href="#thesis">01</a>
+      <a href="#pillars">02</a>
+      <a href="#experience">03</a>
+      <a href="#projects">04</a>
+      <a href="#education">05</a>
+      <a href="#recognition">06</a>
+      <a href="#contact">07</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme">MODE</button>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <section class="hero" id="top">
+      <div class="eyebrow"><span class="pulse"></span> Currently building — Senior Associate, Meesho — Bangalore</div>
+      <div class="hero-grid">
+        <div>
+          <h1 class="name">Aman Ranjan</h1>
+          <p class="tagline">I turn ambiguous business problems into shipped, measured product decisions.</p>
+          <p class="sub">Product manager and growth operator working where roadmap, revenue, and A/B tests meet — writing the PRD, pulling the SQL, and sitting across the table from the brand partner, often in the same week.</p>
+          <div class="links">
+            <a class="pill solid" href="mailto:aman.work.ranjan@gmail.com">✉ Email</a>
+            <a class="pill" href="https://www.linkedin.com/in/aman-ranjan-a8853320b/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="pill" href="https://github.com/aman21376" target="_blank" rel="noopener">GitHub</a>
+            <span class="pill" style="cursor:default;">Bangalore, India</span>
+          </div>
+        </div>
+        <svg class="venn" viewBox="0 0 230 200" aria-hidden="true">
+          <circle cx="95" cy="80" r="62" fill="none" stroke="var(--accent)" stroke-width="1.3" opacity="0.85"/>
+          <circle cx="140" cy="80" r="62" fill="none" stroke="var(--accent-2)" stroke-width="1.3" opacity="0.85"/>
+          <circle cx="117" cy="130" r="62" fill="none" stroke="var(--accent-3)" stroke-width="1.3" opacity="0.85"/>
+          <text x="38" y="46" class="lbl">PRODUCT</text>
+          <text x="150" y="46" class="lbl">ANALYTICS</text>
+          <text x="86" y="190" class="lbl">BUSINESS</text>
+          <text x="117" y="105" text-anchor="middle" class="center">AR</text>
+        </svg>
+      </div>
+
+      <div class="kpi-strip">
+        <div class="kpi">
+          <div class="kpi-num" data-count="500" data-suffix="M+">0</div>
+          <div class="kpi-label">users on the marketplace I build for</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-num" data-count="70" data-suffix="Mn">0</div>
+          <div class="kpi-label">user cohort found via SQL &amp; experiments</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-num" data-count="20" data-suffix="+">0</div>
+          <div class="kpi-label">A/B experiments shipped in one growth loop</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-num"><span class="from">-120%</span>0%</div>
+          <div class="kpi-label">gross margin turnaround on an AI callbot</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="thesis">
+      <div class="section-head">
+        <span class="section-num">01</span>
+        <h2 class="section-title">Where I sit</h2>
+      </div>
+      <div class="section-body">
+        <div class="col">
+          <p class="lede">
+            Most roadmaps die in the gap between what the business wants and what the data supports.
+            I work in that gap. Three years in, the pattern holds: define the hypothesis, ship the
+            smallest test that can kill it, read the numbers honestly, and only then commit budget or
+            headcount. It's slower than moving on instinct — it's also why a customer-support AI I ran
+            went from <strong class="m">-120% gross margin to breakeven</strong>, and why the brand
+            partnerships I manage grew <strong class="m">20% month-over-month</strong> instead of
+            spiking for a quarter and fading.
+          </p>
+          <p class="lede" style="margin-top:1.1rem;">
+            Practically, that means I write PRDs like a product manager, query the warehouse like an
+            analyst, and negotiate like the business owner I'm accountable to — because at a
+            500M-user marketplace, a decision that skips any one of those lenses is a decision made
+            on hope.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="pillars">
+      <div class="section-head">
+        <span class="section-num">02</span>
+        <h2 class="section-title">The three lenses</h2>
+      </div>
+      <div class="section-body">
+        <div class="col">
+          <div class="pillars">
+            <div class="pillar product">
+              <h3>Product</h3>
+              <ul>
+                <li>Product strategy &amp; roadmap prioritisation</li>
+                <li>Requirements &amp; user-story writing</li>
+                <li>0→1 ideation, zero-to-one pods</li>
+                <li>AI / LLM evaluation &amp; prompt design</li>
+                <li>Agile delivery, cross-functional shipping</li>
+              </ul>
+            </div>
+            <div class="pillar analytics">
+              <h3>Analytics</h3>
+              <ul>
+                <li>SQL, daily — cohort &amp; funnel analysis</li>
+                <li>A/B testing &amp; experimentation design</li>
+                <li>Python for analysis, Metabase for reporting</li>
+                <li>Business analytics, data-driven decisions</li>
+                <li>ASR / TTS / LLM model benchmarking</li>
+              </ul>
+            </div>
+            <div class="pillar business">
+              <h3>Business</h3>
+              <ul>
+                <li>Brand &amp; category management</li>
+                <li>Margin / P&amp;L ownership on AI services</li>
+                <li>Go-to-market &amp; stakeholder management</li>
+                <li>Enterprise client &amp; partner relationships</li>
+                <li>Growth &amp; marketplace strategy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="experience">
+      <div class="section-head">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="section-body">
+        <div class="col">
+
+          <article class="entry">
+            <div class="entry-meta">
+              <span class="dates">JUN 2025 —<br/>PRESENT</span>
+              <span class="badge">current</span>
+            </div>
+            <div>
+              <p class="entry-role">Senior Associate</p>
+              <p class="entry-org"><b>Meesho</b> · Bangalore, India</p>
+              <ul class="bullets">
+                <li><span class="lead">Meesho AI Services —</span> built and optimised AI-powered customer-support callbots (prompt engineering, LLM evaluation) across ASR/TTS/LLM models (Murf, Sarvam, GPT‑4.1, GPT‑4o, Gemini 3) — scaling chatbot call transfer from <strong class="m">25% to 100%</strong> and improving gross margin from <strong class="m">-120% to breakeven (0%)</strong>.</li>
+                <li><span class="lead">Mall/Branded Discovery —</span> ran <strong class="m">20+ A/B growth experiments</strong> (funnel optimisation, push/WhatsApp), lifting branded views contribution from <strong class="m">3% to 5.5%</strong> on sale days and CTR by <strong class="m">20%</strong>; identified a <strong class="m">70Mn-user</strong> branded-affinity cohort and improved ROI from <strong class="m">3x to 5x</strong>.</li>
+                <li><span class="lead">Mall Category/Brand Management —</span> scaled Branded Health &amp; Wellness via brand onboarding, search boosting, and exclusive launches — driving <strong class="m">20% MoM growth</strong> and onboarding <strong class="m">HUL, P&amp;G, Dabur, Sensodyne, Godrej, Mankind, Patanjali</strong> (some brands reaching <strong class="m">10%</strong> of online business in 4 months).</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-meta"><span class="dates">JAN 2025 —<br/>JUN 2025</span></div>
+            <div>
+              <p class="entry-role">Product Management Intern</p>
+              <p class="entry-org"><b>Meesho</b> · Bangalore, India</p>
+              <ul class="bullets">
+                <li>Scaled seller-recommendation experiments to <strong class="m">200K+ sellers</strong> through data-driven analysis; co-led removal of <strong class="m">7Mn+ duplicate product IDs</strong>, protecting <strong class="m">~7-8%</strong> of daily order volume.</li>
+                <li>Designed a zero-to-one product grouping strategy (image, attribute, behavioural signals) and led stakeholder pitching; recognised as <strong class="m">Star Performer of the Quarter</strong>.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-meta"><span class="dates">JUN 2024 —<br/>SEP 2024</span></div>
+            <div>
+              <p class="entry-role">AI/ML &amp; Product Intern</p>
+              <p class="entry-org"><b>Protean eGov Technologies</b> · Delhi, India</p>
+              <ul class="bullets">
+                <li>Built an ML/Elasticsearch-based search ranking system, improving search relevance and UX by <strong class="m">~20%</strong> through query optimisation.</li>
+                <li>Developed an ML-driven inventory forecasting system and documented search/forecasting APIs (Swagger) under the <strong class="m">Code4GovTech Mentoring Program</strong>.</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="projects">
+      <div class="section-head">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="section-body">
+        <div class="col">
+
+          <article class="entry">
+            <div class="entry-meta"><span class="dates">MAY 2023 —<br/>MAY 2024</span></div>
+            <div>
+              <p class="entry-role">Hardware Chacha</p>
+              <p class="entry-org">Year-long entrepreneurship B.Tech project · team of <b>10</b></p>
+              <ul class="bullets">
+                <li>Led end-to-end product development for an AI-enabled commerce platform, validating market gaps via <strong class="m">500+ stakeholder interviews</strong> and iterating prototypes in Figma.</li>
+                <li>Built ML-based OCR billing (GPT-integrated) and personalised recommendations, managing a <strong class="m">10-member</strong> cross-functional team through GTM, pricing, and customer acquisition.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-meta"><span class="dates">JAN 2024 —<br/>MAY 2024</span></div>
+            <div>
+              <p class="entry-role">LegalEase</p>
+              <p class="entry-org">AI legal-tech web app · team of <b>4</b></p>
+              <ul class="bullets">
+                <li>Built an AI app (T5, BART, Pegasus) to summarise legal documents, detect fraud/risk, and answer queries via chatbot; gathered requirements from <strong class="m">100+ stakeholders</strong> (lawyers, bankers, founders).</li>
+                <li>Developed and deployed the full-stack solution (Flask, Python, Azure) end-to-end, iterating on features using live user metrics and feedback.</li>
+              </ul>
+            </div>
+          </article>
+
+          <p style="color:var(--text-dim); font-size:0.9rem; margin-top:1.6rem;">
+            Also shipped: <em>LegalEase</em> research iterations, <em>Culture Jaano</em> (cultural-discovery Figma prototype), <em>GO-Pharma</em> (medicine e-commerce), and <em>Tank vs. Tank</em> (PvP game, LibGDX) — full list on <a class="pill" style="padding:0.15rem 0.5rem;" href="https://github.com/aman21376" target="_blank" rel="noopener">GitHub ↗</a>
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="education">
+      <div class="section-head">
+        <span class="section-num">05</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="section-body">
+        <div class="col">
+          <div class="edu-row">
+            <span class="edu-school">Indraprastha Institute of Information Technology, Delhi</span>
+            <span class="edu-dates">DEC 2021 — MAY 2025</span>
+          </div>
+          <p class="edu-degree">B.Tech, Computer Science &amp; Social Sciences</p>
+          <div class="edu-list">
+            <div><span class="label">MAJOR — ECONOMICS</span>Behavioural Economics, Game Theory, Microeconomics, Econometrics, Convex Optimisation, Macroeconomics</div>
+            <div><span class="label">MINOR — ENTREPRENEURSHIP</span>Foundations of Entrepreneurship, Marketing, Finance, Business of AI, Valuation &amp; Portfolio Management</div>
+            <div><span class="label">COURSEWORK</span>Machine Learning, Human-Computer Interaction, Information Retrieval, Database Management</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="recognition">
+      <div class="section-head">
+        <span class="section-num">06</span>
+        <h2 class="section-title">Recognition</h2>
+      </div>
+      <div class="section-body">
+        <div class="col">
+          <div class="chip-group">
+            <h4>Awards &amp; achievements</h4>
+            <div class="chipset">
+              <span class="chip"><b>Top 10</b>, Unstop Engineering School Leaders India 2025</span>
+              <span class="chip"><b>National Winner</b>, Smart India Hackathon 2024</span>
+              <span class="chip"><b>AIR 2</b>, Meesho Dice Challenge — Rank 1 in Product, 10,000+ participants</span>
+              <span class="chip">Selected, Code4GovTech Mentorship Program (2,600 applicants)</span>
+              <span class="chip"><b>AIR 2</b>, ACM Hackdata, 750+ participants</span>
+              <span class="chip"><b>Top 100</b>, Amazon ML Challenge (top 0.1% of 72,000+)</span>
+              <span class="chip">Selected, Y Combinator Startup School India</span>
+            </div>
+          </div>
+          <div class="chip-group">
+            <h4>Leadership</h4>
+            <div class="chipset">
+              <span class="chip"><b>Convenor</b>, E-Summit '24, IIIT Delhi — 200+ members</span>
+              <span class="chip"><b>COO</b>, E-Cell IIITD — 50+ member team</span>
+              <span class="chip">Student Council Representative, CSSS</span>
+              <span class="chip">Operations Lead, Feeding India × Poshan IIITD</span>
+              <span class="chip">Lead, Institute Innovation Council IIITD</span>
+              <span class="chip">Member, TiE Delhi 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="contact" id="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-num">07</span>
+        <h2 class="section-title">Get in touch</h2>
+      </div>
+      <div class="section-body">
+        <div class="col contact-inner">
+          <p class="contact-lede">Open to product, growth, and analytics roles at the intersection of AI and commerce — or just a good conversation about experimentation. Reach out.</p>
+          <div class="big-links">
+            <a class="big-link" href="mailto:aman.work.ranjan@gmail.com">aman.work.ranjan@gmail.com</a>
+            <a class="big-link" href="https://www.linkedin.com/in/aman-ranjan-a8853320b/" target="_blank" rel="noopener">linkedin.com/in/aman-ranjan</a>
+            <a class="big-link" href="https://github.com/aman21376" target="_blank" rel="noopener">github.com/aman21376</a>
+          </div>
+          <div class="foot-meta">
+            <span>Bangalore, India</span>
+            <span>Senior Associate, Product &amp; Growth — Meesho</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var toggle = document.getElementById('themeToggle');
+  var saved = localStorage.getItem('theme');
+  if (saved) root.setAttribute('data-theme', saved);
+
+  function currentIsDark() {
+    var t = root.getAttribute('data-theme');
+    if (t) return t === 'dark';
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+
+  toggle.addEventListener('click', function () {
+    var next = currentIsDark() ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // KPI count-up
+  var kpis = document.querySelectorAll('.kpi-num[data-count]');
+  function animateKpi(el) {
+    var target = parseInt(el.getAttribute('data-count'), 10);
+    var suffix = el.getAttribute('data-suffix') || '';
+    if (reduce) { el.textContent = target + suffix; return; }
+    var start = null;
+    var duration = 1100;
+    function step(ts) {
+      if (!start) start = ts;
+      var p = Math.min((ts - start) / duration, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(eased * target) + suffix;
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  var kpiObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        animateKpi(entry.target);
+        kpiObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.4 });
+  kpis.forEach(function (el) { kpiObserver.observe(el); });
+
+  // entry fade-in
+  var entries = document.querySelectorAll('.entry');
+  var entryObserver = new IntersectionObserver(function (list) {
+    list.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+        entryObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  entries.forEach(function (el) { entryObserver.observe(el); });
+})();
+</script>
+</body>
+</html>

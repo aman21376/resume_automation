@@ -27,12 +27,26 @@
     "source": "linkedin",
     "title": "AI Business Analyst (m/f/d)"
   },
+  "ai business analyst|deloitte|IE": {
+    "company": "Deloitte",
+    "first_seen": "2026-07-27",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "AI Business Analyst"
+  },
   "ai product manager i|hcltech|IN": {
     "company": "HCLTech",
     "first_seen": "2026-07-21",
     "region": "IN",
     "source": "indeed",
     "title": "AI Product Manager I"
+  },
+  "ai product manager|capgemini|IN": {
+    "company": "Capgemini",
+    "first_seen": "2026-07-27",
+    "region": "IN",
+    "source": "indeed",
+    "title": "AI Product Manager"
   },
   "analyst - product & strategy|rupeek|IN": {
     "company": "Rupeek",
@@ -109,6 +123,13 @@
     "first_seen": "2026-07-22",
     "region": "IN",
     "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
+  "associate product manager|myadvice|IN": {
+    "company": "MyAdvice",
+    "first_seen": "2026-07-27",
+    "region": "IN",
+    "source": "indeed",
     "title": "Associate Product Manager"
   },
   "associate product manager|navi|IN": {
@@ -390,6 +411,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Business Analyst Groningen"
+  },
+  "business analyst l luxembourg|talan|LU": {
+    "company": "Talan",
+    "first_seen": "2026-07-27",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst l Luxembourg"
   },
   "business analyst manager - procurement|nestl\u00e9|IN": {
     "company": "Nestl\u00e9",
@@ -734,6 +762,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|techtalent resourcing|LU": {
+    "company": "TechTalent Resourcing",
+    "first_seen": "2026-07-27",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|techvaria|IN": {
     "company": "Techvaria",
     "first_seen": "2026-07-17",
@@ -957,6 +992,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "E-com and Q-com growth manager"
+  },
+  "e-commerce/ product manager|royfort ug|DE": {
+    "company": "Royfort UG",
+    "first_seen": "2026-07-27",
+    "region": "DE",
+    "source": "indeed",
+    "title": "e-Commerce/ Product Manager"
   },
   "e-front business analyst|talenttrade|LU": {
     "company": "TalentTrade",
@@ -1756,6 +1798,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|helsing|DE": {
+    "company": "Helsing",
+    "first_seen": "2026-07-27",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product manager|inxiteout|IN": {
     "company": "InXiteOut",
     "first_seen": "2026-07-16",
@@ -2189,6 +2238,20 @@
     "region": "IN",
     "source": "indeed",
     "title": "Technical Product manager"
+  },
+  "technical product manager|sigmar recruitment|IE": {
+    "company": "Sigmar Recruitment",
+    "first_seen": "2026-07-27",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Technical Product Manager"
+  },
+  "technical product manager|unitedhealth group|IN": {
+    "company": "UnitedHealth Group",
+    "first_seen": "2026-07-27",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Technical Product Manager"
   },
   "technical product manager|whatfix|IN": {
     "company": "Whatfix",

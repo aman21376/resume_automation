@@ -202,6 +202,13 @@
     "source": "indeed",
     "title": "Associate Product Owner / Business Analyst (f/m/d)"
   },
+  "associate product support analyst|epsilon|IN": {
+    "company": "Epsilon",
+    "first_seen": "2026-07-28",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Associate Product Support Analyst"
+  },
   "associate strategy operations (w/m/d)|enpal|DE": {
     "company": "Enpal",
     "first_seen": "2026-07-27",
@@ -299,6 +306,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Business Analyst (Central Operations)"
+  },
+  "business analyst (drwn)|darwin recruitment|DE": {
+    "company": "Darwin Recruitment",
+    "first_seen": "2026-07-28",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Business Analyst (DRWN)"
   },
   "business analyst (h/f)|davidson consulting|LU": {
     "company": "Davidson consulting",
@@ -405,6 +419,13 @@
     "source": "indeed",
     "title": "Business Analyst - Workforce Management"
   },
+  "business analyst -bre|khatabook|IN": {
+    "company": "KhataBook",
+    "first_seen": "2026-07-28",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst -BRE"
+  },
   "business analyst 1-ops|oracle|IN": {
     "company": "Oracle",
     "first_seen": "2026-07-17",
@@ -482,6 +503,13 @@
     "source": "linkedin",
     "title": "Business Analyst Workflowmanagementsystem (all genders)"
   },
+  "business analyst \u2013 omnichannel ecommerce platform|shakers|NL": {
+    "company": "Shakers",
+    "first_seen": "2026-07-28",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst \u2013 Omnichannel eCommerce Platform"
+  },
   "business analyst \u2013 process analysis & business transformation|cyberr|LU": {
     "company": "Cyberr",
     "first_seen": "2026-07-26",
@@ -495,6 +523,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Business Analyst \u2013 Web Banking"
+  },
+  "business analyst, amazon fresh|amazon|IN": {
+    "company": "Amazon",
+    "first_seen": "2026-07-28",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst, Amazon Fresh"
   },
   "business analyst, data & ai (m/f/d)|ib vogt gmbh|DE": {
     "company": "ib Vogt GmbH",
@@ -1609,6 +1644,13 @@
     "source": "linkedin",
     "title": "Product Manager at ShopDeck"
   },
+  "product manager authoring|learnosity|IE": {
+    "company": "Learnosity",
+    "first_seen": "2026-07-28",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager Authoring"
+  },
   "product manager build|learnosity|IE": {
     "company": "Learnosity",
     "first_seen": "2026-07-18",
@@ -1783,6 +1825,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Manager:in - ETERNO Cloud"
+  },
+  "product manager:in / product owner (all genders welcome) \u2013 operation support systems|easybell gmbh|DE": {
+    "company": "easybell GmbH",
+    "first_seen": "2026-07-28",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager:in / Product Owner (all genders welcome) \u2013 Operation Support Systems"
   },
   "product manager|ab inbev gcc india|IN": {
     "company": "AB InBev GCC India",

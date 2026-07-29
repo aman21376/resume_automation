@@ -328,6 +328,13 @@
     "source": "linkedin",
     "title": "Business Analyst (Hubspot Implementation)"
   },
+  "business analyst (hybrid)|torentify|DE": {
+    "company": "Torentify",
+    "first_seen": "2026-07-29",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Business Analyst (hybrid)"
+  },
   "business analyst (m/w/d)|e.on|DE": {
     "company": "E.ON",
     "first_seen": "2026-07-26",
@@ -516,6 +523,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Business Analyst \u2013 Process Analysis & Business Transformation"
+  },
+  "business analyst \u2013 sap brim (scrum)|techmax it consultancy|DE": {
+    "company": "TechMax IT Consultancy",
+    "first_seen": "2026-07-29",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Business Analyst \u2013 SAP BRIM (Scrum)"
   },
   "business analyst \u2013 web banking|avaloq|DE": {
     "company": "Avaloq",
@@ -902,6 +916,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analytics analyst|citi|IN": {
+    "company": "Citi",
+    "first_seen": "2026-07-29",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analytics Analyst"
+  },
   "business growth analyst (madrid based)|fever|DE": {
     "company": "Fever",
     "first_seen": "2026-07-15",
@@ -999,6 +1020,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Creative Strategist, Growth Marketing"
+  },
+  "data & ai value engineer: product & quality processes|ferrero|LU": {
+    "company": "Ferrero",
+    "first_seen": "2026-07-29",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Data & AI Value Engineer: Product & Quality Processes"
   },
   "data & product strategy officer (m/f/x) - cdi, 40h/semaine|sodexo|LU": {
     "company": "Sodexo",
@@ -1251,6 +1279,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "ITSM Product Owner"
+  },
+  "jr product analyst - bangalore -hybrid|drinkprime|IN": {
+    "company": "DrinkPrime",
+    "first_seen": "2026-07-29",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Jr Product Analyst - Bangalore -Hybrid"
   },
   "jr. product manager joolz|milk design bv joolz|NL": {
     "company": "Milk Design BV Joolz",
@@ -1868,6 +1903,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|ambaflex|NL": {
+    "company": "Ambaflex",
+    "first_seen": "2026-07-29",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
   "product manager|aris|IN": {
     "company": "ARIS",
     "first_seen": "2026-07-27",
@@ -2019,6 +2061,13 @@
     "company": "Helsing",
     "first_seen": "2026-07-27",
     "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|icon plc|IE": {
+    "company": "ICON plc",
+    "first_seen": "2026-07-29",
+    "region": "IE",
     "source": "linkedin",
     "title": "Product Manager"
   },
@@ -2449,6 +2498,13 @@
     "source": "linkedin",
     "title": "Shared Technology Product Analyst"
   },
+  "software product owner|ses|LU": {
+    "company": "SES",
+    "first_seen": "2026-07-29",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Software Product Owner"
+  },
   "strategy & analytics manager- travel supply & ai (100% remote - ireland)|hopper|IE": {
     "company": "Hopper",
     "first_seen": "2026-07-26",
@@ -2574,6 +2630,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Workday Business Analyst"
+  },
+  "working student, junior product owner (m/f/d)|greenstone energy gmbh|DE": {
+    "company": "GreenStone Energy GmbH",
+    "first_seen": "2026-07-29",
+    "region": "DE",
+    "source": "indeed",
+    "title": "WORKING STUDENT, JUNIOR PRODUCT OWNER (M/F/D)"
   },
   "zone business analyst - consumer engagement services|nestl\u00e9|IN": {
     "company": "Nestl\u00e9",

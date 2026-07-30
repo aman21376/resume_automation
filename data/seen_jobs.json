@@ -97,6 +97,13 @@
     "source": "linkedin",
     "title": "Associate Product Manager Medical Device"
   },
+  "associate product manager, e-commerce|dyson|NL": {
+    "company": "Dyson",
+    "first_seen": "2026-07-30",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Associate Product Manager, E-Commerce"
+  },
   "associate product manager-2|ralph lauren|IN": {
     "company": "Ralph Lauren",
     "first_seen": "2026-07-17",
@@ -151,6 +158,13 @@
     "first_seen": "2026-07-26",
     "region": "IN",
     "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
+  "associate product manager|perfios software solutions|IN": {
+    "company": "Perfios Software Solutions",
+    "first_seen": "2026-07-30",
+    "region": "IN",
+    "source": "indeed",
     "title": "Associate Product Manager"
   },
   "associate product manager|pinnacleu|IN": {
@@ -636,6 +650,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|codeyoung|IN": {
+    "company": "Codeyoung",
+    "first_seen": "2026-07-30",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|cognizant|IN": {
     "company": "Cognizant",
     "first_seen": "2026-07-17",
@@ -654,6 +675,13 @@
     "company": "Cosmote Global Solutions",
     "first_seen": "2026-07-16",
     "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|curefit|IN": {
+    "company": "Curefit",
+    "first_seen": "2026-07-30",
+    "region": "IN",
     "source": "linkedin",
     "title": "Business Analyst"
   },
@@ -731,6 +759,13 @@
     "company": "HUMANCAPiTAL BV",
     "first_seen": "2026-07-15",
     "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|ike solutions|LU": {
+    "company": "iKe Solutions",
+    "first_seen": "2026-07-30",
+    "region": "LU",
     "source": "linkedin",
     "title": "Business Analyst"
   },
@@ -1125,6 +1160,13 @@
     "region": "LU",
     "source": "indeed",
     "title": "e-Front Business Analyst"
+  },
+  "freelance product manager|brookwood recruitment ltd|NL": {
+    "company": "Brookwood Recruitment Ltd",
+    "first_seen": "2026-07-30",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Freelance Product Manager"
   },
   "functional analyst (f/m/d)|deutsche b\u00f6rse group|LU": {
     "company": "Deutsche B\u00f6rse Group",
@@ -1609,6 +1651,13 @@
     "source": "linkedin",
     "title": "Product Manager - (Payments, Fintech)"
   },
+  "product manager - ai neobank app|bjak|IE": {
+    "company": "BJAK",
+    "first_seen": "2026-07-30",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager - AI Neobank App"
+  },
   "product manager - berlin|root global|DE": {
     "company": "Root Global",
     "first_seen": "2026-07-15",
@@ -1797,6 +1846,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Product Manager, E-Invoicing"
+  },
+  "product manager, europe|verra mobility|NL": {
+    "company": "Verra Mobility",
+    "first_seen": "2026-07-30",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager, Europe"
   },
   "product manager, flavour & formulation|aquablu|NL": {
     "company": "AQUABLU",
@@ -2435,6 +2491,13 @@
     "source": "linkedin",
     "title": "Product Owner"
   },
+  "product owner|mpower plus|NL": {
+    "company": "MPower Plus",
+    "first_seen": "2026-07-30",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
   "product owner|siemens healthineers|IN": {
     "company": "Siemens Healthineers",
     "first_seen": "2026-07-20",
@@ -2462,6 +2525,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "PROXY PRODUCT OWNER"
+  },
+  "remote business analyst|turing|IN": {
+    "company": "Turing",
+    "first_seen": "2026-07-30",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Remote Business Analyst"
   },
   "revenue growth manager- fmcg|amicus search & recruitment|IE": {
     "company": "Amicus Search & Recruitment",

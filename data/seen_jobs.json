@@ -34,6 +34,13 @@
     "source": "linkedin",
     "title": "AI Business Analyst"
   },
+  "ai portfolio analyst|icon plc|IE": {
+    "company": "ICON plc",
+    "first_seen": "2026-07-31",
+    "region": "IE",
+    "source": "indeed",
+    "title": "AI Portfolio Analyst"
+  },
   "ai product manager i|hcltech|IN": {
     "company": "HCLTech",
     "first_seen": "2026-07-21",
@@ -128,6 +135,13 @@
   "associate product manager|groww|IN": {
     "company": "Groww",
     "first_seen": "2026-07-15",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
+  "associate product manager|juspay|IN": {
+    "company": "JUSPAY",
+    "first_seen": "2026-07-31",
     "region": "IN",
     "source": "linkedin",
     "title": "Associate Product Manager"
@@ -474,6 +488,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Business Analyst Finanzen / Product Owner DIAMANT (w/m/d)"
+  },
+  "business analyst funds onboarding|taleo consulting|LU": {
+    "company": "Taleo Consulting",
+    "first_seen": "2026-07-31",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst Funds Onboarding"
   },
   "business analyst groningen|sopra steria|NL": {
     "company": "Sopra Steria",
@@ -849,6 +870,13 @@
   "business analyst|primus global solutions (primus uk & europe)|NL": {
     "company": "PRIMUS Global Solutions (PRIMUS UK & Europe)",
     "first_seen": "2026-07-17",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|response informatics|NL": {
+    "company": "Response Informatics",
+    "first_seen": "2026-07-31",
     "region": "NL",
     "source": "linkedin",
     "title": "Business Analyst"
@@ -1378,6 +1406,13 @@
     "source": "linkedin",
     "title": "Marketing Manager, Brand Experience"
   },
+  "medior business analist|sogeti|NL": {
+    "company": "Sogeti",
+    "first_seen": "2026-07-31",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Medior Business Analist"
+  },
   "mid-level calypso business analyst|epam systems|IE": {
     "company": "EPAM Systems",
     "first_seen": "2026-07-20",
@@ -1538,6 +1573,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Product Manager\nRotterdam HQ\nFulltime"
+  },
+  "product manager (32-40 uur)|bartrack|NL": {
+    "company": "BarTrack",
+    "first_seen": "2026-07-31",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product manager (32-40 uur)"
   },
   "product manager (ai)|nostrion|NL": {
     "company": "Nostrion",
@@ -2085,6 +2127,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|fresh 'n rebel|NL": {
+    "company": "Fresh 'n Rebel",
+    "first_seen": "2026-07-31",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product manager|gocomet|IN": {
     "company": "Gocomet",
     "first_seen": "2026-07-17",
@@ -2188,6 +2237,13 @@
     "first_seen": "2026-07-17",
     "region": "IN",
     "source": "indeed",
+    "title": "Product Manager"
+  },
+  "product manager|lowe's india|IN": {
+    "company": "Lowe's India",
+    "first_seen": "2026-07-31",
+    "region": "IN",
+    "source": "linkedin",
     "title": "Product Manager"
   },
   "product manager|maxxton b.v.|NL": {

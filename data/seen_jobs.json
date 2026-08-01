@@ -6,6 +6,13 @@
     "source": "indeed",
     "title": "(Associate) Product Manager (f/m/d)"
   },
+  "(junior) product manager - growth platform|raisin|DE": {
+    "company": "Raisin",
+    "first_seen": "2026-08-01",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "(Junior) Product Manager - Growth Platform"
+  },
   "agile product owner associate|allianz|IE": {
     "company": "Allianz",
     "first_seen": "2026-07-17",
@@ -54,6 +61,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "AI Product Manager"
+  },
+  "ai product owner|deloitte|IE": {
+    "company": "Deloitte",
+    "first_seen": "2026-08-01",
+    "region": "IE",
+    "source": "indeed",
+    "title": "AI Product Owner"
   },
   "ai/ml associate engineer|jpmorganchase|IE": {
     "company": "JPMorganChase",
@@ -264,6 +278,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Brand Manager- FMCG"
+  },
+  "business & data analyst|canon|NL": {
+    "company": "Canon",
+    "first_seen": "2026-08-01",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business & Data Analyst"
   },
   "business analist pega|ilionx|NL": {
     "company": "ilionx",
@@ -951,6 +972,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|us3 consulting|NL": {
+    "company": "Us3 Consulting",
+    "first_seen": "2026-08-01",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|vass benelux|LU": {
     "company": "VASS BENELUX",
     "first_seen": "2026-07-17",
@@ -1125,6 +1153,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Delivery Product Manager"
+  },
+  "depositary analyst|u.s. bank|LU": {
+    "company": "U.S. Bank",
+    "first_seen": "2026-08-01",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Depositary Analyst"
   },
   "digital and insights manager|stott and may|LU": {
     "company": "Stott and May",
@@ -1336,6 +1371,13 @@
     "source": "linkedin",
     "title": "IT Business Analyst"
   },
+  "it consultant / it business analyst (f/m/d) - digital real estate|ditenso|DE": {
+    "company": "Ditenso",
+    "first_seen": "2026-08-01",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "IT Consultant / IT Business Analyst (f/m/d) - Digital Real Estate"
+  },
   "it project manager & business analyst|eu industrial club iv gp sarl|LU": {
     "company": "EU Industrial Club IV GP SARL",
     "first_seen": "2026-07-17",
@@ -1412,6 +1454,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Medior Business Analist"
+  },
+  "medior business analyst|clavem group|LU": {
+    "company": "Clavem Group",
+    "first_seen": "2026-08-01",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Medior Business Analyst"
   },
   "mid-level calypso business analyst|epam systems|IE": {
     "company": "EPAM Systems",
@@ -1567,6 +1616,13 @@
     "source": "linkedin",
     "title": "Product Information Analyst II \u2013 Local Creation, EMEA"
   },
+  "product lead|jobgether|LU": {
+    "company": "Jobgether",
+    "first_seen": "2026-08-01",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product Lead"
+  },
   "product manager\nrotterdam hq\nfulltime|fresh 'n rebel|NL": {
     "company": "Fresh 'n Rebel",
     "first_seen": "2026-07-15",
@@ -1713,6 +1769,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Manager - Consumer Selling C2C (f/d/m)"
+  },
+  "product manager - digital sales|sse plc|IE": {
+    "company": "SSE PLC",
+    "first_seen": "2026-08-01",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Product Manager - Digital Sales"
   },
   "product manager - homedeal|skydreams|NL": {
     "company": "Skydreams",
@@ -2414,6 +2477,13 @@
     "source": "indeed",
     "title": "Product Manager"
   },
+  "product operations manager|linkedin|IN": {
+    "company": "LinkedIn",
+    "first_seen": "2026-08-01",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Operations Manager"
+  },
   "product owner (f/m/d) - office & cloud storage|strato|DE": {
     "company": "STRATO",
     "first_seen": "2026-07-17",
@@ -2469,6 +2539,20 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Product Owner - Dublin"
+  },
+  "product owner - registration route & ab testing (f/m/d)|finanzcheck.de|DE": {
+    "company": "Finanzcheck.de",
+    "first_seen": "2026-08-01",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Owner - Registration Route & AB Testing (f/m/d)"
+  },
+  "product owner - registration route & ab testing (f/m/d)|smava gmbh|DE": {
+    "company": "Smava GmbH",
+    "first_seen": "2026-08-01",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Owner - Registration Route & AB Testing (f/m/d)"
   },
   "product owner / business analist|isoft nederland|NL": {
     "company": "iSOFT Nederland",
@@ -2672,6 +2756,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "Technical Product manager"
+  },
+  "technical product manager|protex ai|IE": {
+    "company": "Protex AI",
+    "first_seen": "2026-08-01",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Technical Product Manager"
   },
   "technical product manager|sigmar recruitment|IE": {
     "company": "Sigmar Recruitment",

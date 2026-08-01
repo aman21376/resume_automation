@@ -10,7 +10,8 @@
     "score": 90,
     "source": "linkedin",
     "title": "Product Manager",
-    "url": "https://in.linkedin.com/jobs/view/product-manager-at-lowe-s-india-4446032958"
+    "url": "https://in.linkedin.com/jobs/view/product-manager-at-lowe-s-india-4446032958",
+    "visa_status": "unclear"
   },
   {
     "category": "product_manager",
@@ -23,7 +24,8 @@
     "score": 65,
     "source": "linkedin",
     "title": "Associate Product Manager",
-    "url": "https://in.linkedin.com/jobs/view/associate-product-manager-at-juspay-4446713027"
+    "url": "https://in.linkedin.com/jobs/view/associate-product-manager-at-juspay-4446713027",
+    "visa_status": "unclear"
   },
   {
     "category": "business_analyst",
@@ -36,7 +38,8 @@
     "score": 50,
     "source": "linkedin",
     "title": "Business Analyst Funds Onboarding",
-    "url": "https://lu.linkedin.com/jobs/view/business-analyst-funds-onboarding-at-taleo-consulting-4443254528"
+    "url": "https://lu.linkedin.com/jobs/view/business-analyst-funds-onboarding-at-taleo-consulting-4443254528",
+    "visa_status": "unclear"
   },
   {
     "category": "product_manager",
@@ -49,7 +52,8 @@
     "score": 30,
     "source": "linkedin",
     "title": "Product manager (32-40 uur)",
-    "url": "https://nl.linkedin.com/jobs/view/product-manager-32-40-uur-at-bartrack-4443244583"
+    "url": "https://nl.linkedin.com/jobs/view/product-manager-32-40-uur-at-bartrack-4443244583",
+    "visa_status": "unclear"
   },
   {
     "category": "default",
@@ -62,7 +66,8 @@
     "score": 28,
     "source": "indeed",
     "title": "AI Portfolio Analyst",
-    "url": "https://to.indeed.com/aab7r9jbdypc"
+    "url": "https://to.indeed.com/aab7r9jbdypc",
+    "visa_status": "unclear"
   },
   {
     "category": "business_analyst",
@@ -75,7 +80,8 @@
     "score": 25,
     "source": "linkedin",
     "title": "Business Analyst",
-    "url": "https://nl.linkedin.com/jobs/view/business-analyst-at-response-informatics-4445483506"
+    "url": "https://nl.linkedin.com/jobs/view/business-analyst-at-response-informatics-4445483506",
+    "visa_status": "unclear"
   },
   {
     "category": "product_manager",
@@ -88,7 +94,8 @@
     "score": 25,
     "source": "linkedin",
     "title": "Product Manager",
-    "url": "https://nl.linkedin.com/jobs/view/product-manager-at-fresh-n-rebel-4441522782"
+    "url": "https://nl.linkedin.com/jobs/view/product-manager-at-fresh-n-rebel-4441522782",
+    "visa_status": "unclear"
   },
   {
     "category": "default",
@@ -101,6 +108,7 @@
     "score": 10,
     "source": "linkedin",
     "title": "Medior Business Analist",
-    "url": "https://nl.linkedin.com/jobs/view/medior-business-analist-at-sogeti-4438096939"
+    "url": "https://nl.linkedin.com/jobs/view/medior-business-analist-at-sogeti-4438096939",
+    "visa_status": "unclear"
   }
 ]

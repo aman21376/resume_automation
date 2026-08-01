@@ -29,7 +29,29 @@ ROLE_CATEGORIES = {
     "growth": ["growth manager", "growth lead", "growth analyst", "growth associate"],
 }
 
-MAX_YEARS_REQUIRED = 1.5  # candidate has 1 year full-time + 9 months part-time/internship (~1.5-1.75 yrs combined)
+MAX_YEARS_REQUIRED = 1.5  # candidate has 1 year full-time + 9 months part-time/internship (~1.7 yrs combined)
+
+# Candidate needs a work visa for NL/DE/IE/LU (Indian citizen) and is willing
+# to fund the visa/relocation cost personally - but many postings explicitly
+# refuse to consider anyone who doesn't already hold the right to work,
+# regardless of who pays for the process. These phrasings are a real signal
+# from repeated rejections ("we only consider candidates from the home
+# country" / "not eligible for sponsorship"), so a hit here is scored down
+# hard rather than just noted, same as an outright seniority mismatch.
+VISA_BLOCKER_MARKERS = [
+    "not eligible for visa sponsorship", "not eligible for sponsorship",
+    "no visa sponsorship", "geen visa sponsorship", "kein visa sponsorship",
+    "does not offer visa sponsorship", "do not offer visa sponsorship",
+    "unable to sponsor", "cannot sponsor", "can not sponsor", "not able to sponsor",
+    "without sponsorship", "no sponsorship available", "not provide sponsorship",
+    "does not provide sponsorship", "will not sponsor", "not sponsor visas",
+    "must have the right to work", "must have existing right to work",
+    "must already have the right to work", "must possess the right to work",
+    "candidates must have valid work authorization", "must be authorised to work",
+    "must be authorized to work", "local candidates only", "eu citizens only",
+    "eu/eea citizens only", "not eligible for visa",
+    "unable to provide visa", "we do not offer sponsorship",
+]
 
 # Domains the candidate has direct, hands-on expertise in (Meesho social
 # commerce marketplace, AI Services callbot work, Branded Health & Wellness
@@ -64,6 +86,10 @@ CONCEPT_BANK = {
 def _extract_years_required(text):
     years = [int(y) for y in re.findall(r"(\d+)\s*\+?\s*(?:-|to)?\s*\d*\s*years?", text.lower())]
     return min(years) if years else None
+
+
+def has_visa_blocker(text):
+    return any(m in text for m in VISA_BLOCKER_MARKERS)
 
 
 def classify_role(title):
@@ -133,6 +159,15 @@ def score_job(job, skills_pool=None, all_keywords=None):
         score = min(score, 15)
         reasons.append("No JD fetched yet — score capped, treat as unverified")
 
+    # Visa/sponsorship gate - a hit here means the posting explicitly refuses
+    # candidates who don't already hold the right to work, regardless of who
+    # funds the visa process. Scored down hard rather than excluded outright,
+    # same treatment as salary: never hidden, always flagged.
+    visa_blocked = has_visa_blocker(text)
+    if visa_blocked:
+        score -= 50
+        reasons.append("Posting states no visa sponsorship / local candidates only — likely to reject even self-funded visa applicants")
+
     score = max(0, min(100, score))
 
     # Salary
@@ -144,6 +179,7 @@ def score_job(job, skills_pool=None, all_keywords=None):
         "category": category,
         "reasons": reasons,
         "salary_status": salary_status,
+        "visa_status": "blocked" if visa_blocked else "unclear",
         "matched_concepts": matched_concepts,
         "years_required": years_required,
         "has_desc": has_desc,

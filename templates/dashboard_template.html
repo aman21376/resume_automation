@@ -7,6 +7,7 @@
     --gold:#b8860b; --gold-soft:#fbf3de; --gold-ink:#7a5b08;
     --teal:#2b6e6b; --teal-soft:#e4f0ef;
     --applied:#2f6f4f; --applied-soft:#e6f1ea;
+    --warn:#b3261e; --warn-soft:#fbe4e2;
     --shadow: 0 1px 2px rgba(20,36,63,0.06), 0 6px 20px -8px rgba(20,36,63,0.18);
     --radius: 10px;
   }
@@ -17,6 +18,7 @@
       --gold:#d7a437; --gold-soft:rgba(216,164,55,0.14); --gold-ink:#e9c877;
       --teal:#4fa9a3; --teal-soft:rgba(79,169,163,0.14);
       --applied:#4caf7d; --applied-soft:rgba(76,175,125,0.14);
+      --warn:#f2938c; --warn-soft:rgba(242,147,140,0.16);
       --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 10px 30px -12px rgba(0,0,0,0.6);
     }
   }
@@ -26,6 +28,7 @@
     --gold:#d7a437; --gold-soft:rgba(216,164,55,0.14); --gold-ink:#e9c877;
     --teal:#4fa9a3; --teal-soft:rgba(79,169,163,0.14);
     --applied:#4caf7d; --applied-soft:rgba(76,175,125,0.14);
+    --warn:#f2938c; --warn-soft:rgba(242,147,140,0.16);
     --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 10px 30px -12px rgba(0,0,0,0.6);
   }
   :root[data-theme="light"]{
@@ -34,6 +37,7 @@
     --gold:#b8860b; --gold-soft:#fbf3de; --gold-ink:#7a5b08;
     --teal:#2b6e6b; --teal-soft:#e4f0ef;
     --applied:#2f6f4f; --applied-soft:#e6f1ea;
+    --warn:#b3261e; --warn-soft:#fbe4e2;
     --shadow: 0 1px 2px rgba(20,36,63,0.06), 0 6px 20px -8px rgba(20,36,63,0.18);
   }
 
@@ -124,6 +128,7 @@
   .src-linkedin{background:var(--teal-soft);color:var(--teal);}
   .src-indeed{background:var(--gold-soft);color:var(--gold-ink);}
   .new-badge{font-size:10px;text-transform:uppercase;letter-spacing:0.05em;padding:1px 6px;border-radius:4px;font-weight:700;background:var(--gold);color:#fff;margin-left:6px;}
+  .visa-badge{font-size:10px;text-transform:uppercase;letter-spacing:0.05em;padding:1px 6px;border-radius:4px;font-weight:700;background:var(--warn-soft);color:var(--warn);border:1px solid var(--warn);margin-left:6px;}
   .loc{font-size:13px;color:var(--ink-soft);}
   .chip{
     font-size:11px; padding:3px 8px; border-radius:999px; text-align:center;
@@ -202,6 +207,7 @@
     Salary is rarely listed by Indeed or LinkedIn; treat "salary not listed" as unverified, not absent. Fit scoring assumes 1 year full-time + 9 months part-time/internship experience, so roles asking well above that are scored down.
     Postings older than 3 weeks are treated as likely closed and hidden from the New/All lists automatically &mdash; this is re-checked live every time you open this page (against the posting's original date), not just when it was first added, so a job that goes stale after sitting here a while will quietly drop out of view on its own. Applied jobs are the one exception: they stay visible in the <b>Applied</b> tab forever regardless of age, since that's your record of what you did, not a live listing. Once a listing appears here it's recorded and won't be shown again in a future batch.
     Marking a job "Applied" moves it out of the region lists into the <b>Applied</b> tab above, permanently, across every country and every day &mdash; it's saved in this browser and survives page refreshes and future updates to this same dashboard link.
+Jobs whose posting explicitly states no visa sponsorship / local-candidates-only / must-already-have-right-to-work are flagged with a red <b>No sponsorship</b> badge and scored down heavily &mdash; this is a text match against the saved description, so it can only catch what that text actually contains, not what the original listing said if it was condensed out during scoring; always verify on the real posting before ruling a job in or out on this basis alone.
 Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview &mdash; both are tailored to that specific job description (resume bullets are reordered to lead with the most relevant experience; the cover letter's story paragraph is auto-matched from a library of real accounts). To get a file for an application: this page's viewer may block in-page downloads/new tabs entirely, so the reliable way is to ask Claude directly in chat &mdash; e.g. "send me the resume and cover letter for &lt;job title&gt; at &lt;company&gt;" &mdash; and it'll arrive as real PDF files. The "Open in new tab" / "Download (HTML)" buttons here follow whichever tab (resume or cover letter) is currently selected, and are a convenience that works in some browsers, but don't rely on them if nothing happens when clicked. Applying itself always opens the real listing in a new tab &mdash; nothing here submits anything automatically.
   </p>
 </div>
@@ -352,6 +358,7 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
       : '<span class="chip conf-title_only">Title only</span>';
     const sourceLabel = job.source === 'linkedin' ? 'LinkedIn' : 'Indeed';
     const newBadge = (job.is_new && !isApplied) ? '<span class="new-badge">New</span>' : '';
+    const visaBadge = job.visa_status === 'blocked' ? '<span class="visa-badge" title="Posting explicitly states no visa sponsorship / local candidates only">No sponsorship</span>' : '';
     const appliedNote = isApplied
       ? `<div class="note">Applied ${fmtDate(applied[job.key])}.</div>`
       : '';
@@ -364,7 +371,7 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
       <div class="row${isApplied?' is-applied':''}" data-key="${job.key}">
         <div class="row-head" onclick="window.__toggleRow('${job.key}')">
           <div class="score">${job.score}</div>
-          <div class="titlecell"><div class="t">${escapeHtml(job.title)}${newBadge}</div><div class="c">${escapeHtml(job.company)} <span class="src src-${job.source||'indeed'}">${sourceLabel}</span></div></div>
+          <div class="titlecell"><div class="t">${escapeHtml(job.title)}${newBadge}${visaBadge}</div><div class="c">${escapeHtml(job.company)} <span class="src src-${job.source||'indeed'}">${sourceLabel}</span></div></div>
           <div class="loc">${escapeHtml(job.location)}</div>
           <div class="conf">${confChip}</div>
           <div>${salChip}</div>
@@ -386,6 +393,7 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
               <button class="btn ${isApplied?'applied-btn':'ghost'}" onclick="window.__toggleApplied('${job.key}', event)">${isApplied ? '&#10003; Marked applied — undo' : 'Mark as applied'}</button>
               ${appliedNote}
               <div class="note">Source: ${sourceLabel} &middot; Region: ${REGION_NAMES[job.region]} &middot; Surfaced ${fmtDate(job.date)} &middot; Fit score ${job.score}/100 &middot; ${job.confidence==='reviewed' ? 'Full JD reviewed before scoring' : 'Scored on title/role only — skim the real listing first'}${job.posted_date ? ' &middot; Posted ' + escapeHtml(job.posted_date) : ''}.</div>
+              ${job.visa_status === 'blocked' ? '<div class="note" style="color:var(--warn);">&#9888; This posting explicitly states no visa sponsorship / local candidates only — likely to reject even a self-funded visa application. Verify on the real listing before spending time on it.</div>' : ''}
               <div class="note">Cover letter is auto-matched to this job from a library of real stories — good as a starting point, but ask Claude directly for a fully hand-written one if this application matters enough to invest in.</div>
             </div>
           </div>

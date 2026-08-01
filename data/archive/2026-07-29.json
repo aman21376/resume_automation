@@ -10,7 +10,8 @@
     "score": 48,
     "source": "indeed",
     "title": "Product Manager",
-    "url": "https://to.indeed.com/aaxv24x7qkqd"
+    "url": "https://to.indeed.com/aaxv24x7qkqd",
+    "visa_status": "unclear"
   },
   {
     "category": "product_manager",
@@ -23,7 +24,8 @@
     "score": 40,
     "source": "indeed",
     "title": "Software Product Owner",
-    "url": "https://to.indeed.com/aasxc2wk74zy"
+    "url": "https://to.indeed.com/aasxc2wk74zy",
+    "visa_status": "unclear"
   },
   {
     "category": "business_analyst",
@@ -36,7 +38,8 @@
     "score": 40,
     "source": "linkedin",
     "title": "Business Analyst (hybrid)",
-    "url": "https://de.linkedin.com/jobs/view/business-analyst-hybrid-at-torentify-4446351908"
+    "url": "https://de.linkedin.com/jobs/view/business-analyst-hybrid-at-torentify-4446351908",
+    "visa_status": "unclear"
   },
   {
     "category": "business_analyst",
@@ -49,7 +52,8 @@
     "score": 35,
     "source": "indeed",
     "title": "Business Analytics Analyst",
-    "url": "https://to.indeed.com/aapkqyc8lqjd"
+    "url": "https://to.indeed.com/aapkqyc8lqjd",
+    "visa_status": "unclear"
   },
   {
     "category": "business_analyst",
@@ -62,7 +66,8 @@
     "score": 30,
     "source": "linkedin",
     "title": "Business Analyst \u2013 SAP BRIM (Scrum)",
-    "url": "https://de.linkedin.com/jobs/view/business-analyst-%E2%80%93-sap-brim-scrum-at-techmax-it-consultancy-4443255389"
+    "url": "https://de.linkedin.com/jobs/view/business-analyst-%E2%80%93-sap-brim-scrum-at-techmax-it-consultancy-4443255389",
+    "visa_status": "unclear"
   },
   {
     "category": "product_manager",
@@ -75,7 +80,8 @@
     "score": 30,
     "source": "linkedin",
     "title": "Product Manager",
-    "url": "https://ie.linkedin.com/jobs/view/product-manager-at-icon-plc-4445713916"
+    "url": "https://ie.linkedin.com/jobs/view/product-manager-at-icon-plc-4445713916",
+    "visa_status": "unclear"
   },
   {
     "category": "product_analyst",
@@ -88,7 +94,8 @@
     "score": 23,
     "source": "linkedin",
     "title": "Jr Product Analyst - Bangalore -Hybrid",
-    "url": "https://in.linkedin.com/jobs/view/jr-product-analyst-bangalore-hybrid-at-drinkprime-4441175765"
+    "url": "https://in.linkedin.com/jobs/view/jr-product-analyst-bangalore-hybrid-at-drinkprime-4441175765",
+    "visa_status": "unclear"
   },
   {
     "category": "product_manager",
@@ -101,7 +108,8 @@
     "score": 20,
     "source": "indeed",
     "title": "WORKING STUDENT, JUNIOR PRODUCT OWNER (M/F/D)",
-    "url": "https://to.indeed.com/aa9xzm8484mz"
+    "url": "https://to.indeed.com/aa9xzm8484mz",
+    "visa_status": "unclear"
   },
   {
     "category": "default",
@@ -114,6 +122,7 @@
     "score": 13,
     "source": "indeed",
     "title": "Data & AI Value Engineer: Product & Quality Processes",
-    "url": "https://to.indeed.com/aahpxcx6srs4"
+    "url": "https://to.indeed.com/aahpxcx6srs4",
+    "visa_status": "unclear"
   }
 ]

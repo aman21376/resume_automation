@@ -55,6 +55,7 @@ def main(today_str, out_path):
                 "score": j.get("score", 0),
                 "confidence": "reviewed" if j.get("description") else "title_only",
                 "salary_status": j.get("salary_status", "not_listed"),
+                "visa_status": j.get("visa_status", "unclear"),
                 "posted_date": j.get("posted_date"),
                 "apply_url": j["url"],
                 "resume_html": resume_html,

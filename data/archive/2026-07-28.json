@@ -10,7 +10,8 @@
     "score": 93,
     "source": "linkedin",
     "title": "Business Analyst, Amazon Fresh",
-    "url": "https://in.linkedin.com/jobs/view/business-analyst-amazon-fresh-at-amazon-4444960081"
+    "url": "https://in.linkedin.com/jobs/view/business-analyst-amazon-fresh-at-amazon-4444960081",
+    "visa_status": "unclear"
   },
   {
     "category": "business_analyst",
@@ -23,7 +24,8 @@
     "score": 65,
     "source": "indeed",
     "title": "Business Analyst -BRE",
-    "url": "https://to.indeed.com/aa4w8kljqvh8"
+    "url": "https://to.indeed.com/aa4w8kljqvh8",
+    "visa_status": "unclear"
   },
   {
     "category": "product_manager",
@@ -36,7 +38,8 @@
     "score": 30,
     "source": "linkedin",
     "title": "Product Manager:in / Product Owner (all genders welcome) \u2013 Operation Support Systems",
-    "url": "https://de.linkedin.com/jobs/view/product-manager-in-product-owner-all-genders-welcome-%E2%80%93-operation-support-systems-at-easybell-gmbh-4441093838"
+    "url": "https://de.linkedin.com/jobs/view/product-manager-in-product-owner-all-genders-welcome-%E2%80%93-operation-support-systems-at-easybell-gmbh-4441093838",
+    "visa_status": "unclear"
   },
   {
     "category": "product_manager",
@@ -49,7 +52,8 @@
     "score": 28,
     "source": "linkedin",
     "title": "Product Manager Authoring",
-    "url": "https://ie.linkedin.com/jobs/view/product-manager-authoring-at-learnosity-4443175641"
+    "url": "https://ie.linkedin.com/jobs/view/product-manager-authoring-at-learnosity-4443175641",
+    "visa_status": "unclear"
   },
   {
     "category": "default",
@@ -62,7 +66,8 @@
     "score": 25,
     "source": "indeed",
     "title": "Associate Product Support Analyst",
-    "url": "https://to.indeed.com/aaqkdjj2f8sm"
+    "url": "https://to.indeed.com/aaqkdjj2f8sm",
+    "visa_status": "unclear"
   },
   {
     "category": "business_analyst",
@@ -75,7 +80,8 @@
     "score": 21,
     "source": "linkedin",
     "title": "Business Analyst (DRWN)",
-    "url": "https://de.linkedin.com/jobs/view/business-analyst-drwn-at-darwin-recruitment-4445139663"
+    "url": "https://de.linkedin.com/jobs/view/business-analyst-drwn-at-darwin-recruitment-4445139663",
+    "visa_status": "unclear"
   },
   {
     "category": "business_analyst",
@@ -88,6 +94,7 @@
     "score": 13,
     "source": "linkedin",
     "title": "Business Analyst \u2013 Omnichannel eCommerce Platform",
-    "url": "https://nl.linkedin.com/jobs/view/business-analyst-%E2%80%93-omnichannel-ecommerce-platform-at-shakers-4441577777"
+    "url": "https://nl.linkedin.com/jobs/view/business-analyst-%E2%80%93-omnichannel-ecommerce-platform-at-shakers-4441577777",
+    "visa_status": "unclear"
   }
 ]

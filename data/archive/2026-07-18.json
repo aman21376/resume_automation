@@ -10,7 +10,8 @@
     "score": 30,
     "source": "indeed",
     "title": "Business Analyst - Retail",
-    "url": "https://to.indeed.com/aajzsklzby9p"
+    "url": "https://to.indeed.com/aajzsklzby9p",
+    "visa_status": "unclear"
   },
   {
     "category": "product_manager",
@@ -23,7 +24,8 @@
     "score": 45,
     "source": "linkedin",
     "title": "Product Manager - Percona Monitoring and Management (Remote)",
-    "url": "https://ie.linkedin.com/jobs/view/product-manager-percona-monitoring-and-management-remote-at-percona-4440371603"
+    "url": "https://ie.linkedin.com/jobs/view/product-manager-percona-monitoring-and-management-remote-at-percona-4440371603",
+    "visa_status": "unclear"
   },
   {
     "category": "business_analyst",
@@ -36,7 +38,8 @@
     "score": 35,
     "source": "indeed",
     "title": "Business Analyst Commercial",
-    "url": "https://to.indeed.com/aa28fl4nwqhx"
+    "url": "https://to.indeed.com/aa28fl4nwqhx",
+    "visa_status": "unclear"
   },
   {
     "category": "business_analyst",
@@ -49,7 +52,8 @@
     "score": 30,
     "source": "indeed",
     "title": "Business Analyst",
-    "url": "https://to.indeed.com/aanllcb4rwnl"
+    "url": "https://to.indeed.com/aanllcb4rwnl",
+    "visa_status": "unclear"
   },
   {
     "category": "product_manager",
@@ -62,7 +66,8 @@
     "score": 25,
     "source": "indeed",
     "title": "Product Owner (m/w/d)",
-    "url": "https://to.indeed.com/aabtvbmwsf6l"
+    "url": "https://to.indeed.com/aabtvbmwsf6l",
+    "visa_status": "unclear"
   },
   {
     "category": "default",
@@ -75,7 +80,8 @@
     "score": 20,
     "source": "linkedin",
     "title": "Business Management Analyst",
-    "url": "https://ie.linkedin.com/jobs/view/business-management-analyst-at-ing-4439203870"
+    "url": "https://ie.linkedin.com/jobs/view/business-management-analyst-at-ing-4439203870",
+    "visa_status": "unclear"
   },
   {
     "category": "product_manager",
@@ -88,7 +94,8 @@
     "score": 36,
     "source": "linkedin",
     "title": "Product Manager, Marketing Technology & Innovation",
-    "url": "https://ie.linkedin.com/jobs/view/product-manager-marketing-technology-innovation-at-take-two-interactive-4441303464"
+    "url": "https://ie.linkedin.com/jobs/view/product-manager-marketing-technology-innovation-at-take-two-interactive-4441303464",
+    "visa_status": "unclear"
   },
   {
     "category": "product_manager",
@@ -101,7 +108,8 @@
     "score": 31,
     "source": "linkedin",
     "title": "Product Manager Build",
-    "url": "https://ie.linkedin.com/jobs/view/product-manager-build-at-learnosity-4430592050"
+    "url": "https://ie.linkedin.com/jobs/view/product-manager-build-at-learnosity-4430592050",
+    "visa_status": "unclear"
   },
   {
     "category": "product_manager",
@@ -114,6 +122,7 @@
     "score": 18,
     "source": "indeed",
     "title": "Product Manager (m/w/d)",
-    "url": "https://to.indeed.com/aawlsybshg6x"
+    "url": "https://to.indeed.com/aawlsybshg6x",
+    "visa_status": "unclear"
   }
 ]

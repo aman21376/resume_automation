@@ -42,12 +42,12 @@ Open to conversations on product, growth, and applied AI — reach out anytime.
 Product, Growth & Enterprise AI
 
 Meesho AI Services — AI-Powered Customer Support (Enterprise Clients)
-Own end-to-end AI support: requirements, SQL analysis, phased rollouts. Run A/B tests across LLM/TTS/STT/telephony providers (Murf, Sarvam, GPT-4.1, GPT-4o, Gemini) to find the lowest-cost stack.
-• Noise (Outbound bot): cut human escalation 30%→20% and lifted CSAT 60%→75% on a device-troubleshooting voice bot.
-• Noise (Inbound, ~5,000 calls/day): designed IVR-to-bot-first routing, cutting escalation 80%→35% and lifting CSAT 35%→60%.
-• Seekho: slashed escalation 30%→0% (first full bot-resolution flow in Meesho AI Services); CSAT 55%→70%, unresolved 27%→5%.
+Own end-to-end AI support for enterprise clients: requirements, SQL analysis, phased rollouts. Run A/B tests across LLM/TTS/STT/telephony providers (Murf, Sarvam, GPT-4.1, GPT-4o, Gemini) to find the lowest-cost stack.
+• Outbound voice bot (device-troubleshooting use case): cut human escalation 30%→20% and lifted CSAT 60%→75%.
+• High-volume inbound line (~5,000 calls/day): designed IVR-to-bot-first routing, cutting escalation 80%→35% and lifting CSAT 35%→60%.
+• Another enterprise engagement: drove escalation down to 0% — the first fully bot-resolved flow in Meesho AI Services — while lifting CSAT 55%→70% and cutting unresolved cases 27%→5%.
 • Wrote SQL to analyze transcripts, escalation, and CSAT drivers; shipped fixes with DS and tech teams.
-• Moved one client from -70% gross margin to positive; cut overall AI support cost from -120% margin to breakeven.
+• Moved one client from negative to positive gross margin; cut overall AI support cost from -120% margin to breakeven.
 
 Branded Category Management & Discovery
 Own Meesho's full branded discovery page (500M+ users); lead go-to-market for 30+ Health & Wellness brand partners. Team of 4.

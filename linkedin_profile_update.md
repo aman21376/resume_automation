@@ -43,18 +43,18 @@ Product, Growth & Enterprise AI
 
 Meesho AI Services — AI-Powered Customer Support (Enterprise Clients)
 Own end-to-end AI support for enterprise clients: requirements, SQL analysis, phased rollouts. Run A/B tests across LLM/TTS/STT/telephony providers (Murf, Sarvam, GPT-4.1, GPT-4o, Gemini) to find the lowest-cost stack.
-• Outbound voice bot (device-troubleshooting use case): cut human escalation 30%→20% and lifted CSAT 60%→75%.
-• High-volume inbound line (~5,000 calls/day): designed IVR-to-bot-first routing, cutting escalation 80%→35% and lifting CSAT 35%→60%.
-• Another enterprise engagement: drove escalation down to 0% — the first fully bot-resolved flow in Meesho AI Services — while lifting CSAT 55%→70% and cutting unresolved cases 27%→5%.
+• Outbound voice bot (device-troubleshooting use case): meaningfully cut human escalation and lifted CSAT.
+• High-volume inbound line: designed IVR-to-bot-first routing, sharply cutting escalation and lifting CSAT.
+• Another enterprise engagement: drove escalation down to zero — the first fully bot-resolved flow in Meesho AI Services — while lifting CSAT and cutting unresolved cases.
 • Wrote SQL to analyze transcripts, escalation, and CSAT drivers; shipped fixes with DS and tech teams.
-• Moved one client from negative to positive gross margin; cut overall AI support cost from -120% margin to breakeven.
+• Moved one client from negative to positive gross margin; brought overall AI support economics from deep negative margin to breakeven.
 
 Branded Category Management & Discovery
-Own Meesho's full branded discovery page (500M+ users); lead go-to-market for 30+ Health & Wellness brand partners. Team of 4.
-• GTM & brand onboarding: launched 10+ national brands (Dabur, Sensodyne, Godrej); 20% MoM growth at 150% of target.
-• Brand partnerships: negotiated Meesho-exclusive launches, growing NMV share 3%→15%, ad spend share 3%→5%.
-• Acquisition campaigns: led 20+ branded user-acquisition campaigns (widgets, push, WhatsApp) on a 70Mn+ SQL-segmented cohort; sale-day views 4%→5.5%.
-• Channel optimization: A/B-tested creative to lift branded push CTR 20% and WhatsApp campaign ROI 3x→5x.
+Own Meesho's full branded discovery page; lead go-to-market for a large portfolio of Health & Wellness brand partners, leading a small cross-functional team.
+• GTM & brand onboarding: launched multiple national brands (Dabur, Sensodyne, Godrej), driving strong month-over-month category growth, well ahead of target.
+• Brand partnerships: negotiated Meesho-exclusive launches, significantly growing brand NMV and ad spend share.
+• Acquisition campaigns: led a series of branded user-acquisition campaigns (widgets, push, WhatsApp) on a broad SQL-segmented cohort, lifting sale-day views.
+• Channel optimization: A/B-tested creative to meaningfully lift branded push CTR and WhatsApp campaign ROI.
 • Measurement: SQL/Excel analysis of CSAT, revenue, and campaign performance feeding GTM decisions.
 ```
 

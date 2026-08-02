@@ -19,7 +19,7 @@ import json
 import re
 from pathlib import Path
 
-SENIOR_TITLE_MARKERS = ["senior", "sr.", "sr ", "staff", "lead ", "head of", "director", "vp ", "principal"]
+SENIOR_TITLE_MARKERS = ["senior", "sr.", "sr ", "staff", "lead ", "head of", "director", "vp ", "vice president", "svp", "evp", "chief ", "principal"]
 JUNIOR_TITLE_MARKERS = ["associate", "junior", "jr.", "analyst", "intern", "entry"]
 
 ROLE_CATEGORIES = {

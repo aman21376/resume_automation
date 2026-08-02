@@ -16,19 +16,7 @@ Senior Associate, Product & Growth @ Meesho | AI-Powered Customer Support, Brand
 ## About (max 2,600 chars)
 
 ```
-Product and business-growth operator with 1.7+ years at Meesho, working across AI-powered customer support, brand partnerships, and go-to-market execution for a 500M+ user marketplace.
-
-I currently own end-to-end AI customer support for enterprise clients — running SQL-backed transcript analysis, A/B testing LLM/TTS/STT/telephony stacks (Murf, Sarvam, GPT-4.1, GPT-4o, Gemini), and shipping bot-first support flows. Highlights: cut escalation from 80% to 35% on a 5,000-calls/day inbound bot, hit 0% escalation (first full bot-resolution flow in Meesho AI Services) on another line, and moved a client from -70% gross margin to positive — taking overall AI support economics from -120% margin to breakeven.
-
-Alongside that, I own Meesho's full branded discovery page and lead go-to-market for 30+ Health & Wellness brand partners. I've onboarded 10+ national brands (Dabur, Sensodyne, Godrej and others), delivered 20% MoM category growth at 150% of target, grown brand NMV share from 3% to 15%, and run 20+ acquisition campaigns across a 70Mn+ SQL-segmented user cohort — lifting WhatsApp campaign ROI from 3x to 5x.
-
-Before this, I was a Product Management Intern on Meesho's Central Pricing Charter (Star Performer of the Quarter), where I helped remove 7Mn+ duplicate listings and scaled a seller-nudge tool to 250K+ sellers. I started out in AI/ML & Product at Protean, building ML search ranking and forecasting systems.
-
-Outside work, I build things end-to-end: Awaaz Billing is a live voice-first billing app for kirana stores that turns code-mixed Hindi speech into structured bills via an LLM; Hardware Chacha was a year-long entrepreneurship project that took an offline hardware market to a working e-commerce platform with OCR billing.
-
-B.Tech in CS & Social Sciences from IIIT Delhi. National Winner, Smart India Hackathon 2024; AIR 2, Meesho Dice Challenge (Rank 1 in Product); Top 0.1%, Amazon ML Challenge.
-
-Open to conversations on product, growth, and applied AI — reach out anytime.
+Product & growth operator at Meesho, working across AI-powered customer support, brand partnerships, and go-to-market execution for a large-scale marketplace. Outside work I build end-to-end products, like a live voice-first billing app for kirana stores — always up for a conversation on product, growth, or applied AI.
 ```
 
 ---

@@ -51,6 +51,9 @@ VISA_BLOCKER_MARKERS = [
     "must be authorized to work", "local candidates only", "eu citizens only",
     "eu/eea citizens only", "not eligible for visa",
     "unable to provide visa", "we do not offer sponsorship",
+    "not able to support with a relocation or sponsoring a work visa",
+    "can only consider applicants who are already residing",
+    "we are unable to support relocation or visa",
 ]
 
 # Domains the candidate has direct, hands-on expertise in (Meesho social

@@ -68,6 +68,7 @@
   .stat .n{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;font-size:24px;font-weight:600;color:var(--ink);}
   .stat .l{font-size:11px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);margin-top:2px;}
   .stat.applied .n{color:var(--applied);}
+  .stat.dismissed .n{color:var(--warn);}
 
   /* View switch (New Today / All Jobs / Applied) */
   .view-switch{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap;}
@@ -77,6 +78,7 @@
   }
   .view-btn.active{background:var(--ink);border-color:var(--ink);color:var(--paper);}
   .view-btn.applied-view.active{background:var(--applied);border-color:var(--applied);}
+  .view-btn.dismissed-view.active{background:var(--warn);border-color:var(--warn);}
 
   /* Controls */
   .controls{
@@ -112,6 +114,7 @@
     margin-bottom:8px; box-shadow:var(--shadow); overflow:hidden;
   }
   .row.is-applied{border-color:var(--applied);}
+  .row.is-dismissed{border-color:var(--warn);opacity:0.85;}
   .row-head{
     display:grid; grid-template-columns:52px 1fr 120px 100px 110px 100px;
     gap:10px; align-items:center; padding:11px 14px; cursor:pointer;
@@ -161,7 +164,26 @@
   .btn.primary:hover{filter:brightness(1.06);}
   .btn.ghost{background:transparent;border-color:var(--line);color:var(--ink);}
   .btn.applied-btn{background:var(--applied-soft);border-color:var(--applied);color:var(--applied);}
+  .btn.dismiss-btn{background:transparent;border-color:var(--warn);color:var(--warn);}
+  .btn.dismissed-btn{background:var(--warn-soft);border-color:var(--warn);color:var(--warn);}
   .note{font-size:12px;color:var(--ink-faint);line-height:1.5;}
+
+  .dismiss-form{display:flex;flex-direction:column;gap:8px;padding:10px;border:1px dashed var(--warn);border-radius:8px;background:var(--warn-soft);}
+  .dismiss-form textarea{
+    font:inherit;font-size:13px;padding:8px;border-radius:6px;border:1px solid var(--line);
+    background:var(--surface);color:var(--ink);resize:vertical;min-height:56px;
+  }
+  .dismiss-form .dismiss-form-actions{display:flex;gap:8px;}
+
+  .feedback-box{
+    margin-bottom:16px;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);
+  }
+  .feedback-box textarea{
+    width:100%;box-sizing:border-box;font:inherit;font-size:12px;font-family:ui-monospace,monospace;
+    padding:8px;border-radius:6px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink);
+    min-height:120px;resize:vertical;
+  }
+  .feedback-status{font-size:12px;color:var(--ink-faint);margin-top:6px;}
 
   .empty{padding:40px 0;text-align:center;color:var(--ink-faint);}
 
@@ -207,6 +229,7 @@
     Salary is rarely listed by Indeed or LinkedIn; treat "salary not listed" as unverified, not absent. Fit scoring assumes 1 year full-time + 9 months part-time/internship experience, so roles asking well above that are scored down.
     Postings older than 3 weeks are treated as likely closed and hidden from the New/All lists automatically &mdash; this is re-checked live every time you open this page (against the posting's original date), not just when it was first added, so a job that goes stale after sitting here a while will quietly drop out of view on its own. Applied jobs are the one exception: they stay visible in the <b>Applied</b> tab forever regardless of age, since that's your record of what you did, not a live listing. Once a listing appears here it's recorded and won't be shown again in a future batch.
     Marking a job "Applied" moves it out of the region lists into the <b>Applied</b> tab above, permanently, across every country and every day &mdash; it's saved in this browser and survives page refreshes and future updates to this same dashboard link.
+    Clicking "Not relevant" on a job asks for a short reason, then moves it into the <b>Not relevant</b> tab and out of New/All &mdash; same permanent, per-browser storage as Applied. This is only useful long-term if Claude actually sees the reasons: open the Not relevant tab and use "Save as file" or "Copy to clipboard" to export them, then paste that back into a future chat so recurring rejection reasons (wrong seniority, wrong domain, recruiter spam, etc.) can get baked into the search and scoring rules instead of you filtering the same kind of listing out by hand every day.
 Jobs whose posting explicitly states no visa sponsorship / local-candidates-only / must-already-have-right-to-work are flagged with a red <b>No sponsorship</b> badge and scored down heavily &mdash; this is a text match against the saved description, so it can only catch what that text actually contains, not what the original listing said if it was condensed out during scoring; always verify on the real posting before ruling a job in or out on this basis alone.
 Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview &mdash; both are tailored to that specific job description (resume bullets are reordered to lead with the most relevant experience; the cover letter's story paragraph is auto-matched from a library of real accounts). To get a file for an application: this page's viewer may block in-page downloads/new tabs entirely, so the reliable way is to ask Claude directly in chat &mdash; e.g. "send me the resume and cover letter for &lt;job title&gt; at &lt;company&gt;" &mdash; and it'll arrive as real PDF files. The "Open in new tab" / "Download (HTML)" buttons here follow whichever tab (resume or cover letter) is currently selected, and are a convenience that works in some browsers, but don't rely on them if nothing happens when clicked. Applying itself always opens the real listing in a new tab &mdash; nothing here submits anything automatically.
   </p>
@@ -235,6 +258,16 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
   }
   function setApplied(map){ localStorage.setItem(STORE_KEY, JSON.stringify(map)); }
 
+  // Dismissed jobs: {[key]: {reason, date}}. Kept in this browser only - use
+  // "Export feedback for Claude" in the Dismissed tab to hand these reasons
+  // back so scoring/prefiltering can actually learn from them.
+  const DISMISS_KEY = 'appdesk_dismissed_v1';
+  function getDismissed(){
+    try { return JSON.parse(localStorage.getItem(DISMISS_KEY) || '{}'); }
+    catch(e){ return {}; }
+  }
+  function setDismissed(map){ localStorage.setItem(DISMISS_KEY, JSON.stringify(map)); }
+
   const dates = Array.from(new Set(JOBS.map(j=>j.date))).sort();
   const latestDate = dates[dates.length-1];
 
@@ -262,17 +295,23 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
 
   function baseVisibleJobs(){
     const applied = getApplied();
+    const dismissed = getDismissed();
     // Staleness is evaluated live against today's date, not just at intake -
     // a job fresh when first archived can go stale later. Applied jobs are
     // exempt and always stay visible in the Applied tab regardless of age.
+    // Dismissed jobs are removed from New/All entirely - their record lives
+    // in the Dismissed tab instead, same exemption pattern as Applied.
     if(state.view === 'applied') return JOBS.filter(j => !!applied[j.key]);
-    if(state.view === 'new') return JOBS.filter(j => j.is_new && !applied[j.key] && !isStale(j));
-    return JOBS.filter(j => !applied[j.key] && !isStale(j)); // 'all'
+    if(state.view === 'dismissed') return JOBS.filter(j => !!dismissed[j.key]);
+    if(state.view === 'new') return JOBS.filter(j => j.is_new && !applied[j.key] && !dismissed[j.key] && !isStale(j));
+    return JOBS.filter(j => !applied[j.key] && !dismissed[j.key] && !isStale(j)); // 'all'
   }
 
   function renderStats(){
     const applied = getApplied();
+    const dismissed = getDismissed();
     const appliedCount = Object.keys(applied).length;
+    const dismissedCount = Object.keys(dismissed).length;
     const newCount = JOBS.filter(j=>j.is_new).length;
     const visible = baseVisibleJobs();
     const byRegion = {};
@@ -285,6 +324,7 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
       {n: JOBS.length, l: 'Archived total'},
       {n: newCount, l: 'New today'},
       {n: appliedCount, l: 'Applied', cls:'applied'},
+      {n: dismissedCount, l: 'Not relevant', cls:'dismissed'},
       {n: liCount, l: 'LinkedIn'},
       {n: inCount, l: 'Indeed'},
     ].concat(REGION_ORDER.map(r => ({n: byRegion[r], l: REGION_NAMES[r]})));
@@ -302,13 +342,16 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
     const wrap = document.getElementById('view-switch');
     wrap.innerHTML = '';
     const applied = getApplied();
-    const newCount = JOBS.filter(j=>j.is_new && !applied[j.key] && !isStale(j)).length;
-    const allCount = JOBS.filter(j=>!applied[j.key] && !isStale(j)).length;
+    const dismissed = getDismissed();
+    const newCount = JOBS.filter(j=>j.is_new && !applied[j.key] && !dismissed[j.key] && !isStale(j)).length;
+    const allCount = JOBS.filter(j=>!applied[j.key] && !dismissed[j.key] && !isStale(j)).length;
     const appliedCount = Object.keys(applied).length;
+    const dismissedCount = Object.keys(dismissed).length;
     const views = [
       {val:'new', label:`New today (${newCount})`},
       {val:'all', label:`All jobs (${allCount})`},
       {val:'applied', label:`✅ Applied (${appliedCount})`, cls:'applied-view'},
+      {val:'dismissed', label:`✕ Not relevant (${dismissedCount})`, cls:'dismissed-view'},
     ];
     views.forEach(v => {
       const b = document.createElement('div');
@@ -322,7 +365,7 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
   function renderTabs(){
     const wrap = document.getElementById('region-tabs');
     wrap.innerHTML = '';
-    if(state.view === 'applied'){ return; } // applied view is flat, no region tabs
+    if(state.view === 'applied' || state.view === 'dismissed'){ return; } // flat views, no region tabs
     const visible = baseVisibleJobs();
     const makeTab = (val, label) => {
       const t = document.createElement('div');
@@ -350,6 +393,9 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
   function rowHtml(job){
     const applied = getApplied();
     const isApplied = !!applied[job.key];
+    const dismissed = getDismissed();
+    const dismissedEntry = dismissed[job.key];
+    const isDismissed = !!dismissedEntry;
     const salChip = job.salary_status === 'listed'
       ? '<span class="chip salary-listed">Salary listed</span>'
       : '<span class="chip salary-not_listed">Salary unlisted</span>';
@@ -362,13 +408,27 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
     const appliedNote = isApplied
       ? `<div class="note">Applied ${fmtDate(applied[job.key])}.</div>`
       : '';
+    const dismissedNote = isDismissed
+      ? `<div class="note">Marked not relevant ${fmtDate(dismissedEntry.date)}${dismissedEntry.reason ? ' — reason: "' + escapeHtml(dismissedEntry.reason) + '"' : ' (no reason given)'}. <a href="#" onclick="window.__undoDismiss('${job.key}', event); return false;">Undo</a></div>`
+      : '';
+    const dismissBtn = isDismissed
+      ? `<button class="btn dismissed-btn" onclick="window.__undoDismiss('${job.key}', event)">&#10003; Not relevant — undo</button>`
+      : `<button class="btn dismiss-btn" onclick="window.__showDismissForm('${job.key}', event)">Not relevant</button>`;
+    const dismissForm = isDismissed ? '' : `
+      <div class="dismiss-form" id="dismissform-${job.key}" style="display:none;" onclick="event.stopPropagation()">
+        <textarea id="dismissreason-${job.key}" placeholder="Why isn't this a fit? (e.g. wrong seniority, wrong domain, recruiter spam, duplicate) — this is saved so Claude can learn from it next time you paste it back."></textarea>
+        <div class="dismiss-form-actions">
+          <button class="btn dismissed-btn" onclick="window.__confirmDismiss('${job.key}', event)">Confirm — not relevant</button>
+          <button class="btn ghost" onclick="window.__cancelDismiss('${job.key}', event)">Cancel</button>
+        </div>
+      </div>`;
     const docType = ROW_DOC[job.key] || 'resume';
     const isCover = docType === 'cover';
     const activeHtml = isCover ? job.cover_letter_html : job.resume_html;
     const docLabel = isCover ? 'cover letter' : 'resume';
     const dlPrefix = isCover ? 'Aman_Ranjan_CoverLetter_' : 'Aman_Ranjan_Resume_';
     return `
-      <div class="row${isApplied?' is-applied':''}" data-key="${job.key}">
+      <div class="row${isApplied?' is-applied':''}${isDismissed?' is-dismissed':''}" data-key="${job.key}">
         <div class="row-head" onclick="window.__toggleRow('${job.key}')">
           <div class="score">${job.score}</div>
           <div class="titlecell"><div class="t">${escapeHtml(job.title)}${newBadge}${visaBadge}</div><div class="c">${escapeHtml(job.company)} <span class="src src-${job.source||'indeed'}">${sourceLabel}</span></div></div>
@@ -392,6 +452,9 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
               <a class="btn ghost" id="dl-${job.key}" download="${dlPrefix}${job.key}.html" href="${htmlDownloadHref(activeHtml)}">Download <span class="doc-label">${docLabel}</span> (HTML)</a>
               <button class="btn ${isApplied?'applied-btn':'ghost'}" onclick="window.__toggleApplied('${job.key}', event)">${isApplied ? '&#10003; Marked applied — undo' : 'Mark as applied'}</button>
               ${appliedNote}
+              ${dismissBtn}
+              ${dismissForm}
+              ${dismissedNote}
               <div class="note">Source: ${sourceLabel} &middot; Region: ${REGION_NAMES[job.region]} &middot; Surfaced ${fmtDate(job.date)} &middot; Fit score ${job.score}/100 &middot; ${job.confidence==='reviewed' ? 'Full JD reviewed before scoring' : 'Scored on title/role only — skim the real listing first'}${job.posted_date ? ' &middot; Posted ' + escapeHtml(job.posted_date) : ''}.</div>
               ${job.visa_status === 'blocked' ? '<div class="note" style="color:var(--warn);">&#9888; This posting explicitly states no visa sponsorship / local candidates only — likely to reject even a self-funded visa application. Verify on the real listing before spending time on it.</div>' : ''}
               <div class="note">Cover letter is auto-matched to this job from a library of real stories — good as a starting point, but ask Claude directly for a fully hand-written one if this application matters enough to invest in.</div>
@@ -408,17 +471,81 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
     catch(e){ return 'data:text/html;charset=utf-8,' + encodeURIComponent(html); }
   }
 
+  function buildFeedbackText(){
+    const dismissed = getDismissed();
+    const entries = Object.keys(dismissed).map(key => {
+      const job = JOB_BY_KEY[key];
+      const d = dismissed[key];
+      if(!job) return null;
+      return {
+        title: job.title, company: job.company, region: job.region, source: job.source,
+        score: job.score, apply_url: job.apply_url,
+        reason: d.reason || '(no reason given)', dismissed_at: d.date,
+      };
+    }).filter(Boolean);
+    entries.sort((a,b) => (b.dismissed_at||'').localeCompare(a.dismissed_at||''));
+    return JSON.stringify(entries, null, 2);
+  }
+
+  // "Record it so you can learn from it" only works if the data leaves this
+  // browser - localStorage alone is invisible to Claude. This box gives the
+  // user a copy/save path so they can paste it back into chat next time and
+  // have prefiltering/scoring actually updated from real rejection reasons.
+  function feedbackBoxEl(){
+    const box = document.createElement('div');
+    box.className = 'feedback-box';
+    const text = buildFeedbackText();
+    box.innerHTML = `
+      <div style="font-weight:600;margin-bottom:6px;">Export feedback for Claude</div>
+      <div class="note" style="margin-bottom:8px;">This list is saved in this browser only — Claude can't see it automatically. Save or copy it and paste it back in a future chat (e.g. "here's what I marked not relevant and why") so the search/scoring rules can actually be updated from your real reasons instead of guessing.</div>
+      <textarea id="feedback-textarea" readonly>${escapeHtml(text)}</textarea>
+      <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap;">
+        <button class="btn ghost" id="feedback-save-btn">Save as file</button>
+        <button class="btn ghost" id="feedback-copy-btn">Copy to clipboard</button>
+      </div>
+      <div class="feedback-status" id="feedback-status"></div>
+    `;
+    const statusEl = box.querySelector('#feedback-status');
+    box.querySelector('#feedback-save-btn').onclick = () => {
+      if(window.claude && window.claude.downloads){
+        window.claude.downloads.save({filename: 'dismissed_jobs_feedback.json', data: text})
+          .then(() => { statusEl.textContent = 'Saved.'; })
+          .catch(err => { statusEl.textContent = 'Could not save (' + ((err && err.code) || 'unavailable') + ') — use Copy or select the text above instead.'; });
+      } else {
+        statusEl.textContent = "File-save isn't available in this viewer — use Copy, or select the text above manually.";
+      }
+    };
+    box.querySelector('#feedback-copy-btn').onclick = () => {
+      const ta = box.querySelector('#feedback-textarea');
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text)
+          .then(() => { statusEl.textContent = 'Copied to clipboard.'; })
+          .catch(() => { ta.select(); statusEl.textContent = 'Clipboard blocked — text is selected, press Ctrl/Cmd+C.'; });
+      } else {
+        ta.select();
+        statusEl.textContent = 'Text is selected — press Ctrl/Cmd+C to copy.';
+      }
+    };
+    return box;
+  }
+
   function renderSections(){
     let jobs = baseVisibleJobs();
-    if(state.view !== 'applied' && state.region !== 'ALL') jobs = jobs.filter(j=>j.region===state.region);
+    if(state.view !== 'applied' && state.view !== 'dismissed' && state.region !== 'ALL') jobs = jobs.filter(j=>j.region===state.region);
     if(state.source !== 'ALL') jobs = jobs.filter(j=>(j.source||'indeed')===state.source);
 
     const container = document.getElementById('sections');
     container.innerHTML = '';
 
+    if(state.view === 'dismissed'){
+      container.appendChild(feedbackBoxEl());
+    }
+
     if(jobs.length === 0){
-      const msg = state.view === 'applied' ? 'No applications marked yet — click "Mark as applied" on any job.' : 'Nothing here — try a different filter.';
-      container.innerHTML = `<div class="empty">${msg}</div>`;
+      let msg = 'Nothing here — try a different filter.';
+      if(state.view === 'applied') msg = 'No applications marked yet — click "Mark as applied" on any job.';
+      if(state.view === 'dismissed') msg = 'Nothing marked not relevant yet — click "Not relevant" on any job you want to filter out and record a reason.';
+      container.insertAdjacentHTML('beforeend', `<div class="empty">${msg}</div>`);
       return;
     }
 
@@ -428,6 +555,17 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
       const sec = document.createElement('div');
       sec.className = 'region-section';
       sec.innerHTML = `<h2 class="region-h">Applied <span class="count">${list.length} job${list.length===1?'':'s'} across all countries</span></h2>` +
+        list.map(rowHtml).join('');
+      container.appendChild(sec);
+      return;
+    }
+
+    if(state.view === 'dismissed'){
+      const dismissed = getDismissed();
+      let list = jobs.slice().sort((a,b) => ((dismissed[b.key]||{}).date||'').localeCompare((dismissed[a.key]||{}).date||''));
+      const sec = document.createElement('div');
+      sec.className = 'region-section';
+      sec.innerHTML = `<h2 class="region-h">Not relevant <span class="count">${list.length} job${list.length===1?'':'s'} across all countries</span></h2>` +
         list.map(rowHtml).join('');
       container.appendChild(sec);
       return;
@@ -526,6 +664,39 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
     if(applied[key]) delete applied[key];
     else applied[key] = new Date().toISOString();
     setApplied(applied);
+    renderAll();
+  };
+
+  window.__showDismissForm = function(key, ev){
+    ev.stopPropagation();
+    const form = document.getElementById(`dismissform-${key}`);
+    if(!form) return;
+    form.style.display = 'flex';
+    const ta = document.getElementById(`dismissreason-${key}`);
+    if(ta) ta.focus();
+  };
+
+  window.__cancelDismiss = function(key, ev){
+    ev.stopPropagation();
+    const form = document.getElementById(`dismissform-${key}`);
+    if(form) form.style.display = 'none';
+  };
+
+  window.__confirmDismiss = function(key, ev){
+    ev.stopPropagation();
+    const ta = document.getElementById(`dismissreason-${key}`);
+    const reason = ta ? ta.value.trim() : '';
+    const dismissed = getDismissed();
+    dismissed[key] = { reason, date: new Date().toISOString() };
+    setDismissed(dismissed);
+    renderAll();
+  };
+
+  window.__undoDismiss = function(key, ev){
+    ev.stopPropagation();
+    const dismissed = getDismissed();
+    delete dismissed[key];
+    setDismissed(dismissed);
     renderAll();
   };
 

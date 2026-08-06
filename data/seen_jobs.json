@@ -20,6 +20,13 @@
     "source": "linkedin",
     "title": "Agile Product Owner Associate"
   },
+  "ai analysis & performance analyst|tiktok|IE": {
+    "company": "TikTok",
+    "first_seen": "2026-08-06",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "AI Analysis & Performance Analyst"
+  },
   "ai business analyst (m/f/d)|aroundtown sa|DE": {
     "company": "Aroundtown SA",
     "first_seen": "2026-07-16",
@@ -41,10 +48,31 @@
     "source": "linkedin",
     "title": "AI Business Analyst"
   },
+  "ai growth & automation manager (m/f/x)|formel skin|DE": {
+    "company": "FORMEL SKIN",
+    "first_seen": "2026-08-06",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "AI Growth & Automation Manager (m/f/x)"
+  },
+  "ai growth marketing manager (b2b)|tripleten|DE": {
+    "company": "TripleTen",
+    "first_seen": "2026-08-06",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "AI Growth Marketing Manager (B2B)"
+  },
   "ai growth marketing manager (b2b)|tripleten|IE": {
     "company": "TripleTen",
     "first_seen": "2026-08-05",
     "region": "IE",
+    "source": "linkedin",
+    "title": "AI Growth Marketing Manager (B2B)"
+  },
+  "ai growth marketing manager (b2b)|tripleten|NL": {
+    "company": "TripleTen",
+    "first_seen": "2026-08-06",
+    "region": "NL",
     "source": "linkedin",
     "title": "AI Growth Marketing Manager (B2B)"
   },
@@ -89,6 +117,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "AI/ML Associate Engineer"
+  },
+  "ai4dev service owner|sopra steria|LU": {
+    "company": "Sopra Steria",
+    "first_seen": "2026-08-06",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "AI4Dev Service Owner"
   },
   "analyst - product & strategy|rupeek|IN": {
     "company": "Rupeek",
@@ -412,6 +447,13 @@
     "source": "linkedin",
     "title": "Business Analist"
   },
+  "business analist|infrastructure it professionals|NL": {
+    "company": "Infrastructure IT Professionals",
+    "first_seen": "2026-08-06",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analist"
+  },
   "business analist|project & change talents|NL": {
     "company": "Project & Change Talents",
     "first_seen": "2026-07-17",
@@ -559,6 +601,13 @@
     "source": "indeed",
     "title": "Business Analyst - Forecasting Allocation & Replenishment"
   },
+  "business analyst - fresher|toolyt|IN": {
+    "company": "Toolyt",
+    "first_seen": "2026-08-06",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst - Fresher"
+  },
   "business analyst - f\u00f6rderbanken (m/f/d)|sap fioneer|DE": {
     "company": "SAP Fioneer",
     "first_seen": "2026-07-15",
@@ -572,6 +621,13 @@
     "region": "LU",
     "source": "indeed",
     "title": "Business Analyst - IT Solutions"
+  },
+  "business analyst - operations|adyen|NL": {
+    "company": "Adyen",
+    "first_seen": "2026-08-06",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst - Operations"
   },
   "business analyst - payments|avaloq|DE": {
     "company": "Avaloq",
@@ -1413,6 +1469,13 @@
     "source": "indeed",
     "title": "Contact Center Business Analyst (w/m/d)"
   },
+  "cots business analyst|altherias|LU": {
+    "company": "Altherias",
+    "first_seen": "2026-08-06",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "COTS Business Analyst"
+  },
   "country product manager|asus|NL": {
     "company": "ASUS",
     "first_seen": "2026-07-17",
@@ -1433,6 +1496,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Creative Strategist, Growth Marketing"
+  },
+  "customer & consumer data product owner|glanbia|IE": {
+    "company": "Glanbia",
+    "first_seen": "2026-08-06",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Customer & Consumer Data Product Owner"
   },
   "d2c growth manager|team pumpkin|IN": {
     "company": "Team Pumpkin",
@@ -1511,6 +1581,13 @@
     "source": "indeed",
     "title": "Delivery Product Manager"
   },
+  "demand generation manager|archer recruitment|IE": {
+    "company": "Archer Recruitment",
+    "first_seen": "2026-08-06",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Demand Generation Manager"
+  },
   "demand generation manager|staq|IE": {
     "company": "staq",
     "first_seen": "2026-08-02",
@@ -1532,6 +1609,13 @@
     "source": "indeed",
     "title": "Depositary Analyst"
   },
+  "digital access product owner|takeda pharmaceuticals|IN": {
+    "company": "Takeda Pharmaceuticals",
+    "first_seen": "2026-08-06",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Digital Access Product Owner"
+  },
   "digital and insights manager|stott and may|LU": {
     "company": "Stott and May",
     "first_seen": "2026-07-17",
@@ -1545,6 +1629,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Digital Asset Product Sales Manager (f/m/d)"
+  },
+  "digital assets product development lead, assistant vice president|state street|LU": {
+    "company": "State Street",
+    "first_seen": "2026-08-06",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Digital Assets Product Development lead, Assistant Vice President"
   },
   "digital business analyst|accenture uk & ireland|IE": {
     "company": "Accenture UK & Ireland",
@@ -1637,6 +1728,13 @@
     "source": "linkedin",
     "title": "Digital Product Owner (all genders) - simplesurance"
   },
+  "digital project manager|ryanair - europe's favourite airline|IE": {
+    "company": "Ryanair - Europe's Favourite Airline",
+    "first_seen": "2026-08-06",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Digital Project Manager"
+  },
   "e-com and q-com growth manager|born good|IN": {
     "company": "Born Good",
     "first_seen": "2026-07-17",
@@ -1679,6 +1777,13 @@
     "source": "linkedin",
     "title": "ETF Product Manager"
   },
+  "finance business analyst|klm royal dutch airlines|NL": {
+    "company": "KLM Royal Dutch Airlines",
+    "first_seen": "2026-08-06",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Finance Business Analyst"
+  },
   "founding gtm lead|statuspal|DE": {
     "company": "StatusPal",
     "first_seen": "2026-08-05",
@@ -1720,6 +1825,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Functional and Business Analysts"
+  },
+  "genai regional product marketing manager, creative product|tiktok|DE": {
+    "company": "TikTok",
+    "first_seen": "2026-08-06",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "GenAI Regional Product Marketing Manager, Creative Product"
   },
   "general manager (m/w/d) niederlassungsleitung|elis|DE": {
     "company": "Elis",
@@ -1945,6 +2057,13 @@
     "source": "linkedin",
     "title": "Growth Marketing Manager"
   },
+  "growth marketing manager|recrew ai|IN": {
+    "company": "Recrew AI",
+    "first_seen": "2026-08-06",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Growth Marketing Manager"
+  },
   "growth operations specialist|web summit|IE": {
     "company": "Web Summit",
     "first_seen": "2026-07-17",
@@ -1985,6 +2104,13 @@
     "first_seen": "2026-07-27",
     "region": "NL",
     "source": "indeed",
+    "title": "IT Business Analist"
+  },
+  "it business analist|robidus|NL": {
+    "company": "Robidus",
+    "first_seen": "2026-08-06",
+    "region": "NL",
+    "source": "linkedin",
     "title": "IT Business Analist"
   },
   "it business analyst (gn) - production|the quality group gmbh|DE": {
@@ -2049,6 +2175,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Jr. Product Manager Joolz"
+  },
+  "junior app product owner (all genders)|sunday natural|DE": {
+    "company": "Sunday Natural",
+    "first_seen": "2026-08-06",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Junior App Product Owner (all genders)"
   },
   "junior business analyst (m/w/d)|firstwaters|DE": {
     "company": "firstwaters",
@@ -2197,6 +2330,13 @@
     "source": "indeed",
     "title": "Marketing ManagerIn f\u00fcr Digital Growth und Kommunikation (m/w/d)"
   },
+  "marketing manager|iff|NL": {
+    "company": "IFF",
+    "first_seen": "2026-08-06",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Marketing Manager"
+  },
   "marketing manager|tetra pak|NL": {
     "company": "Tetra Pak",
     "first_seen": "2026-08-05",
@@ -2253,6 +2393,20 @@
     "source": "indeed",
     "title": "Off-Cycle Student - Business Analyst"
   },
+  "omni channel business analyst|hunkem\u00f6ller|NL": {
+    "company": "Hunkem\u00f6ller",
+    "first_seen": "2026-08-06",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Omni Channel Business Analyst"
+  },
+  "operations analyst, pricing & efficiency|wolt|DE": {
+    "company": "Wolt",
+    "first_seen": "2026-08-06",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Operations Analyst, Pricing & Efficiency"
+  },
   "paid media manager (m/f/d)|flink|DE": {
     "company": "Flink",
     "first_seen": "2026-08-04",
@@ -2284,6 +2438,13 @@
   "performance marketing manager|sitly|NL": {
     "company": "Sitly",
     "first_seen": "2026-08-02",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Performance Marketing Manager"
+  },
+  "performance marketing manager|valona intelligence|NL": {
+    "company": "Valona Intelligence",
+    "first_seen": "2026-08-06",
     "region": "NL",
     "source": "linkedin",
     "title": "Performance Marketing Manager"
@@ -2700,6 +2861,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Product Manager - Quality and Regulatory Systems"
+  },
+  "product manager - rental pod|trackunit|DE": {
+    "company": "Trackunit",
+    "first_seen": "2026-08-06",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager - Rental Pod"
   },
   "product manager - sportsbook|boyle sports|IE": {
     "company": "BOYLE Sports",
@@ -3499,6 +3667,13 @@
     "source": "linkedin",
     "title": "Product Owner (f/m/d) - Office & Cloud Storage"
   },
+  "product owner (m/f/d) \u2013 b2b saas | berlin (hybrid)|packmatic|DE": {
+    "company": "Packmatic",
+    "first_seen": "2026-08-06",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Owner (m/f/d) \u2013 B2B SaaS | Berlin (hybrid)"
+  },
   "product owner (m/w/d)|claas|DE": {
     "company": "CLAAS",
     "first_seen": "2026-08-02",
@@ -3716,6 +3891,13 @@
     "source": "linkedin",
     "title": "Product Owner"
   },
+  "product owner|city of amsterdam|NL": {
+    "company": "City of Amsterdam",
+    "first_seen": "2026-08-06",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
   "product owner|davy|IE": {
     "company": "Davy",
     "first_seen": "2026-08-02",
@@ -3769,6 +3951,13 @@
     "company": "Levy Professionals",
     "first_seen": "2026-08-03",
     "region": "NL",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "product owner|lorven technologies inc.|IN": {
+    "company": "Lorven Technologies Inc.",
+    "first_seen": "2026-08-06",
+    "region": "IN",
     "source": "linkedin",
     "title": "Product Owner"
   },
@@ -3826,6 +4015,13 @@
     "first_seen": "2026-08-02",
     "region": "IN",
     "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "product owner|siemens energy|IN": {
+    "company": "Siemens Energy",
+    "first_seen": "2026-08-06",
+    "region": "IN",
+    "source": "indeed",
     "title": "Product Owner"
   },
   "product owner|siemens healthineers|IN": {
@@ -3946,6 +4142,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Responsable D\u00e9partement Produits Finance (m/f)"
+  },
+  "restaurant regional marketing manager - de & fr|uber|NL": {
+    "company": "Uber",
+    "first_seen": "2026-08-06",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Restaurant Regional Marketing Manager - DE & FR"
   },
   "retention and growth manager|stockgro|IN": {
     "company": "StockGro",
@@ -4240,6 +4443,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Transformation Business Analyst"
+  },
+  "value and evidence product owner|takeda pharmaceuticals|IN": {
+    "company": "Takeda Pharmaceuticals",
+    "first_seen": "2026-08-06",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Value and Evidence Product Owner"
   },
   "vice president, product owner|bny|IE": {
     "company": "BNY",

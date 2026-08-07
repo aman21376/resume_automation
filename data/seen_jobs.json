@@ -202,6 +202,13 @@
     "source": "linkedin",
     "title": "Associate Product Manager Medical Device"
   },
+  "associate product manager, delivery (m/f/d)|future demand|DE": {
+    "company": "Future Demand",
+    "first_seen": "2026-08-07",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Associate Product Manager, Delivery (m/f/d)"
+  },
   "associate product manager, e-commerce|dyson|NL": {
     "company": "Dyson",
     "first_seen": "2026-07-30",
@@ -517,6 +524,13 @@
     "source": "linkedin",
     "title": "Business Analyst (hybrid)"
   },
+  "business analyst (m/f/x)|luxair|LU": {
+    "company": "Luxair",
+    "first_seen": "2026-08-07",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst (m/f/x)"
+  },
   "business analyst (m/w/d)|e.on|DE": {
     "company": "E.ON",
     "first_seen": "2026-08-02",
@@ -586,6 +600,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Business Analyst - Dublin"
+  },
+  "business analyst - en|alten|LU": {
+    "company": "ALTEN",
+    "first_seen": "2026-08-07",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst - EN"
   },
   "business analyst - financial markets (uat & regulatory change)|levy professionals|NL": {
     "company": "Levy Professionals",
@@ -677,6 +698,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Business Analyst Commercial"
+  },
+  "business analyst f/m/x|amaris consulting|LU": {
+    "company": "Amaris Consulting",
+    "first_seen": "2026-08-07",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst F/M/X"
   },
   "business analyst finanzen / product owner diamant (w/m/d)|doreafamilie|DE": {
     "company": "DOREAFAMILIE",
@@ -1070,6 +1098,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|infinity quest|LU": {
+    "company": "Infinity Quest",
+    "first_seen": "2026-08-07",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|intuition it \u2013 intuitive technology recruitment|NL": {
     "company": "Intuition IT \u2013 Intuitive Technology Recruitment",
     "first_seen": "2026-07-15",
@@ -1315,12 +1350,26 @@
     "source": "linkedin",
     "title": "Business Data Partner (m/f/d)"
   },
+  "business development manager (w/m/d)|enpal|DE": {
+    "company": "Enpal",
+    "first_seen": "2026-08-07",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Business Development Manager (w/m/d)"
+  },
   "business development manager africa & levant|ferrero|LU": {
     "company": "Ferrero",
     "first_seen": "2026-08-03",
     "region": "LU",
     "source": "linkedin",
     "title": "Business Development Manager Africa & Levant"
+  },
+  "business development manager strategy & operations (w/m/d)|enpal|DE": {
+    "company": "Enpal",
+    "first_seen": "2026-08-07",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Business Development Manager Strategy & Operations (w/m/d)"
   },
   "business development manager \u2013 partner management (w/m/d)|octopus energy|DE": {
     "company": "Octopus Energy",
@@ -1538,6 +1587,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Data Analyst - Product-Led Growth"
+  },
+  "data analyst customer service|huxley|NL": {
+    "company": "Huxley",
+    "first_seen": "2026-08-07",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Data Analyst Customer Service"
   },
   "data analyst|holafly|IE": {
     "company": "Holafly",
@@ -1931,6 +1987,13 @@
     "source": "linkedin",
     "title": "Growth Manager (m/w/d)"
   },
+  "growth manager (m/w/d)|media pioneer publishing gmbh|DE": {
+    "company": "Media Pioneer Publishing GmbH",
+    "first_seen": "2026-08-07",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Growth Manager (m/w/d)"
+  },
   "growth manager (m/w/d)|urvi\u00ae|DE": {
     "company": "URVI\u00ae",
     "first_seen": "2026-08-02",
@@ -1994,6 +2057,13 @@
     "source": "linkedin",
     "title": "Growth Manager"
   },
+  "growth manager|kuku|IN": {
+    "company": "Kuku",
+    "first_seen": "2026-08-07",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Growth Manager"
+  },
   "growth manager|leapforce|NL": {
     "company": "Leapforce",
     "first_seen": "2026-08-02",
@@ -2005,6 +2075,13 @@
     "company": "Pocket FM",
     "first_seen": "2026-08-02",
     "region": "IN",
+    "source": "linkedin",
+    "title": "Growth Manager"
+  },
+  "growth manager|stealth startup|DE": {
+    "company": "Stealth Startup",
+    "first_seen": "2026-08-07",
+    "region": "DE",
     "source": "linkedin",
     "title": "Growth Manager"
   },
@@ -2035,6 +2112,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Growth Marketing Manager (SaaS / Remote / EU)"
+  },
+  "growth marketing manager|archer recruitment|IE": {
+    "company": "Archer Recruitment",
+    "first_seen": "2026-08-07",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Growth Marketing Manager"
   },
   "growth marketing manager|bitespeed|IN": {
     "company": "BiteSpeed",
@@ -2084,6 +2168,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Growth Workflow Manager, Performance & Paid"
+  },
+  "gtm data & performance analyst|smartbox group|IE": {
+    "company": "Smartbox Group",
+    "first_seen": "2026-08-07",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "GTM Data & Performance Analyst"
   },
   "insight analyst|primark|IE": {
     "company": "Primark",
@@ -2190,12 +2281,33 @@
     "source": "indeed",
     "title": "Junior Business Analyst (m/w/d)"
   },
+  "junior business analyst|appsforbharat|IN": {
+    "company": "AppsForBharat",
+    "first_seen": "2026-08-07",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Junior Business Analyst"
+  },
+  "junior business development manager (w/m/d)|enpal|DE": {
+    "company": "Enpal",
+    "first_seen": "2026-08-07",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Junior Business Development Manager (w/m/d)"
+  },
   "junior licensing product development manager|ferrero|LU": {
     "company": "Ferrero",
     "first_seen": "2026-07-17",
     "region": "LU",
     "source": "linkedin",
     "title": "Junior Licensing Product Development Manager"
+  },
+  "junior product manager (d/f/m) - advertising|mobile.de|DE": {
+    "company": "mobile.de",
+    "first_seen": "2026-08-07",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Junior Product Manager (d/f/m) - Advertising"
   },
   "junior product manager (m/w/d) \u2013 go lloret @ emile weber|emile weber|LU": {
     "company": "emile weber",
@@ -2252,6 +2364,13 @@
     "region": "LU",
     "source": "indeed",
     "title": "Manager, 80/20 & Business Transformation"
+  },
+  "manager, strategy & market intelligence|ses|LU": {
+    "company": "SES",
+    "first_seen": "2026-08-07",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Manager, Strategy & Market Intelligence"
   },
   "manager, tech product management|unitedhealth group|IN": {
     "company": "UnitedHealth Group",
@@ -2386,6 +2505,13 @@
     "source": "linkedin",
     "title": "MiFIR Business Analyst"
   },
+  "native ads performance marketing manager (gn)|everlife gmbh|DE": {
+    "company": "Everlife GmbH",
+    "first_seen": "2026-08-07",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Native Ads Performance Marketing Manager (gn)"
+  },
   "off-cycle student - business analyst|picnic|NL": {
     "company": "Picnic",
     "first_seen": "2026-08-02",
@@ -2448,6 +2574,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Performance Marketing Manager"
+  },
+  "pmo business analyst - 18m ftc|davy|IE": {
+    "company": "Davy",
+    "first_seen": "2026-08-07",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "PMO Business Analyst - 18m FTC"
   },
   "pricing analyst, product operations (global pricing)|delivery hero|DE": {
     "company": "Delivery Hero",
@@ -3086,6 +3219,13 @@
     "source": "linkedin",
     "title": "Product Manager, Self Managed Service"
   },
+  "product manager- integrations & api|fareharbor|NL": {
+    "company": "FareHarbor",
+    "first_seen": "2026-08-07",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Manager- Integrations & API"
+  },
   "product manager- open banking|paypal|DE": {
     "company": "PayPal",
     "first_seen": "2026-08-02",
@@ -3331,6 +3471,20 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|hadrian security|NL": {
+    "company": "Hadrian Security",
+    "first_seen": "2026-08-07",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
+  "product manager|hadrian|NL": {
+    "company": "Hadrian",
+    "first_seen": "2026-08-07",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product manager|hdfc bank|IN": {
     "company": "HDFC Bank",
     "first_seen": "2026-07-26",
@@ -3433,6 +3587,13 @@
     "company": "Lucas Concrete Products, Inc.",
     "first_seen": "2026-08-02",
     "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|makemytrip|IN": {
+    "company": "MakeMyTrip",
+    "first_seen": "2026-08-07",
+    "region": "IN",
     "source": "linkedin",
     "title": "Product Manager"
   },
@@ -3793,6 +3954,20 @@
     "source": "indeed",
     "title": "Product Owner - Registration Route & AB Testing (f/m/d)"
   },
+  "product owner - swagger|smartbear|IN": {
+    "company": "SmartBear",
+    "first_seen": "2026-08-07",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Owner - Swagger"
+  },
+  "product owner - treasury applications|atlas copco group|IE": {
+    "company": "Atlas Copco Group",
+    "first_seen": "2026-08-07",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Owner - Treasury Applications"
+  },
   "product owner / business analist|isoft nederland|NL": {
     "company": "iSOFT Nederland",
     "first_seen": "2026-07-17",
@@ -3954,6 +4129,13 @@
     "source": "linkedin",
     "title": "Product Owner"
   },
+  "product owner|live connections|IN": {
+    "company": "Live Connections",
+    "first_seen": "2026-08-07",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
   "product owner|lorven technologies inc.|IN": {
     "company": "Lorven Technologies Inc.",
     "first_seen": "2026-08-06",
@@ -3994,6 +4176,13 @@
     "first_seen": "2026-08-02",
     "region": "LU",
     "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "product owner|optimise everything|IE": {
+    "company": "Optimise Everything",
+    "first_seen": "2026-08-07",
+    "region": "IE",
+    "source": "indeed",
     "title": "Product Owner"
   },
   "product owner|pracyva|NL": {
@@ -4080,6 +4269,13 @@
     "source": "linkedin",
     "title": "Product Owner"
   },
+  "product specialist (otc derivatives)|selby jennings|NL": {
+    "company": "Selby Jennings",
+    "first_seen": "2026-08-07",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Specialist (OTC Derivatives)"
+  },
   "product specialist|id-pal|IE": {
     "company": "ID-Pal",
     "first_seen": "2026-08-02",
@@ -4129,6 +4325,13 @@
     "source": "linkedin",
     "title": "REGTECH SALES & GROWTH MANAGER"
   },
+  "relationship manager|hsbc|LU": {
+    "company": "HSBC",
+    "first_seen": "2026-08-07",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Relationship Manager"
+  },
   "remote business analyst|turing|IN": {
     "company": "Turing",
     "first_seen": "2026-07-30",
@@ -4170,6 +4373,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Revenue Growth Manager"
+  },
+  "rfid analyst|primark|IE": {
+    "company": "Primark",
+    "first_seen": "2026-08-07",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "RFID Analyst"
   },
   "risk analyst - client underwriting (m/f/d)|riverty|DE": {
     "company": "Riverty",
@@ -4240,6 +4450,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Software Product Manager"
+  },
+  "software product owner|neogen corporation|IE": {
+    "company": "Neogen Corporation",
+    "first_seen": "2026-08-07",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Software Product Owner"
   },
   "software product owner|ses satellites|LU": {
     "company": "SES Satellites",

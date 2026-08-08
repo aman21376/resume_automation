@@ -13,6 +13,13 @@
     "source": "linkedin",
     "title": "(Junior) Product Manager - Growth Platform"
   },
+  "advisory - business analyst \u2013 manager/ assistant manager - consulting|grant thornton|IE": {
+    "company": "Grant Thornton",
+    "first_seen": "2026-08-08",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Advisory - Business Analyst \u2013 Manager/ Assistant Manager - Consulting"
+  },
   "agile product owner associate|allianz|IE": {
     "company": "Allianz",
     "first_seen": "2026-07-17",
@@ -369,6 +376,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Assortment & Pricing Analyst (m/f/d)"
+  },
+  "b2b growth associate|qogita|NL": {
+    "company": "Qogita",
+    "first_seen": "2026-08-08",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "B2B Growth Associate"
   },
   "b2c growth manager/b2c growth associate|tricog health|IN": {
     "company": "Tricog Health",
@@ -867,6 +881,13 @@
     "source": "linkedin",
     "title": "Business Analyst/ Reporting - Accounting Principles"
   },
+  "business analyst|acca careers|IN": {
+    "company": "ACCA Careers",
+    "first_seen": "2026-08-08",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|accenture in india|IN": {
     "company": "Accenture in India",
     "first_seen": "2026-08-02",
@@ -1102,6 +1123,13 @@
     "company": "Infinity Quest",
     "first_seen": "2026-08-07",
     "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|insight global|IE": {
+    "company": "Insight Global",
+    "first_seen": "2026-08-08",
+    "region": "IE",
     "source": "linkedin",
     "title": "Business Analyst"
   },
@@ -1412,6 +1440,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Business Information Systems Analyst"
+  },
+  "business intelligence manager|blackrock health|IE": {
+    "company": "Blackrock Health",
+    "first_seen": "2026-08-08",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Business Intelligence Manager"
   },
   "business management analyst|ing wholesale banking|IE": {
     "company": "ING Wholesale Banking",
@@ -1728,6 +1763,13 @@
     "source": "linkedin",
     "title": "Digital Growth & Innovation Manager (M/F/D)"
   },
+  "digital growth hacker\nhoofddorp, nl|mavim|NL": {
+    "company": "Mavim",
+    "first_seen": "2026-08-08",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Digital Growth Hacker\nHOOFDDORP, NL"
+  },
   "digital marketing & ai manager|gridx|LU": {
     "company": "GRIDX",
     "first_seen": "2026-08-02",
@@ -1776,6 +1818,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Digital Product Analyst"
+  },
+  "digital product manager|movado group, inc|NL": {
+    "company": "Movado Group, Inc",
+    "first_seen": "2026-08-08",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Digital Product Manager"
   },
   "digital product owner (all genders) - simplesurance|simplesurance|DE": {
     "company": "simplesurance",
@@ -1874,6 +1923,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Functional Analyst (f/m/d)"
+  },
+  "functional analyst|movify luxembourg|LU": {
+    "company": "Movify Luxembourg",
+    "first_seen": "2026-08-08",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Functional Analyst"
   },
   "functional and business analysts|adaptx|NL": {
     "company": "AdaptX",
@@ -2071,6 +2127,13 @@
     "source": "linkedin",
     "title": "Growth Manager"
   },
+  "growth manager|openhouse|IN": {
+    "company": "Openhouse",
+    "first_seen": "2026-08-08",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Growth Manager"
+  },
   "growth manager|pocket fm|IN": {
     "company": "Pocket FM",
     "first_seen": "2026-08-02",
@@ -2138,6 +2201,13 @@
     "company": "Ojin",
     "first_seen": "2026-08-04",
     "region": "DE",
+    "source": "linkedin",
+    "title": "Growth Marketing Manager"
+  },
+  "growth marketing manager|phyllo|IN": {
+    "company": "Phyllo",
+    "first_seen": "2026-08-08",
+    "region": "IN",
     "source": "linkedin",
     "title": "Growth Marketing Manager"
   },
@@ -2337,12 +2407,26 @@
     "source": "indeed",
     "title": "Junior Product Manager"
   },
+  "knowledge manager (communities & innovation)|sisk|IE": {
+    "company": "Sisk",
+    "first_seen": "2026-08-08",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Knowledge Manager (Communities & Innovation)"
+  },
   "manager - marketing|swiggy|IN": {
     "company": "Swiggy",
     "first_seen": "2026-08-03",
     "region": "IN",
     "source": "linkedin",
     "title": "Manager - Marketing"
+  },
+  "manager digital process excellence|kpmg|NL": {
+    "company": "KPMG",
+    "first_seen": "2026-08-08",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Manager Digital Process Excellence"
   },
   "manager growth & community|pidz - met zorg verbonden|NL": {
     "company": "PIDZ - Met zorg verbonden",
@@ -2680,6 +2764,13 @@
     "source": "linkedin",
     "title": "Product Analyst"
   },
+  "product analyst|snapmint|IN": {
+    "company": "Snapmint",
+    "first_seen": "2026-08-08",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Analyst"
+  },
   "product analyst|stonex group inc.|IN": {
     "company": "StoneX Group Inc.",
     "first_seen": "2026-07-15",
@@ -2939,6 +3030,13 @@
     "source": "linkedin",
     "title": "Product Manager - Consumer Selling C2C (f/d/m)"
   },
+  "product manager - contractor pod|trackunit|DE": {
+    "company": "Trackunit",
+    "first_seen": "2026-08-08",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager - Contractor Pod"
+  },
   "product manager - digital assets / collateral coin (f/m/d)|deutsche b\u00f6rse group|LU": {
     "company": "Deutsche B\u00f6rse Group",
     "first_seen": "2026-08-02",
@@ -3001,6 +3099,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Manager - Rental Pod"
+  },
+  "product manager - search & discovery|suitsupply|NL": {
+    "company": "Suitsupply",
+    "first_seen": "2026-08-08",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager - Search & Discovery"
   },
   "product manager - sportsbook|boyle sports|IE": {
     "company": "BOYLE Sports",
@@ -3744,6 +3849,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|taglynk|IN": {
+    "company": "Taglynk",
+    "first_seen": "2026-08-08",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
   "product manager|tata consultancy services|IN": {
     "company": "Tata Consultancy Services",
     "first_seen": "2026-07-26",
@@ -3834,6 +3946,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Owner (m/f/d) \u2013 B2B SaaS | Berlin (hybrid)"
+  },
+  "product owner (m/f/d)|simon-kucher|DE": {
+    "company": "Simon-Kucher",
+    "first_seen": "2026-08-08",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Owner (m/f/d)"
   },
   "product owner (m/w/d)|claas|DE": {
     "company": "CLAAS",
@@ -3981,6 +4100,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Product Owner B2B SaaS Tender Intelligence (m/w/d)"
+  },
+  "product owner customer data, audiencing & activation (m/f/d)|home24 se|DE": {
+    "company": "home24 SE",
+    "first_seen": "2026-08-08",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Owner Customer Data, Audiencing & Activation (m/f/d)"
   },
   "product owner digital|catamania|LU": {
     "company": "Catamania",
@@ -4164,6 +4290,13 @@
     "source": "linkedin",
     "title": "Product Owner"
   },
+  "product owner|movify luxembourg|LU": {
+    "company": "Movify Luxembourg",
+    "first_seen": "2026-08-08",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
   "product owner|mpower plus|NL": {
     "company": "MPower Plus",
     "first_seen": "2026-07-30",
@@ -4275,6 +4408,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Product Specialist (OTC Derivatives)"
+  },
+  "product specialist|abb|LU": {
+    "company": "ABB",
+    "first_seen": "2026-08-08",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product Specialist"
   },
   "product specialist|id-pal|IE": {
     "company": "ID-Pal",
@@ -4485,6 +4625,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Solution & Business Analyst"
+  },
+  "specialist, product management - ai|mastercard|IE": {
+    "company": "Mastercard",
+    "first_seen": "2026-08-08",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Specialist, Product Management - AI"
   },
   "startup founder & ceo|dqventures|LU": {
     "company": "DQventures",

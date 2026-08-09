@@ -951,6 +951,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|appstrail|IN": {
+    "company": "Appstrail",
+    "first_seen": "2026-08-09",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
   "business analyst|capgemini|NL": {
     "company": "Capgemini",
     "first_seen": "2026-08-02",
@@ -1025,6 +1032,13 @@
     "company": "Dionys",
     "first_seen": "2026-07-17",
     "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|easyecom|IN": {
+    "company": "EASYECOM",
+    "first_seen": "2026-08-09",
+    "region": "IN",
     "source": "linkedin",
     "title": "Business Analyst"
   },
@@ -1229,6 +1243,13 @@
     "first_seen": "2026-07-17",
     "region": "NL",
     "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|programming.com|IN": {
+    "company": "Programming.com",
+    "first_seen": "2026-08-09",
+    "region": "IN",
+    "source": "indeed",
     "title": "Business Analyst"
   },
   "business analyst|qualco|LU": {
@@ -1546,6 +1567,13 @@
     "source": "linkedin",
     "title": "Consultant - Product Analyst."
   },
+  "consultant business systems (revenue cycle applications analyst)|unitedhealth group|IN": {
+    "company": "UnitedHealth Group",
+    "first_seen": "2026-08-09",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Consultant Business Systems (Revenue Cycle Applications Analyst)"
+  },
   "contact center business analyst (w/m/d)|e.on|DE": {
     "company": "E.ON",
     "first_seen": "2026-07-16",
@@ -1832,6 +1860,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Digital Product Owner (all genders) - simplesurance"
+  },
+  "digital product owner|chevron|IN": {
+    "company": "Chevron",
+    "first_seen": "2026-08-09",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Digital Product Owner"
   },
   "digital project manager|ryanair - europe's favourite airline|IE": {
     "company": "Ryanair - Europe's Favourite Airline",
@@ -2805,6 +2840,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Product Assurance Manager"
+  },
+  "product builder \u2014 ufm platform|faubourg mobility|DE": {
+    "company": "Faubourg Mobility",
+    "first_seen": "2026-08-09",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Builder \u2014 UFM Platform"
   },
   "product data analyst ii|f5|IE": {
     "company": "F5",
@@ -4136,6 +4178,13 @@
     "source": "linkedin",
     "title": "Product Owner Grade VII POGVIIEX"
   },
+  "product owner it ns treinmodernisering|ns|NL": {
+    "company": "NS",
+    "first_seen": "2026-08-09",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Owner IT NS Treinmodernisering"
+  },
   "product owner manage & grow|virtuagym|NL": {
     "company": "Virtuagym",
     "first_seen": "2026-08-03",
@@ -4170,6 +4219,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Product Owner-Marketing"
+  },
+  "product owner|a.s.r. verzekeringen|NL": {
+    "company": "a.s.r. Verzekeringen",
+    "first_seen": "2026-08-09",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Owner"
   },
   "product owner|augustus|DE": {
     "company": "Augustus",
@@ -4223,6 +4279,13 @@
   "product owner|gemeente amsterdam|NL": {
     "company": "Gemeente Amsterdam",
     "first_seen": "2026-08-02",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Owner"
+  },
+  "product owner|hci crs|NL": {
+    "company": "HCI CRS",
+    "first_seen": "2026-08-09",
     "region": "NL",
     "source": "indeed",
     "title": "Product Owner"

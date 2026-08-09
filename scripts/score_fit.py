@@ -165,8 +165,11 @@ def score_job(job, skills_pool=None, all_keywords=None):
     # Visa/sponsorship gate - a hit here means the posting explicitly refuses
     # candidates who don't already hold the right to work, regardless of who
     # funds the visa process. Scored down hard rather than excluded outright,
-    # same treatment as salary: never hidden, always flagged.
-    visa_blocked = has_visa_blocker(text)
+    # same treatment as salary: never hidden, always flagged. Only relevant
+    # outside India - the candidate is an Indian citizen and needs no visa
+    # to work an India-based role, so an India posting's sponsorship language
+    # (often global boilerplate) isn't a real barrier for this candidate.
+    visa_blocked = job.get("region") != "IN" and has_visa_blocker(text)
     if visa_blocked:
         score -= 50
         reasons.append("Posting states no visa sponsorship / local candidates only — likely to reject even self-funded visa applicants")

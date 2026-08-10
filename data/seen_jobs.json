@@ -377,6 +377,13 @@
     "source": "indeed",
     "title": "Assortment & Pricing Analyst (m/f/d)"
   },
+  "avp-product analyst|moody's|IN": {
+    "company": "Moody's",
+    "first_seen": "2026-08-10",
+    "region": "IN",
+    "source": "indeed",
+    "title": "AVP-Product Analyst"
+  },
   "b2b growth associate|qogita|NL": {
     "company": "Qogita",
     "first_seen": "2026-08-08",
@@ -963,6 +970,13 @@
     "first_seen": "2026-08-02",
     "region": "NL",
     "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|chill insurance|IE": {
+    "company": "Chill Insurance",
+    "first_seen": "2026-08-10",
+    "region": "IE",
+    "source": "indeed",
     "title": "Business Analyst"
   },
   "business analyst|clean harbors|IN": {
@@ -3016,6 +3030,13 @@
     "source": "linkedin",
     "title": "Product Manager (m/w/d)"
   },
+  "product manager (m/w/d)|bundesdruckerei-gruppe|DE": {
+    "company": "Bundesdruckerei-Gruppe",
+    "first_seen": "2026-08-10",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Manager (m/w/d)"
+  },
   "product manager (m/w/d)|legal hero gmbh|DE": {
     "company": "Legal Hero GmbH",
     "first_seen": "2026-07-18",
@@ -3751,6 +3772,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|miq|IN": {
+    "company": "MiQ",
+    "first_seen": "2026-08-10",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product manager|niulix|DE": {
     "company": "Niulix",
     "first_seen": "2026-08-02",
@@ -3960,6 +3988,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Product Operations Manager"
+  },
+  "product owner (berlin) - mobility startup|getaway.pro|DE": {
+    "company": "GETAWAY.PRO",
+    "first_seen": "2026-08-10",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Owner (Berlin) - Mobility Startup"
   },
   "product owner (crypto)|revolut|DE": {
     "company": "Revolut",
@@ -4688,6 +4723,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Solution & Business Analyst"
+  },
+  "sourcing analyst - indirect procurement|commscope|IN": {
+    "company": "CommScope",
+    "first_seen": "2026-08-10",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Sourcing Analyst - Indirect Procurement"
   },
   "specialist, product management - ai|mastercard|IE": {
     "company": "Mastercard",

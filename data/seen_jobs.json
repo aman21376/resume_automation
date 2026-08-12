@@ -433,6 +433,13 @@
     "source": "indeed",
     "title": "Business & Data Analyst"
   },
+  "business (it) analist|anwb|NL": {
+    "company": "ANWB",
+    "first_seen": "2026-08-12",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business (IT) analist"
+  },
   "business analist - projecten nederland|youngcapital next|NL": {
     "company": "YoungCapital NEXT",
     "first_seen": "2026-08-04",
@@ -734,6 +741,13 @@
     "source": "indeed",
     "title": "Business Analyst Commercial"
   },
+  "business analyst digital & ai transformation|ced europe|NL": {
+    "company": "CED Europe",
+    "first_seen": "2026-08-12",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst Digital & AI Transformation"
+  },
   "business analyst f/m/x|amaris consulting|LU": {
     "company": "Amaris Consulting",
     "first_seen": "2026-08-07",
@@ -839,6 +853,13 @@
     "source": "linkedin",
     "title": "Business Analyst \u2013 SAP BRIM (Scrum)"
   },
+  "business analyst \u2013 technology delivery|accenture uk & ireland|IE": {
+    "company": "Accenture UK & Ireland",
+    "first_seen": "2026-08-12",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Analyst \u2013 Technology Delivery"
+  },
   "business analyst \u2013 web banking|avaloq|DE": {
     "company": "Avaloq",
     "first_seen": "2026-07-15",
@@ -923,6 +944,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|accion labs|DE": {
+    "company": "Accion Labs",
+    "first_seen": "2026-08-12",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|afs group|NL": {
     "company": "AFS Group",
     "first_seen": "2026-08-02",
@@ -979,6 +1007,20 @@
     "source": "indeed",
     "title": "Business Analyst"
   },
+  "business analyst|atos|NL": {
+    "company": "Atos",
+    "first_seen": "2026-08-12",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "BUSINESS ANALYST"
+  },
+  "business analyst|brunel|NL": {
+    "company": "Brunel",
+    "first_seen": "2026-08-12",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|capgemini|NL": {
     "company": "Capgemini",
     "first_seen": "2026-08-02",
@@ -996,6 +1038,13 @@
   "business analyst|clean harbors|IN": {
     "company": "Clean Harbors",
     "first_seen": "2026-08-02",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|codemonk|IN": {
+    "company": "Codemonk",
+    "first_seen": "2026-08-12",
     "region": "IN",
     "source": "linkedin",
     "title": "Business Analyst"
@@ -1067,6 +1116,13 @@
     "company": "EASYECOM",
     "first_seen": "2026-08-09",
     "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|elwood roberts - your trusted recruitment partner|IE": {
+    "company": "Elwood Roberts - Your Trusted Recruitment Partner",
+    "first_seen": "2026-08-12",
+    "region": "IE",
     "source": "linkedin",
     "title": "Business Analyst"
   },
@@ -1560,6 +1616,13 @@
     "source": "indeed",
     "title": "Business Systems Analyst \u2013 HR Platforms"
   },
+  "business systems analyst|wolters kluwer|NL": {
+    "company": "Wolters Kluwer",
+    "first_seen": "2026-08-12",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Systems Analyst"
+  },
   "c4c business analyst|geeksoft consulting|IN": {
     "company": "GeekSoft Consulting",
     "first_seen": "2026-08-05",
@@ -1587,6 +1650,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Central Product Manager"
+  },
+  "chief growth officer|aeon|DE": {
+    "company": "Aeon",
+    "first_seen": "2026-08-12",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Chief Growth Officer"
   },
   "co strategic initiatives project manager|hp|IN": {
     "company": "HP",
@@ -1622,6 +1692,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Contact Center Business Analyst (w/m/d)"
+  },
+  "corporate sales account manager|landmark technologies|IE": {
+    "company": "Landmark Technologies",
+    "first_seen": "2026-08-12",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Corporate Sales Account Manager"
   },
   "cots business analyst|altherias|LU": {
     "company": "Altherias",
@@ -1727,6 +1804,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "DATA ANALYTICS"
+  },
+  "data business analyst|capco|IN": {
+    "company": "Capco",
+    "first_seen": "2026-08-12",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Data Business Analyst"
   },
   "data product owner (w/m/d)|finanzen.net gmbh|DE": {
     "company": "finanzen.net GmbH",
@@ -1973,6 +2057,13 @@
     "source": "linkedin",
     "title": "Finance Business Analyst"
   },
+  "founders associate (growth) | \u20ac80k ote | german c2 | berlin|genz4gtm|DE": {
+    "company": "GENZ4GTM",
+    "first_seen": "2026-08-12",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Founders Associate (Growth) | \u20ac80k OTE | German C2 | Berlin"
+  },
   "founding gtm lead|statuspal|DE": {
     "company": "StatusPal",
     "first_seen": "2026-08-05",
@@ -2021,6 +2112,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Functional and Business Analysts"
+  },
+  "funding operations analyst - lux|ploomo|LU": {
+    "company": "Ploomo",
+    "first_seen": "2026-08-12",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Funding Operations Analyst - Lux"
   },
   "genai regional product marketing manager, creative product|tiktok|DE": {
     "company": "TikTok",
@@ -2281,6 +2379,13 @@
     "source": "linkedin",
     "title": "Growth Marketing Manager"
   },
+  "growth marketing manager|geistm|IE": {
+    "company": "GeistM",
+    "first_seen": "2026-08-12",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Growth Marketing Manager"
+  },
   "growth marketing manager|ojin|DE": {
     "company": "Ojin",
     "first_seen": "2026-08-04",
@@ -2314,6 +2419,13 @@
     "first_seen": "2026-08-11",
     "region": "IE",
     "source": "linkedin",
+    "title": "Growth Product Manager"
+  },
+  "growth product manager|sleep|IE": {
+    "company": "Sleep",
+    "first_seen": "2026-08-12",
+    "region": "IE",
+    "source": "indeed",
     "title": "Growth Product Manager"
   },
   "growth product owner (de)|nodes & links|DE": {
@@ -2504,6 +2616,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Knowledge Manager (Communities & Innovation)"
+  },
+  "manager - growth|swiggy|IN": {
+    "company": "Swiggy",
+    "first_seen": "2026-08-12",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Manager - Growth"
   },
   "manager - marketing|swiggy|IN": {
     "company": "Swiggy",
@@ -2837,6 +2956,13 @@
   "product analyst|appsforbharat|IN": {
     "company": "AppsForBharat",
     "first_seen": "2026-08-02",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Analyst"
+  },
+  "product analyst|creditspring|IN": {
+    "company": "Creditspring",
+    "first_seen": "2026-08-12",
     "region": "IN",
     "source": "linkedin",
     "title": "Product Analyst"
@@ -4220,6 +4346,13 @@
     "source": "linkedin",
     "title": "Product Owner - Onsite Experience (m/f/d)"
   },
+  "product owner - platform|ecoonline|IE": {
+    "company": "EcoOnline",
+    "first_seen": "2026-08-12",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Owner - Platform"
+  },
   "product owner - registration route & ab testing (f/m/d)|finanzcheck.de|DE": {
     "company": "Finanzcheck.de",
     "first_seen": "2026-08-01",
@@ -4311,6 +4444,20 @@
     "source": "linkedin",
     "title": "Product Owner Manage & Grow"
   },
+  "product owner ngi|schiphol|NL": {
+    "company": "Schiphol",
+    "first_seen": "2026-08-12",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Owner NGI"
+  },
+  "product owner software|prinzen bv|NL": {
+    "company": "Prinzen BV",
+    "first_seen": "2026-08-12",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Owner Software"
+  },
   "product owner \u2013 mdr platforms|integrity360|IE": {
     "company": "Integrity360",
     "first_seen": "2026-07-17",
@@ -4384,6 +4531,13 @@
   "product owner|davy|IE": {
     "company": "Davy",
     "first_seen": "2026-08-02",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "product owner|ecoonline|IE": {
+    "company": "EcoOnline",
+    "first_seen": "2026-08-12",
     "region": "IE",
     "source": "linkedin",
     "title": "Product Owner"
@@ -4496,6 +4650,13 @@
   "product owner|mpower plus|NL": {
     "company": "MPower Plus",
     "first_seen": "2026-07-30",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "product owner|nexxt|NL": {
+    "company": "NEXXT",
+    "first_seen": "2026-08-12",
     "region": "NL",
     "source": "linkedin",
     "title": "Product Owner"
@@ -4667,6 +4828,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "REGTECH SALES & GROWTH MANAGER"
+  },
+  "regulatory reporting product manager (f/m/d)|deutsche b\u00f6rse group|LU": {
+    "company": "Deutsche B\u00f6rse Group",
+    "first_seen": "2026-08-12",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Regulatory reporting product manager (f/m/d)"
   },
   "relationship manager|hsbc|LU": {
     "company": "HSBC",
@@ -4857,6 +5025,13 @@
     "source": "linkedin",
     "title": "Strategy & Analytics Manager- Travel Supply & AI (100% Remote - Ireland)"
   },
+  "taxtech und fintech product owner (m/w/d)|headfound gmbh|DE": {
+    "company": "HEADFOUND GmbH",
+    "first_seen": "2026-08-12",
+    "region": "DE",
+    "source": "indeed",
+    "title": "TaxTech und FinTech Product Owner (m/w/d)"
+  },
   "tech & analytics projects - mid-level|picnic technologies|NL": {
     "company": "Picnic Technologies",
     "first_seen": "2026-08-02",
@@ -4961,6 +5136,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Technical Product Owner"
+  },
+  "technical program manager, product development and insertion|google|IE": {
+    "company": "Google",
+    "first_seen": "2026-08-12",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Technical Program Manager, Product Development and Insertion"
   },
   "technology analyst|ebay|IE": {
     "company": "eBay",

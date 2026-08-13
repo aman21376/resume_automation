@@ -125,6 +125,13 @@
     "source": "linkedin",
     "title": "AI Product Owner"
   },
+  "ai product owner|siemens|IN": {
+    "company": "Siemens",
+    "first_seen": "2026-08-13",
+    "region": "IN",
+    "source": "indeed",
+    "title": "AI Product Owner"
+  },
   "ai-native product delivery manager|hydrosat|LU": {
     "company": "Hydrosat",
     "first_seen": "2026-08-11",
@@ -145,6 +152,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "AI4Dev Service Owner"
+  },
+  "airline-technical business analyst|acl digital|IN": {
+    "company": "ACL Digital",
+    "first_seen": "2026-08-13",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Airline-Technical Business analyst"
   },
   "analyst - product & strategy|rupeek|IN": {
     "company": "Rupeek",
@@ -187,6 +201,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Area Europe eCommerce Development"
+  },
+  "artificial intelligence - product owner - associate|jpmorganchase|IN": {
+    "company": "JPMorganChase",
+    "first_seen": "2026-08-13",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Artificial Intelligence - Product Owner - Associate"
   },
   "assistant manager-digital marketing|cleartrip|IN": {
     "company": "Cleartrip",
@@ -489,6 +510,13 @@
     "source": "linkedin",
     "title": "Business Analist"
   },
+  "business analist|hebe kenniscentrum|NL": {
+    "company": "Hebe Kenniscentrum",
+    "first_seen": "2026-08-13",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analist"
+  },
   "business analist|ilionx|NL": {
     "company": "ilionx",
     "first_seen": "2026-07-17",
@@ -649,6 +677,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Business Analyst - EN"
+  },
+  "business analyst - expert paiements|talan|LU": {
+    "company": "Talan",
+    "first_seen": "2026-08-13",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst - Expert Paiements"
   },
   "business analyst - financial markets (uat & regulatory change)|levy professionals|NL": {
     "company": "Levy Professionals",
@@ -1245,6 +1280,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|iqsearch|NL": {
+    "company": "IQSearch",
+    "first_seen": "2026-08-13",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|kaseya|IN": {
     "company": "Kaseya",
     "first_seen": "2026-07-15",
@@ -1630,6 +1672,13 @@
     "source": "linkedin",
     "title": "C4C Business Analyst"
   },
+  "category & insights manager|green isle foods|IE": {
+    "company": "Green Isle Foods",
+    "first_seen": "2026-08-13",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Category & Insights Manager"
+  },
   "category marketing manager, amazon beauty|amazon|IN": {
     "company": "Amazon",
     "first_seen": "2026-08-03",
@@ -1818,6 +1867,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Data Product Owner (w/m/d)"
+  },
+  "decision scientist, trust & safety|vinted|NL": {
+    "company": "Vinted",
+    "first_seen": "2026-08-13",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Decision Scientist, Trust & Safety"
   },
   "delivery product manager|holafly|IE": {
     "company": "Holafly",
@@ -2028,6 +2084,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Ecommerce and CRM Marketing Manager (f/m/d)"
+  },
+  "education partnerships manager|shree swaminarayan gurukul international school, hyderabad|IN": {
+    "company": "Shree Swaminarayan Gurukul International School, Hyderabad",
+    "first_seen": "2026-08-13",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Education Partnerships Manager"
   },
   "emea sales planning analyst|google|IE": {
     "company": "Google",
@@ -2295,6 +2358,13 @@
     "source": "linkedin",
     "title": "Growth Manager"
   },
+  "growth manager|eqili|NL": {
+    "company": "EQili",
+    "first_seen": "2026-08-13",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Growth Manager"
+  },
   "growth manager|kuku|IN": {
     "company": "Kuku",
     "first_seen": "2026-08-07",
@@ -2406,6 +2476,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Growth Marketing Manager"
+  },
+  "growth operations manager (jetbrains ai)|jetbrains|NL": {
+    "company": "JetBrains",
+    "first_seen": "2026-08-13",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Growth Operations Manager (JetBrains AI)"
   },
   "growth operations specialist|web summit|IE": {
     "company": "Web Summit",
@@ -2658,6 +2735,13 @@
     "region": "LU",
     "source": "indeed",
     "title": "Manager, 80/20 & Business Transformation"
+  },
+  "manager, product manager|mastercard|IE": {
+    "company": "Mastercard",
+    "first_seen": "2026-08-13",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Manager, Product Manager"
   },
   "manager, strategy & market intelligence|ses|LU": {
     "company": "SES",
@@ -3345,6 +3429,13 @@
     "source": "linkedin",
     "title": "Product Manager - Quality and Regulatory Systems"
   },
+  "product manager - regulatory calculations|fe fundinfo|LU": {
+    "company": "FE fundinfo",
+    "first_seen": "2026-08-13",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Product Manager - Regulatory Calculations"
+  },
   "product manager - rental pod|trackunit|DE": {
     "company": "Trackunit",
     "first_seen": "2026-08-06",
@@ -3393,6 +3484,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Product Manager Build"
+  },
+  "product manager digital assets|luxembourg stock exchange (luxse)|LU": {
+    "company": "Luxembourg Stock Exchange (LuxSE)",
+    "first_seen": "2026-08-13",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product Manager Digital Assets"
   },
   "product manager ii - personalisation|nykaa|IN": {
     "company": "Nykaa",
@@ -3617,6 +3715,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Manager:in / Product Owner (all genders welcome) \u2013 Operation Support Systems"
+  },
+  "product manager_tt|pulserise technologies|DE": {
+    "company": "PulseRise Technologies",
+    "first_seen": "2026-08-13",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager_TT"
   },
   "product manager|ab inbev gcc india|IN": {
     "company": "AB InBev GCC India",
@@ -4157,6 +4262,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|wenger & watson|IN": {
+    "company": "Wenger & Watson",
+    "first_seen": "2026-08-13",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product manager|wolters kluwer|NL": {
     "company": "Wolters Kluwer",
     "first_seen": "2026-08-11",
@@ -4192,6 +4304,13 @@
     "source": "linkedin",
     "title": "Product Operations Manager"
   },
+  "product owner (all genders)|xitaso|DE": {
+    "company": "XITASO",
+    "first_seen": "2026-08-13",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Owner (all genders)"
+  },
   "product owner (berlin) - mobility startup|getaway.pro|DE": {
     "company": "GETAWAY.PRO",
     "first_seen": "2026-08-10",
@@ -4226,6 +4345,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Product Owner (f/m/d)"
+  },
+  "product owner (ireland remote)|oomnitza|IE": {
+    "company": "Oomnitza",
+    "first_seen": "2026-08-13",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Owner (Ireland Remote)"
   },
   "product owner (m/f/d) \u2013 b2b saas | berlin (hybrid)|packmatic|DE": {
     "company": "Packmatic",
@@ -4430,6 +4556,13 @@
     "source": "linkedin",
     "title": "Product Owner Grade VII POGVIIEX"
   },
+  "product owner ii|candescent|IN": {
+    "company": "Candescent",
+    "first_seen": "2026-08-13",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Owner II"
+  },
   "product owner it ns treinmodernisering|ns|NL": {
     "company": "NS",
     "first_seen": "2026-08-09",
@@ -4450,6 +4583,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Product Owner NGI"
+  },
+  "product owner platform|ecoonline|IE": {
+    "company": "EcoOnline",
+    "first_seen": "2026-08-13",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Owner Platform"
   },
   "product owner software|prinzen bv|NL": {
     "company": "Prinzen BV",
@@ -4498,6 +4638,13 @@
     "first_seen": "2026-08-11",
     "region": "IN",
     "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "product owner|accenture|IN": {
+    "company": "Accenture",
+    "first_seen": "2026-08-13",
+    "region": "IN",
+    "source": "indeed",
     "title": "Product Owner"
   },
   "product owner|augustus|DE": {
@@ -4822,6 +4969,13 @@
     "source": "linkedin",
     "title": "PROXY PRODUCT OWNER"
   },
+  "quality control & mobile team officer (fixed-term contract - 24 months)|pictet group|LU": {
+    "company": "Pictet Group",
+    "first_seen": "2026-08-13",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Quality Control & Mobile Team Officer (Fixed-term contract - 24 months)"
+  },
   "regtech sales & growth manager|luxhub|LU": {
     "company": "LUXHUB",
     "first_seen": "2026-08-03",
@@ -4926,6 +5080,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Salesforce Product Manager"
+  },
+  "sd-26124 research & technology engineer - ai product management|luxembourg institute of science and technology (list)|LU": {
+    "company": "Luxembourg Institute of Science and Technology (LIST)",
+    "first_seen": "2026-08-13",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "SD-26124 RESEARCH & TECHNOLOGY ENGINEER - AI PRODUCT MANAGEMENT"
   },
   "servicenow business analyst proces|adecco|NL": {
     "company": "Adecco",

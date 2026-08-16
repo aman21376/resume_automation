@@ -20,6 +20,13 @@
     "source": "linkedin",
     "title": "(Junior) Product Manager - Growth Platform"
   },
+  "(junior) produktmanager (m/w/d) supplier flug|check24 vergleichsportal gmbh|DE": {
+    "company": "CHECK24 Vergleichsportal GmbH",
+    "first_seen": "2026-08-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "(Junior) Produktmanager (m/w/d) Supplier Flug"
+  },
   "advisory - business analyst \u2013 manager/ assistant manager - consulting|grant thornton|IE": {
     "company": "Grant Thornton",
     "first_seen": "2026-08-08",
@@ -202,6 +209,13 @@
     "source": "linkedin",
     "title": "Analyst Market Approach"
   },
+  "analyst strategy & growth (w/m/d)|enpal|DE": {
+    "company": "Enpal",
+    "first_seen": "2026-08-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Analyst Strategy & Growth (w/m/d)"
+  },
   "analyst, product control|standard chartered bank|IN": {
     "company": "Standard Chartered Bank",
     "first_seen": "2026-08-15",
@@ -244,12 +258,26 @@
     "source": "indeed",
     "title": "Associate Business Analyst - Business Analysis"
   },
+  "associate digital product manager [t500-28362]|albertsons companies india|IN": {
+    "company": "Albertsons Companies India",
+    "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Digital Product Manager [T500-28362]"
+  },
   "associate product manager (europe)|nuclei|DE": {
     "company": "Nuclei",
     "first_seen": "2026-08-05",
     "region": "DE",
     "source": "linkedin",
     "title": "Associate Product Manager (Europe)"
+  },
+  "associate product manager (hotels)|makemytrip|IN": {
+    "company": "MakeMyTrip",
+    "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager (Hotels)"
   },
   "associate product manager - key components|super micro computer spain, s.l.|NL": {
     "company": "Super Micro Computer Spain, S.L.",
@@ -425,6 +453,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "Associate Product Support Analyst"
+  },
+  "associate strategy & growth (w/m/d)|enpal|DE": {
+    "company": "Enpal",
+    "first_seen": "2026-08-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Associate Strategy & Growth (w/m/d)"
   },
   "associate strategy operations (w/m/d)|enpal|DE": {
     "company": "Enpal",
@@ -734,6 +769,13 @@
     "source": "indeed",
     "title": "Business Analyst - Dublin"
   },
+  "business analyst - enterprise programs 4b|genpact|IN": {
+    "company": "Genpact",
+    "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst - Enterprise Programs 4B"
+  },
   "business analyst - en|alten|LU": {
     "company": "ALTEN",
     "first_seen": "2026-08-07",
@@ -831,6 +873,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "Business Analyst 1-Ops"
+  },
+  "business analyst 4a|genpact|IN": {
+    "company": "Genpact",
+    "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst 4A"
   },
   "business analyst bav (all genders)|adesso se|DE": {
     "company": "adesso SE",
@@ -1126,6 +1175,13 @@
     "source": "indeed",
     "title": "Business Analyst"
   },
+  "business analyst|ascendion|IN": {
+    "company": "Ascendion",
+    "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|atos|NL": {
     "company": "Atos",
     "first_seen": "2026-08-12",
@@ -1158,6 +1214,13 @@
     "company": "Chill Insurance",
     "first_seen": "2026-08-10",
     "region": "IE",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
+  "business analyst|cisco|IN": {
+    "company": "Cisco",
+    "first_seen": "2026-08-16",
+    "region": "IN",
     "source": "indeed",
     "title": "Business Analyst"
   },
@@ -1313,6 +1376,13 @@
     "first_seen": "2026-08-02",
     "region": "NL",
     "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|gnani innovations|IN": {
+    "company": "Gnani Innovations",
+    "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "indeed",
     "title": "Business Analyst"
   },
   "business analyst|high quality recruitment|NL": {
@@ -1518,6 +1588,20 @@
     "source": "indeed",
     "title": "Business Analyst"
   },
+  "business analyst|standard chartered bank|IN": {
+    "company": "Standard Chartered Bank",
+    "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
+  "business analyst|symbiosis e-serve|IN": {
+    "company": "Symbiosis e-Serve",
+    "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
   "business analyst|tata consultancy services (tcs)|IN": {
     "company": "Tata Consultancy Services (TCS)",
     "first_seen": "2026-07-17",
@@ -1567,6 +1651,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|three rock group|IE": {
+    "company": "Three Rock Group",
+    "first_seen": "2026-08-16",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
   "business analyst|ubique systems|NL": {
     "company": "Ubique Systems",
     "first_seen": "2026-07-17",
@@ -1586,6 +1677,13 @@
     "first_seen": "2026-08-02",
     "region": "NL",
     "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|varthana|IN": {
+    "company": "Varthana",
+    "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "indeed",
     "title": "Business Analyst"
   },
   "business analyst|vass benelux|LU": {
@@ -1825,6 +1923,20 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Chief Growth Officer"
+  },
+  "client lead|vml|LU": {
+    "company": "VML",
+    "first_seen": "2026-08-16",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Client Lead"
+  },
+  "client relationship manager|sonata one|LU": {
+    "company": "Sonata One",
+    "first_seen": "2026-08-16",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Client Relationship Manager"
   },
   "co strategic initiatives project manager|hp|IN": {
     "company": "HP",
@@ -2190,6 +2302,13 @@
     "source": "linkedin",
     "title": "Digital Marketing Manager"
   },
+  "digital marketing specialist \u2013 seo, leadgenerierung & ki (everyone is welcome)  berlin|sirius facilities gmbh|DE": {
+    "company": "Sirius Facilities GmbH",
+    "first_seen": "2026-08-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Digital Marketing Specialist \u2013 SEO, Leadgenerierung & KI (everyone is welcome)  Berlin"
+  },
   "digital product analyst|millerknoll|IN": {
     "company": "MillerKnoll",
     "first_seen": "2026-08-02",
@@ -2308,6 +2427,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Finance Business Analyst"
+  },
+  "founder's office - growth|emergent|IN": {
+    "company": "Emergent",
+    "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Founder's Office - Growth"
   },
   "founders associate (growth) | \u20ac80k ote | german c2 | berlin|genz4gtm|DE": {
     "company": "GENZ4GTM",
@@ -2764,6 +2890,13 @@
     "source": "linkedin",
     "title": "Growth Workflow Manager, Performance & Paid"
   },
+  "gtm & outbound growth specialist|blufig|IN": {
+    "company": "Blufig",
+    "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "GTM & Outbound Growth Specialist"
+  },
   "gtm data & performance analyst|smartbox group|IE": {
     "company": "Smartbox Group",
     "first_seen": "2026-08-07",
@@ -2903,6 +3036,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Junior Business Development Manager (w/m/d)"
+  },
+  "junior growth & integration manager:in (m/w/d)|amberra gmbh|DE": {
+    "company": "amberra GmbH",
+    "first_seen": "2026-08-16",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Junior Growth & Integration Manager:in (m/w/d)"
   },
   "junior licensing product development manager|ferrero|LU": {
     "company": "Ferrero",
@@ -3212,6 +3352,20 @@
     "source": "linkedin",
     "title": "Paid Media Manager (m/f/d)"
   },
+  "partnerships - product manager - fee admin|booking.com|NL": {
+    "company": "Booking.com",
+    "first_seen": "2026-08-16",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Partnerships - Product Manager - Fee Admin"
+  },
+  "people & culture manager (m/w/d)|international motivation training deutschland gmbh|DE": {
+    "company": "INTERNATIONAL MOTIVATION TRAINING DEUTSCHLAND GMBH",
+    "first_seen": "2026-08-16",
+    "region": "DE",
+    "source": "indeed",
+    "title": "People & Culture Manager (m/w/d)"
+  },
   "performance analyst|flutter uk & ireland|IE": {
     "company": "Flutter UK & Ireland",
     "first_seen": "2026-08-11",
@@ -3275,6 +3429,13 @@
     "source": "linkedin",
     "title": "PMO Business Analyst - 18m FTC"
   },
+  "portfolio manager - fund management|unicredit group|LU": {
+    "company": "UniCredit Group",
+    "first_seen": "2026-08-16",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Portfolio Manager - Fund Management"
+  },
   "pricing analyst, product operations (global pricing)|delivery hero|DE": {
     "company": "Delivery Hero",
     "first_seen": "2026-08-02",
@@ -3288,6 +3449,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Product & Application owner"
+  },
+  "product - growth and engagement|stockgro|IN": {
+    "company": "StockGro",
+    "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product - Growth and Engagement"
   },
   "product analyst (f/m/d)|verwaltungssprung gmbh|DE": {
     "company": "Verwaltungssprung GmbH",
@@ -3723,6 +3891,13 @@
     "source": "linkedin",
     "title": "Product Manager - Contractor Pod"
   },
+  "product manager - data center white space (emea)|eaton|IE": {
+    "company": "Eaton",
+    "first_seen": "2026-08-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager - Data Center White Space (EMEA)"
+  },
   "product manager - digital assets / collateral coin (f/m/d)|deutsche b\u00f6rse group|LU": {
     "company": "Deutsche B\u00f6rse Group",
     "first_seen": "2026-08-02",
@@ -3847,6 +4022,13 @@
     "first_seen": "2026-08-13",
     "region": "LU",
     "source": "linkedin",
+    "title": "Product Manager Digital Assets"
+  },
+  "product manager digital assets|luxembourg stock exchange|LU": {
+    "company": "Luxembourg Stock Exchange",
+    "first_seen": "2026-08-16",
+    "region": "LU",
+    "source": "indeed",
     "title": "Product Manager Digital Assets"
   },
   "product manager ii - personalisation|nykaa|IN": {
@@ -4360,6 +4542,13 @@
     "source": "indeed",
     "title": "Product Manager"
   },
+  "product manager|insync jobs|NL": {
+    "company": "InSync Jobs",
+    "first_seen": "2026-08-16",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
   "product manager|inxiteout|IN": {
     "company": "InXiteOut",
     "first_seen": "2026-07-16",
@@ -4518,6 +4707,13 @@
     "company": "Qualwebs",
     "first_seen": "2026-07-27",
     "region": "IN",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
+  "product manager|resumedia|NL": {
+    "company": "Resumedia",
+    "first_seen": "2026-08-16",
+    "region": "NL",
     "source": "indeed",
     "title": "Product Manager"
   },
@@ -4919,6 +5115,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Product Owner / Business Analist"
+  },
+  "product owner / technical consultant (m/w/d) \u2013 konstanz, berlin oder remote|social officenet (son)|DE": {
+    "company": "Social OfficeNet (SON)",
+    "first_seen": "2026-08-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Owner / Technical Consultant (m/w/d) \u2013 Konstanz, Berlin oder remote"
   },
   "product owner b2b saas tender intelligence (m/w/d)|dtad gmbh|DE": {
     "company": "DTAD GmbH",
@@ -5542,6 +5745,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Risk Analyst B2B (m/f/d)"
+  },
+  "sales & growth (founding team)|echovane|IN": {
+    "company": "Echovane",
+    "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Sales & Growth (Founding Team)"
   },
   "sales business analyst (w/m/d)|fritz!|DE": {
     "company": "FRITZ!",

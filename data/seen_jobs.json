@@ -230,6 +230,13 @@
     "source": "indeed",
     "title": "API Technical Product Owner"
   },
+  "applied ai product manager|marsh|IE": {
+    "company": "Marsh",
+    "first_seen": "2026-08-17",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Applied AI Product Manager"
+  },
   "area europe ecommerce development|ferrero|LU": {
     "company": "Ferrero",
     "first_seen": "2026-08-04",
@@ -517,6 +524,13 @@
     "source": "indeed",
     "title": "BCG X APAC Talent Manager \u2013 X Delivery"
   },
+  "bi analyst|12build|NL": {
+    "company": "12Build",
+    "first_seen": "2026-08-17",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "BI Analyst"
+  },
   "bid technical manager software|thales|LU": {
     "company": "Thales",
     "first_seen": "2026-08-02",
@@ -601,6 +615,13 @@
     "source": "linkedin",
     "title": "Business Analist"
   },
+  "business analist|haystack people|NL": {
+    "company": "Haystack People",
+    "first_seen": "2026-08-17",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business Analist"
+  },
   "business analist|hebe kenniscentrum|NL": {
     "company": "Hebe Kenniscentrum",
     "first_seen": "2026-08-13",
@@ -620,6 +641,13 @@
     "first_seen": "2026-08-06",
     "region": "NL",
     "source": "linkedin",
+    "title": "Business Analist"
+  },
+  "business analist|lnaz (landelijk netwerk acute zorg)|NL": {
+    "company": "LNAZ (Landelijk Netwerk Acute Zorg)",
+    "first_seen": "2026-08-17",
+    "region": "NL",
+    "source": "indeed",
     "title": "Business Analist"
   },
   "business analist|project & change talents|NL": {
@@ -1840,6 +1868,13 @@
     "source": "linkedin",
     "title": "Business Manager - Marketing Operations"
   },
+  "business manager|h valoris|LU": {
+    "company": "H VALORIS",
+    "first_seen": "2026-08-17",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Business Manager"
+  },
   "business operations analyst|cisco|IN": {
     "company": "Cisco",
     "first_seen": "2026-08-03",
@@ -1916,6 +1951,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Central Product Manager"
+  },
+  "charg\u00e9.e de marketing digital|baloise lu|LU": {
+    "company": "Baloise LU",
+    "first_seen": "2026-08-17",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Charg\u00e9.e de Marketing Digital"
   },
   "chief growth officer|aeon|DE": {
     "company": "Aeon",
@@ -2014,6 +2056,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Creative Strategist, Growth Marketing"
+  },
+  "cto - ai/ml product owner|wipro|IN": {
+    "company": "Wipro",
+    "first_seen": "2026-08-17",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "CTO - AI/ML Product Owner"
   },
   "customer & consumer data product owner|glanbia|IE": {
     "company": "Glanbia",
@@ -2385,6 +2434,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Ecommerce and CRM Marketing Manager (f/m/d)"
+  },
+  "ecommerce business analyst|hunkem\u00f6ller|NL": {
+    "company": "Hunkem\u00f6ller",
+    "first_seen": "2026-08-17",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Ecommerce Business Analyst"
   },
   "education partnerships manager|shree swaminarayan gurukul international school, hyderabad|IN": {
     "company": "Shree Swaminarayan Gurukul International School, Hyderabad",
@@ -2764,6 +2820,13 @@
     "source": "indeed",
     "title": "Growth Marketeer"
   },
+  "growth marketer|health cloud initiative|NL": {
+    "company": "Health Cloud Initiative",
+    "first_seen": "2026-08-17",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Growth Marketer"
+  },
   "growth marketer|jet hr|IE": {
     "company": "Jet HR",
     "first_seen": "2026-08-15",
@@ -3002,6 +3065,13 @@
     "source": "linkedin",
     "title": "Jr Product Analyst - Bangalore -Hybrid"
   },
+  "jr. b2c analyst|vodafoneziggo|NL": {
+    "company": "VodafoneZiggo",
+    "first_seen": "2026-08-17",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Jr. B2C Analyst"
+  },
   "jr. product manager joolz|milk design bv joolz|NL": {
     "company": "Milk Design BV Joolz",
     "first_seen": "2026-07-15",
@@ -3036,6 +3106,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Junior Business Development Manager (w/m/d)"
+  },
+  "junior data analyst - customer identity|n26|DE": {
+    "company": "N26",
+    "first_seen": "2026-08-17",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Junior Data Analyst - Customer Identity"
   },
   "junior growth & integration manager:in (m/w/d)|amberra gmbh|DE": {
     "company": "amberra GmbH",
@@ -3366,12 +3443,26 @@
     "source": "indeed",
     "title": "People & Culture Manager (m/w/d)"
   },
+  "performance & growth marketing lead|optiver|NL": {
+    "company": "Optiver",
+    "first_seen": "2026-08-17",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Performance & Growth Marketing Lead"
+  },
   "performance analyst|flutter uk & ireland|IE": {
     "company": "Flutter UK & Ireland",
     "first_seen": "2026-08-11",
     "region": "IE",
     "source": "linkedin",
     "title": "Performance Analyst"
+  },
+  "performance marketeer nieuwbouw|vorm holding|NL": {
+    "company": "VORM Holding",
+    "first_seen": "2026-08-17",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Performance Marketeer Nieuwbouw"
   },
   "performance marketing manager (saas) (remote in eu or uk)|abusix, inc.|IE": {
     "company": "Abusix, Inc.",
@@ -3812,6 +3903,13 @@
     "first_seen": "2026-08-10",
     "region": "DE",
     "source": "indeed",
+    "title": "Product Manager (m/w/d)"
+  },
+  "product manager (m/w/d)|erecht24|DE": {
+    "company": "eRecht24",
+    "first_seen": "2026-08-17",
+    "region": "DE",
+    "source": "linkedin",
     "title": "Product Manager (m/w/d)"
   },
   "product manager (m/w/d)|grizzly peak software|DE": {
@@ -5242,6 +5340,13 @@
     "source": "linkedin",
     "title": "Product Owner \u2013 TMA/RUN/MCO_French Speaker(H/F)"
   },
+  "product owner, advanced|zebra technologies|IN": {
+    "company": "Zebra Technologies",
+    "first_seen": "2026-08-17",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Owner, Advanced"
+  },
   "product owner-marketing|bvgroup|IE": {
     "company": "BVGroup",
     "first_seen": "2026-08-02",
@@ -5266,6 +5371,13 @@
   "product owner|accenture|IN": {
     "company": "Accenture",
     "first_seen": "2026-08-13",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Owner"
+  },
+  "product owner|amadeus|IN": {
+    "company": "Amadeus",
+    "first_seen": "2026-08-17",
     "region": "IN",
     "source": "indeed",
     "title": "Product Owner"
@@ -5567,6 +5679,13 @@
   "product owner|viceroy engineering|IN": {
     "company": "Viceroy Engineering",
     "first_seen": "2026-08-14",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "product owner|visteon corporation|IN": {
+    "company": "Visteon Corporation",
+    "first_seen": "2026-08-17",
     "region": "IN",
     "source": "linkedin",
     "title": "Product Owner"
@@ -5984,6 +6103,13 @@
     "source": "linkedin",
     "title": "Technical Product Manager"
   },
+  "technical product owner ii|honeywell technologies|IN": {
+    "company": "Honeywell Technologies",
+    "first_seen": "2026-08-17",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Technical Product Owner II"
+  },
   "technical product owner|heyjobs|DE": {
     "company": "HeyJobs",
     "first_seen": "2026-08-05",
@@ -6018,6 +6144,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Technical Program Manager, Product Development and Insertion"
+  },
+  "techno functional business analyst|ntt data north america|IE": {
+    "company": "NTT DATA North America",
+    "first_seen": "2026-08-17",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Techno Functional Business Analyst"
   },
   "technology analyst|ebay|IE": {
     "company": "eBay",
@@ -6074,6 +6207,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Transformation Business Analyst"
+  },
+  "twilio product owner|eim solutions india private limited|IN": {
+    "company": "EIM Solutions India Private Limited",
+    "first_seen": "2026-08-17",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Twilio Product Owner"
   },
   "value and evidence product owner|takeda pharmaceuticals|IN": {
     "company": "Takeda Pharmaceuticals",

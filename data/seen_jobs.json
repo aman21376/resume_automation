@@ -412,6 +412,13 @@
     "source": "linkedin",
     "title": "Associate Product Manager"
   },
+  "associate product manager|origin medical research lab|IN": {
+    "company": "Origin Medical Research Lab",
+    "first_seen": "2026-08-21",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
   "associate product manager|perfios software solutions|IN": {
     "company": "Perfios Software Solutions",
     "first_seen": "2026-07-30",
@@ -662,6 +669,13 @@
     "first_seen": "2026-08-17",
     "region": "NL",
     "source": "indeed",
+    "title": "Business Analist"
+  },
+  "business analist|premium business consultants|NL": {
+    "company": "Premium Business Consultants",
+    "first_seen": "2026-08-21",
+    "region": "NL",
+    "source": "linkedin",
     "title": "Business Analist"
   },
   "business analist|project & change talents|NL": {
@@ -1013,6 +1027,13 @@
     "region": "LU",
     "source": "indeed",
     "title": "Business Analyst Manager"
+  },
+  "business analyst moa|advisory key|LU": {
+    "company": "Advisory Key",
+    "first_seen": "2026-08-21",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst MOA"
   },
   "business analyst nct - itdc|klm|NL": {
     "company": "KLM",
@@ -1655,6 +1676,13 @@
     "company": "Robert Half",
     "first_seen": "2026-08-11",
     "region": "IE",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|royal wagenborg|NL": {
+    "company": "Royal Wagenborg",
+    "first_seen": "2026-08-21",
+    "region": "NL",
     "source": "linkedin",
     "title": "Business Analyst"
   },
@@ -2309,6 +2337,13 @@
     "source": "linkedin",
     "title": "Demand Generation Manager"
   },
+  "demand generation marketing manager|archer recruitment|IE": {
+    "company": "Archer Recruitment",
+    "first_seen": "2026-08-21",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Demand Generation Marketing Manager"
+  },
   "demand marketing manager|unmuted | b2b saas marketing|NL": {
     "company": "Unmuted | B2B SaaS Marketing",
     "first_seen": "2026-08-14",
@@ -2603,6 +2638,13 @@
     "source": "linkedin",
     "title": "Finance Business Analyst"
   },
+  "founder's office (growth & gtm)|weekday (yc w21)|IN": {
+    "company": "Weekday (YC W21)",
+    "first_seen": "2026-08-21",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Founder's Office (Growth & GTM)"
+  },
   "founder's office - growth|emergent|IN": {
     "company": "Emergent",
     "first_seen": "2026-08-16",
@@ -2644,6 +2686,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Freelance Product Manager"
+  },
+  "full-stack growth marketing manager|ahead health|NL": {
+    "company": "Ahead Health",
+    "first_seen": "2026-08-21",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Full-stack Growth Marketing Manager"
   },
   "functional analyst (f/m/d)|deutsche b\u00f6rse group|LU": {
     "company": "Deutsche B\u00f6rse Group",
@@ -2707,6 +2756,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Global Product Manager (Flavor/Ingredients-Food)"
+  },
+  "grade vii notify digital communications product owner tt5126|health service executive|IE": {
+    "company": "Health Service Executive",
+    "first_seen": "2026-08-21",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Grade VII Notify Digital Communications Product Owner TT5126"
   },
   "group product manager [klaxoon]|wrike|NL": {
     "company": "Wrike",
@@ -3030,6 +3086,13 @@
     "source": "linkedin",
     "title": "Growth Marketer"
   },
+  "growth marketing associate|r3 robotics|LU": {
+    "company": "R3 Robotics",
+    "first_seen": "2026-08-21",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Growth Marketing Associate"
+  },
   "growth marketing manager (m/f/d) - 12 months contracts|omio|DE": {
     "company": "Omio",
     "first_seen": "2026-07-17",
@@ -3090,6 +3153,13 @@
     "company": "GeistM",
     "first_seen": "2026-08-12",
     "region": "IE",
+    "source": "linkedin",
+    "title": "Growth Marketing Manager"
+  },
+  "growth marketing manager|kim.cc|IN": {
+    "company": "kim.cc",
+    "first_seen": "2026-08-21",
+    "region": "IN",
     "source": "linkedin",
     "title": "Growth Marketing Manager"
   },
@@ -3162,6 +3232,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Growth Workflow Manager, Performance & Paid"
+  },
+  "growth|mellow sleep|IN": {
+    "company": "Mellow Sleep",
+    "first_seen": "2026-08-21",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Growth"
   },
   "gtm & outbound growth specialist|blufig|IN": {
     "company": "Blufig",
@@ -3331,6 +3408,13 @@
     "source": "linkedin",
     "title": "Junior Data Analyst - Customer Identity"
   },
+  "junior data science analyst|deloitte|LU": {
+    "company": "Deloitte",
+    "first_seen": "2026-08-21",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Junior Data Science Analyst"
+  },
   "junior growth & integration manager:in (m/w/d)|amberra gmbh|DE": {
     "company": "amberra GmbH",
     "first_seen": "2026-08-16",
@@ -3485,6 +3569,13 @@
     "source": "linkedin",
     "title": "Market Place Growth Manager"
   },
+  "marketing & growth manager (m/w/d)|cubos|DE": {
+    "company": "Cubos",
+    "first_seen": "2026-08-21",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Marketing & Growth Manager (m/w/d)"
+  },
   "marketing & growth manager \u2014 b2b saas / ai|opttab|NL": {
     "company": "Opttab",
     "first_seen": "2026-08-02",
@@ -3562,6 +3653,13 @@
     "source": "linkedin",
     "title": "Marketing Manager"
   },
+  "marketing operations, abm & demand generation manager|presidio|IE": {
+    "company": "Presidio",
+    "first_seen": "2026-08-21",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Marketing Operations, ABM & Demand Generation Manager"
+  },
   "marketing project manager/growth marketing manager|jobgether|LU": {
     "company": "Jobgether",
     "first_seen": "2026-08-15",
@@ -3603,6 +3701,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Medior Business Analyst"
+  },
+  "microsoft product manager|vodafone|IE": {
+    "company": "Vodafone",
+    "first_seen": "2026-08-21",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Microsoft Product Manager"
   },
   "mid-level calypso business analyst|epam systems|IE": {
     "company": "EPAM Systems",
@@ -3708,6 +3813,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Performance Marketeer Nieuwbouw"
+  },
+  "performance marketing & growth manager \u2013 google ads, meta & conversion (m/w/d)|kalialab gmbh|DE": {
+    "company": "kalialab GmbH",
+    "first_seen": "2026-08-21",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Performance Marketing & Growth Manager \u2013 Google Ads, Meta & Conversion (m/w/d)"
   },
   "performance marketing manager (saas) (remote in eu or uk)|abusix, inc.|IE": {
     "company": "Abusix, Inc.",
@@ -3996,6 +4108,13 @@
     "source": "indeed",
     "title": "Product Builder \u2014 UFM Platform"
   },
+  "product data analyst (m/f/d) - berlin|freenow|DE": {
+    "company": "Freenow",
+    "first_seen": "2026-08-21",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Data Analyst (m/f/d) - Berlin"
+  },
   "product data analyst ii|f5|IE": {
     "company": "F5",
     "first_seen": "2026-08-02",
@@ -4283,6 +4402,13 @@
     "source": "linkedin",
     "title": "Product Manager - Data Center White Space (EMEA)"
   },
+  "product manager - developer platform|snowflake|DE": {
+    "company": "Snowflake",
+    "first_seen": "2026-08-21",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager - Developer Platform"
+  },
   "product manager - digital assets / collateral coin (f/m/d)|deutsche b\u00f6rse group|LU": {
     "company": "Deutsche B\u00f6rse Group",
     "first_seen": "2026-08-02",
@@ -4303,6 +4429,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Manager - Engagement  \u2014 Remote, $100k-200k/yr inc equity"
+  },
+  "product manager - finance modules|flight centre travel group|NL": {
+    "company": "Flight Centre Travel Group",
+    "first_seen": "2026-08-21",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager - Finance Modules"
   },
   "product manager - homedeal|skydreams|NL": {
     "company": "Skydreams",
@@ -4415,6 +4548,13 @@
     "region": "LU",
     "source": "indeed",
     "title": "Product Manager Digital Assets"
+  },
+  "product manager hardware (32-40 uur)|brickyard bv|NL": {
+    "company": "Brickyard BV",
+    "first_seen": "2026-08-21",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Manager Hardware (32-40 uur)"
   },
   "product manager ii - personalisation|nykaa|IN": {
     "company": "Nykaa",
@@ -4646,6 +4786,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "Product Manager, Workspace Reporting and Insights Platform"
+  },
+  "product manager,|unitedhealth group|IE": {
+    "company": "UnitedHealth Group",
+    "first_seen": "2026-08-21",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager,"
   },
   "product manager- integrations & api|fareharbor|NL": {
     "company": "FareHarbor",
@@ -5092,6 +5239,13 @@
     "company": "Olyv",
     "first_seen": "2026-08-04",
     "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|optum|IE": {
+    "company": "Optum",
+    "first_seen": "2026-08-21",
+    "region": "IE",
     "source": "linkedin",
     "title": "Product Manager"
   },
@@ -5704,6 +5858,13 @@
     "source": "linkedin",
     "title": "Product Owner Service Management"
   },
+  "product owner service orchestrator en integrations | den haag|postnl|NL": {
+    "company": "PostNL",
+    "first_seen": "2026-08-21",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Owner Service Orchestrator en Integrations | Den Haag"
+  },
   "product owner software|prinzen bv|NL": {
     "company": "Prinzen BV",
     "first_seen": "2026-08-12",
@@ -5800,6 +5961,13 @@
     "first_seen": "2026-08-03",
     "region": "DE",
     "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "product owner|bearingpoint ireland|IE": {
+    "company": "BearingPoint Ireland",
+    "first_seen": "2026-08-21",
+    "region": "IE",
+    "source": "indeed",
     "title": "Product Owner"
   },
   "product owner|bearingpoint|IE": {
@@ -6459,6 +6627,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Startup Founder & CEO"
+  },
+  "stellvertretender filialleiter (m/w/d) consumer electronics | anker store berlin | 3.700 \u20ac + bonus|1sp agency|DE": {
+    "company": "1SP Agency",
+    "first_seen": "2026-08-21",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Stellvertretender Filialleiter (m/w/d) Consumer Electronics | ANKER Store Berlin | 3.700 \u20ac + Bonus"
   },
   "strategy & analytics manager- travel supply & ai (100% remote - ireland)|hopper|IE": {
     "company": "Hopper",

@@ -6,6 +6,13 @@
     "source": "indeed",
     "title": "(Associate) Product Manager (f/m/d)"
   },
+  "(associate) product manager (m/f/x)|scalable capital|DE": {
+    "company": "Scalable Capital",
+    "first_seen": "2026-08-22",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "(Associate) Product Manager (m/f/x)"
+  },
   "(associate) product manager - tax enablement (m/f/x)|scalable capital|DE": {
     "company": "Scalable Capital",
     "first_seen": "2026-08-15",
@@ -13,12 +20,33 @@
     "source": "linkedin",
     "title": "(Associate) Product Manager - Tax Enablement (m/f/x)"
   },
+  "(junior) product manager (m/w/d) - profis|check24 vergleichsportal gmbh|DE": {
+    "company": "CHECK24 Vergleichsportal GmbH",
+    "first_seen": "2026-08-22",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "(Junior) Product Manager (m/w/d) - Profis"
+  },
   "(junior) product manager - growth platform|raisin|DE": {
     "company": "Raisin",
     "first_seen": "2026-08-02",
     "region": "DE",
     "source": "linkedin",
     "title": "(Junior) Product Manager - Growth Platform"
+  },
+  "(junior) product manager machines|voortman steel group|NL": {
+    "company": "Voortman Steel Group",
+    "first_seen": "2026-08-22",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "(Junior) Product Manager Machines"
+  },
+  "(junior) product manager mrp|voortman steel group|NL": {
+    "company": "Voortman Steel Group",
+    "first_seen": "2026-08-22",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "(Junior) Product Manager MRP"
   },
   "(junior) produktmanager (m/w/d) supplier flug|check24 vergleichsportal gmbh|DE": {
     "company": "CHECK24 Vergleichsportal GmbH",
@@ -82,6 +110,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "AI Growth & Automation Manager (m/f/x)"
+  },
+  "ai growth marketing manager (b2b)|tripleten indonesia|IE": {
+    "company": "TripleTen Indonesia",
+    "first_seen": "2026-08-22",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "AI Growth Marketing Manager (B2B)"
   },
   "ai growth marketing manager (b2b)|tripleten|DE": {
     "company": "TripleTen",
@@ -272,12 +307,26 @@
     "source": "linkedin",
     "title": "Assistant Manager-Digital marketing"
   },
+  "assistant vice president, payments product owner|csc global financial markets|IN": {
+    "company": "CSC Global Financial Markets",
+    "first_seen": "2026-08-22",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Assistant Vice President, Payments Product Owner"
+  },
   "associate business analyst - business analysis|yash technologies|IN": {
     "company": "YASH Technologies",
     "first_seen": "2026-08-02",
     "region": "IN",
     "source": "indeed",
     "title": "Associate Business Analyst - Business Analysis"
+  },
+  "associate category & product manager|kids2|NL": {
+    "company": "Kids2",
+    "first_seen": "2026-08-22",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Associate Category & Product Manager"
   },
   "associate digital product manager [t500-28362]|albertsons companies india|IN": {
     "company": "Albertsons Companies India",
@@ -458,6 +507,13 @@
     "company": "ShareChat",
     "first_seen": "2026-07-17",
     "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
+  "associate product manager|stokke|NL": {
+    "company": "Stokke",
+    "first_seen": "2026-08-22",
+    "region": "NL",
     "source": "linkedin",
     "title": "Associate Product Manager"
   },
@@ -811,6 +867,13 @@
     "source": "linkedin",
     "title": "Business Analyst - 12m FTC"
   },
+  "business analyst - bengaluru (0 - 1 year)|informica solutions|IN": {
+    "company": "Informica Solutions",
+    "first_seen": "2026-08-22",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst - Bengaluru (0 - 1 Year)"
+  },
   "business analyst - d365 f&o|reperio human capital|IE": {
     "company": "Reperio Human Capital",
     "first_seen": "2026-07-16",
@@ -894,6 +957,13 @@
     "region": "LU",
     "source": "indeed",
     "title": "Business Analyst - IT Solutions"
+  },
+  "business analyst - loan iq expert|bnp paribas|IN": {
+    "company": "BNP Paribas",
+    "first_seen": "2026-08-22",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst - Loan IQ expert"
   },
   "business analyst - odoo (m/f)|metrum|LU": {
     "company": "Metrum",
@@ -1616,6 +1686,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|nrg pallas|NL": {
+    "company": "NRG PALLAS",
+    "first_seen": "2026-08-22",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|people prime worldwide|IN": {
     "company": "People Prime Worldwide",
     "first_seen": "2026-08-11",
@@ -1700,9 +1777,23 @@
     "source": "indeed",
     "title": "Business Analyst"
   },
+  "business analyst|sundayy|DE": {
+    "company": "Sundayy",
+    "first_seen": "2026-08-22",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|symbiosis e-serve|IN": {
     "company": "Symbiosis e-Serve",
     "first_seen": "2026-08-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
+  "business analyst|symplr|IN": {
+    "company": "symplr",
+    "first_seen": "2026-08-22",
     "region": "IN",
     "source": "indeed",
     "title": "Business Analyst"
@@ -1825,6 +1916,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "Business Analytics Analyst"
+  },
+  "business and market analyst - energy|quest global|IN": {
+    "company": "Quest Global",
+    "first_seen": "2026-08-22",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business and Market Analyst - Energy"
   },
   "business consultant analyst|adecco|NL": {
     "company": "Adecco",
@@ -2554,6 +2652,13 @@
     "source": "linkedin",
     "title": "E-com and Q-com growth manager"
   },
+  "e-commerce data analyst|my jewellery|NL": {
+    "company": "My Jewellery",
+    "first_seen": "2026-08-22",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "E-commerce Data Analyst"
+  },
   "e-commerce/ product manager|royfort ug|DE": {
     "company": "Royfort UG",
     "first_seen": "2026-08-02",
@@ -2764,6 +2869,13 @@
     "source": "indeed",
     "title": "Grade VII Notify Digital Communications Product Owner TT5126"
   },
+  "graduate program product management - supply chain|picnic technologies|NL": {
+    "company": "Picnic Technologies",
+    "first_seen": "2026-08-22",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Graduate Program Product Management - Supply Chain"
+  },
   "group product manager [klaxoon]|wrike|NL": {
     "company": "Wrike",
     "first_seen": "2026-07-16",
@@ -2935,6 +3047,13 @@
   "growth manager - performance marketing|kuku|IN": {
     "company": "Kuku",
     "first_seen": "2026-08-20",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Growth Manager - Performance Marketing"
+  },
+  "growth manager - performance marketing|self money care digital marketing blog|IN": {
+    "company": "Self Money Care Digital Marketing Blog",
+    "first_seen": "2026-08-22",
     "region": "IN",
     "source": "linkedin",
     "title": "Growth Manager - Performance Marketing"
@@ -3113,6 +3232,20 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Growth Marketing Manager (SaaS / Remote / EU)"
+  },
+  "growth marketing manager \u2013 retention & lifecycle|hashfame|IN": {
+    "company": "HashFame",
+    "first_seen": "2026-08-22",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Growth Marketing Manager \u2013 Retention & Lifecycle"
+  },
+  "growth marketing manager*in|the goodforces gmbh|DE": {
+    "company": "The Goodforces GmbH",
+    "first_seen": "2026-08-22",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Growth Marketing Manager*in"
   },
   "growth marketing manager, amazon fashion|amazon|IN": {
     "company": "Amazon",
@@ -3443,6 +3576,13 @@
     "source": "linkedin",
     "title": "Junior Product Manager (m/w/d) \u2013 Go Lloret @ Emile Weber"
   },
+  "junior product manager appetizers|farm frites|NL": {
+    "company": "Farm Frites",
+    "first_seen": "2026-08-22",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Junior Product Manager Appetizers"
+  },
   "junior product manager|learnwise ai|NL": {
     "company": "LearnWise AI",
     "first_seen": "2026-08-04",
@@ -3758,6 +3898,20 @@
     "source": "indeed",
     "title": "On Boarding Analyst - Lux"
   },
+  "online growth & revenue manager   | a design-first  furniture and home lifestyle brand|winnerbrands|IN": {
+    "company": "WinnerBrands",
+    "first_seen": "2026-08-22",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Online Growth & Revenue Manager   | A design-first  furniture and home lifestyle brand"
+  },
+  "online marketing manager (performance marketing) (m/w/d)|madame moneypenny gmbh|DE": {
+    "company": "Madame Moneypenny GmbH",
+    "first_seen": "2026-08-22",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Online Marketing Manager (Performance Marketing) (m/w/d)"
+  },
   "operations analyst, pricing & efficiency|wolt|DE": {
     "company": "Wolt",
     "first_seen": "2026-08-06",
@@ -4006,6 +4160,13 @@
   "product analyst|creditspring|IN": {
     "company": "Creditspring",
     "first_seen": "2026-08-12",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Analyst"
+  },
+  "product analyst|data poem|IN": {
+    "company": "DATA POEM",
+    "first_seen": "2026-08-22",
     "region": "IN",
     "source": "linkedin",
     "title": "Product Analyst"
@@ -5865,6 +6026,13 @@
     "source": "linkedin",
     "title": "Product Owner Service Orchestrator en Integrations | Den Haag"
   },
+  "product owner sms - customer interaction suite|tata communications|IN": {
+    "company": "Tata Communications",
+    "first_seen": "2026-08-22",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Owner SMS - Customer Interaction Suite"
+  },
   "product owner software|prinzen bv|NL": {
     "company": "Prinzen BV",
     "first_seen": "2026-08-12",
@@ -6016,6 +6184,13 @@
     "company": "EcoOnline",
     "first_seen": "2026-08-12",
     "region": "IE",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "product owner|edan luxembourg|LU": {
+    "company": "EDAN Luxembourg",
+    "first_seen": "2026-08-22",
+    "region": "LU",
     "source": "linkedin",
     "title": "Product Owner"
   },
@@ -6354,6 +6529,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Product-led Growth Manager"
+  },
+  "product/business analyst|appsforbharat|IN": {
+    "company": "AppsForBharat",
+    "first_seen": "2026-08-22",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product/Business Analyst"
   },
   "productstrateeg|framna|NL": {
     "company": "Framna",

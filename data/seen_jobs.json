@@ -55,6 +55,13 @@
     "source": "linkedin",
     "title": "(Junior) Produktmanager (m/w/d) Supplier Flug"
   },
+  "account manager|axis group nv|LU": {
+    "company": "Axis Group NV",
+    "first_seen": "2026-08-24",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Account manager"
+  },
   "advisory - business analyst \u2013 manager/ assistant manager - consulting|grant thornton|IE": {
     "company": "Grant Thornton",
     "first_seen": "2026-08-08",
@@ -257,6 +264,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "Analyst, Product Control"
+  },
+  "anforderungsmanager (m/w/d)|volkswagen financial services|DE": {
+    "company": "Volkswagen Financial Services",
+    "first_seen": "2026-08-24",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Anforderungsmanager (m/w/d)"
   },
   "api technical product owner|bank of ireland|IE": {
     "company": "Bank of Ireland",
@@ -1098,6 +1112,13 @@
     "source": "linkedin",
     "title": "Business Analyst Funds Onboarding"
   },
+  "business analyst gesetzliche krankenversicherung (all genders)|adesso se|DE": {
+    "company": "adesso SE",
+    "first_seen": "2026-08-24",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Business Analyst Gesetzliche Krankenversicherung (all genders)"
+  },
   "business analyst groningen|sopra steria|NL": {
     "company": "Sopra Steria",
     "first_seen": "2026-07-15",
@@ -1707,6 +1728,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|mpower plus|NL": {
+    "company": "MPower Plus",
+    "first_seen": "2026-08-24",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|neofacto|LU": {
     "company": "NEOFACTO",
     "first_seen": "2026-07-17",
@@ -2155,6 +2183,13 @@
     "source": "indeed",
     "title": "Business Systems Analyst \u2013 HR Platforms"
   },
+  "business systems analyst|medguard professional healthcare services|IE": {
+    "company": "Medguard Professional Healthcare Services",
+    "first_seen": "2026-08-24",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Business Systems Analyst"
+  },
   "business systems analyst|wolters kluwer|NL": {
     "company": "Wolters Kluwer",
     "first_seen": "2026-08-12",
@@ -2267,6 +2302,13 @@
     "source": "linkedin",
     "title": "Commercial Growth Manager (m/f/d)"
   },
+  "commercial growth manager|kempen automatisering|NL": {
+    "company": "Kempen Automatisering",
+    "first_seen": "2026-08-24",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Commercial Growth Manager"
+  },
   "consultant - product analyst.|inmobi advertising|IN": {
     "company": "InMobi Advertising",
     "first_seen": "2026-07-27",
@@ -2350,6 +2392,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Customer & Consumer Data Product Owner"
+  },
+  "customer insights analyst|connexus recruit|IE": {
+    "company": "Connexus Recruit",
+    "first_seen": "2026-08-24",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Customer Insights Analyst"
   },
   "d2c growth manager|team pumpkin|IN": {
     "company": "Team Pumpkin",
@@ -2778,12 +2827,26 @@
     "source": "linkedin",
     "title": "Engineering Analyst, AI Answers, Google Search"
   },
+  "erfahrene*r business analyst / consultant bei softwarefirma (w/m/d)|coduct solutions gmbh|DE": {
+    "company": "Coduct Solutions GmbH",
+    "first_seen": "2026-08-24",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Erfahrene*r Business Analyst / Consultant bei Softwarefirma (w/m/d)"
+  },
   "etf product manager|morgan mckinley|IE": {
     "company": "Morgan McKinley",
     "first_seen": "2026-08-02",
     "region": "IE",
     "source": "linkedin",
     "title": "ETF Product Manager"
+  },
+  "executive assistant|wpp media|NL": {
+    "company": "WPP Media",
+    "first_seen": "2026-08-24",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Executive Assistant"
   },
   "expert product analyst - fintech|bol|NL": {
     "company": "bol",
@@ -4640,6 +4703,13 @@
     "source": "linkedin",
     "title": "Product Manager - Berlin"
   },
+  "product manager - client experience (m/f/d)|lynx b.v.|DE": {
+    "company": "LYNX B.V.",
+    "first_seen": "2026-08-24",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Manager - Client Experience (m/f/d)"
+  },
   "product manager - consumer app|picnic technologies|NL": {
     "company": "Picnic Technologies",
     "first_seen": "2026-08-18",
@@ -4716,6 +4786,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Product Manager - New Product Development"
+  },
+  "product manager - open banking|global payments inc.|IE": {
+    "company": "Global Payments Inc.",
+    "first_seen": "2026-08-24",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager - Open Banking"
   },
   "product manager - payments (m/f)|banque internationale \u00e0 luxembourg (bil)|LU": {
     "company": "Banque Internationale \u00e0 Luxembourg (BIL)",
@@ -4821,6 +4898,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Product Manager Hardware (32-40 uur)"
+  },
+  "product manager ii - admin & user management|surveymonkey|NL": {
+    "company": "SurveyMonkey",
+    "first_seen": "2026-08-24",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager II - Admin & User Management"
   },
   "product manager ii - personalisation|nykaa|IN": {
     "company": "Nykaa",
@@ -5500,6 +5584,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "product manager"
+  },
+  "product manager|nudge|IN": {
+    "company": "Nudge",
+    "first_seen": "2026-08-24",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager"
   },
   "product manager|olyv|IN": {
     "company": "Olyv",
@@ -6523,6 +6614,13 @@
     "source": "linkedin",
     "title": "Product Owner"
   },
+  "product owner|standard chartered bank|IN": {
+    "company": "Standard Chartered Bank",
+    "first_seen": "2026-08-24",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Owner"
+  },
   "product owner|storyteq|NL": {
     "company": "Storyteq",
     "first_seen": "2026-08-02",
@@ -6648,6 +6746,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Productstrateeg"
+  },
+  "project manager and functional analyst|accenture|IE": {
+    "company": "Accenture",
+    "first_seen": "2026-08-24",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Project Manager and Functional Analyst"
   },
   "project manager|exl|IN": {
     "company": "EXL",
@@ -6824,6 +6929,13 @@
     "source": "indeed",
     "title": "ServiceNow business analyst Proces"
   },
+  "servicenow business analyst|alldus|DE": {
+    "company": "Alldus",
+    "first_seen": "2026-08-24",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "ServiceNow Business Analyst"
+  },
   "settlement product manager (f/m/d)|deutsche b\u00f6rse group|LU": {
     "company": "Deutsche B\u00f6rse Group",
     "first_seen": "2026-08-03",
@@ -6922,6 +7034,13 @@
     "source": "indeed",
     "title": "Stellvertretender Filialleiter (m/w/d) Consumer Electronics | ANKER Store Berlin | 3.700 \u20ac + Bonus"
   },
+  "store manager - amsterdam|starbucks|NL": {
+    "company": "Starbucks",
+    "first_seen": "2026-08-24",
+    "region": "NL",
+    "source": "indeed",
+    "title": "store manager - AMSTERDAM"
+  },
   "strategic growth marketing manager - emea retail|centric software|DE": {
     "company": "Centric Software",
     "first_seen": "2026-08-23",
@@ -7005,6 +7124,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Technical Product Manager - Soperator"
+  },
+  "technical product manager, ai platform|sitecore|IE": {
+    "company": "Sitecore",
+    "first_seen": "2026-08-24",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Technical Product Manager, AI Platform"
   },
   "technical product manager|archelons solutions private limited|IN": {
     "company": "Archelons Solutions Private Limited",

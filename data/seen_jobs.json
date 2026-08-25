@@ -552,6 +552,13 @@
     "source": "indeed",
     "title": "Associate Product Owner / Business Analyst (f/m/d)"
   },
+  "associate product owner|primark|IE": {
+    "company": "Primark",
+    "first_seen": "2026-08-25",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Associate Product Owner"
+  },
   "associate product support analyst|epsilon|IN": {
     "company": "Epsilon",
     "first_seen": "2026-07-28",
@@ -635,6 +642,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Bid Technical Manager Software"
+  },
+  "brand growth manager|dil foods|IN": {
+    "company": "Dil Foods",
+    "first_seen": "2026-08-25",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Brand Growth Manager"
   },
   "brand manager- fmcg|amicus search & recruitment|IE": {
     "company": "Amicus Search & Recruitment",
@@ -1035,6 +1049,13 @@
     "source": "indeed",
     "title": "Business Analyst - Retail"
   },
+  "business analyst - transformation|hsbc|IN": {
+    "company": "HSBC",
+    "first_seen": "2026-08-25",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst - Transformation"
+  },
   "business analyst - workforce management|rituals cosmetics|NL": {
     "company": "RITUALS COSMETICS",
     "first_seen": "2026-07-22",
@@ -1224,6 +1245,13 @@
     "source": "linkedin",
     "title": "Business Analyst \u2013 SAP BRIM (Scrum)"
   },
+  "business analyst \u2013 technology change & process improvement|albany beck|IE": {
+    "company": "Albany Beck",
+    "first_seen": "2026-08-25",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Analyst \u2013 Technology Change & Process Improvement"
+  },
   "business analyst \u2013 technology delivery|accenture uk & ireland|IE": {
     "company": "Accenture UK & Ireland",
     "first_seen": "2026-08-12",
@@ -1251,6 +1279,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Business Analyst, Data & AI (m/f/d)"
+  },
+  "business analyst, delivery promise (m/w/x)|autodoc|DE": {
+    "company": "AUTODOC",
+    "first_seen": "2026-08-25",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Business Analyst, Delivery Promise (m/w/x)"
   },
   "business analyst, eu inbound & inventory placement operations|amazon|LU": {
     "company": "Amazon",
@@ -1480,6 +1515,13 @@
     "company": "Curefit",
     "first_seen": "2026-07-30",
     "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|dabster|NL": {
+    "company": "Dabster",
+    "first_seen": "2026-08-25",
+    "region": "NL",
     "source": "linkedin",
     "title": "Business Analyst"
   },
@@ -2148,6 +2190,13 @@
     "source": "linkedin",
     "title": "Business Operations Analyst"
   },
+  "business process & improvement analyst \u2013 billing & collections|yuno energy|IE": {
+    "company": "Yuno Energy",
+    "first_seen": "2026-08-25",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Process & Improvement Analyst \u2013 Billing & Collections"
+  },
   "business process analyst|harvey nash|IE": {
     "company": "Harvey Nash",
     "first_seen": "2026-08-19",
@@ -2188,6 +2237,13 @@
     "first_seen": "2026-08-24",
     "region": "IE",
     "source": "indeed",
+    "title": "Business Systems Analyst"
+  },
+  "business systems analyst|medguard professional healthcare supplies|IE": {
+    "company": "Medguard Professional Healthcare Supplies",
+    "first_seen": "2026-08-25",
+    "region": "IE",
+    "source": "linkedin",
     "title": "Business Systems Analyst"
   },
   "business systems analyst|wolters kluwer|NL": {
@@ -2441,6 +2497,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Data Analyst Customer Service"
+  },
+  "data analyst:in product & business intelligence (d/m/w)|verlag der tagesspiegel|DE": {
+    "company": "Verlag Der Tagesspiegel",
+    "first_seen": "2026-08-25",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Data Analyst:in Product & Business Intelligence (d/m/w)"
   },
   "data analyst|holafly|IE": {
     "company": "Holafly",
@@ -2883,6 +2946,20 @@
     "source": "linkedin",
     "title": "Founders Associate (Growth) | \u20ac80k OTE | German C2 | Berlin"
   },
+  "founding growth manager | europe|c&d talent advisory - academy|IE": {
+    "company": "C&D Talent Advisory - Academy",
+    "first_seen": "2026-08-25",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Founding Growth Manager | Europe"
+  },
+  "founding growth manager | europe|c&d talent advisory - academy|NL": {
+    "company": "C&D Talent Advisory - Academy",
+    "first_seen": "2026-08-25",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Founding Growth Manager | Europe"
+  },
   "founding gtm lead|statuspal|DE": {
     "company": "StatusPal",
     "first_seen": "2026-08-05",
@@ -3092,6 +3169,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Growth Lead"
+  },
+  "growth manager (berlin)|almedia|DE": {
+    "company": "Almedia",
+    "first_seen": "2026-08-25",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Growth Manager (Berlin)"
   },
   "growth manager (crm & retention) 12-month fixed-term contract|gousto|IE": {
     "company": "Gousto",
@@ -3460,6 +3544,13 @@
   "growth marketing manager|recrew ai|IN": {
     "company": "Recrew AI",
     "first_seen": "2026-08-06",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Growth Marketing Manager"
+  },
+  "growth marketing manager|zoca|IN": {
+    "company": "Zoca",
+    "first_seen": "2026-08-25",
     "region": "IN",
     "source": "linkedin",
     "title": "Growth Marketing Manager"
@@ -4353,6 +4444,13 @@
     "source": "indeed",
     "title": "Product Analyst"
   },
+  "product analyst|palette hire|IN": {
+    "company": "Palette Hire",
+    "first_seen": "2026-08-25",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Analyst"
+  },
   "product analyst|planview|IN": {
     "company": "Planview",
     "first_seen": "2026-07-17",
@@ -4675,6 +4773,13 @@
     "source": "linkedin",
     "title": "Product Manager (m/w/d)"
   },
+  "product manager (project management skills)|resourceful talent group|NL": {
+    "company": "Resourceful Talent Group",
+    "first_seen": "2026-08-25",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Manager (Project Management Skills)"
+  },
   "product manager (w/m/d)|remind me gmbh|DE": {
     "company": "remind me GmbH",
     "first_seen": "2026-07-27",
@@ -4856,6 +4961,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Product Manager - Strategy (Netherlands - Dutch speaker) - Remote"
+  },
+  "product manager / assortimentsbeheerder|inktweb.nl|NL": {
+    "company": "Inktweb.nl",
+    "first_seen": "2026-08-25",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Manager / Assortimentsbeheerder"
   },
   "product manager at shopdeck|shopdeck|IN": {
     "company": "ShopDeck",
@@ -6033,6 +6145,13 @@
     "source": "linkedin",
     "title": "Product Owner - Dublin"
   },
+  "product owner - healthtech (m/w/d)|roger|DE": {
+    "company": "Roger",
+    "first_seen": "2026-08-25",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Owner - Healthtech (m/w/d)"
+  },
   "product owner - medical devices domain|siemens healthineers|IN": {
     "company": "Siemens Healthineers",
     "first_seen": "2026-08-02",
@@ -6250,12 +6369,26 @@
     "source": "linkedin",
     "title": "Product Owner Warehousing"
   },
+  "product owner \u2013 it service management|rabobank|NL": {
+    "company": "Rabobank",
+    "first_seen": "2026-08-25",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Owner \u2013 IT Service Management"
+  },
   "product owner \u2013 mdr platforms|integrity360|IE": {
     "company": "Integrity360",
     "first_seen": "2026-07-17",
     "region": "IE",
     "source": "linkedin",
     "title": "Product Owner \u2013 MDR Platforms"
+  },
+  "product owner \u2013 sdv data products (f/m/d)|adsquare|DE": {
+    "company": "Adsquare",
+    "first_seen": "2026-08-25",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Owner \u2013 SDV Data Products (f/m/d)"
   },
   "product owner \u2013 subscription management & billing ( all genders welcome)|easybell gmbh|DE": {
     "company": "easybell GmbH",
@@ -7103,6 +7236,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Technical Business Analyst"
+  },
+  "technical product manager (all gender)|stark|DE": {
+    "company": "STARK",
+    "first_seen": "2026-08-25",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Technical Product Manager (All gender)"
   },
   "technical product manager - application & discovery platform, experimentation - marketplace|booking holdings|IN": {
     "company": "Booking Holdings",

@@ -56,6 +56,7 @@ VISA_BLOCKER_MARKERS = [
     "we are unable to support relocation or visa",
     "who has eu working permit", "with eu working permit", "eu working permit",
     "eligible to work in the eu", "valid permit to work in the eu",
+    "existing right to work in the eu",
 ]
 
 # Domains the candidate has direct, hands-on expertise in (Meesho social

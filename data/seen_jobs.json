@@ -398,6 +398,13 @@
     "source": "linkedin",
     "title": "Associate Product Manager - Key Components"
   },
+  "associate product manager - nek|jar|IN": {
+    "company": "Jar",
+    "first_seen": "2026-09-06",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager - Nek"
+  },
   "associate product manager ii|navi|IN": {
     "company": "NAVI",
     "first_seen": "2026-08-02",
@@ -447,6 +454,13 @@
     "source": "linkedin",
     "title": "Associate Product Manager"
   },
+  "associate product manager|greythr|IN": {
+    "company": "greytHR",
+    "first_seen": "2026-09-06",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
   "associate product manager|groww|IN": {
     "company": "Groww",
     "first_seen": "2026-07-15",
@@ -457,6 +471,13 @@
   "associate product manager|juspay|IN": {
     "company": "JUSPAY",
     "first_seen": "2026-07-31",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
+  "associate product manager|kapture cx|IN": {
+    "company": "Kapture CX",
+    "first_seen": "2026-09-06",
     "region": "IN",
     "source": "linkedin",
     "title": "Associate Product Manager"
@@ -1028,6 +1049,13 @@
     "source": "linkedin",
     "title": "Business Analyst - Expert Paiements"
   },
+  "business analyst - financial crime compliance|capco|IN": {
+    "company": "Capco",
+    "first_seen": "2026-09-06",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst - Financial Crime Compliance"
+  },
   "business analyst - financial markets (uat & regulatory change)|levy professionals|NL": {
     "company": "Levy Professionals",
     "first_seen": "2026-07-15",
@@ -1294,12 +1322,26 @@
     "source": "linkedin",
     "title": "Business Analyst Technical Lead"
   },
+  "business analyst wholesale banking h/f|rcarr\u00e9-rcube|LU": {
+    "company": "Rcarr\u00e9-Rcube",
+    "first_seen": "2026-09-06",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Business Analyst Wholesale Banking h/f"
+  },
   "business analyst workflowmanagementsystem (all genders)|adesso se|DE": {
     "company": "adesso SE",
     "first_seen": "2026-08-02",
     "region": "DE",
     "source": "linkedin",
     "title": "Business Analyst Workflowmanagementsystem (all genders)"
+  },
+  "business analyst \u2013 data, insights & workforce management (global trade services)|fedex|IE": {
+    "company": "FedEx",
+    "first_seen": "2026-09-06",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services)"
   },
   "business analyst \u2013 omnichannel ecommerce platform|shakers|NL": {
     "company": "Shakers",
@@ -1691,6 +1733,13 @@
     "first_seen": "2026-07-15",
     "region": "NL",
     "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|equity capital advisors (india) private limited|IN": {
+    "company": "Equity Capital Advisors (India) Private Limited",
+    "first_seen": "2026-09-06",
+    "region": "IN",
+    "source": "indeed",
     "title": "Business Analyst"
   },
   "business analyst|exl|IN": {
@@ -2372,6 +2421,13 @@
     "source": "indeed",
     "title": "Business Operations Manager, ProServe Business Operations and Advisory"
   },
+  "business planning & product assistant manager|kia ireland|IE": {
+    "company": "Kia Ireland",
+    "first_seen": "2026-09-06",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Planning & Product Assistant Manager"
+  },
   "business process & improvement analyst \u2013 billing & collections|yuno energy|IE": {
     "company": "Yuno Energy",
     "first_seen": "2026-08-25",
@@ -2665,6 +2721,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Customer Insights Analyst"
+  },
+  "customer support specialist (2nd & 3rd level) (m/w/d)|smoobu gmbh|DE": {
+    "company": "Smoobu GmbH",
+    "first_seen": "2026-09-06",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Customer Support Specialist (2nd & 3rd Level) (m/w/d)"
   },
   "cx product operations analyst|ethos|IN": {
     "company": "Ethos",
@@ -3394,12 +3457,33 @@
     "source": "linkedin",
     "title": "Global Product Manager (Flavor/Ingredients-Food)"
   },
+  "gpo category manager - global workforce services, global workforce services|amazon.com|LU": {
+    "company": "Amazon.com",
+    "first_seen": "2026-09-06",
+    "region": "LU",
+    "source": "indeed",
+    "title": "GPO Category Manager - Global Workforce Services, Global Workforce Services"
+  },
   "grade vii notify digital communications product owner tt5126|health service executive|IE": {
     "company": "Health Service Executive",
     "first_seen": "2026-08-21",
     "region": "IE",
     "source": "indeed",
     "title": "Grade VII Notify Digital Communications Product Owner TT5126"
+  },
+  "graduate product manager - picnic app|picnic technologies|NL": {
+    "company": "Picnic Technologies",
+    "first_seen": "2026-09-06",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Graduate Product Manager - Picnic App"
+  },
+  "graduate product manager - supply chain|picnic technologies|NL": {
+    "company": "Picnic Technologies",
+    "first_seen": "2026-09-06",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Graduate Product Manager - Supply Chain"
   },
   "graduate program product management - consumer|picnic technologies|NL": {
     "company": "Picnic Technologies",
@@ -3779,6 +3863,13 @@
     "source": "linkedin",
     "title": "Growth Marketing Manager (all genders)"
   },
+  "growth marketing manager (f/m/d)|voize|DE": {
+    "company": "voize",
+    "first_seen": "2026-09-06",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Growth Marketing Manager (f/m/d)"
+  },
   "growth marketing manager (m/f/d) - 12 months contracts|omio|DE": {
     "company": "Omio",
     "first_seen": "2026-07-17",
@@ -3806,6 +3897,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Growth Marketing Manager (SaaS / Remote / EU)"
+  },
+  "growth marketing manager (x/w/m)|allright|DE": {
+    "company": "Allright",
+    "first_seen": "2026-09-06",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Growth Marketing Manager (x/w/m)"
   },
   "growth marketing manager \u2013 retention & lifecycle|hashfame|IN": {
     "company": "HashFame",
@@ -4199,6 +4297,13 @@
     "source": "linkedin",
     "title": "Junior Product Manager (m/w/d) \u2013 Go Lloret @ Emile Weber"
   },
+  "junior product manager - custom made|suitsupply|NL": {
+    "company": "Suitsupply",
+    "first_seen": "2026-09-06",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Junior Product Manager - Custom Made"
+  },
   "junior product manager appetizers|farm frites|NL": {
     "company": "Farm Frites",
     "first_seen": "2026-08-22",
@@ -4227,6 +4332,13 @@
     "source": "indeed",
     "title": "Junior Product Manager"
   },
+  "junior product manager|partspoint|NL": {
+    "company": "PartsPoint",
+    "first_seen": "2026-09-06",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Junior Product Manager"
+  },
   "junior product owner / project manager|clever\u00b0franke|NL": {
     "company": "CLEVER\u00b0FRANKE",
     "first_seen": "2026-08-19",
@@ -4247,6 +4359,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Key Account Manager - Contractors & Installateurs"
+  },
+  "key account manager / client success manager (all genders)|mai group|DE": {
+    "company": "MAI Group",
+    "first_seen": "2026-09-06",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Key Account Manager / Client Success Manager (all genders)"
   },
   "knowledge manager (communities & innovation)|sisk|IE": {
     "company": "Sisk",
@@ -4444,6 +4563,13 @@
     "source": "linkedin",
     "title": "Marketing Manager - Asset & Wealth Management"
   },
+  "marketing manager benelux|product pulse|NL": {
+    "company": "Product Pulse",
+    "first_seen": "2026-09-06",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Marketing Manager Benelux"
+  },
   "marketing manager \u2013 saas|archvi|IN": {
     "company": "archVi",
     "first_seen": "2026-08-18",
@@ -4590,6 +4716,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Off-Cycle Student - Business Analyst"
+  },
+  "office- & prozessmanagerin|kraft gas|DE": {
+    "company": "KRAFT GAS",
+    "first_seen": "2026-09-06",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Office- & Prozessmanagerin"
   },
   "omni channel business analyst|hunkem\u00f6ller|NL": {
     "company": "Hunkem\u00f6ller",
@@ -4849,6 +4982,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Product Analyst - MicroDrama OTT"
+  },
+  "product analyst - tax ai|deloitte|NL": {
+    "company": "Deloitte",
+    "first_seen": "2026-09-06",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Analyst - Tax AI"
   },
   "product analyst - temporary|independent recruiters|NL": {
     "company": "Independent Recruiters",
@@ -5459,6 +5599,13 @@
     "source": "linkedin",
     "title": "Product Manager - Quality and Regulatory Systems"
   },
+  "product manager - quest platform|xsolla|DE": {
+    "company": "Xsolla",
+    "first_seen": "2026-09-06",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Manager - Quest Platform"
+  },
   "product manager - regulatory calculations|fe fundinfo|LU": {
     "company": "FE fundinfo",
     "first_seen": "2026-08-13",
@@ -5494,6 +5641,20 @@
     "source": "indeed",
     "title": "Product Manager - Strategy (Netherlands - Dutch speaker) - Remote"
   },
+  "product manager - technical, international preferences|amazon|LU": {
+    "company": "Amazon",
+    "first_seen": "2026-09-06",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product Manager - Technical, International Preferences"
+  },
+  "product manager / associate product manager \u2014 growth & monetization|spacewire tech|IN": {
+    "company": "SpaceWire Tech",
+    "first_seen": "2026-09-06",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager / Associate Product Manager \u2014 Growth & Monetization"
+  },
   "product manager / assortimentsbeheerder|inktweb.nl|NL": {
     "company": "Inktweb.nl",
     "first_seen": "2026-08-25",
@@ -5507,6 +5668,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Product Manager Amplifiers for Defence Applications (m/w/d)"
+  },
+  "product manager associate|hyperverge|IN": {
+    "company": "HyperVerge",
+    "first_seen": "2026-09-06",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager Associate"
   },
   "product manager at shopdeck|shopdeck|IN": {
     "company": "ShopDeck",
@@ -5557,6 +5725,13 @@
     "source": "linkedin",
     "title": "Product Manager II - Admin & User Management"
   },
+  "product manager ii - ads|razorpay|IN": {
+    "company": "Razorpay",
+    "first_seen": "2026-09-06",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager II - Ads"
+  },
   "product manager ii - personalisation|nykaa|IN": {
     "company": "Nykaa",
     "first_seen": "2026-07-15",
@@ -5598,6 +5773,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Product Manager SaaS"
+  },
+  "product manager train ai|rws|IE": {
+    "company": "RWS",
+    "first_seen": "2026-09-06",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager Train AI"
   },
   "product manager | beauty & consumer electronics|silk'n | beautiful technology|NL": {
     "company": "Silk'n | Beautiful Technology",
@@ -6530,6 +6712,13 @@
     "source": "linkedin",
     "title": "Product Manger"
   },
+  "product marketing manager, international|robinhood|LU": {
+    "company": "Robinhood",
+    "first_seen": "2026-09-06",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product Marketing Manager, International"
+  },
   "product operations manager|linkedin|IN": {
     "company": "LinkedIn",
     "first_seen": "2026-08-01",
@@ -6712,6 +6901,13 @@
     "source": "linkedin",
     "title": "Product Owner - Assurance"
   },
+  "product owner - cx/comms demand & value|vodafone|IE": {
+    "company": "Vodafone",
+    "first_seen": "2026-09-06",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Owner - CX/Comms Demand & Value"
+  },
   "product owner - cx/comms value delivery|vodafone|IE": {
     "company": "Vodafone",
     "first_seen": "2026-09-05",
@@ -6872,6 +7068,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Owner Customer Data, Audiencing & Activation (m/f/d)"
+  },
+  "product owner digital solutions|driessen catering equipment b.v.|NL": {
+    "company": "Driessen Catering Equipment B.V.",
+    "first_seen": "2026-09-06",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Owner Digital Solutions"
   },
   "product owner digital|catamania|LU": {
     "company": "Catamania",
@@ -7146,6 +7349,13 @@
     "source": "linkedin",
     "title": "Product Owner"
   },
+  "product owner|belastingdienst|NL": {
+    "company": "Belastingdienst",
+    "first_seen": "2026-09-06",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product owner"
+  },
   "product owner|bolt|IN": {
     "company": "bolt",
     "first_seen": "2026-09-05",
@@ -7419,6 +7629,13 @@
     "source": "linkedin",
     "title": "Product Owner"
   },
+  "product owner|randstad professionals|NL": {
+    "company": "Randstad Professionals",
+    "first_seen": "2026-09-06",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Owner"
+  },
   "product owner|robert walters outsourcing|IE": {
     "company": "Robert Walters Outsourcing",
     "first_seen": "2026-08-15",
@@ -7621,6 +7838,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Project Manager"
+  },
+  "projectleider ict | product owner|nicam|NL": {
+    "company": "NICAM",
+    "first_seen": "2026-09-06",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Projectleider ICT | Product Owner"
   },
   "proxy product owner|red tic|LU": {
     "company": "RED TIC",
@@ -7825,6 +8049,13 @@
     "source": "linkedin",
     "title": "Social Media & Performance Marketing Manager - Hospitality Group (m/w/d)"
   },
+  "social media manager (f/m/d)|zenjob|DE": {
+    "company": "Zenjob",
+    "first_seen": "2026-09-06",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Social Media Manager (f/m/d)"
+  },
   "software product manager|hp|IN": {
     "company": "HP",
     "first_seen": "2026-08-02",
@@ -8013,6 +8244,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "Technical Product manager"
+  },
+  "technical product manager|eurosort|NL": {
+    "company": "EuroSort",
+    "first_seen": "2026-09-06",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Technical Product Manager"
   },
   "technical product manager|jd.com|NL": {
     "company": "JD.com",

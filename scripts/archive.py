@@ -14,7 +14,7 @@ ARCHIVE_DIR = ROOT / "data" / "archive"
 
 FIELDS = [
     "region", "source", "title", "company", "location", "url",
-    "description", "score", "salary_status", "visa_status", "posted_date", "category",
+    "description", "score", "salary_status", "visa_status", "is_startup", "posted_date", "category",
 ]
 
 

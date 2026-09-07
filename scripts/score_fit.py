@@ -89,9 +89,54 @@ CONCEPT_BANK = {
 }
 
 
+# Matches "X years", "X-Y years", "X+ years" etc. (any dash style). On its
+# own this also matches incidental mentions that have nothing to do with an
+# experience requirement - "founded 3 years ago", "grown by 20% in the last
+# 3 years" - so a hit only counts as a real requirement if it's anchored by
+# either a trailing "... experience"/"exp" (within the same clause, no
+# digits or period in between, so it can't bleed into a *different*
+# requirement mentioned later in the same sentence) or a leading requirement
+# verb ("requires", "minimum", "at least", "need", "must have") directly
+# before the number. Anything else is too ambiguous to trust and is ignored,
+# same as if no years were mentioned at all - a wrong number here otherwise
+# silently corrupts the fit score (e.g. a JD needing 8+ years but mentioning
+# "founded 3 years ago" earlier was previously read as requiring only 3).
+_YEARS_RE = re.compile(r"(\d+)\s*\+?\s*(?:[-–—]\s*\d+\s*\+?)?\s*years?")
+_YEARS_LEADING_VERB_RE = re.compile(r"(require[sd]?|minimum\s*(?:of)?|at\s*least|need[s]?|must\s*have)\s*$")
+_YEARS_TRAILING_EXP_RE = re.compile(r"^[^.\d]{0,45}?\b(experience|exp\b|in\s+(?:a\s+|the\s+)?(?:similar|related)\s+role)")
+
+
 def _extract_years_required(text):
-    years = [int(y) for y in re.findall(r"(\d+)\s*\+?\s*(?:-|to)?\s*\d*\s*years?", text.lower())]
-    return min(years) if years else None
+    t = text.lower()
+    candidates = []
+    for m in _YEARS_RE.finditer(t):
+        before = t[max(0, m.start() - 30):m.start()]
+        after = t[m.end():m.end() + 50]
+        if _YEARS_LEADING_VERB_RE.search(before) or _YEARS_TRAILING_EXP_RE.search(after):
+            candidates.append(int(m.group(1)))
+    return min(candidates) if candidates else None
+
+
+# Signals a JD is at a very early-stage startup (roughly pre-seed/seed/"0 to
+# 1" through early Series A "1 to 10" scaling) - surfaced as a positive tag,
+# never used to exclude a listing, since such companies are often more
+# willing to hire below the years-of-experience bar a corporate posting
+# would enforce.
+STARTUP_MARKERS = [
+    "early-stage startup", "early stage startup", "seed-stage", "seed stage",
+    "pre-seed", "pre seed", "series seed", "founding team", "founding member",
+    "founding engineer", "founding pm", "founding product manager",
+    "one of our first hires", "employee number", "small but mighty",
+    "wear many hats", "wear multiple hats", "scrappy", "0 to 1", "0-to-1",
+    "zero to one", "stealth mode", "stealth-mode", "bootstrapped",
+    "join us early", "ground floor", "small, fast-moving team",
+    "small and fast-moving team", "lean team", "we are a startup",
+    "fast-growing startup", "fast growing startup",
+]
+
+
+def is_early_stage_startup(text):
+    return any(m in text for m in STARTUP_MARKERS)
 
 
 def has_visa_blocker(text):
@@ -177,6 +222,14 @@ def score_job(job, skills_pool=None, all_keywords=None):
         score -= 50
         reasons.append("Posting states no visa sponsorship / local candidates only — likely to reject even self-funded visa applicants")
 
+    # Startup signal - purely informational, never affects score or
+    # exclusion. Surfaced because early-stage companies are often more
+    # willing to hire below the years-of-experience bar a corporate posting
+    # would enforce.
+    startup = is_early_stage_startup(text)
+    if startup:
+        reasons.append("Signals suggest an early-stage startup (seed/founding-team language) — often more flexible on years of experience")
+
     score = max(0, min(100, score))
 
     # Salary
@@ -189,6 +242,7 @@ def score_job(job, skills_pool=None, all_keywords=None):
         "reasons": reasons,
         "salary_status": salary_status,
         "visa_status": "blocked" if visa_blocked else "unclear",
+        "is_startup": startup,
         "matched_concepts": matched_concepts,
         "years_required": years_required,
         "has_desc": has_desc,

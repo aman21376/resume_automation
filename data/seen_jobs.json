@@ -461,6 +461,13 @@
     "source": "linkedin",
     "title": "Associate Product Manager"
   },
+  "associate product manager|frnd|IN": {
+    "company": "FRND",
+    "first_seen": "2026-09-08",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
   "associate product manager|greythr|IN": {
     "company": "greytHR",
     "first_seen": "2026-09-06",
@@ -1014,6 +1021,13 @@
     "source": "indeed",
     "title": "Business Analyst - Bengaluru (0 - 1 Year)"
   },
+  "business analyst - credit & lending|infoplus technologies uk limited|IE": {
+    "company": "Infoplus Technologies UK Limited",
+    "first_seen": "2026-09-08",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Analyst - Credit & Lending"
+  },
   "business analyst - d365 f&o|reperio human capital|IE": {
     "company": "Reperio Human Capital",
     "first_seen": "2026-07-16",
@@ -1259,12 +1273,26 @@
     "source": "linkedin",
     "title": "Business Analyst Groningen"
   },
+  "business analyst iii|thermo fisher scientific|IN": {
+    "company": "Thermo Fisher Scientific",
+    "first_seen": "2026-09-08",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst III"
+  },
   "business analyst l luxembourg|talan|LU": {
     "company": "Talan",
     "first_seen": "2026-08-02",
     "region": "LU",
     "source": "linkedin",
     "title": "Business Analyst l Luxembourg"
+  },
+  "business analyst level 2|klm|NL": {
+    "company": "KLM",
+    "first_seen": "2026-09-08",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business Analyst Level 2"
   },
   "business analyst manager - procurement|nestl\u00e9|IN": {
     "company": "Nestl\u00e9",
@@ -1924,6 +1952,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|mevas assuranti\u00ebn bv|NL": {
+    "company": "MEVAS Assuranti\u00ebn bv",
+    "first_seen": "2026-09-08",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
   "business analyst|ml|IE": {
     "company": "ML",
     "first_seen": "2026-07-26",
@@ -2428,6 +2463,13 @@
     "source": "linkedin",
     "title": "Business Marketing Manager"
   },
+  "business operations analyst (m/f/d)|flink|DE": {
+    "company": "Flink",
+    "first_seen": "2026-09-08",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Business Operations Analyst (m/f/d)"
+  },
   "business operations analyst|cisco|IN": {
     "company": "Cisco",
     "first_seen": "2026-08-03",
@@ -2462,6 +2504,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Business Process Analyst"
+  },
+  "business processes & systems analyst|harris group|IE": {
+    "company": "Harris Group",
+    "first_seen": "2026-09-08",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Business Processes & Systems Analyst"
   },
   "business product analyst - aviation|cgi nederland|NL": {
     "company": "CGI Nederland",
@@ -2602,6 +2651,13 @@
     "region": "LU",
     "source": "indeed",
     "title": "Client Relationship Manager"
+  },
+  "client solution & strategy specialist (institutional)|ebury|LU": {
+    "company": "Ebury",
+    "first_seen": "2026-09-08",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Client Solution & Strategy Specialist (Institutional)"
   },
   "co strategic initiatives project manager|hp|IN": {
     "company": "HP",
@@ -2805,6 +2861,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Data Analyst (F/M)"
+  },
+  "data analyst - (mid level)(f/m/x)|ablefy|DE": {
+    "company": "ablefy",
+    "first_seen": "2026-09-08",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Data Analyst - (Mid level)(F/M/X)"
   },
   "data analyst - product-led growth|nmbrs|NL": {
     "company": "Nmbrs",
@@ -3457,6 +3520,13 @@
     "source": "indeed",
     "title": "Funding Operations Analyst - Lux"
   },
+  "game data analyst (f/m/d)|kolibri games|DE": {
+    "company": "Kolibri Games",
+    "first_seen": "2026-09-08",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Game Data Analyst (f/m/d)"
+  },
   "genai regional product marketing manager, creative product|tiktok|DE": {
     "company": "TikTok",
     "first_seen": "2026-08-06",
@@ -3603,6 +3673,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Growth and Retention Consultant, Mobile Gaming, Apps"
+  },
+  "growth and retention manager|stockgro|IN": {
+    "company": "StockGro",
+    "first_seen": "2026-09-08",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Growth and Retention Manager"
   },
   "growth associate|lyceum|DE": {
     "company": "Lyceum",
@@ -4451,6 +4528,13 @@
     "source": "linkedin",
     "title": "Lead, Data Analytics"
   },
+  "lead, growth (leadership, organic + paid) | amsterdam hybrid|workwize|NL": {
+    "company": "Workwize",
+    "first_seen": "2026-09-08",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Lead, Growth (leadership, organic + paid) | Amsterdam Hybrid"
+  },
   "lead, growth marketing|mongodb|IE": {
     "company": "MongoDB",
     "first_seen": "2026-09-04",
@@ -4640,6 +4724,13 @@
     "source": "linkedin",
     "title": "Marketing Manager - Asset & Wealth Management"
   },
+  "marketing manager [members acquisition] (m/f/d)|travelzoo|DE": {
+    "company": "Travelzoo",
+    "first_seen": "2026-09-08",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Marketing Manager [Members Acquisition] (m/f/d)"
+  },
   "marketing manager benelux|product pulse|NL": {
     "company": "Product Pulse",
     "first_seen": "2026-09-06",
@@ -4786,6 +4877,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Network Growth Manager"
+  },
+  "ocoo, business analyst, associate, based in luxembourg|tiaa|LU": {
+    "company": "TIAA",
+    "first_seen": "2026-09-08",
+    "region": "LU",
+    "source": "indeed",
+    "title": "OCOO, Business Analyst, Associate, Based in Luxembourg"
   },
   "off-cycle student - business analyst|picnic|NL": {
     "company": "Picnic",
@@ -5101,6 +5199,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Product Analyst II"
+  },
+  "product analyst, real estate & motors (d/f/m) 1-year fixed-term contract|kleinanzeigen|DE": {
+    "company": "Kleinanzeigen",
+    "first_seen": "2026-09-08",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Analyst, Real Estate & Motors (d/f/m) 1-year fixed-term contract"
   },
   "product analyst- payments|pine labs|IN": {
     "company": "Pine Labs",
@@ -5963,6 +6068,13 @@
     "source": "indeed",
     "title": "Product Manager, Analytics | Bengaluru, IN"
   },
+  "product manager, branded mobile app|toast|IE": {
+    "company": "Toast",
+    "first_seen": "2026-09-08",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager, Branded Mobile App"
+  },
   "product manager, consolidation|prophix|LU": {
     "company": "Prophix",
     "first_seen": "2026-07-15",
@@ -6747,6 +6859,13 @@
     "source": "indeed",
     "title": "Product Manager"
   },
+  "product manager|target|IN": {
+    "company": "Target",
+    "first_seen": "2026-09-08",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Manager"
+  },
   "product manager|tata consultancy services|IN": {
     "company": "Tata Consultancy Services",
     "first_seen": "2026-07-26",
@@ -7075,6 +7194,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Owner - Healthtech (m/w/d)"
+  },
+  "product owner - insurance (6 to 8 years)|cgi|IN": {
+    "company": "CGI",
+    "first_seen": "2026-09-08",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Owner - Insurance (6 to 8 years)"
   },
   "product owner - lending operations - associate|jpmorganchase|IN": {
     "company": "JPMorganChase",
@@ -7527,6 +7653,13 @@
   "product owner|edan luxembourg|LU": {
     "company": "EDAN Luxembourg",
     "first_seen": "2026-08-22",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "product owner|editus luxembourg|LU": {
+    "company": "Editus Luxembourg",
+    "first_seen": "2026-09-08",
     "region": "LU",
     "source": "linkedin",
     "title": "Product Owner"
@@ -8315,6 +8448,13 @@
     "source": "indeed",
     "title": "Supply Chain Analyst"
   },
+  "t&t - customer - cs&d - business analyst | pan india - manager|deloitte|IN": {
+    "company": "Deloitte",
+    "first_seen": "2026-09-08",
+    "region": "IN",
+    "source": "indeed",
+    "title": "T&T - Customer - CS&D - Business Analyst | PAN India - Manager"
+  },
   "taxtech und fintech product owner (m/w/d)|headfound gmbh|DE": {
     "company": "HEADFOUND GmbH",
     "first_seen": "2026-08-12",
@@ -8657,6 +8797,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "\ud83c\uddeb\ud83c\uddf7 Growth Manager - EdTech (French fluent)"
+  },
+  "\ud83c\udfaf product consultant \u2013 deviens un expert augment\u00e9|sfeir|LU": {
+    "company": "SFEIR",
+    "first_seen": "2026-09-08",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "\ud83c\udfaf Product Consultant \u2013 Deviens un expert augment\u00e9"
   },
   "\ud83c\udfaf product owner / product consultant \u2013 deviens un expert augment\u00e9|sfeir|LU": {
     "company": "SFEIR",

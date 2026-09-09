@@ -587,6 +587,13 @@
     "source": "linkedin",
     "title": "Associate Product Manager"
   },
+  "associate product manager|spotdraft|IN": {
+    "company": "SpotDraft",
+    "first_seen": "2026-09-09",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
   "associate product manager|stokke|NL": {
     "company": "Stokke",
     "first_seen": "2026-08-22",
@@ -2771,6 +2778,13 @@
     "source": "linkedin",
     "title": "Creative Strategist, Growth Marketing"
   },
+  "cro specialist|pluxee|LU": {
+    "company": "Pluxee",
+    "first_seen": "2026-09-09",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "CRO Specialist"
+  },
   "cto - ai/ml product owner|wipro|IN": {
     "company": "Wipro",
     "first_seen": "2026-08-17",
@@ -2812,6 +2826,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Customer Support Specialist (2nd & 3rd Level) (m/w/d)"
+  },
+  "customer value & growth manager - new initiatives|lovehoney group|DE": {
+    "company": "Lovehoney Group",
+    "first_seen": "2026-09-09",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Customer Value & Growth Manager - New Initiatives"
   },
   "cx product operations analyst|ethos|IN": {
     "company": "Ethos",
@@ -2930,6 +2951,13 @@
     "first_seen": "2026-08-14",
     "region": "NL",
     "source": "linkedin",
+    "title": "Data Analyst"
+  },
+  "data analyst|unitedhealth group|IE": {
+    "company": "UnitedHealth Group",
+    "first_seen": "2026-09-09",
+    "region": "IE",
+    "source": "indeed",
     "title": "Data Analyst"
   },
   "data analytics product manager (f/m/d)|deutsche b\u00f6rse group|LU": {
@@ -3373,6 +3401,13 @@
     "source": "indeed",
     "title": "Employer Branding Specialist"
   },
+  "energy product manager (w/m/d)|vrey|DE": {
+    "company": "VREY",
+    "first_seen": "2026-09-09",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Energy Product Manager (w/m/d)"
+  },
   "engineering analyst, ai answers, google search|google|IE": {
     "company": "Google",
     "first_seen": "2026-08-15",
@@ -3414,6 +3449,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Finance Business Analyst"
+  },
+  "financial business analyst|nlb services|IE": {
+    "company": "NLB Services",
+    "first_seen": "2026-09-09",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Financial Business Analyst"
   },
   "founder's office (growth & gtm)|weekday (yc w21)|IN": {
     "company": "Weekday (YC W21)",
@@ -4549,12 +4591,26 @@
     "source": "linkedin",
     "title": "Legal AI Growth Manager"
   },
+  "lifecycle marketing manager|bentley systems|IE": {
+    "company": "Bentley Systems",
+    "first_seen": "2026-09-09",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Lifecycle Marketing Manager"
+  },
   "manager - business analyst - trade finance|mufg|IN": {
     "company": "MUFG",
     "first_seen": "2026-09-04",
     "region": "IN",
     "source": "indeed",
     "title": "MANAGER - BUSINESS ANALYST - TRADE FINANCE"
+  },
+  "manager - business development|mkk metal sections|IN": {
+    "company": "MKK METAL SECTIONS",
+    "first_seen": "2026-09-09",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Manager - Business Development"
   },
   "manager - business growth|gokwik|IN": {
     "company": "GoKwik",
@@ -4626,6 +4682,13 @@
     "source": "linkedin",
     "title": "Manager, Digital Growth"
   },
+  "manager, growth marketing|geistm|IE": {
+    "company": "GeistM",
+    "first_seen": "2026-09-09",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Manager, Growth Marketing"
+  },
   "manager, product manager|mastercard|IE": {
     "company": "Mastercard",
     "first_seen": "2026-08-13",
@@ -4660,6 +4723,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Manager- Brand Marketing"
+  },
+  "manager- growth (analytics)|swiggy|IN": {
+    "company": "Swiggy",
+    "first_seen": "2026-09-09",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Manager- Growth (Analytics)"
   },
   "market intelligence & offer manager lu877389|morgan philips executive search|LU": {
     "company": "Morgan Philips Executive Search",
@@ -4770,6 +4840,13 @@
     "company": "IFF",
     "first_seen": "2026-08-06",
     "region": "NL",
+    "source": "linkedin",
+    "title": "Marketing Manager"
+  },
+  "marketing manager|nextnation|IN": {
+    "company": "NextNation",
+    "first_seen": "2026-09-09",
+    "region": "IN",
     "source": "linkedin",
     "title": "Marketing Manager"
   },
@@ -4961,6 +5038,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Paid Media Manager (m/f/d)"
+  },
+  "paid media manager, international|gr\u00fcns|NL": {
+    "company": "Gr\u00fcns",
+    "first_seen": "2026-09-09",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Paid Media Manager, International"
   },
   "partner development manager- saas platforms|stripe|IE": {
     "company": "Stripe",
@@ -5424,6 +5508,13 @@
     "source": "linkedin",
     "title": "Product Growth manager (D2C)"
   },
+  "product growth manager | pgm - 2 | rcpl|fynd|IN": {
+    "company": "Fynd",
+    "first_seen": "2026-09-09",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Growth Manager | PGM - 2 | RCPL"
+  },
   "product growth manager|trade republic|DE": {
     "company": "Trade Republic",
     "first_seen": "2026-07-17",
@@ -5437,6 +5528,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Product Information Analyst II \u2013 Local Creation, EMEA"
+  },
+  "product journey manager rotterdam|coolblue|NL": {
+    "company": "Coolblue",
+    "first_seen": "2026-09-09",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Journey Manager Rotterdam"
   },
   "product lead|jobgether|LU": {
     "company": "Jobgether",
@@ -5486,6 +5584,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Manager (f/m/d) - Berlin"
+  },
+  "product manager (f/m/d)|deutsche b\u00f6rse group|LU": {
+    "company": "Deutsche B\u00f6rse Group",
+    "first_seen": "2026-09-09",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product Manager (f/m/d)"
   },
   "product manager (fully remote)|over99|DE": {
     "company": "over99",
@@ -5844,6 +5949,13 @@
     "source": "indeed",
     "title": "Product Manager - Strategy (Netherlands - Dutch speaker) - Remote"
   },
+  "product manager - supply chain|picnic technologies|NL": {
+    "company": "Picnic Technologies",
+    "first_seen": "2026-09-09",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Manager - Supply Chain"
+  },
   "product manager - technical, international preferences|amazon|LU": {
     "company": "Amazon",
     "first_seen": "2026-09-06",
@@ -5864,6 +5976,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Product Manager / Assortimentsbeheerder"
+  },
+  "product manager 2027 (by invitation only)|ibm|IE": {
+    "company": "IBM",
+    "first_seen": "2026-09-09",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Manager 2027 (By Invitation Only)"
   },
   "product manager amplifiers for defence applications (m/w/d)|rohde & schwarz gmbh & co. kg|DE": {
     "company": "ROHDE & SCHWARZ GmbH & Co. KG",
@@ -7370,6 +7489,13 @@
     "source": "linkedin",
     "title": "Product Owner H /F"
   },
+  "product owner identity & security|prorail|NL": {
+    "company": "ProRail",
+    "first_seen": "2026-09-09",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Owner identity & security"
+  },
   "product owner identity services & monitoring & control|umc utrecht|NL": {
     "company": "UMC Utrecht",
     "first_seen": "2026-09-05",
@@ -7391,6 +7517,13 @@
     "source": "linkedin",
     "title": "Product Owner II"
   },
+  "product owner it accounting & control|nibc bank|NL": {
+    "company": "NIBC Bank",
+    "first_seen": "2026-09-09",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Owner IT Accounting & Control"
+  },
   "product owner it ns treinmodernisering|nederlandse spoorwegen|NL": {
     "company": "Nederlandse Spoorwegen",
     "first_seen": "2026-08-20",
@@ -7405,6 +7538,13 @@
     "source": "indeed",
     "title": "Product Owner IT NS Treinmodernisering"
   },
+  "product owner locker.os|gls nxt|DE": {
+    "company": "GLS NXT",
+    "first_seen": "2026-09-09",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Owner Locker.OS"
+  },
   "product owner locker.os|gls/nxt|DE": {
     "company": "GLS/NXT",
     "first_seen": "2026-09-04",
@@ -7418,6 +7558,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Product Owner Manage & Grow"
+  },
+  "product owner manufacturing|linkedtalent|NL": {
+    "company": "Linkedtalent",
+    "first_seen": "2026-09-09",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Owner Manufacturing"
   },
   "product owner modern workspace|a.s.r. verzekeringen|NL": {
     "company": "a.s.r. Verzekeringen",
@@ -7545,6 +7692,13 @@
     "source": "linkedin",
     "title": "Product Owner-Marketing"
   },
+  "product ownerin/ product owner fahrgastinformation (w/m/d)|berliner verkehrsbetriebe (bvg)|DE": {
+    "company": "Berliner Verkehrsbetriebe (BVG)",
+    "first_seen": "2026-09-09",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Ownerin/ Product Owner Fahrgastinformation (w/m/d)"
+  },
   "product owner|a.s.r. verzekeringen|NL": {
     "company": "a.s.r. Verzekeringen",
     "first_seen": "2026-08-09",
@@ -7655,6 +7809,13 @@
     "first_seen": "2026-08-22",
     "region": "LU",
     "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "product owner|editus luxembourg s.a.|LU": {
+    "company": "Editus Luxembourg S.A.",
+    "first_seen": "2026-09-09",
+    "region": "LU",
+    "source": "indeed",
     "title": "Product Owner"
   },
   "product owner|editus luxembourg|LU": {
@@ -7934,6 +8095,13 @@
     "company": "Spilberg",
     "first_seen": "2026-08-03",
     "region": "NL",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
+  "product owner|sse airtricity|IE": {
+    "company": "SSE Airtricity",
+    "first_seen": "2026-09-09",
+    "region": "IE",
     "source": "linkedin",
     "title": "Product Owner"
   },
@@ -8557,6 +8725,13 @@
     "company": "Sigmar Recruitment",
     "first_seen": "2026-07-27",
     "region": "IE",
+    "source": "linkedin",
+    "title": "Technical Product Manager"
+  },
+  "technical product manager|synthflow ai|DE": {
+    "company": "Synthflow AI",
+    "first_seen": "2026-09-09",
+    "region": "DE",
     "source": "linkedin",
     "title": "Technical Product Manager"
   },

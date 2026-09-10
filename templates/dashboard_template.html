@@ -239,9 +239,20 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
 </div>
 
 <script id="jobs-json" type="application/json">__JOBS_JSON__</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
 <script>
 (function(){
-  const JOBS = JSON.parse(document.getElementById('jobs-json').textContent);
+  // resume_html/cover_letter_html are >90% identical across jobs (same CSS,
+  // same candidate profile, same bullet pool just reordered), so they're
+  // shipped as one shared-dictionary gzip blob (offsets per job) instead of
+  // repeated inline per job - inflate once here and slice per job.
+  const RAW = JSON.parse(document.getElementById('jobs-json').textContent);
+  const blobBytes = pako.inflate(Uint8Array.from(atob(RAW.blob), c => c.charCodeAt(0)));
+  const textDecoder = new TextDecoder('utf-8');
+  const JOBS = RAW.jobs.map(j => Object.assign({}, j, {
+    resume_html: textDecoder.decode(blobBytes.subarray(j.r_off, j.r_off + j.r_len)),
+    cover_letter_html: textDecoder.decode(blobBytes.subarray(j.c_off, j.c_off + j.c_len)),
+  }));
   const REGION_NAMES = {IN:'India', NL:'Netherlands', DE:'Germany', IE:'Ireland', LU:'Luxembourg'};
   const REGION_ORDER = ['IN','NL','DE','IE','LU'];
   const STORE_KEY = 'appdesk_applied_v2';

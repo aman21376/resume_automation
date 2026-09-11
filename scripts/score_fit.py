@@ -102,7 +102,7 @@ CONCEPT_BANK = {
 # silently corrupts the fit score (e.g. a JD needing 8+ years but mentioning
 # "founded 3 years ago" earlier was previously read as requiring only 3).
 _YEARS_RE = re.compile(r"(\d+)\s*\+?\s*(?:[-–—]\s*\d+\s*\+?)?\s*years?")
-_YEARS_LEADING_VERB_RE = re.compile(r"(require[sd]?|minimum\s*(?:of)?|at\s*least|need[s]?|must\s*have)\s*$")
+_YEARS_LEADING_VERB_RE = re.compile(r"(require[sd]?|minimum\s*(?:of)?|at\s*least|need[s]?|must\s*have|experience\s*:)\s*$")
 _YEARS_TRAILING_EXP_RE = re.compile(r"^[^.\d]{0,45}?\b(experience|exp\b|in\s+(?:a\s+|the\s+)?(?:similar|related)\s+role)")
 
 

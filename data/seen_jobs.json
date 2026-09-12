@@ -174,6 +174,13 @@
     "source": "indeed",
     "title": "AI Portfolio Analyst"
   },
+  "ai product & delivery specialist|flowforma|IE": {
+    "company": "FlowForma",
+    "first_seen": "2026-09-12",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "AI Product & Delivery Specialist"
+  },
   "ai product manager i|hcltech|IN": {
     "company": "HCLTech",
     "first_seen": "2026-07-21",
@@ -1357,6 +1364,13 @@
     "source": "linkedin",
     "title": "Business Analyst l Luxembourg"
   },
+  "business analyst lead|masorange|IN": {
+    "company": "MasOrange",
+    "first_seen": "2026-09-12",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst Lead"
+  },
   "business analyst level 2|klm|NL": {
     "company": "KLM",
     "first_seen": "2026-09-08",
@@ -1581,6 +1595,13 @@
     "source": "linkedin",
     "title": "Business Analyst/ Reporting - Accounting Principles"
   },
+  "business analyst/bsa/process analyst|ascendion|IN": {
+    "company": "Ascendion",
+    "first_seen": "2026-09-12",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst/BSA/Process Analyst"
+  },
   "business analyste finance/transfo digitale (ref : 439)|aubay luxembourg|LU": {
     "company": "Aubay Luxembourg",
     "first_seen": "2026-08-20",
@@ -1796,6 +1817,13 @@
     "first_seen": "2026-08-25",
     "region": "NL",
     "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|davy|IE": {
+    "company": "Davy",
+    "first_seen": "2026-09-12",
+    "region": "IE",
+    "source": "indeed",
     "title": "Business Analyst"
   },
   "business analyst|deloitte|IE": {
@@ -2148,6 +2176,13 @@
     "source": "indeed",
     "title": "Business Analyst"
   },
+  "business analyst|publicis re:sources|IN": {
+    "company": "Publicis Re:Sources",
+    "first_seen": "2026-09-12",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|qualco|LU": {
     "company": "Qualco",
     "first_seen": "2026-08-02",
@@ -2435,6 +2470,13 @@
     "source": "linkedin",
     "title": "Business Data Scientist, gTech Users and Products"
   },
+  "business development analyst|aquabattery|NL": {
+    "company": "AquaBattery",
+    "first_seen": "2026-09-12",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business Development Analyst"
+  },
   "business development manager (w/m/d)|enpal|DE": {
     "company": "Enpal",
     "first_seen": "2026-08-07",
@@ -2554,6 +2596,13 @@
     "source": "indeed",
     "title": "Business Information Systems Analyst"
   },
+  "business intelligence engineer, scot - automated inventory management|amazon.com|LU": {
+    "company": "Amazon.com",
+    "first_seen": "2026-09-12",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Business Intelligence Engineer, SCOT - Automated Inventory Management"
+  },
   "business intelligence manager|blackrock health|IE": {
     "company": "Blackrock Health",
     "first_seen": "2026-08-08",
@@ -2665,6 +2714,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Business Product Analyst Reward & Retain"
+  },
+  "business support analyst|interim finance group|NL": {
+    "company": "Interim Finance Group",
+    "first_seen": "2026-09-12",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business Support Analyst"
   },
   "business system specialist|hanley automation|IE": {
     "company": "Hanley Automation",
@@ -3009,6 +3065,13 @@
     "source": "linkedin",
     "title": "CX Product Operations Analyst"
   },
+  "d2c business manager|bene kleed|IN": {
+    "company": "Bene Kleed",
+    "first_seen": "2026-09-12",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "D2C Business Manager"
+  },
   "d2c growth manager \u2013 foods & cgm | bengaluru|sugar.fit|IN": {
     "company": "sugar.fit",
     "first_seen": "2026-09-04",
@@ -3267,6 +3330,13 @@
     "region": "LU",
     "source": "indeed",
     "title": "Depositary Analyst"
+  },
+  "digital & growth marketing manager | travel | internationale groei|vacanze col cuore|NL": {
+    "company": "Vacanze col Cuore",
+    "first_seen": "2026-09-12",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Digital & Growth Marketing Manager | Travel | Internationale groei"
   },
   "digital access product owner|takeda pharmaceuticals|IN": {
     "company": "Takeda Pharmaceuticals",
@@ -3561,6 +3631,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Ecommerce Manager"
+  },
+  "ecosystem & fintech growth manager|the lhoft - luxembourg house of financial technology|LU": {
+    "company": "The LHoFT - Luxembourg House of Financial Technology",
+    "first_seen": "2026-09-12",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Ecosystem & Fintech Growth Manager"
   },
   "education partnerships manager|shree swaminarayan gurukul international school, hyderabad|IN": {
     "company": "Shree Swaminarayan Gurukul International School, Hyderabad",
@@ -4563,6 +4640,13 @@
     "source": "linkedin",
     "title": "IT Business Analyst (H/F)"
   },
+  "it business analyst (w/m/d) retail|robert half|DE": {
+    "company": "Robert Half",
+    "first_seen": "2026-09-12",
+    "region": "DE",
+    "source": "indeed",
+    "title": "IT Business Analyst (w/m/d) Retail"
+  },
   "it business analyst|luxembourg business registers|LU": {
     "company": "Luxembourg Business Registers",
     "first_seen": "2026-07-17",
@@ -4933,6 +5017,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Manager, Digital Growth"
+  },
+  "manager, enterprise architecture & digital transformation, iris2|ses|LU": {
+    "company": "SES",
+    "first_seen": "2026-09-12",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Manager, Enterprise Architecture & Digital Transformation, IRIS2"
   },
   "manager, growth marketing|geistm|IE": {
     "company": "GeistM",
@@ -5613,9 +5704,23 @@
     "source": "linkedin",
     "title": "Product Analyst"
   },
+  "product analyst|framna aps|NL": {
+    "company": "Framna ApS",
+    "first_seen": "2026-09-12",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Analyst"
+  },
   "product analyst|give|IN": {
     "company": "Give",
     "first_seen": "2026-09-05",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Analyst"
+  },
+  "product analyst|goodscore|IN": {
+    "company": "GoodScore",
+    "first_seen": "2026-09-12",
     "region": "IN",
     "source": "linkedin",
     "title": "Product Analyst"
@@ -6214,6 +6319,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Product Manager - Picnic App"
+  },
+  "product manager - power forecasting|dexter energy|NL": {
+    "company": "Dexter Energy",
+    "first_seen": "2026-09-12",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Manager - Power Forecasting"
   },
   "product manager - quality and regulatory systems|life scientific|IE": {
     "company": "Life Scientific",
@@ -6838,6 +6950,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|cloudzen software labs private limited|IN": {
+    "company": "CloudZen Software Labs Private Limited",
+    "first_seen": "2026-09-12",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
   "product manager|consultport|DE": {
     "company": "Consultport",
     "first_seen": "2026-08-02",
@@ -7207,6 +7326,13 @@
     "first_seen": "2026-08-02",
     "region": "NL",
     "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|quacquarelli symonds|IN": {
+    "company": "Quacquarelli Symonds",
+    "first_seen": "2026-09-12",
+    "region": "IN",
+    "source": "indeed",
     "title": "Product Manager"
   },
   "product manager|qualwebs|IN": {
@@ -7860,6 +7986,13 @@
     "source": "linkedin",
     "title": "Product Owner Identity Services & Monitoring & Control"
   },
+  "product owner ii|amtech software|IN": {
+    "company": "AMTECH SOFTWARE",
+    "first_seen": "2026-09-12",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Owner II"
+  },
   "product owner ii|candescent|IN": {
     "company": "Candescent",
     "first_seen": "2026-08-13",
@@ -7985,6 +8118,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Owner Traffic Domain (m/f/d)"
+  },
+  "product owner vertriebstechnologie (w/m/d)|berliner verkehrsbetriebe (bvg)|DE": {
+    "company": "Berliner Verkehrsbetriebe (BVG)",
+    "first_seen": "2026-09-12",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Owner Vertriebstechnologie (w/m/d)"
   },
   "product owner warehousing|wehkamp retail group|NL": {
     "company": "Wehkamp Retail Group",
@@ -8385,6 +8525,13 @@
     "source": "indeed",
     "title": "Product Owner"
   },
+  "product owner|persistent systems|IN": {
+    "company": "Persistent Systems",
+    "first_seen": "2026-09-12",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Owner"
+  },
   "product owner|pracyva|NL": {
     "company": "PRACYVA",
     "first_seen": "2026-08-05",
@@ -8573,6 +8720,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Scientist"
+  },
+  "product solutions specialist - europe, 100% remote|limeflight|LU": {
+    "company": "LimeFlight",
+    "first_seen": "2026-09-12",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Product Solutions Specialist - Europe, 100% remote"
   },
   "product specialist (otc derivatives)|selby jennings|NL": {
     "company": "Selby Jennings",
@@ -8818,6 +8972,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Salesforce Product Manager"
+  },
+  "scrum master & product owner|wirelesscar ab|IN": {
+    "company": "WirelessCar AB",
+    "first_seen": "2026-09-12",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Scrum Master & Product Owner"
   },
   "scrum master/ agile product owner|hays|IE": {
     "company": "Hays",
@@ -9162,6 +9323,13 @@
     "source": "linkedin",
     "title": "Technical Product Owner (f/m/d) \u2013 Software & Full Stack Applications"
   },
+  "technical product owner casino|nederlandse loterij|NL": {
+    "company": "Nederlandse Loterij",
+    "first_seen": "2026-09-12",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Technical Product Owner Casino"
+  },
   "technical product owner e-commerce|projob|NL": {
     "company": "Projob",
     "first_seen": "2026-09-11",
@@ -9308,6 +9476,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Transformation Business Analyst"
+  },
+  "treasury analyst|huntsman corp|LU": {
+    "company": "Huntsman Corp",
+    "first_seen": "2026-09-12",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Treasury Analyst"
   },
   "trust & safety sql analyst (ai & machine learning)|principle|IE": {
     "company": "Principle",

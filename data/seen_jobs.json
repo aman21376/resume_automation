@@ -650,6 +650,20 @@
     "source": "linkedin",
     "title": "Associate Product Manager"
   },
+  "associate product owner - hr technology|hitachi energy|IN": {
+    "company": "Hitachi Energy",
+    "first_seen": "2026-09-13",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Associate Product Owner - HR Technology"
+  },
+  "associate product owner - hr technology|hitachi rail|IN": {
+    "company": "Hitachi Rail",
+    "first_seen": "2026-09-13",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Associate Product Owner - HR Technology"
+  },
   "associate product owner / business analyst (f/m/d)|verwaltungssprung gmbh|DE": {
     "company": "Verwaltungssprung GmbH",
     "first_seen": "2026-07-16",
@@ -1367,6 +1381,13 @@
   "business analyst lead|masorange|IN": {
     "company": "MasOrange",
     "first_seen": "2026-09-12",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst Lead"
+  },
+  "business analyst lead|orange business|IN": {
+    "company": "Orange Business",
+    "first_seen": "2026-09-13",
     "region": "IN",
     "source": "indeed",
     "title": "Business Analyst Lead"
@@ -2337,6 +2358,13 @@
     "source": "linkedin",
     "title": "Business Analyst"
   },
+  "business analyst|the artisan pizza company limited t/a pizza da piero|IE": {
+    "company": "The Artisan Pizza Company Limited t/a Pizza da Piero",
+    "first_seen": "2026-09-13",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
   "business analyst|thomson keene|IE": {
     "company": "Thomson Keene",
     "first_seen": "2026-07-15",
@@ -2491,6 +2519,13 @@
     "source": "indeed",
     "title": "Business Development Manager - Aesthetics"
   },
+  "business development manager - ai / saas / vertrieb (m/w/d)|kinova|DE": {
+    "company": "Kinova",
+    "first_seen": "2026-09-13",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Business Development Manager - AI / SaaS / Vertrieb (m/w/d)"
+  },
   "business development manager africa & levant|ferrero|LU": {
     "company": "Ferrero",
     "first_seen": "2026-08-03",
@@ -2630,6 +2665,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Business Manager - Marketing Operations"
+  },
+  "business manager - securities services operations business management - associate|jpmorganchase|LU": {
+    "company": "JPMorganChase",
+    "first_seen": "2026-09-13",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Business Manager - Securities Services Operations Business Management - Associate"
   },
   "business manager|h valoris|LU": {
     "company": "H VALORIS",
@@ -2848,6 +2890,13 @@
     "source": "linkedin",
     "title": "Chief Growth Officer"
   },
+  "cleanroom support associate|apleona|NL": {
+    "company": "Apleona",
+    "first_seen": "2026-09-13",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Cleanroom Support Associate"
+  },
   "client lead|vml|LU": {
     "company": "VML",
     "first_seen": "2026-08-16",
@@ -2945,6 +2994,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Contact Center Business Analyst (w/m/d)"
+  },
+  "content & communications marketing manager - germany (m/w/d)|pennylane sas|DE": {
+    "company": "Pennylane SAS",
+    "first_seen": "2026-09-13",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Content & Communications Marketing Manager - Germany (m/w/d)"
   },
   "corporate planning & management-bengaluru-analyst-product management|goldman sachs|IN": {
     "company": "Goldman Sachs",
@@ -3519,6 +3575,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Digital Product Owner (all genders) - simplesurance"
+  },
+  "digital product owner - mbse|volvo group|IN": {
+    "company": "Volvo Group",
+    "first_seen": "2026-09-13",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Digital Product Owner - MBSE"
   },
   "digital product owner|chevron|IN": {
     "company": "Chevron",
@@ -4402,6 +4465,13 @@
     "source": "linkedin",
     "title": "Growth Marketing Manager, Amazon Fashion"
   },
+  "growth marketing manager, emea|meta|IE": {
+    "company": "Meta",
+    "first_seen": "2026-09-13",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Growth Marketing Manager, EMEA"
+  },
   "growth marketing manager|all4running|NL": {
     "company": "All4running",
     "first_seen": "2026-08-20",
@@ -5095,6 +5165,13 @@
     "source": "linkedin",
     "title": "Market Place Growth Manager"
   },
+  "marketing & digital communication associate|innpact fund management s.a.|LU": {
+    "company": "Innpact Fund Management S.A.",
+    "first_seen": "2026-09-13",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Marketing & Digital Communication Associate"
+  },
   "marketing & growth manager (m/w/d)|cubos|DE": {
     "company": "Cubos",
     "first_seen": "2026-08-21",
@@ -5556,6 +5633,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Product & Application owner"
+  },
+  "product & sourcing manager|fratelli orsini b.v.|NL": {
+    "company": "Fratelli Orsini B.V.",
+    "first_seen": "2026-09-13",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product & Sourcing Manager"
   },
   "product - growth and engagement|stockgro|IN": {
     "company": "StockGro",
@@ -6691,6 +6775,13 @@
     "source": "linkedin",
     "title": "Product Manager, Fleet Planning Tools, Fleet Procurement & Capacity Planning (FPAC)"
   },
+  "product manager, homepage|wolt|DE": {
+    "company": "wolt",
+    "first_seen": "2026-09-13",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Manager, Homepage"
+  },
   "product manager, marketing technology & innovation|take-two interactive|IE": {
     "company": "Take-Two Interactive",
     "first_seen": "2026-07-18",
@@ -6892,6 +6983,13 @@
     "first_seen": "2026-08-02",
     "region": "IN",
     "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|aquablu|NL": {
+    "company": "AQUABLU",
+    "first_seen": "2026-09-13",
+    "region": "NL",
+    "source": "indeed",
     "title": "Product Manager"
   },
   "product manager|aris|IN": {
@@ -7226,6 +7324,13 @@
   "product manager|mcafee|IN": {
     "company": "McAfee",
     "first_seen": "2026-09-11",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
+  "product manager|metaforms|IN": {
+    "company": "Metaforms",
+    "first_seen": "2026-09-13",
     "region": "IN",
     "source": "indeed",
     "title": "Product Manager"
@@ -8140,6 +8245,13 @@
     "source": "linkedin",
     "title": "Product Owner \u2013 Edvation (School ERP & AI Platform)"
   },
+  "product owner \u2013 hospital management system (medorbit)|ai nexus innovations hub|IN": {
+    "company": "AI Nexus Innovations Hub",
+    "first_seen": "2026-09-13",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Owner \u2013 Hospital Management System (MedOrbit)"
+  },
   "product owner \u2013 it service management|rabobank|NL": {
     "company": "Rabobank",
     "first_seen": "2026-08-25",
@@ -8195,6 +8307,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Product Owner-Marketing"
+  },
+  "product owner/business analyst|exdera|IN": {
+    "company": "Exdera",
+    "first_seen": "2026-09-13",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Owner/Business Analyst"
   },
   "product ownerin/ product owner fahrgastinformation (w/m/d)|berliner verkehrsbetriebe (bvg)|DE": {
     "company": "Berliner Verkehrsbetriebe (BVG)",
@@ -8875,6 +8994,13 @@
     "source": "linkedin",
     "title": "Remote Business Analyst"
   },
+  "residential asset manager|comer group ireland|IE": {
+    "company": "Comer Group Ireland",
+    "first_seen": "2026-09-13",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Residential Asset Manager"
+  },
   "responsable d\u00e9partement produits finance (m/f)|sigi - syndicat intercommunal de gestion informatique|LU": {
     "company": "SIGI - Syndicat Intercommunal de Gestion Informatique",
     "first_seen": "2026-08-05",
@@ -8958,6 +9084,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Sales Business Analyst (w/m/d)"
+  },
+  "sales operations analyst, enterprise and data center emea (m/f/d)|corning|DE": {
+    "company": "Corning",
+    "first_seen": "2026-09-13",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Sales Operations Analyst, Enterprise and Data Center EMEA (m/f/d)"
   },
   "salesforce business analyst|kerry|IE": {
     "company": "Kerry",
@@ -9218,6 +9351,13 @@
     "source": "linkedin",
     "title": "Technical Business Analyst"
   },
+  "technical founders associate|lyceum|DE": {
+    "company": "Lyceum",
+    "first_seen": "2026-09-13",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Technical Founders Associate"
+  },
   "technical product manager (all gender)|stark|DE": {
     "company": "STARK",
     "first_seen": "2026-08-25",
@@ -9399,6 +9539,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Technical Program Manager, Product Development and Insertion"
+  },
+  "technisch product owner|realworks bv|NL": {
+    "company": "Realworks BV",
+    "first_seen": "2026-09-13",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Technisch Product Owner"
   },
   "techno functional business analyst|ntt data north america|IE": {
     "company": "NTT DATA North America",

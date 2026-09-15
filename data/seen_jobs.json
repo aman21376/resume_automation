@@ -111,6 +111,13 @@
     "source": "linkedin",
     "title": "AI Business Analyst (m/f/d)"
   },
+  "ai business analyst|avanci services llc|IE": {
+    "company": "AVANCI SERVICES LLC",
+    "first_seen": "2026-09-15",
+    "region": "IE",
+    "source": "indeed",
+    "title": "AI Business Analyst"
+  },
   "ai business analyst|deloitte|IE": {
     "company": "Deloitte",
     "first_seen": "2026-07-27",
@@ -501,6 +508,13 @@
     "first_seen": "2026-07-15",
     "region": "IN",
     "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
+  "associate product manager|flam|IN": {
+    "company": "flam",
+    "first_seen": "2026-09-15",
+    "region": "IN",
+    "source": "indeed",
     "title": "Associate Product Manager"
   },
   "associate product manager|frnd|IN": {
@@ -1546,6 +1560,13 @@
     "source": "linkedin",
     "title": "Business Analyst, Amazon Fresh"
   },
+  "business analyst, change & transformation unit|deloitte|LU": {
+    "company": "Deloitte",
+    "first_seen": "2026-09-15",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Business Analyst, Change & Transformation Unit"
+  },
   "business analyst, data & ai (m/f/d)|ib vogt gmbh|DE": {
     "company": "ib Vogt GmbH",
     "first_seen": "2026-07-16",
@@ -2104,6 +2125,13 @@
     "first_seen": "2026-09-08",
     "region": "NL",
     "source": "indeed",
+    "title": "Business Analyst"
+  },
+  "business analyst|mks inc.|DE": {
+    "company": "MKS Inc.",
+    "first_seen": "2026-09-15",
+    "region": "DE",
+    "source": "linkedin",
     "title": "Business Analyst"
   },
   "business analyst|ml|IE": {
@@ -2763,6 +2791,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Business Support Analyst"
+  },
+  "business system analyst|fruition group ireland|IE": {
+    "company": "Fruition Group Ireland",
+    "first_seen": "2026-09-15",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business System Analyst"
   },
   "business system specialist|hanley automation|IE": {
     "company": "Hanley Automation",
@@ -3954,6 +3989,20 @@
     "source": "linkedin",
     "title": "Global Product Manager (Flavor/Ingredients-Food)"
   },
+  "global rfp/ddq writer - analyst/associate|nomura|LU": {
+    "company": "Nomura",
+    "first_seen": "2026-09-15",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Global RFP/DDQ Writer - Analyst/Associate"
+  },
+  "global technology business analyst 6 month industrial placement 2027 analyst - dublin|bank of america|IE": {
+    "company": "Bank of America",
+    "first_seen": "2026-09-15",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Global Technology Business Analyst 6 month Industrial Placement 2027 Analyst - Dublin"
+  },
   "gpo category manager - global workforce services, global workforce services|amazon.com|LU": {
     "company": "Amazon.com",
     "first_seen": "2026-09-06",
@@ -4030,6 +4079,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Group Product Manager"
+  },
+  "growth & demand generation manager|revspot|IN": {
+    "company": "Revspot",
+    "first_seen": "2026-09-15",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Growth & Demand Generation Manager"
   },
   "growth & lifecycle marketing manager|blinkrx|IN": {
     "company": "BlinkRx",
@@ -4444,6 +4500,13 @@
     "source": "indeed",
     "title": "Growth Marketing Manager (x/w/m)"
   },
+  "growth marketing manager - enterprise|ablecredit - genai infra for bfsi|IN": {
+    "company": "AbleCredit - GenAI Infra for BFSI",
+    "first_seen": "2026-09-15",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Growth Marketing Manager - Enterprise"
+  },
   "growth marketing manager \u2013 retention & lifecycle|hashfame|IN": {
     "company": "HashFame",
     "first_seen": "2026-08-22",
@@ -4483,6 +4546,13 @@
     "company": "Archer Recruitment",
     "first_seen": "2026-08-07",
     "region": "IE",
+    "source": "linkedin",
+    "title": "Growth Marketing Manager"
+  },
+  "growth marketing manager|beynd|NL": {
+    "company": "Beynd",
+    "first_seen": "2026-09-15",
+    "region": "NL",
     "source": "linkedin",
     "title": "Growth Marketing Manager"
   },
@@ -4538,6 +4608,13 @@
   "growth marketing manager|phyllo|IN": {
     "company": "Phyllo",
     "first_seen": "2026-08-08",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Growth Marketing Manager"
+  },
+  "growth marketing manager|pw (physicswallah)|IN": {
+    "company": "PW (PhysicsWallah)",
+    "first_seen": "2026-09-15",
     "region": "IN",
     "source": "linkedin",
     "title": "Growth Marketing Manager"
@@ -4772,6 +4849,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "IT Traineeship Leiden"
+  },
+  "it traineeship utrecht|goodzo|NL": {
+    "company": "Goodzo",
+    "first_seen": "2026-09-15",
+    "region": "NL",
+    "source": "indeed",
+    "title": "IT traineeship Utrecht"
   },
   "itsm product owner|dyson|IN": {
     "company": "Dyson",
@@ -5046,6 +5130,13 @@
     "source": "linkedin",
     "title": "Manager - Performance Marketing"
   },
+  "manager banking business transformation consulting team|deloitte|LU": {
+    "company": "Deloitte",
+    "first_seen": "2026-09-15",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Manager Banking Business Transformation Consulting Team"
+  },
   "manager digital process excellence|kpmg|NL": {
     "company": "KPMG",
     "first_seen": "2026-08-08",
@@ -5101,6 +5192,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Manager, Growth Marketing"
+  },
+  "manager, product management - business experimentation & optimization|mastercard|IE": {
+    "company": "Mastercard",
+    "first_seen": "2026-09-15",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Manager, Product Management - Business Experimentation & Optimization"
   },
   "manager, product manager|mastercard|IE": {
     "company": "Mastercard",
@@ -5396,6 +5494,13 @@
     "source": "indeed",
     "title": "Off-Cycle Student - Business Analyst"
   },
+  "office manager \u2013 empfang & administration (all genders)|sunday natural|DE": {
+    "company": "Sunday Natural",
+    "first_seen": "2026-09-15",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Office Manager \u2013 Empfang & Administration (all genders)"
+  },
   "office- & prozessmanagerin|kraft gas|DE": {
     "company": "KRAFT GAS",
     "first_seen": "2026-09-06",
@@ -5514,6 +5619,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Performance Analyst"
+  },
+  "performance growth marketing manager (all genders)|heydata|DE": {
+    "company": "heyData",
+    "first_seen": "2026-09-15",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Performance Growth Marketing Manager (all genders)"
   },
   "performance marketeer nieuwbouw|vorm holding|NL": {
     "company": "VORM Holding",
@@ -6054,6 +6166,13 @@
     "source": "linkedin",
     "title": "Product Manager (AI)"
   },
+  "product manager (devtools & ai reliability, remote)|checkly|DE": {
+    "company": "Checkly",
+    "first_seen": "2026-09-15",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Manager (DevTools & AI Reliability, remote)"
+  },
   "product manager (digital department)|ryanair - europe's favourite airline|IE": {
     "company": "Ryanair - Europe's Favourite Airline",
     "first_seen": "2026-08-14",
@@ -6277,6 +6396,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Manager - Berlin"
+  },
+  "product manager - business intelligence & analytics|motorola solutions|IN": {
+    "company": "Motorola Solutions",
+    "first_seen": "2026-09-15",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Manager - Business Intelligence & Analytics"
   },
   "product manager - client experience (m/f/d)|lynx b.v.|DE": {
     "company": "LYNX B.V.",
@@ -7559,6 +7685,13 @@
     "source": "indeed",
     "title": "Product Manager"
   },
+  "product manager|talon.one|DE": {
+    "company": "Talon.One",
+    "first_seen": "2026-09-15",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
   "product manager|target|IN": {
     "company": "Target",
     "first_seen": "2026-09-08",
@@ -7972,6 +8105,13 @@
     "source": "indeed",
     "title": "Product Owner - Registration Route & AB Testing (f/m/d)"
   },
+  "product owner - substation automation software|siemens|IN": {
+    "company": "Siemens",
+    "first_seen": "2026-09-15",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Owner - Substation Automation Software"
+  },
   "product owner - swagger|smartbear|IN": {
     "company": "SmartBear",
     "first_seen": "2026-08-07",
@@ -8006,6 +8146,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Owner / Technical Consultant (m/w/d) \u2013 Konstanz, Berlin oder remote"
+  },
+  "product owner ai assistant|brainbay|NL": {
+    "company": "Brainbay",
+    "first_seen": "2026-09-15",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Owner AI Assistant"
   },
   "product owner b2b saas tender intelligence (m/w/d)|dtad gmbh|DE": {
     "company": "DTAD GmbH",
@@ -8784,6 +8931,13 @@
     "source": "linkedin",
     "title": "Product Owner"
   },
+  "product owner|uwv|NL": {
+    "company": "UWV",
+    "first_seen": "2026-09-15",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Owner"
+  },
   "product owner|valicare|NL": {
     "company": "Valicare",
     "first_seen": "2026-08-05",
@@ -9267,6 +9421,13 @@
     "source": "linkedin",
     "title": "Strategic Growth Marketing Manager - EMEA Retail"
   },
+  "strategisch journey manager|rabobank|NL": {
+    "company": "Rabobank",
+    "first_seen": "2026-09-15",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Strategisch Journey Manager"
+  },
   "strategy & analytics manager- travel supply & ai (100% remote - ireland)|hopper|IE": {
     "company": "Hopper",
     "first_seen": "2026-07-26",
@@ -9351,12 +9512,26 @@
     "source": "linkedin",
     "title": "Technical Business Analyst"
   },
+  "technical business analyst|harvey nash|IE": {
+    "company": "Harvey Nash",
+    "first_seen": "2026-09-15",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Technical Business Analyst"
+  },
   "technical founders associate|lyceum|DE": {
     "company": "Lyceum",
     "first_seen": "2026-09-13",
     "region": "DE",
     "source": "linkedin",
     "title": "Technical Founders Associate"
+  },
+  "technical presales consultant juniper|td synnex|NL": {
+    "company": "TD SYNNEX",
+    "first_seen": "2026-09-15",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Technical Presales Consultant Juniper"
   },
   "technical product manager (all gender)|stark|DE": {
     "company": "STARK",
@@ -9386,6 +9561,13 @@
     "source": "linkedin",
     "title": "Technical Product Manager - Soperator"
   },
+  "technical product manager, agentic team (contract)|braintrust|NL": {
+    "company": "BrainTrust",
+    "first_seen": "2026-09-15",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Technical Product Manager, Agentic Team (Contract)"
+  },
   "technical product manager, ai platform|sitecore|IE": {
     "company": "Sitecore",
     "first_seen": "2026-08-24",
@@ -9399,6 +9581,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "Technical Product manager"
+  },
+  "technical product manager|drongo ai private limited|IN": {
+    "company": "Drongo AI Private Limited",
+    "first_seen": "2026-09-15",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Technical Product Manager"
   },
   "technical product manager|eurosort|NL": {
     "company": "EuroSort",
@@ -9433,6 +9622,13 @@
     "first_seen": "2026-07-27",
     "region": "IE",
     "source": "linkedin",
+    "title": "Technical Product Manager"
+  },
+  "technical product manager|surf|NL": {
+    "company": "SURF",
+    "first_seen": "2026-09-15",
+    "region": "NL",
+    "source": "indeed",
     "title": "Technical Product Manager"
   },
   "technical product manager|synthflow ai|DE": {
@@ -9540,6 +9736,13 @@
     "source": "indeed",
     "title": "Technical Program Manager, Product Development and Insertion"
   },
+  "technical proxy product owner \u2013 cloud & hybrid connectivity (m/f/d)|halian | managed services, recruitment agency & contract staffing|LU": {
+    "company": "Halian | Managed Services, Recruitment Agency & Contract Staffing",
+    "first_seen": "2026-09-15",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Technical Proxy Product Owner \u2013 Cloud & Hybrid Connectivity (m/f/d)"
+  },
   "technisch product owner|realworks bv|NL": {
     "company": "Realworks BV",
     "first_seen": "2026-09-13",
@@ -9595,6 +9798,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Telecom Product Manager"
+  },
+  "telefonischer kundenberater / vertrieb (m/w/d)|talentspring academy|DE": {
+    "company": "Talentspring Academy",
+    "first_seen": "2026-09-15",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Telefonischer Kundenberater / Vertrieb (m/w/d)"
   },
   "tiktok shop growth manager|scalejet | ecommerce recruitment agency|IE": {
     "company": "ScaleJet | eCommerce Recruitment agency",

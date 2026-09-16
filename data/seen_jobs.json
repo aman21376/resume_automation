@@ -398,6 +398,13 @@
     "source": "linkedin",
     "title": "Associate Category & Product Manager"
   },
+  "associate customer success enablement manager - emea|okta|IE": {
+    "company": "Okta",
+    "first_seen": "2026-09-16",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Associate Customer Success Enablement Manager - EMEA"
+  },
   "associate digital product manager [t500-28362]|albertsons companies india|IN": {
     "company": "Albertsons Companies India",
     "first_seen": "2026-08-16",
@@ -726,6 +733,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Assortment & Pricing Analyst (m/f/d)"
+  },
+  "automotive starter | productmanager|alliance automotive group benelux|NL": {
+    "company": "Alliance Automotive Group Benelux",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Automotive Starter | Productmanager"
   },
   "avp-product analyst|moody's|IN": {
     "company": "Moody's",
@@ -1091,6 +1105,13 @@
     "source": "linkedin",
     "title": "Business Analyst (w/m/d) Verm\u00f6gensverwaltungsplattform - Luxemburg"
   },
+  "business analyst (w/m/d)|mks inc.|DE": {
+    "company": "MKS Inc.",
+    "first_seen": "2026-09-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Business Analyst (w/m/d)"
+  },
   "business analyst - 12m ftc|davy|IE": {
     "company": "Davy",
     "first_seen": "2026-07-26",
@@ -1216,6 +1237,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Business Analyst - Odoo (M/F)"
+  },
+  "business analyst - open innovation|ferrero|LU": {
+    "company": "Ferrero",
+    "first_seen": "2026-09-16",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Business Analyst - Open Innovation"
   },
   "business analyst - operations|adyen|NL": {
     "company": "Adyen",
@@ -1929,6 +1957,13 @@
     "first_seen": "2026-07-15",
     "region": "NL",
     "source": "linkedin",
+    "title": "Business Analyst"
+  },
+  "business analyst|endureth consulting|IN": {
+    "company": "Endureth Consulting",
+    "first_seen": "2026-09-16",
+    "region": "IN",
+    "source": "indeed",
     "title": "Business Analyst"
   },
   "business analyst|equity capital advisors (india) private limited|IN": {
@@ -3366,6 +3401,13 @@
     "source": "indeed",
     "title": "Deloitte USI - Growth Operate - Specialist Assistant Manager | Hyderabad/Bengaluru"
   },
+  "demand generation and growth manager|enterprise bot|IN": {
+    "company": "Enterprise Bot",
+    "first_seen": "2026-09-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Demand Generation and Growth Manager"
+  },
   "demand generation manager|archer recruitment|IE": {
     "company": "Archer Recruitment",
     "first_seen": "2026-08-06",
@@ -3800,6 +3842,13 @@
     "source": "linkedin",
     "title": "ETF Product Manager"
   },
+  "eui product marketing manager, agency|sailglobal|IE": {
+    "company": "Sailglobal",
+    "first_seen": "2026-09-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "EUI Product Marketing Manager, Agency"
+  },
   "executive assistant|wpp media|NL": {
     "company": "WPP Media",
     "first_seen": "2026-08-24",
@@ -3968,6 +4017,13 @@
     "source": "linkedin",
     "title": "Global Banking and Markets -Pricing and Billing -Product Management - Associate - Bengaluru"
   },
+  "global category brand manager \u2013 better for you|proposition management search|LU": {
+    "company": "ProPosition Management Search",
+    "first_seen": "2026-09-16",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Global Category Brand Manager \u2013 Better For You"
+  },
   "global digital innovation manager|logitech|NL": {
     "company": "Logitech",
     "first_seen": "2026-08-05",
@@ -4121,6 +4177,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Growth / Performance Marketing Manager (m/w/d)"
+  },
+  "growth / product analyst|swish|IN": {
+    "company": "Swish",
+    "first_seen": "2026-09-16",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Growth / Product Analyst"
   },
   "growth and retention consultant, mobile gaming, apps|google|IE": {
     "company": "Google",
@@ -4731,6 +4794,13 @@
     "source": "linkedin",
     "title": "Insight Analyst"
   },
+  "interim product manager|koninklijke eru|NL": {
+    "company": "Koninklijke ERU",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Interim Product Manager"
+  },
   "international growth consultant, appdev (english)|google|IE": {
     "company": "Google",
     "first_seen": "2026-09-07",
@@ -4976,12 +5046,26 @@
     "source": "linkedin",
     "title": "Junior Product Manager - Custom Made"
   },
+  "junior product manager - cv|asahi intecc europe b.v.|NL": {
+    "company": "ASAHI INTECC Europe B.V.",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Junior Product Manager - CV"
+  },
   "junior product manager appetizers|farm frites|NL": {
     "company": "Farm Frites",
     "first_seen": "2026-08-22",
     "region": "NL",
     "source": "linkedin",
     "title": "Junior Product Manager Appetizers"
+  },
+  "junior product manager pos|suitsupply|NL": {
+    "company": "Suitsupply",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Junior Product Manager POS"
   },
   "junior product manager|learnwise ai|NL": {
     "company": "LearnWise AI",
@@ -5312,6 +5396,13 @@
     "source": "linkedin",
     "title": "Marketing Growth Manager"
   },
+  "marketing lead|mifinity|IE": {
+    "company": "MiFinity",
+    "first_seen": "2026-09-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Marketing Lead"
+  },
   "marketing manager - asset & wealth management|pwc luxembourg|LU": {
     "company": "PwC Luxembourg",
     "first_seen": "2026-08-18",
@@ -5332,6 +5423,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Marketing Manager Benelux"
+  },
+  "marketing manager \u2013 international cardiology|kenkotech futures|NL": {
+    "company": "KenkoTech Futures",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Marketing Manager \u2013 International Cardiology"
   },
   "marketing manager \u2013 saas|archvi|IN": {
     "company": "archVi",
@@ -5372,6 +5470,13 @@
     "company": "NextNation",
     "first_seen": "2026-09-09",
     "region": "IN",
+    "source": "linkedin",
+    "title": "Marketing Manager"
+  },
+  "marketing manager|staq|IE": {
+    "company": "staq",
+    "first_seen": "2026-09-16",
+    "region": "IE",
     "source": "linkedin",
     "title": "Marketing Manager"
   },
@@ -5458,6 +5563,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "MiFIR Business Analyst"
+  },
+  "monetization strategy and operations manager, smb|tiktok|IE": {
+    "company": "TikTok",
+    "first_seen": "2026-09-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Monetization Strategy and Operations Manager, SMB"
   },
   "monetization strategy manager|linkedin|IE": {
     "company": "LinkedIn",
@@ -5724,6 +5836,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Portfolio Manager, Ideation & Growth"
+  },
+  "power systems offer marketing manager|schneider electric|IE": {
+    "company": "Schneider Electric",
+    "first_seen": "2026-09-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Power Systems Offer Marketing Manager"
   },
   "pricing analyst, product operations (global pricing)|delivery hero|DE": {
     "company": "Delivery Hero",
@@ -6201,6 +6320,13 @@
     "source": "linkedin",
     "title": "Product Manager (Fully Remote)"
   },
+  "product manager (growth - b2b enterprise)|adobe|IN": {
+    "company": "Adobe",
+    "first_seen": "2026-09-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Manager (Growth - B2B Enterprise)"
+  },
   "product manager (hotels)|makemytrip|IN": {
     "company": "MakeMyTrip",
     "first_seen": "2026-09-07",
@@ -6656,6 +6782,13 @@
     "source": "linkedin",
     "title": "Product Manager Build"
   },
+  "product manager cloud applications (all genders)|meteocontrol gmbh|DE": {
+    "company": "Meteocontrol GmbH",
+    "first_seen": "2026-09-16",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Manager Cloud Applications (all genders)"
+  },
   "product manager digital assets|luxembourg stock exchange (luxse)|LU": {
     "company": "Luxembourg Stock Exchange (LuxSE)",
     "first_seen": "2026-08-13",
@@ -6669,6 +6802,13 @@
     "region": "LU",
     "source": "indeed",
     "title": "Product Manager Digital Assets"
+  },
+  "product manager electrical & electronics|ampacet corporation|LU": {
+    "company": "Ampacet Corporation",
+    "first_seen": "2026-09-16",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product Manager Electrical & Electronics"
   },
   "product manager hardware (32-40 uur)|brickyard bv|NL": {
     "company": "Brickyard BV",
@@ -6901,6 +7041,13 @@
     "source": "linkedin",
     "title": "Product Manager, Fleet Planning Tools, Fleet Procurement & Capacity Planning (FPAC)"
   },
+  "product manager, google cloud business platform|google|IN": {
+    "company": "Google",
+    "first_seen": "2026-09-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Manager, Google Cloud Business Platform"
+  },
   "product manager, homepage|wolt|DE": {
     "company": "wolt",
     "first_seen": "2026-09-13",
@@ -7074,6 +7221,13 @@
     "first_seen": "2026-07-15",
     "region": "IE",
     "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|allsolutions|NL": {
+    "company": "AllSolutions",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "indeed",
     "title": "Product Manager"
   },
   "product manager|almedia|DE": {
@@ -7319,6 +7473,13 @@
     "first_seen": "2026-07-27",
     "region": "DE",
     "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|hema|NL": {
+    "company": "HEMA",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "indeed",
     "title": "Product Manager"
   },
   "product manager|house of edtech|IN": {
@@ -7608,6 +7769,13 @@
     "source": "indeed",
     "title": "Product Manager"
   },
+  "product manager|shoparize|NL": {
+    "company": "Shoparize",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
   "product manager|shopdeck|IN": {
     "company": "ShopDeck",
     "first_seen": "2026-09-04",
@@ -7790,12 +7958,68 @@
     "source": "linkedin",
     "title": "Product Manger"
   },
+  "product marketing & campaign manager|chapsvision|DE": {
+    "company": "CHAPSVISION",
+    "first_seen": "2026-09-16",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Marketing & Campaign Manager"
+  },
+  "product marketing manager - dutch market|shine|NL": {
+    "company": "Shine",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Marketing Manager - Dutch market"
+  },
+  "product marketing manager - groundiq|fugro|NL": {
+    "company": "Fugro",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Marketing Manager - GroundIQ"
+  },
+  "product marketing manager - star trek|scopely|IE": {
+    "company": "Scopely",
+    "first_seen": "2026-09-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Marketing Manager - Star Trek"
+  },
   "product marketing manager, international|robinhood|LU": {
     "company": "Robinhood",
     "first_seen": "2026-09-06",
     "region": "LU",
     "source": "linkedin",
     "title": "Product Marketing Manager, International"
+  },
+  "product marketing manager|lanas healthcare technology ltd|IE": {
+    "company": "Lanas Healthcare Technology Ltd",
+    "first_seen": "2026-09-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Product Marketing Manager"
+  },
+  "product marketing manager|panda international|NL": {
+    "company": "Panda International",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Marketing Manager"
+  },
+  "product marketing manager|payhawk|NL": {
+    "company": "Payhawk",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Marketing Manager"
+  },
+  "product marketing manager|rentman|NL": {
+    "company": "Rentman",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Marketing Manager"
   },
   "product operations manager|linkedin|IN": {
     "company": "LinkedIn",
@@ -9022,6 +9246,13 @@
     "source": "linkedin",
     "title": "Product Specialist"
   },
+  "product strategy & innovation manager (f/m/d)|fusion digital|DE": {
+    "company": "Fusion Digital",
+    "first_seen": "2026-09-16",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Strategy & Innovation Manager (f/m/d)"
+  },
   "product support analyst|epsilon|IN": {
     "company": "Epsilon",
     "first_seen": "2026-08-02",
@@ -9112,6 +9343,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Regional Growth Marketer (Acquisition) - Netherlands"
+  },
+  "regional product manager - europe|paytm europe|LU": {
+    "company": "Paytm Europe",
+    "first_seen": "2026-09-16",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Regional Product Manager - Europe"
   },
   "regtech sales & growth manager|luxhub|LU": {
     "company": "LUXHUB",
@@ -9421,6 +9659,13 @@
     "source": "linkedin",
     "title": "Strategic Growth Marketing Manager - EMEA Retail"
   },
+  "strategic marketing manager|omron electronic components europe b.v.|NL": {
+    "company": "OMRON Electronic Components Europe B.V.",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Strategic Marketing Manager"
+  },
   "strategisch journey manager|rabobank|NL": {
     "company": "Rabobank",
     "first_seen": "2026-09-15",
@@ -9554,6 +9799,13 @@
     "source": "indeed",
     "title": "Technical Product Manager - cloud/finops/data analytics/AI"
   },
+  "technical product manager - market data|stonex group inc.|IE": {
+    "company": "StoneX Group Inc.",
+    "first_seen": "2026-09-16",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Technical Product Manager - Market Data"
+  },
   "technical product manager - soperator|nebius|NL": {
     "company": "Nebius",
     "first_seen": "2026-08-20",
@@ -9651,6 +9903,20 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Technical Product Manager"
+  },
+  "technical product marketing manager (previous developer) - emea|bright data|NL": {
+    "company": "Bright Data",
+    "first_seen": "2026-09-16",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Technical Product Marketing Manager (previous developer) - EMEA"
+  },
+  "technical product owner (f/m/d) \u2013 software & full stack applications|instaffo|DE": {
+    "company": "Instaffo",
+    "first_seen": "2026-09-16",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Technical Product Owner (f/m/d) \u2013 Software & Full Stack Applications"
   },
   "technical product owner (f/m/d) \u2013 software & full stack applications|smartclip|DE": {
     "company": "smartclip",
@@ -9833,6 +10099,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Transformation Business Analyst"
+  },
+  "travel market affiliated companies & innovation projects brand manager|ferrero|LU": {
+    "company": "Ferrero",
+    "first_seen": "2026-09-16",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Travel Market Affiliated Companies & Innovation Projects Brand Manager"
   },
   "treasury analyst|huntsman corp|LU": {
     "company": "Huntsman Corp",

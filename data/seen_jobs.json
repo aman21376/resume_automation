@@ -69,6 +69,13 @@
     "source": "indeed",
     "title": "Account Manager"
   },
+  "account services, product owner, avp|state street|IN": {
+    "company": "State Street",
+    "first_seen": "2026-09-17",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Account Services, Product Owner, AVP"
+  },
   "advisory - business analyst \u2013 manager/ assistant manager - consulting|grant thornton|IE": {
     "company": "Grant Thornton",
     "first_seen": "2026-08-08",
@@ -307,12 +314,26 @@
     "source": "linkedin",
     "title": "Analyst Strategy & Growth (w/m/d)"
   },
+  "analyst | wfm - rtm | bengaluru | customer strategy & design|deloitte|IN": {
+    "company": "Deloitte",
+    "first_seen": "2026-09-17",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Analyst | WFM - RTM | Bengaluru | Customer Strategy & Design"
+  },
   "analyst, product control|standard chartered bank|IN": {
     "company": "Standard Chartered Bank",
     "first_seen": "2026-08-15",
     "region": "IN",
     "source": "indeed",
     "title": "Analyst, Product Control"
+  },
+  "analytical consultant, google shopping solutions|google|IE": {
+    "company": "Google",
+    "first_seen": "2026-09-17",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Analytical Consultant, Google Shopping Solutions"
   },
   "analytical lead, shopping partners|google|IE": {
     "company": "Google",
@@ -397,6 +418,13 @@
     "region": "NL",
     "source": "linkedin",
     "title": "Associate Category & Product Manager"
+  },
+  "associate content analyst|lseg (london stock exchange group)|IN": {
+    "company": "LSEG (London Stock Exchange Group)",
+    "first_seen": "2026-09-17",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Associate Content Analyst"
   },
   "associate customer success enablement manager - emea|okta|IE": {
     "company": "Okta",
@@ -1077,6 +1105,13 @@
     "source": "linkedin",
     "title": "Business Analyst (m/w/d)"
   },
+  "business analyst (microsoft dynamics 365 crm / data as a service)|trinity college dublin|IE": {
+    "company": "Trinity College Dublin",
+    "first_seen": "2026-09-17",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Analyst (Microsoft Dynamics 365 CRM / Data as a Service)"
+  },
   "business analyst (permanent)|asiera|IE": {
     "company": "Asiera",
     "first_seen": "2026-07-17",
@@ -1587,6 +1622,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Business Analyst, Amazon Fresh"
+  },
+  "business analyst, banking operate services|deloitte|LU": {
+    "company": "Deloitte",
+    "first_seen": "2026-09-17",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Business Analyst, Banking Operate Services"
   },
   "business analyst, change & transformation unit|deloitte|LU": {
     "company": "Deloitte",
@@ -2778,6 +2820,13 @@
     "source": "indeed",
     "title": "Business Operations Manager, ProServe Business Operations and Advisory"
   },
+  "business partner analyst|stripe|IE": {
+    "company": "Stripe",
+    "first_seen": "2026-09-17",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Partner Analyst"
+  },
   "business planning & product assistant manager|kia ireland|IE": {
     "company": "Kia Ireland",
     "first_seen": "2026-09-06",
@@ -2876,6 +2925,13 @@
     "source": "linkedin",
     "title": "Business Systems Analyst"
   },
+  "business transformation manager|hsbc|IN": {
+    "company": "HSBC",
+    "first_seen": "2026-09-17",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Transformation Manager"
+  },
   "business-analyst:innen mit schwerpunkt it-anforderungs- und prozessmanagement|kassen\u00e4rztliche vereinigung berlin|DE": {
     "company": "Kassen\u00e4rztliche Vereinigung Berlin",
     "first_seen": "2026-09-11",
@@ -2903,6 +2959,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "C4C Business Analyst"
+  },
+  "capital markets- business analyst - india|delta capita|IN": {
+    "company": "Delta Capita",
+    "first_seen": "2026-09-17",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Capital Markets- Business Analyst - India"
   },
   "category & insights manager|green isle foods|IE": {
     "company": "Green Isle Foods",
@@ -3044,6 +3107,13 @@
     "source": "indeed",
     "title": "Consultant Business Systems (Revenue Cycle Applications Analyst)"
   },
+  "consultant | business analyst | bengaluru | operations, industry & domain solutions|deloitte|IN": {
+    "company": "Deloitte",
+    "first_seen": "2026-09-17",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Consultant | Business Analyst | Bengaluru | Operations, Industry & Domain Solutions"
+  },
   "consumer growth strategy manager, emea|wolt|DE": {
     "company": "Wolt",
     "first_seen": "2026-09-04",
@@ -3093,6 +3163,13 @@
     "source": "indeed",
     "title": "Corporate Services Manager Luxembourg, Luxembourg Sep. 02, 2026"
   },
+  "corporate strategy specialist|accenture|IN": {
+    "company": "Accenture",
+    "first_seen": "2026-09-17",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Corporate Strategy Specialist"
+  },
   "cots business analyst|altherias|LU": {
     "company": "Altherias",
     "first_seen": "2026-08-06",
@@ -3120,6 +3197,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Creative Strategist, Growth Marketing"
+  },
+  "cro specialist|framna|NL": {
+    "company": "Framna",
+    "first_seen": "2026-09-17",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "CRO Specialist"
   },
   "cro specialist|pluxee|LU": {
     "company": "Pluxee",
@@ -3307,6 +3391,13 @@
     "company": "Tiqets",
     "first_seen": "2026-08-14",
     "region": "NL",
+    "source": "linkedin",
+    "title": "Data Analyst"
+  },
+  "data analyst|tripledot studios|DE": {
+    "company": "Tripledot Studios",
+    "first_seen": "2026-09-17",
+    "region": "DE",
     "source": "linkedin",
     "title": "Data Analyst"
   },
@@ -3646,6 +3737,13 @@
     "source": "linkedin",
     "title": "Digital Product Manager"
   },
+  "digital product manager|optum|IN": {
+    "company": "Optum",
+    "first_seen": "2026-09-17",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Digital Product Manager"
+  },
   "digital product owner (all genders) - simplesurance|simplesurance|DE": {
     "company": "simplesurance",
     "first_seen": "2026-07-17",
@@ -3870,6 +3968,13 @@
     "source": "linkedin",
     "title": "Finance Business Analyst"
   },
+  "finance manager|axis group nv|LU": {
+    "company": "Axis Group NV",
+    "first_seen": "2026-09-17",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Finance Manager"
+  },
   "financial business analyst|nlb services|IE": {
     "company": "NLB Services",
     "first_seen": "2026-09-09",
@@ -3946,6 +4051,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "French - Business Analyst with Power BI or HR Functional"
+  },
+  "freshsales configuration designer|panda|IE": {
+    "company": "Panda",
+    "first_seen": "2026-09-17",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Freshsales Configuration Designer"
   },
   "full-stack growth marketing manager|ahead health|NL": {
     "company": "Ahead Health",
@@ -4773,12 +4885,26 @@
     "source": "linkedin",
     "title": "GTM Manager"
   },
+  "gtm strategy & operations analyst|stripe|IE": {
+    "company": "Stripe",
+    "first_seen": "2026-09-17",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "GTM Strategy & Operations Analyst"
+  },
   "image product manager|pixxel|IN": {
     "company": "Pixxel",
     "first_seen": "2026-08-23",
     "region": "IN",
     "source": "indeed",
     "title": "Image Product Manager"
+  },
+  "informatieanalist - digitaal politie contact|politie|NL": {
+    "company": "Politie",
+    "first_seen": "2026-09-17",
+    "region": "NL",
+    "source": "indeed",
+    "title": "informatieanalist - Digitaal Politie Contact"
   },
   "insight analyst- performance & growth insights|primark|IE": {
     "company": "Primark",
@@ -5403,6 +5529,13 @@
     "source": "linkedin",
     "title": "Marketing Lead"
   },
+  "marketing manager (fintech)|autocash.ai|IN": {
+    "company": "Autocash.ai",
+    "first_seen": "2026-09-17",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Marketing Manager (Fintech)"
+  },
   "marketing manager - asset & wealth management|pwc luxembourg|LU": {
     "company": "PwC Luxembourg",
     "first_seen": "2026-08-18",
@@ -5753,6 +5886,13 @@
     "source": "indeed",
     "title": "Performance Marketing & Growth Manager \u2013 Google Ads, Meta & Conversion (m/w/d)"
   },
+  "performance marketing manager (m/w/d) e-commerce|just hiring|DE": {
+    "company": "Just Hiring",
+    "first_seen": "2026-09-17",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Performance Marketing Manager (m/w/d) E-Commerce"
+  },
   "performance marketing manager (saas) (remote in eu or uk)|abusix, inc.|IE": {
     "company": "Abusix, Inc.",
     "first_seen": "2026-08-02",
@@ -5857,6 +5997,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Pricing Analyst"
+  },
+  "pricing and packaging specialist|bentley systems|IE": {
+    "company": "Bentley Systems",
+    "first_seen": "2026-09-17",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Pricing and Packaging Specialist"
   },
   "product & application owner|findr|NL": {
     "company": "Findr",
@@ -6284,6 +6431,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Product Manager (AI)"
+  },
+  "product manager (b2b saas)|spacebackend|LU": {
+    "company": "Spacebackend",
+    "first_seen": "2026-09-17",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product Manager (B2B SaaS)"
   },
   "product manager (devtools & ai reliability, remote)|checkly|DE": {
     "company": "Checkly",
@@ -7734,6 +7888,13 @@
     "source": "indeed",
     "title": "Product Manager"
   },
+  "product manager|qwic|NL": {
+    "company": "QWIC",
+    "first_seen": "2026-09-17",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
   "product manager|resumedia|NL": {
     "company": "Resumedia",
     "first_seen": "2026-08-16",
@@ -8055,6 +8216,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Product Owner (Crypto)"
+  },
+  "product owner (d/m/w) \u2013 efti zwischen produkt, architektur & logistik|toll collect gmbh|DE": {
+    "company": "Toll Collect GmbH",
+    "first_seen": "2026-09-17",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Owner (d/m/w) \u2013 eFTI zwischen Produkt, Architektur & Logistik"
   },
   "product owner (f/m/d) - office & cloud storage|strato|DE": {
     "company": "STRATO",
@@ -8609,6 +8777,13 @@
     "source": "linkedin",
     "title": "Product Owner Warehousing"
   },
+  "product owner \u2013 ai forge platform (f/m/d)|siemens energy|DE": {
+    "company": "Siemens Energy",
+    "first_seen": "2026-09-17",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Owner \u2013 AI Forge Platform (f/m/d)"
+  },
   "product owner \u2013 edvation (school erp & ai platform)|ai nexus innovations hub|IN": {
     "company": "AI Nexus Innovations Hub",
     "first_seen": "2026-09-10",
@@ -8959,6 +9134,13 @@
     "source": "indeed",
     "title": "Product Owner"
   },
+  "product owner|micazu|NL": {
+    "company": "Micazu",
+    "first_seen": "2026-09-17",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
   "product owner|ministry brands|IE": {
     "company": "Ministry Brands",
     "first_seen": "2026-08-03",
@@ -9295,6 +9477,20 @@
     "source": "linkedin",
     "title": "Productstrateeg"
   },
+  "professional, product management|lenovo|IN": {
+    "company": "Lenovo",
+    "first_seen": "2026-09-17",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Professional, Product Management"
+  },
+  "programme advisory consultant|turner & townsend|IE": {
+    "company": "Turner & Townsend",
+    "first_seen": "2026-09-17",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Programme Advisory Consultant"
+  },
   "project manager and functional analyst|accenture|IE": {
     "company": "Accenture",
     "first_seen": "2026-08-24",
@@ -9498,6 +9694,13 @@
     "source": "linkedin",
     "title": "Salesforce Product Manager"
   },
+  "scale campaigns & abm manager - workvivo|zoom|IE": {
+    "company": "Zoom",
+    "first_seen": "2026-09-17",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Scale Campaigns & ABM Manager - Workvivo"
+  },
   "scrum master & product owner|wirelesscar ab|IN": {
     "company": "WirelessCar AB",
     "first_seen": "2026-09-12",
@@ -9624,6 +9827,13 @@
     "source": "linkedin",
     "title": "Specialist, Product Management - AI"
   },
+  "stagiaire \u2013 business analyst & product support (e-onboarding)|banque de luxembourg|LU": {
+    "company": "Banque de Luxembourg",
+    "first_seen": "2026-09-17",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Stagiaire \u2013 Business Analyst & Product Support (e-Onboarding)"
+  },
   "start als product & application owner in almere|youngcapital next|NL": {
     "company": "YoungCapital NEXT",
     "first_seen": "2026-09-07",
@@ -9658,6 +9868,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Strategic Growth Marketing Manager - EMEA Retail"
+  },
+  "strategic intelligence partner|flutter entertainment|IE": {
+    "company": "Flutter Entertainment",
+    "first_seen": "2026-09-17",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Strategic Intelligence Partner"
   },
   "strategic marketing manager|omron electronic components europe b.v.|NL": {
     "company": "OMRON Electronic Components Europe B.V.",
@@ -9721,6 +9938,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "TaxTech und FinTech Product Owner (m/w/d)"
+  },
+  "teamhead business insights|puma|IN": {
+    "company": "PUMA",
+    "first_seen": "2026-09-17",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Teamhead Business Insights"
   },
   "tech & analytics projects - mid-level|picnic technologies|NL": {
     "company": "Picnic Technologies",
@@ -9960,6 +10184,13 @@
     "source": "indeed",
     "title": "Technical Product Owner Retail Domain"
   },
+  "technical product owner|bce global tech - a bell canada company|IN": {
+    "company": "BCE Global Tech - A Bell Canada Company",
+    "first_seen": "2026-09-17",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Technical product Owner"
+  },
   "technical product owner|full circle it|NL": {
     "company": "Full Circle IT",
     "first_seen": "2026-08-20",
@@ -10043,6 +10274,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Technology Product Manager - Next Generation Payments Platform, FinTech"
+  },
+  "technology strategy analyst|deloitte|LU": {
+    "company": "Deloitte",
+    "first_seen": "2026-09-17",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Technology Strategy Analyst"
   },
   "telco product manager|holafly|IE": {
     "company": "Holafly",

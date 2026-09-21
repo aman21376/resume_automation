@@ -342,6 +342,13 @@
     "source": "indeed",
     "title": "Analyst | WFM - RTM | Bengaluru | Customer Strategy & Design"
   },
+  "analyst, corporate strategy|kyndryl|IN": {
+    "company": "Kyndryl",
+    "first_seen": "2026-09-21",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Analyst, Corporate Strategy"
+  },
   "analyst, product control|standard chartered bank|IN": {
     "company": "Standard Chartered Bank",
     "first_seen": "2026-08-15",
@@ -425,6 +432,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "Artificial Intelligence - Product Owner - Associate"
+  },
+  "asset & wealth management - am digital product management - associate -bengaluru|goldman sachs|IN": {
+    "company": "Goldman Sachs",
+    "first_seen": "2026-09-21",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Asset & Wealth Management - AM Digital Product Management - Associate -Bengaluru"
   },
   "assistant manager-digital marketing|cleartrip|IN": {
     "company": "Cleartrip",
@@ -587,6 +601,13 @@
     "source": "linkedin",
     "title": "Associate Product Manager"
   },
+  "associate product manager|blitz|IN": {
+    "company": "Blitz",
+    "first_seen": "2026-09-21",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
   "associate product manager|flam|IN": {
     "company": "flam",
     "first_seen": "2026-09-15",
@@ -674,6 +695,13 @@
   "associate product manager|origin medical research lab|IN": {
     "company": "Origin Medical Research Lab",
     "first_seen": "2026-08-21",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Associate Product Manager"
+  },
+  "associate product manager|osfin.ai|IN": {
+    "company": "Osfin.ai",
+    "first_seen": "2026-09-21",
     "region": "IN",
     "source": "linkedin",
     "title": "Associate Product Manager"
@@ -3394,6 +3422,13 @@
     "source": "indeed",
     "title": "Corporate Strategy Manager (Consulting & Strategy)"
   },
+  "corporate strategy specialist|accenture in india|IN": {
+    "company": "Accenture in India",
+    "first_seen": "2026-09-21",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Corporate Strategy Specialist"
+  },
   "corporate strategy specialist|accenture|IN": {
     "company": "Accenture",
     "first_seen": "2026-09-17",
@@ -4465,6 +4500,13 @@
     "source": "indeed",
     "title": "Global Technology Business Analyst 6 month Industrial Placement 2027 Analyst - Dublin"
   },
+  "gn-i&e- high tech consultant|accenture in india|IN": {
+    "company": "Accenture in India",
+    "first_seen": "2026-09-21",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "GN-I&E- High Tech Consultant"
+  },
   "gpo category manager - global workforce services, global workforce services|amazon.com|LU": {
     "company": "Amazon.com",
     "first_seen": "2026-09-06",
@@ -4478,6 +4520,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Grade VII Notify Digital Communications Product Owner TT5126"
+  },
+  "grade vii notify digital communications product owner tt5826|health service executive|IE": {
+    "company": "Health Service Executive",
+    "first_seen": "2026-09-21",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Grade VII Notify Digital Communications Product Owner TT5826"
   },
   "graduate product manager - picnic app|picnic technologies|NL": {
     "company": "Picnic Technologies",
@@ -5907,6 +5956,13 @@
     "source": "linkedin",
     "title": "Marketing Lead"
   },
+  "marketing manager (f/m/d)|lampenwelt gmbh|DE": {
+    "company": "Lampenwelt GmbH",
+    "first_seen": "2026-09-21",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Marketing Manager (f/m/d)"
+  },
   "marketing manager (fintech)|autocash.ai|IN": {
     "company": "Autocash.ai",
     "first_seen": "2026-09-17",
@@ -6109,6 +6165,13 @@
     "region": "NL",
     "source": "indeed",
     "title": "Network Growth Manager"
+  },
+  "new business development executive|the fruit people|IE": {
+    "company": "The Fruit People",
+    "first_seen": "2026-09-21",
+    "region": "IE",
+    "source": "indeed",
+    "title": "New Business Development Executive"
   },
   "ocoo, business analyst, associate, based in luxembourg|tiaa|LU": {
     "company": "TIAA",
@@ -8644,6 +8707,13 @@
     "source": "linkedin",
     "title": "Product Marketing Manager - Star Trek"
   },
+  "product marketing manager in legal tech (berlin)|legartis technology ag|DE": {
+    "company": "legartis technology AG",
+    "first_seen": "2026-09-21",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Marketing Manager in Legal Tech (Berlin)"
+  },
   "product marketing manager, international|robinhood|LU": {
     "company": "Robinhood",
     "first_seen": "2026-09-06",
@@ -8657,6 +8727,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Product Marketing Manager, Mac & iPad (f/m/d)"
+  },
+  "product marketing manager|insify|NL": {
+    "company": "Insify",
+    "first_seen": "2026-09-21",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Product Marketing Manager"
   },
   "product marketing manager|lanas healthcare technology ltd|IE": {
     "company": "Lanas Healthcare Technology Ltd",
@@ -10093,6 +10170,13 @@
     "source": "linkedin",
     "title": "PROXY PRODUCT OWNER"
   },
+  "public sector sales lead|softcat|IE": {
+    "company": "Softcat",
+    "first_seen": "2026-09-21",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Public Sector Sales Lead"
+  },
   "quality control & mobile team officer (fixed-term contract - 24 months)|pictet group|LU": {
     "company": "Pictet Group",
     "first_seen": "2026-08-13",
@@ -10408,6 +10492,13 @@
     "source": "indeed",
     "title": "Sourcing Analyst - Indirect Procurement"
   },
+  "specialist iii, strategic marketing|agco corporation|IN": {
+    "company": "AGCO Corporation",
+    "first_seen": "2026-09-21",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Specialist III, Strategic Marketing"
+  },
   "specialist, product management - ai|mastercard|IE": {
     "company": "Mastercard",
     "first_seen": "2026-08-08",
@@ -10498,6 +10589,20 @@
     "region": "DE",
     "source": "indeed",
     "title": "Strategy & Corporate Development Associate (f/m/d)"
+  },
+  "strategy analyst|lh2 ai labs|IN": {
+    "company": "LH2 AI Labs",
+    "first_seen": "2026-09-21",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Strategy Analyst"
+  },
+  "strategy and analytics business partner|stripe|IN": {
+    "company": "Stripe",
+    "first_seen": "2026-09-21",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Strategy and Analytics Business Partner"
   },
   "strategy and transformation manager (f/m/x)|tourlane|DE": {
     "company": "Tourlane",
@@ -10848,6 +10953,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Technical Program Manager, Product Development and Insertion"
+  },
+  "technical proxy product owner (ppo) \u2013 cloud & hybrid connectivity - n|proximus luxembourg|LU": {
+    "company": "Proximus Luxembourg",
+    "first_seen": "2026-09-21",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Technical Proxy Product Owner (PPO) \u2013 Cloud & Hybrid Connectivity - N"
   },
   "technical proxy product owner \u2013 cloud & hybrid connectivity (m/f/d)|halian | managed services, recruitment agency & contract staffing|LU": {
     "company": "Halian | Managed Services, Recruitment Agency & Contract Staffing",

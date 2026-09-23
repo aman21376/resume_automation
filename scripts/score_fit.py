@@ -70,6 +70,7 @@ VISA_BLOCKER_MARKERS = [
     # UAE / GCC
     "uae nationals only", "emirati nationals only", "gcc nationals only",
     "must hold a valid uae residence visa", "existing uae residence visa required",
+    "emiratisation", "emiratization", "uae national", "uaen ", "(uae national",
 ]
 
 # Domains the candidate has direct, hands-on expertise in (Meesho social

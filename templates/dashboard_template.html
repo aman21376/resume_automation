@@ -253,8 +253,8 @@ Each job now has both a <b>Resume</b> and <b>Cover Letter</b> tab in its preview
     resume_html: textDecoder.decode(blobBytes.subarray(j.r_off, j.r_off + j.r_len)),
     cover_letter_html: textDecoder.decode(blobBytes.subarray(j.c_off, j.c_off + j.c_len)),
   }));
-  const REGION_NAMES = {IN:'India', NL:'Netherlands', DE:'Germany', IE:'Ireland', LU:'Luxembourg'};
-  const REGION_ORDER = ['IN','NL','DE','IE','LU'];
+  const REGION_NAMES = {IN:'India', NL:'Netherlands', DE:'Germany', IE:'Ireland', LU:'Luxembourg', UK:'United Kingdom', SG:'Singapore', AE:'UAE', REMOTE:'Remote'};
+  const REGION_ORDER = ['IN','NL','DE','IE','LU','UK','SG','AE','REMOTE'];
   const STORE_KEY = 'appdesk_applied_v2';
 
   // v1 compat: old boolean-map store gets migrated to timestamp map once.

@@ -31,13 +31,15 @@ ROLE_CATEGORIES = {
 
 MAX_YEARS_REQUIRED = 1.5  # candidate has 1 year full-time + 9 months part-time/internship (~1.7 yrs combined)
 
-# Candidate needs a work visa for NL/DE/IE/LU (Indian citizen) and is willing
-# to fund the visa/relocation cost personally - but many postings explicitly
-# refuse to consider anyone who doesn't already hold the right to work,
-# regardless of who pays for the process. These phrasings are a real signal
-# from repeated rejections ("we only consider candidates from the home
-# country" / "not eligible for sponsorship"), so a hit here is scored down
-# hard rather than just noted, same as an outright seniority mismatch.
+# Candidate needs a work visa for every non-IN region searched (Indian
+# citizen) and is willing to fund the visa/relocation cost personally - but
+# many postings explicitly refuse to consider anyone who doesn't already
+# hold the right to work, regardless of who pays for the process. These
+# phrasings are a real signal from repeated rejections ("we only consider
+# candidates from the home country" / "not eligible for sponsorship"), so a
+# hit here is scored down hard rather than just noted, same as an outright
+# seniority mismatch. Covers EU (NL/DE/IE/LU), UK, Singapore and UAE phrasing
+# since the search now spans all of those.
 VISA_BLOCKER_MARKERS = [
     "not eligible for visa sponsorship", "not eligible for sponsorship",
     "no visa sponsorship", "geen visa sponsorship", "kein visa sponsorship",
@@ -57,6 +59,17 @@ VISA_BLOCKER_MARKERS = [
     "who has eu working permit", "with eu working permit", "eu working permit",
     "eligible to work in the eu", "valid permit to work in the eu",
     "existing right to work in the eu",
+    # UK
+    "must have the right to work in the uk", "right to work in the uk",
+    "eligible to work in the uk", "existing right to work in the uk",
+    "uk citizens only", "must hold a uk passport", "settled status only",
+    # Singapore
+    "singapore citizens only", "singapore citizens and pr", "singaporean citizens only",
+    "must be a singapore citizen", "open to singapore citizens",
+    "eligible to work in singapore", "right to work in singapore",
+    # UAE / GCC
+    "uae nationals only", "emirati nationals only", "gcc nationals only",
+    "must hold a valid uae residence visa", "existing uae residence visa required",
 ]
 
 # Domains the candidate has direct, hands-on expertise in (Meesho social

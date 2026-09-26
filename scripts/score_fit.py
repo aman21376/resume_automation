@@ -71,6 +71,8 @@ VISA_BLOCKER_MARKERS = [
     "uae nationals only", "emirati nationals only", "gcc nationals only",
     "must hold a valid uae residence visa", "existing uae residence visa required",
     "emiratisation", "emiratization", "uae national", "uaen ", "(uae national",
+    # Dutch-language (NL postings that state the requirement in Dutch, not English)
+    "geldige werkvergunning", "alleen kandidaten met een geldige werkvergunning",
 ]
 
 # Domains the candidate has direct, hands-on expertise in (Meesho social

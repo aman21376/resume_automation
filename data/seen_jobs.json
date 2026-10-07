@@ -20,6 +20,13 @@
     "source": "linkedin",
     "title": "(Associate) Product Manager - Tax Enablement (m/f/x)"
   },
+  "(junior) account manager (m/w/d)|hewlett packard enterprise | hpe|DE": {
+    "company": "Hewlett Packard Enterprise | HPE",
+    "first_seen": "2026-10-07",
+    "region": "DE",
+    "source": "indeed",
+    "title": "(Junior) Account Manager (m/w/d)"
+  },
   "(junior) partnerships manager (m/w/d) (b2b saas startup)|traide ai|DE": {
     "company": "TRAIDE AI",
     "first_seen": "2026-09-25",
@@ -117,6 +124,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "Account Growth Manager: CPG"
+  },
+  "account manager - insurance sector|axis group nv|LU": {
+    "company": "Axis Group NV",
+    "first_seen": "2026-10-07",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Account manager - Insurance sector"
   },
   "account manager ost (m/w/d)|eat happy togo|DE": {
     "company": "Eat Happy ToGo",
@@ -250,6 +264,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "AI Business Analyst"
+  },
+  "ai consultant|creatio|AE": {
+    "company": "Creatio",
+    "first_seen": "2026-10-07",
+    "region": "AE",
+    "source": "indeed",
+    "title": "AI Consultant"
   },
   "ai consultant|optum|IE": {
     "company": "Optum",
@@ -482,6 +503,13 @@
     "source": "linkedin",
     "title": "Airline-Technical Business analyst"
   },
+  "amazon growth specialist \u2014 part-time|blumaan|REMOTE": {
+    "company": "BluMaan",
+    "first_seen": "2026-10-07",
+    "region": "REMOTE",
+    "source": "indeed",
+    "title": "Amazon Growth Specialist \u2014 Part-Time"
+  },
   "analyst - business development & strategic planning|golden agri-resources (gar)|SG": {
     "company": "Golden Agri-Resources (GAR)",
     "first_seen": "2026-09-24",
@@ -614,6 +642,13 @@
     "region": "LU",
     "source": "linkedin",
     "title": "Analyst, Transformation Programs, EU LTP"
+  },
+  "analyst/associate, real estate product specialist|blackstone|UK": {
+    "company": "Blackstone",
+    "first_seen": "2026-10-07",
+    "region": "UK",
+    "source": "indeed",
+    "title": "Analyst/Associate, Real Estate Product Specialist"
   },
   "analyste \u00e9conomique / business analyst \u00e9nergie | fr|luxsearch\u00ae|LU": {
     "company": "luxsearch\u00ae",
@@ -1917,6 +1952,13 @@
     "source": "linkedin",
     "title": "Business Analyst (hybrid)"
   },
+  "business analyst (life insurance) i dubai | financial services| orient insurance pjsc|al-futtaim|AE": {
+    "company": "Al-Futtaim",
+    "first_seen": "2026-10-07",
+    "region": "AE",
+    "source": "linkedin",
+    "title": "Business Analyst (Life Insurance) I Dubai | Financial Services| Orient Insurance PJSC"
+  },
   "business analyst (m/f/x)|luxair|LU": {
     "company": "Luxair",
     "first_seen": "2026-08-07",
@@ -2540,6 +2582,13 @@
     "source": "indeed",
     "title": "Business Analyst Finanzen / Product Owner DIAMANT (w/m/d)"
   },
+  "business analyst fis|cognizant|IE": {
+    "company": "Cognizant",
+    "first_seen": "2026-10-07",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Business Analyst FIS"
+  },
   "business analyst funds onboarding|taleo consulting|LU": {
     "company": "Taleo Consulting",
     "first_seen": "2026-08-02",
@@ -2714,6 +2763,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Business Analyst Payroll Software (m/w/d)"
+  },
+  "business analyst portfolio management & trading|vandebron|NL": {
+    "company": "Vandebron",
+    "first_seen": "2026-10-07",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business Analyst Portfolio Management & Trading"
   },
   "business analyst private capital (ref : 438)|aubay luxembourg|LU": {
     "company": "Aubay Luxembourg",
@@ -3625,6 +3681,13 @@
     "source": "indeed",
     "title": "Business Analyst"
   },
+  "business analyst|leaseweb|NL": {
+    "company": "Leaseweb",
+    "first_seen": "2026-10-07",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|levy professionals|NL": {
     "company": "Levy Professionals",
     "first_seen": "2026-07-16",
@@ -4073,6 +4136,13 @@
     "source": "indeed",
     "title": "Business Analyst"
   },
+  "business analyst|united overseas insurance limited|SG": {
+    "company": "UNITED OVERSEAS INSURANCE LIMITED",
+    "first_seen": "2026-10-07",
+    "region": "SG",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
   "business analyst|us3 consulting|NL": {
     "company": "Us3 Consulting",
     "first_seen": "2026-08-02",
@@ -4255,6 +4325,13 @@
     "source": "indeed",
     "title": "Business Development Manager (BDM)"
   },
+  "business development manager (m/w/d)|treatwell|DE": {
+    "company": "Treatwell",
+    "first_seen": "2026-10-07",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Business Development Manager (m/w/d)"
+  },
   "business development manager (m/w/x) in berlin|konfetti gmbh|DE": {
     "company": "konfetti GmbH",
     "first_seen": "2026-10-02",
@@ -4290,6 +4367,13 @@
     "source": "indeed",
     "title": "Business Development Manager - Data Mastering"
   },
+  "business development manager - google|td synnex|NL": {
+    "company": "TD SYNNEX",
+    "first_seen": "2026-10-07",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business Development Manager - Google"
+  },
   "business development manager - industry and academia partnerships|rooman technologies pvt, ltd|IN": {
     "company": "Rooman Technologies Pvt, Ltd",
     "first_seen": "2026-09-28",
@@ -4317,6 +4401,13 @@
     "region": "IE",
     "source": "indeed",
     "title": "Business Development Manager FMCG"
+  },
+  "business development manager netapp|td synnex|NL": {
+    "company": "TD SYNNEX",
+    "first_seen": "2026-10-07",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business Development Manager NetApp"
   },
   "business development manager strategy & operations (w/m/d)|enpal|DE": {
     "company": "Enpal",
@@ -4346,6 +4437,20 @@
     "source": "indeed",
     "title": "Business Development Manager \u2013 Partner Management (w/m/d)"
   },
+  "business development manager- networking|tech data|IN": {
+    "company": "TECH DATA",
+    "first_seen": "2026-10-07",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Development Manager- Networking"
+  },
+  "business development manager- palo alto|tech data|IN": {
+    "company": "TECH DATA",
+    "first_seen": "2026-10-07",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Development Manager- Palo Alto"
+  },
   "business development managers|costbo|IN": {
     "company": "Costbo",
     "first_seen": "2026-10-03",
@@ -4357,6 +4462,13 @@
     "company": "ACCA",
     "first_seen": "2026-08-14",
     "region": "IE",
+    "source": "indeed",
+    "title": "Business Development Manager"
+  },
+  "business development manager|accu global limited|REMOTE": {
+    "company": "Accu Global Limited",
+    "first_seen": "2026-10-07",
+    "region": "REMOTE",
     "source": "indeed",
     "title": "Business Development Manager"
   },
@@ -4434,6 +4546,13 @@
     "company": "Mitgo",
     "first_seen": "2026-09-26",
     "region": "AE",
+    "source": "indeed",
+    "title": "Business Development Manager"
+  },
+  "business development manager|russell cooke solicitors|UK": {
+    "company": "Russell Cooke Solicitors",
+    "first_seen": "2026-10-07",
+    "region": "UK",
     "source": "indeed",
     "title": "Business Development Manager"
   },
@@ -4583,6 +4702,13 @@
     "region": "LU",
     "source": "indeed",
     "title": "Business Intelligence Engineer, SCOT Automated Inventory Management"
+  },
+  "business intelligence manager, emea|bbc|UK": {
+    "company": "BBC",
+    "first_seen": "2026-10-07",
+    "region": "UK",
+    "source": "indeed",
+    "title": "Business Intelligence Manager, EMEA"
   },
   "business intelligence manager|blackrock health|IE": {
     "company": "Blackrock Health",
@@ -5130,6 +5256,13 @@
     "source": "indeed",
     "title": "Commercial Manager (Marketing & Growth)"
   },
+  "commercial manager|cypex group|AE": {
+    "company": "CYPEX GROUP",
+    "first_seen": "2026-10-07",
+    "region": "AE",
+    "source": "indeed",
+    "title": "Commercial Manager"
+  },
   "commercial strategy & operations manager: growth & unit economics (m/w/d)|thermondo gmbh|DE": {
     "company": "thermondo GmbH",
     "first_seen": "2026-10-02",
@@ -5669,6 +5802,13 @@
     "source": "linkedin",
     "title": "Data Analyst"
   },
+  "data analyst|hatched analytics|IE": {
+    "company": "Hatched Analytics",
+    "first_seen": "2026-10-07",
+    "region": "IE",
+    "source": "linkedin",
+    "title": "Data Analyst"
+  },
   "data analyst|holafly|IE": {
     "company": "Holafly",
     "first_seen": "2026-07-16",
@@ -5850,6 +5990,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Data Product Owner (w/m/d)"
+  },
+  "data product owner \u2013 tech4engineering|rabobank|NL": {
+    "company": "Rabobank",
+    "first_seen": "2026-10-07",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Data Product Owner \u2013 Tech4Engineering"
   },
   "data product owner, planning, quality & logistics|vf corporation|SG": {
     "company": "VF Corporation",
@@ -6187,6 +6334,13 @@
     "source": "linkedin",
     "title": "Digital Marketing & Growth Manager"
   },
+  "digital marketing & performance manager \u2013 f&b (own residence visa)|avengers digital marketing agency|AE": {
+    "company": "Avengers Digital Marketing Agency",
+    "first_seen": "2026-10-07",
+    "region": "AE",
+    "source": "indeed",
+    "title": "Digital Marketing & Performance Manager \u2013 F&B (Own Residence visa)"
+  },
   "digital marketing brand manager - luxembourg|finders sa|LU": {
     "company": "Finders SA",
     "first_seen": "2026-08-05",
@@ -6263,6 +6417,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Digital Marketing Specialist \u2013 SEO, Leadgenerierung & KI (everyone is welcome)  Berlin"
+  },
+  "digital marketing specialist|the law reporters|AE": {
+    "company": "The Law Reporters",
+    "first_seen": "2026-10-07",
+    "region": "AE",
+    "source": "indeed",
+    "title": "Digital Marketing Specialist"
   },
   "digital operations manager|linoui|IN": {
     "company": "Linoui",
@@ -6516,6 +6677,13 @@
     "source": "linkedin",
     "title": "E-commercemanager"
   },
+  "e-commercemanager|lead your future|NL": {
+    "company": "Lead Your Future",
+    "first_seen": "2026-10-07",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "E-commercemanager"
+  },
   "e-front business analyst|talenttrade|LU": {
     "company": "TalentTrade",
     "first_seen": "2026-07-16",
@@ -6726,6 +6894,13 @@
     "source": "indeed",
     "title": "Fashion Product Development"
   },
+  "finance & operations analyst|capita|REMOTE": {
+    "company": "Capita",
+    "first_seen": "2026-10-07",
+    "region": "REMOTE",
+    "source": "indeed",
+    "title": "Finance & Operations Analyst"
+  },
   "finance business analyst level 1|klm|NL": {
     "company": "KLM",
     "first_seen": "2026-09-20",
@@ -6845,6 +7020,13 @@
     "source": "linkedin",
     "title": "French - Business Analyst with Power BI or HR Functional"
   },
+  "french - business analyst|cgi|IN": {
+    "company": "CGI",
+    "first_seen": "2026-10-07",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "French - Business Analyst"
+  },
   "freshsales configuration designer|panda|IE": {
     "company": "Panda",
     "first_seen": "2026-09-17",
@@ -6900,6 +7082,13 @@
     "region": "LU",
     "source": "indeed",
     "title": "Fund accountant"
+  },
+  "fund reporting manager|moonfare|LU": {
+    "company": "Moonfare",
+    "first_seen": "2026-10-07",
+    "region": "LU",
+    "source": "indeed",
+    "title": "Fund Reporting Manager"
   },
   "fund servicing analyst|jpmorganchase|LU": {
     "company": "JPMorganChase",
@@ -7391,6 +7580,13 @@
     "source": "linkedin",
     "title": "Growth Manager - AI Agents"
   },
+  "growth manager - ai solutions|tdcx|SG": {
+    "company": "TDCX",
+    "first_seen": "2026-10-07",
+    "region": "SG",
+    "source": "linkedin",
+    "title": "Growth Manager - AI Solutions"
+  },
   "growth manager - e commerce|samsonite|IN": {
     "company": "Samsonite",
     "first_seen": "2026-07-22",
@@ -7493,6 +7689,13 @@
     "company": "Curefit",
     "first_seen": "2026-08-02",
     "region": "IN",
+    "source": "linkedin",
+    "title": "Growth Manager"
+  },
+  "growth manager|dash0|NL": {
+    "company": "Dash0",
+    "first_seen": "2026-10-07",
+    "region": "NL",
     "source": "linkedin",
     "title": "Growth Manager"
   },
@@ -7712,6 +7915,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Growth Marketing Manager (m/w/d) - Berlin"
+  },
+  "growth marketing manager (m/w/d) / user acquisition|hermaid|DE": {
+    "company": "hermaid",
+    "first_seen": "2026-10-07",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Growth Marketing Manager (m/w/d) / User Acquisition"
   },
   "growth marketing manager (m/w/d) in vollzeit|marswalk|DE": {
     "company": "marswalk",
@@ -8063,6 +8273,13 @@
     "source": "linkedin",
     "title": "Growth Performance Manager - Quick Commerce"
   },
+  "growth product manager|epos pte. ltd.|SG": {
+    "company": "EPOS Pte. Ltd.",
+    "first_seen": "2026-10-07",
+    "region": "SG",
+    "source": "indeed",
+    "title": "Growth Product Manager"
+  },
   "growth product manager|epos spain ett|SG": {
     "company": "EPOS SPAIN ETT",
     "first_seen": "2026-10-02",
@@ -8167,6 +8384,13 @@
     "region": "SG",
     "source": "indeed",
     "title": "GTM Product Operations Manager"
+  },
+  "gtm product operations specialist|evotix|REMOTE": {
+    "company": "Evotix",
+    "first_seen": "2026-10-07",
+    "region": "REMOTE",
+    "source": "indeed",
+    "title": "GTM Product Operations Specialist"
   },
   "gtm strategy & operations analyst|stripe|IE": {
     "company": "Stripe",
@@ -8517,6 +8741,13 @@
     "region": "DE",
     "source": "indeed",
     "title": "Junior Business Analyst (m/w/d)"
+  },
+  "junior business analyst - private markets|bruin|UK": {
+    "company": "Bruin",
+    "first_seen": "2026-10-07",
+    "region": "UK",
+    "source": "linkedin",
+    "title": "Junior Business Analyst - Private Markets"
   },
   "junior business analyst coo risk|ing|NL": {
     "company": "ING",
@@ -9029,6 +9260,13 @@
     "source": "indeed",
     "title": "Manager - Strategy"
   },
+  "manager - web analytics and digital strategy|optum|IN": {
+    "company": "Optum",
+    "first_seen": "2026-10-07",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Manager - Web Analytics and Digital Strategy"
+  },
   "manager banking business transformation consulting team|deloitte|LU": {
     "company": "Deloitte",
     "first_seen": "2026-09-15",
@@ -9225,6 +9463,13 @@
     "source": "indeed",
     "title": "Market Data Analyst"
   },
+  "market development manager|biocomposites|IE": {
+    "company": "Biocomposites",
+    "first_seen": "2026-10-07",
+    "region": "IE",
+    "source": "indeed",
+    "title": "Market Development Manager"
+  },
   "market intelligence & offer manager lu877389|morgan philips executive search|LU": {
     "company": "Morgan Philips Executive Search",
     "first_seen": "2026-08-04",
@@ -9252,6 +9497,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Market Place Growth Manager"
+  },
+  "market research analyst|the emirates group|AE": {
+    "company": "The Emirates Group",
+    "first_seen": "2026-10-07",
+    "region": "AE",
+    "source": "indeed",
+    "title": "Market Research Analyst"
   },
   "market research and business analyst|caribbean trust ltd.|AE": {
     "company": "Caribbean Trust Ltd.",
@@ -10128,6 +10380,13 @@
     "source": "indeed",
     "title": "Portfolio Manager, Ideation & Growth"
   },
+  "power bi consultant|graeme hills consultancy services limited|REMOTE": {
+    "company": "Graeme Hills Consultancy Services Limited",
+    "first_seen": "2026-10-07",
+    "region": "REMOTE",
+    "source": "indeed",
+    "title": "Power BI Consultant"
+  },
   "power systems offer marketing manager|schneider electric|IE": {
     "company": "Schneider Electric",
     "first_seen": "2026-09-16",
@@ -10288,6 +10547,13 @@
     "region": "IN",
     "source": "linkedin",
     "title": "Product Analyst II"
+  },
+  "product analyst lead|yazio|DE": {
+    "company": "Yazio",
+    "first_seen": "2026-10-07",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Product Analyst Lead"
   },
   "product analyst, real estate & motors (d/f/m) 1-year fixed-term contract|kleinanzeigen|DE": {
     "company": "Kleinanzeigen",
@@ -10723,6 +10989,13 @@
     "source": "indeed",
     "title": "Product Journey Manager Rotterdam"
   },
+  "product lead|crs ltd|REMOTE": {
+    "company": "CRS Ltd",
+    "first_seen": "2026-10-07",
+    "region": "REMOTE",
+    "source": "indeed",
+    "title": "Product Lead"
+  },
   "product lead|jobgether|LU": {
     "company": "Jobgether",
     "first_seen": "2026-08-01",
@@ -10869,6 +11142,13 @@
     "region": "LU",
     "source": "indeed",
     "title": "Product Manager (m/f)"
+  },
+  "product manager (m/f/d) - for relentlessly ambitious people|mama|DE": {
+    "company": "Mama",
+    "first_seen": "2026-10-07",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Product Manager (m/f/d) - For Relentlessly Ambitious People"
   },
   "product manager (m/f/d) - pumps|flowserve|NL": {
     "company": "Flowserve",
@@ -11675,6 +11955,13 @@
     "source": "indeed",
     "title": "Product Manager \u2013 Operations"
   },
+  "product manager \u2013 tech, supply chain optimization technology|silicon luxembourg|LU": {
+    "company": "Silicon Luxembourg",
+    "first_seen": "2026-10-07",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product manager \u2013 Tech, Supply Chain Optimization Technology"
+  },
   "product manager \u2013 us b2c experience (m/f/d)|raisin|DE": {
     "company": "Raisin",
     "first_seen": "2026-07-27",
@@ -12305,6 +12592,13 @@
     "source": "indeed",
     "title": "Product Manager"
   },
+  "product manager|deltaquad|NL": {
+    "company": "DeltaQuad",
+    "first_seen": "2026-10-07",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
   "product manager|dexter energy|NL": {
     "company": "Dexter Energy",
     "first_seen": "2026-09-18",
@@ -12436,6 +12730,13 @@
     "first_seen": "2026-07-16",
     "region": "NL",
     "source": "linkedin",
+    "title": "Product Manager"
+  },
+  "product manager|government communications headquarters (gchq)|UK": {
+    "company": "Government Communications Headquarters (GCHQ)",
+    "first_seen": "2026-10-07",
+    "region": "UK",
+    "source": "indeed",
     "title": "Product Manager"
   },
   "product manager|government digital service|UK": {
@@ -13019,6 +13320,13 @@
     "source": "indeed",
     "title": "Product Manager"
   },
+  "product manager|tech data|SG": {
+    "company": "TECH DATA",
+    "first_seen": "2026-10-07",
+    "region": "SG",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
   "product manager|tesco|IN": {
     "company": "Tesco",
     "first_seen": "2026-09-11",
@@ -13037,6 +13345,13 @@
     "company": "Trading 212",
     "first_seen": "2026-09-23",
     "region": "DE",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
+  "product manager|treasury wine estates|UK": {
+    "company": "Treasury Wine Estates",
+    "first_seen": "2026-10-07",
+    "region": "UK",
     "source": "indeed",
     "title": "Product Manager"
   },
@@ -13113,6 +13428,13 @@
   "product manager|wtw|UK": {
     "company": "WTW",
     "first_seen": "2026-09-26",
+    "region": "UK",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
+  "product manager|xantura|UK": {
+    "company": "Xantura",
+    "first_seen": "2026-10-07",
     "region": "UK",
     "source": "indeed",
     "title": "Product Manager"
@@ -13572,6 +13894,20 @@
     "source": "linkedin",
     "title": "Product Operations Manager"
   },
+  "product owner (32-36 uur)|woningnet n.v.|NL": {
+    "company": "WoningNet N.V.",
+    "first_seen": "2026-10-07",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Owner (32-36 uur)"
+  },
+  "product owner (ai-enabled medical imaging solutions)|siemens healthineers|IN": {
+    "company": "Siemens Healthineers",
+    "first_seen": "2026-10-07",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Owner (AI-enabled Medical Imaging Solutions)"
+  },
   "product owner (all genders)|xitaso|DE": {
     "company": "XITASO",
     "first_seen": "2026-08-13",
@@ -13614,12 +13950,26 @@
     "source": "linkedin",
     "title": "Product Owner (d/m/w) \u2013 eFTI zwischen Produkt, Architektur & Logistik"
   },
+  "product owner (dicom, medical devices)|siemens healthineers|IN": {
+    "company": "Siemens Healthineers",
+    "first_seen": "2026-10-07",
+    "region": "IN",
+    "source": "linkedin",
+    "title": "Product Owner (DICOM, Medical Devices)"
+  },
   "product owner (digital asset custody / mpc)|the vault|AE": {
     "company": "THE VAULT",
     "first_seen": "2026-09-23",
     "region": "AE",
     "source": "indeed",
     "title": "Product Owner (Digital Asset Custody / MPC)"
+  },
+  "product owner (enterprise systems)|community foundation of singapore|SG": {
+    "company": "Community Foundation of Singapore",
+    "first_seen": "2026-10-07",
+    "region": "SG",
+    "source": "linkedin",
+    "title": "Product Owner (Enterprise Systems)"
   },
   "product owner (f/m/d) - office & cloud storage|strato|DE": {
     "company": "STRATO",
@@ -14720,6 +15070,13 @@
     "source": "linkedin",
     "title": "Product Owner"
   },
+  "product owner|beedr|NL": {
+    "company": "Beedr",
+    "first_seen": "2026-10-07",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Owner"
+  },
   "product owner|belastingdienst|NL": {
     "company": "Belastingdienst",
     "first_seen": "2026-09-06",
@@ -15175,6 +15532,13 @@
     "source": "linkedin",
     "title": "Product Owner"
   },
+  "product owner|royal mail|UK": {
+    "company": "Royal Mail",
+    "first_seen": "2026-10-07",
+    "region": "UK",
+    "source": "indeed",
+    "title": "Product Owner"
+  },
   "product owner|sapiens|IN": {
     "company": "Sapiens",
     "first_seen": "2026-08-02",
@@ -15259,6 +15623,13 @@
     "source": "linkedin",
     "title": "Product Owner"
   },
+  "product owner|tata consultancy services|UK": {
+    "company": "Tata Consultancy Services",
+    "first_seen": "2026-10-07",
+    "region": "UK",
+    "source": "linkedin",
+    "title": "Product Owner"
+  },
   "product owner|techheads|IE": {
     "company": "TechHeads",
     "first_seen": "2026-08-03",
@@ -15298,6 +15669,13 @@
     "company": "Tlc Worldwide",
     "first_seen": "2026-08-02",
     "region": "IN",
+    "source": "indeed",
+    "title": "Product Owner"
+  },
+  "product owner|uk health security agency|UK": {
+    "company": "UK Health Security Agency",
+    "first_seen": "2026-10-07",
+    "region": "UK",
     "source": "indeed",
     "title": "Product Owner"
   },
@@ -15602,6 +15980,13 @@
     "source": "linkedin",
     "title": "R_353977 Product Owner, Digital Solutions"
   },
+  "rc manager for funds luxembourg, luxembourg sep. 30, 2026|alter domus|LU": {
+    "company": "Alter Domus",
+    "first_seen": "2026-10-07",
+    "region": "LU",
+    "source": "indeed",
+    "title": "RC Manager for Funds Luxembourg, Luxembourg Sep. 30, 2026"
+  },
   "rc manager for funds|alter domus|LU": {
     "company": "Alter Domus",
     "first_seen": "2026-10-04",
@@ -15868,12 +16253,26 @@
     "source": "indeed",
     "title": "Sales Executive/Manager"
   },
+  "sales manager - payment growth (m/w/d)|treatwell|DE": {
+    "company": "Treatwell",
+    "first_seen": "2026-10-07",
+    "region": "DE",
+    "source": "indeed",
+    "title": "Sales Manager - Payment Growth (m/w/d)"
+  },
   "sales manager \u2013 uae|cosentus india private limited|AE": {
     "company": "Cosentus India Private Limited",
     "first_seen": "2026-09-28",
     "region": "AE",
     "source": "indeed",
     "title": "Sales Manager \u2013 UAE"
+  },
+  "sales manager|lumorus|REMOTE": {
+    "company": "Lumorus",
+    "first_seen": "2026-10-07",
+    "region": "REMOTE",
+    "source": "indeed",
+    "title": "Sales Manager"
   },
   "sales operations analyst, enterprise and data center emea (m/f/d)|corning|DE": {
     "company": "Corning",
@@ -15987,6 +16386,13 @@
     "source": "linkedin",
     "title": "Securities Lending Product Manager (f/m/d)"
   },
+  "seo manager - multi-market organic growth, e-commerce (de/en/fr/es)|mm international trading fzco|AE": {
+    "company": "MM INTERNATIONAL TRADING FZCO",
+    "first_seen": "2026-10-07",
+    "region": "AE",
+    "source": "indeed",
+    "title": "SEO Manager - Multi-Market Organic Growth, E-commerce (DE/EN/FR/ES)"
+  },
   "servicenow business analyst proces|adecco|NL": {
     "company": "Adecco",
     "first_seen": "2026-07-17",
@@ -16063,6 +16469,13 @@
     "region": "REMOTE",
     "source": "indeed",
     "title": "Software & Payments Initiative Manager"
+  },
+  "software developer - sri lanka|anthesis ltd|REMOTE": {
+    "company": "Anthesis Ltd",
+    "first_seen": "2026-10-07",
+    "region": "REMOTE",
+    "source": "indeed",
+    "title": "Software Developer - Sri Lanka"
   },
   "software product manager|hp|IN": {
     "company": "HP",
@@ -16322,6 +16735,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "Strategy Insights & Planning Associate - Berlin 2027"
+  },
+  "stress engineer|engisolveai|REMOTE": {
+    "company": "EngiSolveAI",
+    "first_seen": "2026-10-07",
+    "region": "REMOTE",
+    "source": "indeed",
+    "title": "Stress Engineer"
   },
   "supervisor, fund accounting (private assets)|the citco group limited|IE": {
     "company": "The Citco Group Limited",
@@ -17064,6 +17484,13 @@
     "region": "DE",
     "source": "linkedin",
     "title": "UiPath Business Analyst (f/m/d)"
+  },
+  "un responsable acl club - h/f - cdi - temps plein|acl - automobile club du luxembourg|LU": {
+    "company": "ACL - Automobile Club du Luxembourg",
+    "first_seen": "2026-10-07",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Un responsable ACL Club - H/F - CDI - temps plein"
   },
   "uniqlo management candidate graduate programme | luxembourg 2027|uniqlo|LU": {
     "company": "UNIQLO",

@@ -4360,6 +4360,13 @@
     "source": "indeed",
     "title": "Business Analyst"
   },
+  "business analyst|syncdit|NL": {
+    "company": "Syncdit",
+    "first_seen": "2026-10-12",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Business Analyst"
+  },
   "business analyst|synechron technologies pvt. ltd.|IN": {
     "company": "Synechron Technologies Pvt. Ltd.",
     "first_seen": "2026-09-05",
@@ -6429,6 +6436,13 @@
     "company": "Setu",
     "first_seen": "2026-09-19",
     "region": "IN",
+    "source": "linkedin",
+    "title": "Data Analyst"
+  },
+  "data analyst|syntrace|DE": {
+    "company": "Syntrace",
+    "first_seen": "2026-10-12",
+    "region": "DE",
     "source": "linkedin",
     "title": "Data Analyst"
   },
@@ -18457,6 +18471,13 @@
     "region": "IN",
     "source": "indeed",
     "title": "Supply Chain Analyst"
+  },
+  "supply chain business analyst|varopreem|NL": {
+    "company": "VAROPreem",
+    "first_seen": "2026-10-12",
+    "region": "NL",
+    "source": "linkedin",
+    "title": "Supply Chain Business Analyst"
   },
   "supply planning analyst|harman|NL": {
     "company": "Harman",

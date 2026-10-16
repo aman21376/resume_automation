@@ -1945,6 +1945,13 @@
     "source": "linkedin",
     "title": "Business Analist IT Consultancy"
   },
+  "business analist onderwijslogistiek|universiteit van amsterdam|NL": {
+    "company": "Universiteit van Amsterdam",
+    "first_seen": "2026-10-16",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Business Analist Onderwijslogistiek"
+  },
   "business analist pega|ilionx|NL": {
     "company": "ilionx",
     "first_seen": "2026-07-21",
@@ -2319,6 +2326,13 @@
   "business analyst (m/w/d)|rutronik electronics worldwide|DE": {
     "company": "RUTRONIK Electronics Worldwide",
     "first_seen": "2026-07-15",
+    "region": "DE",
+    "source": "linkedin",
+    "title": "Business Analyst (m/w/d)"
+  },
+  "business analyst (m/w/d)|verti versicherung ag|DE": {
+    "company": "Verti Versicherung AG",
+    "first_seen": "2026-10-16",
     "region": "DE",
     "source": "linkedin",
     "title": "Business Analyst (m/w/d)"
@@ -4216,6 +4230,13 @@
   "business analyst|lseg (london stock exchange group)|IN": {
     "company": "LSEG (London Stock Exchange Group)",
     "first_seen": "2026-08-02",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Business Analyst"
+  },
+  "business analyst|marketstar|IN": {
+    "company": "MarketStar",
+    "first_seen": "2026-10-16",
     "region": "IN",
     "source": "indeed",
     "title": "Business Analyst"
@@ -6180,6 +6201,13 @@
     "source": "indeed",
     "title": "Commercial Strategy Manager"
   },
+  "commercieel business analist|technische unie|NL": {
+    "company": "Technische Unie",
+    "first_seen": "2026-10-16",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Commercieel Business Analist"
+  },
   "communications & planning manager|wpp media|NL": {
     "company": "WPP Media",
     "first_seen": "2026-09-11",
@@ -7034,6 +7062,13 @@
     "source": "linkedin",
     "title": "Data Product Owner"
   },
+  "data research analyst \u2013 product mapping (temporary, up to 6 months)|vesper|NL": {
+    "company": "VESPER",
+    "first_seen": "2026-10-16",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Data Research Analyst \u2013 Product Mapping (Temporary, up to 6 months)"
+  },
   "data scientist|workday|IE": {
     "company": "Workday",
     "first_seen": "2026-09-04",
@@ -7171,6 +7206,13 @@
     "company": "Payhawk",
     "first_seen": "2026-10-16",
     "region": "NL",
+    "source": "linkedin",
+    "title": "Demand Generation Manager"
+  },
+  "demand generation manager|payhawk|UK": {
+    "company": "Payhawk",
+    "first_seen": "2026-10-16",
+    "region": "UK",
     "source": "linkedin",
     "title": "Demand Generation Manager"
   },
@@ -8434,6 +8476,13 @@
     "source": "indeed",
     "title": "Global RFP/DDQ Writer - Analyst/Associate"
   },
+  "global size merchandising analyst|levi strauss|IN": {
+    "company": "Levi Strauss",
+    "first_seen": "2026-10-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Global Size Merchandising Analyst"
+  },
   "global solutions product marketing manager, placement marketing|tiktok|SG": {
     "company": "TikTok",
     "first_seen": "2026-09-24",
@@ -8965,6 +9014,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Growth Manager, AppDev EMEA LCS (English)"
+  },
+  "growth manager, botim for business|astra tech|AE": {
+    "company": "Astra Tech",
+    "first_seen": "2026-10-16",
+    "region": "AE",
+    "source": "linkedin",
+    "title": "Growth Manager, Botim For Business"
   },
   "growth manager: help us decode marketing for india's investors|trendlyne.com|IN": {
     "company": "Trendlyne.com",
@@ -10135,6 +10191,13 @@
     "source": "linkedin",
     "title": "IT Consultant Business Analyse Banking (all genders)"
   },
+  "it product manager|flibco.com|LU": {
+    "company": "flibco.com",
+    "first_seen": "2026-10-16",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "IT Product Manager"
+  },
   "it product owner - intelligent service management|ericsson|IN": {
     "company": "Ericsson",
     "first_seen": "2026-10-02",
@@ -10940,6 +11003,13 @@
     "source": "linkedin",
     "title": "Manager of Growth & E-Commerce - Fore All"
   },
+  "manager operations planning & performance|crisp|NL": {
+    "company": "Crisp",
+    "first_seen": "2026-10-16",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Manager Operations Planning & Performance"
+  },
   "manager performance marketing|puma group|IN": {
     "company": "PUMA Group",
     "first_seen": "2026-08-03",
@@ -11338,6 +11408,13 @@
     "region": "IE",
     "source": "linkedin",
     "title": "Marketing Growth Manager"
+  },
+  "marketing head|study medic|IN": {
+    "company": "STUDY MEDIC",
+    "first_seen": "2026-10-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Marketing Head"
   },
   "marketing lead|mifinity|IE": {
     "company": "MiFinity",
@@ -14867,6 +14944,13 @@
     "source": "linkedin",
     "title": "Product Manager"
   },
+  "product manager|cdw|IN": {
+    "company": "CDW",
+    "first_seen": "2026-10-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Product Manager"
+  },
   "product manager|clearer.io|IE": {
     "company": "clearer.io",
     "first_seen": "2026-07-15",
@@ -17240,6 +17324,13 @@
     "source": "indeed",
     "title": "Product Owner identity & security"
   },
+  "product owner identity (h/f)|bnp paribas|LU": {
+    "company": "BNP Paribas",
+    "first_seen": "2026-10-16",
+    "region": "LU",
+    "source": "linkedin",
+    "title": "Product Owner Identity (H/F)"
+  },
   "product owner identity services & monitoring & control|umc utrecht|NL": {
     "company": "UMC Utrecht",
     "first_seen": "2026-09-05",
@@ -17887,6 +17978,13 @@
   "product owner|douane|NL": {
     "company": "Douane",
     "first_seen": "2026-10-10",
+    "region": "NL",
+    "source": "indeed",
+    "title": "Product Owner"
+  },
+  "product owner|dpg media|NL": {
+    "company": "DPG Media",
+    "first_seen": "2026-10-16",
     "region": "NL",
     "source": "indeed",
     "title": "Product Owner"
@@ -18759,6 +18857,13 @@
     "source": "indeed",
     "title": "Property Coordinator"
   },
+  "proxy product manager|course5|IN": {
+    "company": "Course5",
+    "first_seen": "2026-10-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Proxy Product Manager"
+  },
   "proxy product owner|red tic|LU": {
     "company": "RED TIC",
     "first_seen": "2026-07-15",
@@ -18793,6 +18898,13 @@
     "region": "REMOTE",
     "source": "indeed",
     "title": "QA Test Analyst"
+  },
+  "qualified cma \u2013 finance, costing & business analysis|zamoria private limited|IN": {
+    "company": "Zamoria private limited",
+    "first_seen": "2026-10-16",
+    "region": "IN",
+    "source": "indeed",
+    "title": "Qualified CMA \u2013 Finance, Costing & Business Analysis"
   },
   "quality analytics manager|maximus|REMOTE": {
     "company": "Maximus",

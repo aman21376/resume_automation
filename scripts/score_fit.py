@@ -56,6 +56,8 @@ VISA_BLOCKER_MARKERS = [
     "not able to support with a relocation or sponsoring a work visa",
     "can only consider applicants who are already residing",
     "we are unable to support relocation or visa",
+    "unable to consider candidates requiring relocation",
+    "unable to consider candidates requiring relocation from another country",
     "who has eu working permit", "with eu working permit", "eu working permit",
     "eligible to work in the eu", "valid permit to work in the eu",
     "existing right to work in the eu",
